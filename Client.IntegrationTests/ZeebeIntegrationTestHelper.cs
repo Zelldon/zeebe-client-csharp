@@ -55,6 +55,7 @@ namespace Client.IntegrationTests
             var host = "0.0.0.0:" + container.GetMappedPort(26500);
 
             return ZeebeClient.Builder()
+                .UseLoggerFactory(loggerFactory)
                 .UseGatewayAddress(host)
                 .UsePlainText()
                 .Build();

@@ -46,7 +46,7 @@ namespace Zeebe.Client.Api.Commands
         /// with the same id, name and correlation-key.
         /// </summary>
         /// <param name="messageId">the id of the message</param>
-        /// <returns>the builder for this command. Call {@link #send()} to complete the command and send
+        /// <returns>the builder for this command. Call <see cref="IFinalCommandStep.Send"/> to complete the command and send
         ///     it to the broker.</returns>
         IPublishMessageCommandStep3 MessageId(string messageId);
 
@@ -60,7 +60,7 @@ namespace Zeebe.Client.Api.Commands
         /// </summary>
         ///
         /// <param name="timeToLive">the time-to-live of the message</param>
-        /// <returns>the builder for this command. Call {@link #send()} to complete the command and send
+        /// <returns>the builder for this command. Call <see cref="IFinalCommandStep.Send"/> to complete the command and send
         ///     it to the broker.</returns>
         IPublishMessageCommandStep3 TimeToLive(TimeSpan timeToLive);
 
@@ -69,7 +69,7 @@ namespace Zeebe.Client.Api.Commands
         /// </summary>
         ///
         /// <param name="variables">the variables (JSON) as String</param>
-        /// <returns>the builder for this command. Call {@link #send()} to complete the command and send
+        /// <returns>the builder for this command. Call <see cref="IFinalCommandStep.Send"/> to complete the command and send
         ///     it to the broker.</returns>
         IPublishMessageCommandStep3 Variables(string variables);
     }
