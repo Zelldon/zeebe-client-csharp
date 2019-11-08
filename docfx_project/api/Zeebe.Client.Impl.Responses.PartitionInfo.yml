@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo
+  commentId: T:Zeebe.Client.Impl.Responses.PartitionInfo
+  id: PartitionInfo
+  parent: Zeebe.Client.Impl.Responses
+  children:
+  - Zeebe.Client.Impl.Responses.PartitionInfo.#ctor(GatewayProtocol.Partition)
+  - Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader
+  - Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId
+  - Zeebe.Client.Impl.Responses.PartitionInfo.Role
+  - Zeebe.Client.Impl.Responses.PartitionInfo.ToString
+  langs:
+  - csharp
+  - vb
+  name: PartitionInfo
+  nameWithType: PartitionInfo
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo
+  type: Class
+  source:
+    id: PartitionInfo
+    path: ''
+    startLine: 9713
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class PartitionInfo : IPartitionInfo'
+    content.vb: >-
+      Public Class PartitionInfo
+          Inherits IPartitionInfo
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId
+  commentId: P:Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId
+  id: PartitionId
+  parent: Zeebe.Client.Impl.Responses.PartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: PartitionId
+  nameWithType: PartitionInfo.PartitionId
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId
+  type: Property
+  source:
+    id: PartitionId
+    path: ''
+    startLine: 9715
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public int PartitionId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property PartitionId As Integer
+  overload: Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader
+  commentId: P:Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader
+  id: IsLeader
+  parent: Zeebe.Client.Impl.Responses.PartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: IsLeader
+  nameWithType: PartitionInfo.IsLeader
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader
+  type: Property
+  source:
+    id: IsLeader
+    path: ''
+    startLine: 9716
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public bool IsLeader { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLeader As Boolean
+  overload: Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.Role
+  commentId: P:Zeebe.Client.Impl.Responses.PartitionInfo.Role
+  id: Role
+  parent: Zeebe.Client.Impl.Responses.PartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: PartitionInfo.Role
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.Role
+  type: Property
+  source:
+    id: Role
+    path: ''
+    startLine: 9717
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public PartitionBrokerRole Role { get; }
+    parameters: []
+    return:
+      type: PartitionBrokerRole
+    content.vb: Public ReadOnly Property Role As PartitionBrokerRole
+  overload: Zeebe.Client.Impl.Responses.PartitionInfo.Role*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.#ctor(GatewayProtocol.Partition)
+  commentId: M:Zeebe.Client.Impl.Responses.PartitionInfo.#ctor(GatewayProtocol.Partition)
+  id: '#ctor(GatewayProtocol.Partition)'
+  parent: Zeebe.Client.Impl.Responses.PartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: PartitionInfo(Partition)
+  nameWithType: PartitionInfo.PartitionInfo(Partition)
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.PartitionInfo(GatewayProtocol.Partition)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9719
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public PartitionInfo(Partition partition)
+    parameters:
+    - id: partition
+      type: GatewayProtocol.Partition
+    content.vb: Public Sub New(partition As Partition)
+  overload: Zeebe.Client.Impl.Responses.PartitionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.ToString
+  commentId: M:Zeebe.Client.Impl.Responses.PartitionInfo.ToString
+  id: ToString
+  parent: Zeebe.Client.Impl.Responses.PartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PartitionInfo.ToString()
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 9726
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Zeebe.Client.Impl.Responses.PartitionInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId*
+  commentId: Overload:Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId
+  name: PartitionId
+  nameWithType: PartitionInfo.PartitionId
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.PartitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader*
+  commentId: Overload:Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader
+  name: IsLeader
+  nameWithType: PartitionInfo.IsLeader
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.IsLeader
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.Role*
+  commentId: Overload:Zeebe.Client.Impl.Responses.PartitionInfo.Role
+  name: Role
+  nameWithType: PartitionInfo.Role
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.Role
+- uid: PartitionBrokerRole
+  commentId: '!:PartitionBrokerRole'
+  isExternal: true
+  name: PartitionBrokerRole
+  nameWithType: PartitionBrokerRole
+  fullName: PartitionBrokerRole
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Responses.PartitionInfo.#ctor
+  name: PartitionInfo
+  nameWithType: PartitionInfo.PartitionInfo
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.PartitionInfo
+- uid: GatewayProtocol.Partition
+  commentId: T:GatewayProtocol.Partition
+  parent: GatewayProtocol
+  name: Partition
+  nameWithType: Partition
+  fullName: GatewayProtocol.Partition
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: Zeebe.Client.Impl.Responses.PartitionInfo.ToString*
+  commentId: Overload:Zeebe.Client.Impl.Responses.PartitionInfo.ToString
+  name: ToString
+  nameWithType: PartitionInfo.ToString
+  fullName: Zeebe.Client.Impl.Responses.PartitionInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

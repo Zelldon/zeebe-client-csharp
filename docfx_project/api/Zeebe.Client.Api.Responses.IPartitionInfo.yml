@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IPartitionInfo
+  commentId: T:Zeebe.Client.Api.Responses.IPartitionInfo
+  id: IPartitionInfo
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader
+  - Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId
+  - Zeebe.Client.Api.Responses.IPartitionInfo.Role
+  langs:
+  - csharp
+  - vb
+  name: IPartitionInfo
+  nameWithType: IPartitionInfo
+  fullName: Zeebe.Client.Api.Responses.IPartitionInfo
+  type: Interface
+  source:
+    id: IPartitionInfo
+    path: ''
+    startLine: 1019
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: public interface IPartitionInfo
+    content.vb: Public Interface IPartitionInfo
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId
+  commentId: P:Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId
+  id: PartitionId
+  parent: Zeebe.Client.Api.Responses.IPartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: PartitionId
+  nameWithType: IPartitionInfo.PartitionId
+  fullName: Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId
+  type: Property
+  source:
+    id: PartitionId
+    path: ''
+    startLine: 1022
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: int PartitionId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: 'the partition&apos;s id '
+    content.vb: ReadOnly Property PartitionId As Integer
+  overload: Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IPartitionInfo.Role
+  commentId: P:Zeebe.Client.Api.Responses.IPartitionInfo.Role
+  id: Role
+  parent: Zeebe.Client.Api.Responses.IPartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: IPartitionInfo.Role
+  fullName: Zeebe.Client.Api.Responses.IPartitionInfo.Role
+  type: Property
+  source:
+    id: Role
+    path: ''
+    startLine: 1025
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: PartitionBrokerRole Role { get; }
+    parameters: []
+    return:
+      type: Zeebe.Client.Api.Responses.PartitionBrokerRole
+      description: 'the current role of the broker for this partition (i.e. leader or follower) '
+    content.vb: ReadOnly Property Role As PartitionBrokerRole
+  overload: Zeebe.Client.Api.Responses.IPartitionInfo.Role*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader
+  commentId: P:Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader
+  id: IsLeader
+  parent: Zeebe.Client.Api.Responses.IPartitionInfo
+  langs:
+  - csharp
+  - vb
+  name: IsLeader
+  nameWithType: IPartitionInfo.IsLeader
+  fullName: Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader
+  type: Property
+  source:
+    id: IsLeader
+    path: ''
+    startLine: 1028
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: bool IsLeader { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: '<pre><code>true</code></pre> if the broker is the current leader of this partition '
+    content.vb: ReadOnly Property IsLeader As Boolean
+  overload: Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId*
+  commentId: Overload:Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId
+  name: PartitionId
+  nameWithType: IPartitionInfo.PartitionId
+  fullName: Zeebe.Client.Api.Responses.IPartitionInfo.PartitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Responses.IPartitionInfo.Role*
+  commentId: Overload:Zeebe.Client.Api.Responses.IPartitionInfo.Role
+  name: Role
+  nameWithType: IPartitionInfo.Role
+  fullName: Zeebe.Client.Api.Responses.IPartitionInfo.Role
+- uid: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  commentId: T:Zeebe.Client.Api.Responses.PartitionBrokerRole
+  parent: Zeebe.Client.Api.Responses
+  name: PartitionBrokerRole
+  nameWithType: PartitionBrokerRole
+  fullName: Zeebe.Client.Api.Responses.PartitionBrokerRole
+- uid: Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader*
+  commentId: Overload:Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader
+  name: IsLeader
+  nameWithType: IPartitionInfo.IsLeader
+  fullName: Zeebe.Client.Api.Responses.IPartitionInfo.IsLeader
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

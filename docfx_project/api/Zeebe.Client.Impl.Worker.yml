@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Worker
+  commentId: N:Zeebe.Client.Impl.Worker
+  id: Zeebe.Client.Impl.Worker
+  children:
+  - Zeebe.Client.Impl.Worker.JobWorker
+  - Zeebe.Client.Impl.Worker.JobWorkerBuilder
+  langs:
+  - csharp
+  - vb
+  name: Zeebe.Client.Impl.Worker
+  nameWithType: Zeebe.Client.Impl.Worker
+  fullName: Zeebe.Client.Impl.Worker
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Zeebe.Client.Impl.Worker.JobWorkerBuilder
+  commentId: T:Zeebe.Client.Impl.Worker.JobWorkerBuilder
+  name: JobWorkerBuilder
+  nameWithType: JobWorkerBuilder
+  fullName: Zeebe.Client.Impl.Worker.JobWorkerBuilder
+- uid: Zeebe.Client.Impl.Worker.JobWorker
+  commentId: T:Zeebe.Client.Impl.Worker.JobWorker
+  name: JobWorker
+  nameWithType: JobWorker
+  fullName: Zeebe.Client.Impl.Worker.JobWorker

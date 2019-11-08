@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.IPublishMessageCommandStep1
+  id: IPublishMessageCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IPublishMessageCommandStep1
+  nameWithType: IPublishMessageCommandStep1
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1
+  type: Interface
+  source:
+    id: IPublishMessageCommandStep1
+    path: ''
+    startLine: 1577
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface IPublishMessageCommandStep1
+    content.vb: Public Interface IPublishMessageCommandStep1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName(System.String)
+  id: MessageName(System.String)
+  parent: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: MessageName(String)
+  nameWithType: IPublishMessageCommandStep1.MessageName(String)
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName(System.String)
+  type: Method
+  source:
+    id: MessageName
+    path: ''
+    startLine: 1584
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the name of the message.\n"
+  example: []
+  syntax:
+    content: IPublishMessageCommandStep2 MessageName(string messageName)
+    parameters:
+    - id: messageName
+      type: System.String
+      description: the name of the message
+    return:
+      type: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+      description: the builder for this command
+    content.vb: Function MessageName(messageName As String) As IPublishMessageCommandStep2
+  overload: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName*
+  commentId: Overload:Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName
+  name: MessageName
+  nameWithType: IPublishMessageCommandStep1.MessageName
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1.MessageName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  name: IPublishMessageCommandStep2
+  nameWithType: IPublishMessageCommandStep2
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

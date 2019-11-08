@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand
+  commentId: T:Zeebe.Client.Impl.Commands.SetVariablesCommand
+  id: SetVariablesCommand
+  parent: Zeebe.Client.Impl.Commands
+  children:
+  - Zeebe.Client.Impl.Commands.SetVariablesCommand.#ctor(Gateway.GatewayClient,System.Int64)
+  - Zeebe.Client.Impl.Commands.SetVariablesCommand.Local
+  - Zeebe.Client.Impl.Commands.SetVariablesCommand.Send(System.Nullable{TimeSpan})
+  - Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SetVariablesCommand
+  nameWithType: SetVariablesCommand
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand
+  type: Class
+  source:
+    id: SetVariablesCommand
+    path: ''
+    startLine: 10233
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: 'public class SetVariablesCommand : ISetVariablesCommandStep1, ISetVariablesCommandStep2'
+    content.vb: >-
+      Public Class SetVariablesCommand
+          Inherits ISetVariablesCommandStep1
+          Implements ISetVariablesCommandStep2
+  inheritance:
+  - System.Object
+  implements:
+  - ISetVariablesCommandStep2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.#ctor(Gateway.GatewayClient,System.Int64)
+  commentId: M:Zeebe.Client.Impl.Commands.SetVariablesCommand.#ctor(Gateway.GatewayClient,System.Int64)
+  id: '#ctor(Gateway.GatewayClient,System.Int64)'
+  parent: Zeebe.Client.Impl.Commands.SetVariablesCommand
+  langs:
+  - csharp
+  - vb
+  name: SetVariablesCommand(Gateway.GatewayClient, Int64)
+  nameWithType: SetVariablesCommand.SetVariablesCommand(Gateway.GatewayClient, Int64)
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.SetVariablesCommand(Gateway.GatewayClient, System.Int64)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10238
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public SetVariablesCommand(Gateway.GatewayClient client, long elementInstanceKey)
+    parameters:
+    - id: client
+      type: Gateway.GatewayClient
+    - id: elementInstanceKey
+      type: System.Int64
+    content.vb: Public Sub New(client As Gateway.GatewayClient, elementInstanceKey As Long)
+  overload: Zeebe.Client.Impl.Commands.SetVariablesCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables(System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables(System.String)
+  id: Variables(System.String)
+  parent: Zeebe.Client.Impl.Commands.SetVariablesCommand
+  langs:
+  - csharp
+  - vb
+  name: Variables(String)
+  nameWithType: SetVariablesCommand.Variables(String)
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables(System.String)
+  type: Method
+  source:
+    id: Variables
+    path: ''
+    startLine: 10247
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public ISetVariablesCommandStep2 Variables(string variables)
+    parameters:
+    - id: variables
+      type: System.String
+    return:
+      type: ISetVariablesCommandStep2
+    content.vb: Public Function Variables(variables As String) As ISetVariablesCommandStep2
+  overload: Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.Local
+  commentId: M:Zeebe.Client.Impl.Commands.SetVariablesCommand.Local
+  id: Local
+  parent: Zeebe.Client.Impl.Commands.SetVariablesCommand
+  langs:
+  - csharp
+  - vb
+  name: Local()
+  nameWithType: SetVariablesCommand.Local()
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.Local()
+  type: Method
+  source:
+    id: Local
+    path: ''
+    startLine: 10253
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public ISetVariablesCommandStep2 Local()
+    return:
+      type: ISetVariablesCommandStep2
+    content.vb: Public Function Local As ISetVariablesCommandStep2
+  overload: Zeebe.Client.Impl.Commands.SetVariablesCommand.Local*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Impl.Commands.SetVariablesCommand.Send(System.Nullable{TimeSpan})
+  id: Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Impl.Commands.SetVariablesCommand
+  langs:
+  - csharp
+  - vb
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: SetVariablesCommand.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.Send(System.Nullable<TimeSpan>)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 10259
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public Task<ISetVariablesResponse> Send(TimeSpan? timeout = default(TimeSpan? ))
+    parameters:
+    - id: timeout
+      type: System.Nullable{TimeSpan}
+    return:
+      type: Task{ISetVariablesResponse}
+    content.vb: Public Function Send(timeout As TimeSpan? = Nothing) As Task(Of ISetVariablesResponse)
+  overload: Zeebe.Client.Impl.Commands.SetVariablesCommand.Send*
+  nameWithType.vb: SetVariablesCommand.Send(Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.SetVariablesCommand.Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+references:
+- uid: Zeebe.Client.Impl.Commands
+  commentId: N:Zeebe.Client.Impl.Commands
+  name: Zeebe.Client.Impl.Commands
+  nameWithType: Zeebe.Client.Impl.Commands
+  fullName: Zeebe.Client.Impl.Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISetVariablesCommandStep2
+  isExternal: true
+  name: ISetVariablesCommandStep2
+  nameWithType: ISetVariablesCommandStep2
+  fullName: ISetVariablesCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Commands.SetVariablesCommand.#ctor
+  name: SetVariablesCommand
+  nameWithType: SetVariablesCommand.SetVariablesCommand
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.SetVariablesCommand
+- uid: Gateway.GatewayClient
+  isExternal: true
+  name: Gateway.GatewayClient
+  nameWithType: Gateway.GatewayClient
+  fullName: Gateway.GatewayClient
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables*
+  commentId: Overload:Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables
+  name: Variables
+  nameWithType: SetVariablesCommand.Variables
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.Variables
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.Local*
+  commentId: Overload:Zeebe.Client.Impl.Commands.SetVariablesCommand.Local
+  name: Local
+  nameWithType: SetVariablesCommand.Local
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.Local
+- uid: Zeebe.Client.Impl.Commands.SetVariablesCommand.Send*
+  commentId: Overload:Zeebe.Client.Impl.Commands.SetVariablesCommand.Send
+  name: Send
+  nameWithType: SetVariablesCommand.Send
+  fullName: Zeebe.Client.Impl.Commands.SetVariablesCommand.Send
+- uid: System.Nullable{TimeSpan}
+  commentId: T:System.Nullable{TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{ISetVariablesResponse}
+  commentId: '!:Task{ISetVariablesResponse}'
+  definition: Task`1
+  name: Task<ISetVariablesResponse>
+  nameWithType: Task<ISetVariablesResponse>
+  fullName: Task<ISetVariablesResponse>
+  nameWithType.vb: Task(Of ISetVariablesResponse)
+  fullName.vb: Task(Of ISetVariablesResponse)
+  name.vb: Task(Of ISetVariablesResponse)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ISetVariablesResponse
+    name: ISetVariablesResponse
+    nameWithType: ISetVariablesResponse
+    fullName: ISetVariablesResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ISetVariablesResponse
+    name: ISetVariablesResponse
+    nameWithType: ISetVariablesResponse
+    fullName: ISetVariablesResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

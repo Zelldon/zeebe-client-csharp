@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1
+  id: ICreateWorkflowInstanceCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId(System.String)
+  - Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey(System.Int64)
+  langs:
+  - csharp
+  - vb
+  name: ICreateWorkflowInstanceCommandStep1
+  nameWithType: ICreateWorkflowInstanceCommandStep1
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1
+  type: Interface
+  source:
+    id: ICreateWorkflowInstanceCommandStep1
+    path: ''
+    startLine: 1122
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface ICreateWorkflowInstanceCommandStep1
+    content.vb: Public Interface ICreateWorkflowInstanceCommandStep1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId(System.String)
+  id: BpmnProcessId(System.String)
+  parent: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId(String)
+  nameWithType: ICreateWorkflowInstanceCommandStep1.BpmnProcessId(String)
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId(System.String)
+  type: Method
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 1130
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the BPMN process id of the workflow to create an instance of. This is the static id of the\nprocess in the BPMN XML (i.e. &quot;&lt;bpmn:process id=&apos;my-workflow&apos;>&quot;).\n"
+  example: []
+  syntax:
+    content: ICreateWorkflowInstanceCommandStep2 BpmnProcessId(string bpmnProcessId)
+    parameters:
+    - id: bpmnProcessId
+      type: System.String
+      description: the BPMN process id of the workflow
+    return:
+      type: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+      description: the builder for this command
+    content.vb: Function BpmnProcessId(bpmnProcessId As String) As ICreateWorkflowInstanceCommandStep2
+  overload: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId*
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey(System.Int64)
+  commentId: M:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey(System.Int64)
+  id: WorkflowKey(System.Int64)
+  parent: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey(Int64)
+  nameWithType: ICreateWorkflowInstanceCommandStep1.WorkflowKey(Int64)
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey(System.Int64)
+  type: Method
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 1138
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the key of the workflow to create an instance of. The key is assigned by the broker while\ndeploying the workflow. It can be picked from the deployment or workflow event.\n"
+  example: []
+  syntax:
+    content: ICreateWorkflowInstanceCommandStep3 WorkflowKey(long workflowKey)
+    parameters:
+    - id: workflowKey
+      type: System.Int64
+      description: the key of the workflow
+    return:
+      type: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+      description: the builder for this command
+    content.vb: Function WorkflowKey(workflowKey As Long) As ICreateWorkflowInstanceCommandStep3
+  overload: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId*
+  commentId: Overload:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: ICreateWorkflowInstanceCommandStep1.BpmnProcessId
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.BpmnProcessId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  name: ICreateWorkflowInstanceCommandStep2
+  nameWithType: ICreateWorkflowInstanceCommandStep2
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey*
+  commentId: Overload:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey
+  name: WorkflowKey
+  nameWithType: ICreateWorkflowInstanceCommandStep1.WorkflowKey
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1.WorkflowKey
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  name: ICreateWorkflowInstanceCommandStep3
+  nameWithType: ICreateWorkflowInstanceCommandStep3
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3

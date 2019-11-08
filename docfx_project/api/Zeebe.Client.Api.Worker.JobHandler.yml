@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Worker.JobHandler
+  commentId: T:Zeebe.Client.Api.Worker.JobHandler
+  id: JobHandler
+  parent: Zeebe.Client.Api.Worker
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: JobHandler
+  nameWithType: JobHandler
+  fullName: Zeebe.Client.Api.Worker.JobHandler
+  type: Delegate
+  source:
+    id: JobHandler
+    path: ''
+    startLine: 406
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  summary: "\nThe job handler which contains the business logic.\n"
+  example: []
+  syntax:
+    content: public delegate void JobHandler(IJobClient client, IJob activatedJob);
+    parameters:
+    - id: client
+      type: Zeebe.Client.Api.Worker.IJobClient
+      description: the job client to complete or fail the job
+    - id: activatedJob
+      type: IJob
+      description: the job, which was activated by the worker
+    content.vb: Public Delegate Sub JobHandler(client As IJobClient, activatedJob As IJob)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Zeebe.Client.Api.Worker
+  commentId: N:Zeebe.Client.Api.Worker
+  name: Zeebe.Client.Api.Worker
+  nameWithType: Zeebe.Client.Api.Worker
+  fullName: Zeebe.Client.Api.Worker
+- uid: Zeebe.Client.Api.Worker.IJobClient
+  commentId: T:Zeebe.Client.Api.Worker.IJobClient
+  parent: Zeebe.Client.Api.Worker
+  name: IJobClient
+  nameWithType: IJobClient
+  fullName: Zeebe.Client.Api.Worker.IJobClient
+- uid: IJob
+  isExternal: true
+  name: IJob
+  nameWithType: IJob
+  fullName: IJob

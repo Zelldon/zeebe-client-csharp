@@ -1,0 +1,736 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder
+  commentId: T:Zeebe.Client.Builder.ZeebeClientBuilder
+  id: ZeebeClientBuilder
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress(System.String)
+  - Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  - Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText
+  - Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption
+  - Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ZeebeClientBuilder
+  nameWithType: ZeebeClientBuilder
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder
+  type: Class
+  source:
+    id: ZeebeClientBuilder
+    path: ''
+    startLine: 2058
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: 'public class ZeebeClientBuilder : IZeebeClientBuilder, IZeebeClientTransportBuilder'
+    content.vb: >-
+      Public Class ZeebeClientBuilder
+          Implements IZeebeClientBuilder, IZeebeClientTransportBuilder
+  inheritance:
+  - System.Object
+  implements:
+  - Zeebe.Client.Builder.IZeebeClientBuilder
+  - Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  commentId: M:Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  id: UseLoggerFactory(ILoggerFactory)
+  parent: Zeebe.Client.Builder.ZeebeClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseLoggerFactory(ILoggerFactory)
+  nameWithType: ZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  type: Method
+  source:
+    id: UseLoggerFactory
+    path: ''
+    startLine: 2063
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public IZeebeClientBuilder UseLoggerFactory(ILoggerFactory loggerFactory)
+    parameters:
+    - id: loggerFactory
+      type: ILoggerFactory
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientBuilder
+    content.vb: Public Function UseLoggerFactory(loggerFactory As ILoggerFactory) As IZeebeClientBuilder
+  overload: Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory*
+  implements:
+  - Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress(System.String)
+  commentId: M:Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress(System.String)
+  id: UseGatewayAddress(System.String)
+  parent: Zeebe.Client.Builder.ZeebeClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseGatewayAddress(String)
+  nameWithType: ZeebeClientBuilder.UseGatewayAddress(String)
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress(System.String)
+  type: Method
+  source:
+    id: UseGatewayAddress
+    path: ''
+    startLine: 2069
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public IZeebeClientTransportBuilder UseGatewayAddress(string gatewayAddress)
+    parameters:
+    - id: gatewayAddress
+      type: System.String
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+    content.vb: Public Function UseGatewayAddress(gatewayAddress As String) As IZeebeClientTransportBuilder
+  overload: Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress*
+  implements:
+  - Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption(System.String)
+  commentId: M:Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption(System.String)
+  id: UseTransportEncryption(System.String)
+  parent: Zeebe.Client.Builder.ZeebeClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseTransportEncryption(String)
+  nameWithType: ZeebeClientBuilder.UseTransportEncryption(String)
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption(System.String)
+  type: Method
+  source:
+    id: UseTransportEncryption
+    path: ''
+    startLine: 2075
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public IZeebeSecureClientBuilder UseTransportEncryption(string rootCertificatePath)
+    parameters:
+    - id: rootCertificatePath
+      type: System.String
+    return:
+      type: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+    content.vb: Public Function UseTransportEncryption(rootCertificatePath As String) As IZeebeSecureClientBuilder
+  overload: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption*
+  implements:
+  - Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption
+  commentId: M:Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption
+  id: UseTransportEncryption
+  parent: Zeebe.Client.Builder.ZeebeClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseTransportEncryption()
+  nameWithType: ZeebeClientBuilder.UseTransportEncryption()
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption()
+  type: Method
+  source:
+    id: UseTransportEncryption
+    path: ''
+    startLine: 2080
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public IZeebeSecureClientBuilder UseTransportEncryption()
+    return:
+      type: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+    content.vb: Public Function UseTransportEncryption As IZeebeSecureClientBuilder
+  overload: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption*
+  implements:
+  - Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText
+  commentId: M:Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText
+  id: UsePlainText
+  parent: Zeebe.Client.Builder.ZeebeClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UsePlainText()
+  nameWithType: ZeebeClientBuilder.UsePlainText()
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText()
+  type: Method
+  source:
+    id: UsePlainText
+    path: ''
+    startLine: 2085
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public IZeebeClientFinalBuildStep UsePlainText()
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+    content.vb: Public Function UsePlainText As IZeebeClientFinalBuildStep
+  overload: Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText*
+  implements:
+  - Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeClientBuilder
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientBuilder
+  nameWithType: IZeebeClientBuilder
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientTransportBuilder
+  nameWithType: IZeebeClientTransportBuilder
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory*
+  commentId: Overload:Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory
+  name: UseLoggerFactory
+  nameWithType: ZeebeClientBuilder.UseLoggerFactory
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UseLoggerFactory
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  commentId: M:Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  parent: Zeebe.Client.Builder.IZeebeClientBuilder
+  isExternal: true
+  name: UseLoggerFactory(ILoggerFactory)
+  nameWithType: IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+    name: UseLoggerFactory
+    nameWithType: IZeebeClientBuilder.UseLoggerFactory
+    fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ILoggerFactory
+    name: ILoggerFactory
+    nameWithType: ILoggerFactory
+    fullName: ILoggerFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+    name: UseLoggerFactory
+    nameWithType: IZeebeClientBuilder.UseLoggerFactory
+    fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ILoggerFactory
+    name: ILoggerFactory
+    nameWithType: ILoggerFactory
+    fullName: ILoggerFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ILoggerFactory
+  isExternal: true
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: ILoggerFactory
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress*
+  commentId: Overload:Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress
+  name: UseGatewayAddress
+  nameWithType: ZeebeClientBuilder.UseGatewayAddress
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UseGatewayAddress
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  commentId: M:Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  parent: Zeebe.Client.Builder.IZeebeClientBuilder
+  isExternal: true
+  name: UseGatewayAddress(String)
+  nameWithType: IZeebeClientBuilder.UseGatewayAddress(String)
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+    name: UseGatewayAddress
+    nameWithType: IZeebeClientBuilder.UseGatewayAddress
+    fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+    name: UseGatewayAddress
+    nameWithType: IZeebeClientBuilder.UseGatewayAddress
+    fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption*
+  commentId: Overload:Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption
+  name: UseTransportEncryption
+  nameWithType: ZeebeClientBuilder.UseTransportEncryption
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UseTransportEncryption
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  commentId: M:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  parent: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  isExternal: true
+  name: UseTransportEncryption(String)
+  nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption(String)
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+    name: UseTransportEncryption
+    nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption
+    fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+    name: UseTransportEncryption
+    nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption
+    fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  parent: Zeebe.Client.Builder
+  name: IZeebeSecureClientBuilder
+  nameWithType: IZeebeSecureClientBuilder
+  fullName: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  commentId: M:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  parent: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  name: UseTransportEncryption()
+  nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption()
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption()
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+    name: UseTransportEncryption
+    nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption
+    fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+    name: UseTransportEncryption
+    nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption
+    fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText*
+  commentId: Overload:Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText
+  name: UsePlainText
+  nameWithType: ZeebeClientBuilder.UsePlainText
+  fullName: Zeebe.Client.Builder.ZeebeClientBuilder.UsePlainText
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  commentId: M:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  parent: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  name: UsePlainText()
+  nameWithType: IZeebeClientTransportBuilder.UsePlainText()
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText()
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+    name: UsePlainText
+    nameWithType: IZeebeClientTransportBuilder.UsePlainText
+    fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+    name: UsePlainText
+    nameWithType: IZeebeClientTransportBuilder.UsePlainText
+    fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  commentId: T:Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientFinalBuildStep
+  nameWithType: IZeebeClientFinalBuildStep
+  fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep

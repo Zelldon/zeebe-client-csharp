@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand
+  commentId: T:Zeebe.Client.Impl.Commands.FailJobCommand
+  id: FailJobCommand
+  parent: Zeebe.Client.Impl.Commands
+  children:
+  - Zeebe.Client.Impl.Commands.FailJobCommand.#ctor(GatewayClient,System.Int64)
+  - Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage(System.String)
+  - Zeebe.Client.Impl.Commands.FailJobCommand.Retries(System.Int32)
+  - Zeebe.Client.Impl.Commands.FailJobCommand.Send(System.Nullable{TimeSpan})
+  langs:
+  - csharp
+  - vb
+  name: FailJobCommand
+  nameWithType: FailJobCommand
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand
+  type: Class
+  source:
+    id: FailJobCommand
+    path: ''
+    startLine: 10479
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: 'public class FailJobCommand : IFailJobCommandStep1, IFailJobCommandStep2'
+    content.vb: >-
+      Public Class FailJobCommand
+          Inherits IFailJobCommandStep1
+          Implements IFailJobCommandStep2
+  inheritance:
+  - System.Object
+  implements:
+  - IFailJobCommandStep2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.#ctor(GatewayClient,System.Int64)
+  commentId: M:Zeebe.Client.Impl.Commands.FailJobCommand.#ctor(GatewayClient,System.Int64)
+  id: '#ctor(GatewayClient,System.Int64)'
+  parent: Zeebe.Client.Impl.Commands.FailJobCommand
+  langs:
+  - csharp
+  - vb
+  name: FailJobCommand(GatewayClient, Int64)
+  nameWithType: FailJobCommand.FailJobCommand(GatewayClient, Int64)
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.FailJobCommand(GatewayClient, System.Int64)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10484
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public FailJobCommand(GatewayClient client, long jobKey)
+    parameters:
+    - id: client
+      type: GatewayClient
+    - id: jobKey
+      type: System.Int64
+    content.vb: Public Sub New(client As GatewayClient, jobKey As Long)
+  overload: Zeebe.Client.Impl.Commands.FailJobCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.Retries(System.Int32)
+  commentId: M:Zeebe.Client.Impl.Commands.FailJobCommand.Retries(System.Int32)
+  id: Retries(System.Int32)
+  parent: Zeebe.Client.Impl.Commands.FailJobCommand
+  langs:
+  - csharp
+  - vb
+  name: Retries(Int32)
+  nameWithType: FailJobCommand.Retries(Int32)
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.Retries(System.Int32)
+  type: Method
+  source:
+    id: Retries
+    path: ''
+    startLine: 10493
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IFailJobCommandStep2 Retries(int remainingRetries)
+    parameters:
+    - id: remainingRetries
+      type: System.Int32
+    return:
+      type: IFailJobCommandStep2
+    content.vb: Public Function Retries(remainingRetries As Integer) As IFailJobCommandStep2
+  overload: Zeebe.Client.Impl.Commands.FailJobCommand.Retries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage(System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage(System.String)
+  id: ErrorMessage(System.String)
+  parent: Zeebe.Client.Impl.Commands.FailJobCommand
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage(String)
+  nameWithType: FailJobCommand.ErrorMessage(String)
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage(System.String)
+  type: Method
+  source:
+    id: ErrorMessage
+    path: ''
+    startLine: 10499
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IFailJobCommandStep2 ErrorMessage(string errorMsg)
+    parameters:
+    - id: errorMsg
+      type: System.String
+    return:
+      type: IFailJobCommandStep2
+    content.vb: Public Function ErrorMessage(errorMsg As String) As IFailJobCommandStep2
+  overload: Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Impl.Commands.FailJobCommand.Send(System.Nullable{TimeSpan})
+  id: Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Impl.Commands.FailJobCommand
+  langs:
+  - csharp
+  - vb
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: FailJobCommand.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.Send(System.Nullable<TimeSpan>)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 10505
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public Task<IFailJobResponse> Send(TimeSpan? timeout = default(TimeSpan? ))
+    parameters:
+    - id: timeout
+      type: System.Nullable{TimeSpan}
+    return:
+      type: Task{IFailJobResponse}
+    content.vb: Public Function Send(timeout As TimeSpan? = Nothing) As Task(Of IFailJobResponse)
+  overload: Zeebe.Client.Impl.Commands.FailJobCommand.Send*
+  nameWithType.vb: FailJobCommand.Send(Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.FailJobCommand.Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+references:
+- uid: Zeebe.Client.Impl.Commands
+  commentId: N:Zeebe.Client.Impl.Commands
+  name: Zeebe.Client.Impl.Commands
+  nameWithType: Zeebe.Client.Impl.Commands
+  fullName: Zeebe.Client.Impl.Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IFailJobCommandStep2
+  isExternal: true
+  name: IFailJobCommandStep2
+  nameWithType: IFailJobCommandStep2
+  fullName: IFailJobCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Commands.FailJobCommand.#ctor
+  name: FailJobCommand
+  nameWithType: FailJobCommand.FailJobCommand
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.FailJobCommand
+- uid: GatewayClient
+  isExternal: true
+  name: GatewayClient
+  nameWithType: GatewayClient
+  fullName: GatewayClient
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.Retries*
+  commentId: Overload:Zeebe.Client.Impl.Commands.FailJobCommand.Retries
+  name: Retries
+  nameWithType: FailJobCommand.Retries
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.Retries
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage*
+  commentId: Overload:Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage
+  name: ErrorMessage
+  nameWithType: FailJobCommand.ErrorMessage
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.ErrorMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Impl.Commands.FailJobCommand.Send*
+  commentId: Overload:Zeebe.Client.Impl.Commands.FailJobCommand.Send
+  name: Send
+  nameWithType: FailJobCommand.Send
+  fullName: Zeebe.Client.Impl.Commands.FailJobCommand.Send
+- uid: System.Nullable{TimeSpan}
+  commentId: T:System.Nullable{TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{IFailJobResponse}
+  commentId: '!:Task{IFailJobResponse}'
+  definition: Task`1
+  name: Task<IFailJobResponse>
+  nameWithType: Task<IFailJobResponse>
+  fullName: Task<IFailJobResponse>
+  nameWithType.vb: Task(Of IFailJobResponse)
+  fullName.vb: Task(Of IFailJobResponse)
+  name.vb: Task(Of IFailJobResponse)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IFailJobResponse
+    name: IFailJobResponse
+    nameWithType: IFailJobResponse
+    fullName: IFailJobResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IFailJobResponse
+    name: IFailJobResponse
+    nameWithType: IFailJobResponse
+    fullName: IFailJobResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,543 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  commentId: T:Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  id: DeployWorkflowCommand
+  parent: Zeebe.Client.Impl.Commands
+  children:
+  - Zeebe.Client.Impl.Commands.DeployWorkflowCommand.#ctor(Gateway.GatewayClient)
+  - Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes(System.Byte[],System.String)
+  - Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile(System.String)
+  - Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream(Stream,System.String)
+  - Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString(System.String,Encoding,System.String)
+  - Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8(System.String,System.String)
+  - Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send(System.Nullable{TimeSpan})
+  langs:
+  - csharp
+  - vb
+  name: DeployWorkflowCommand
+  nameWithType: DeployWorkflowCommand
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  type: Class
+  source:
+    id: DeployWorkflowCommand
+    path: ''
+    startLine: 10541
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: 'public class DeployWorkflowCommand : IDeployWorkflowCommandBuilderStep2'
+    content.vb: >-
+      Public Class DeployWorkflowCommand
+          Inherits IDeployWorkflowCommandBuilderStep2
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.#ctor(Gateway.GatewayClient)
+  commentId: M:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.#ctor(Gateway.GatewayClient)
+  id: '#ctor(Gateway.GatewayClient)'
+  parent: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  langs:
+  - csharp
+  - vb
+  name: DeployWorkflowCommand(Gateway.GatewayClient)
+  nameWithType: DeployWorkflowCommand.DeployWorkflowCommand(Gateway.GatewayClient)
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.DeployWorkflowCommand(Gateway.GatewayClient)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10546
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public DeployWorkflowCommand(Gateway.GatewayClient client)
+    parameters:
+    - id: client
+      type: Gateway.GatewayClient
+    content.vb: Public Sub New(client As Gateway.GatewayClient)
+  overload: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes(System.Byte[],System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes(System.Byte[],System.String)
+  id: AddResourceBytes(System.Byte[],System.String)
+  parent: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  langs:
+  - csharp
+  - vb
+  name: AddResourceBytes(Byte[], String)
+  nameWithType: DeployWorkflowCommand.AddResourceBytes(Byte[], String)
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes(System.Byte[], System.String)
+  type: Method
+  source:
+    id: AddResourceBytes
+    path: ''
+    startLine: 10552
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IDeployWorkflowCommandBuilderStep2 AddResourceBytes(byte[] resourceBytes, string resourceName)
+    parameters:
+    - id: resourceBytes
+      type: System.Byte[]
+    - id: resourceName
+      type: System.String
+    return:
+      type: IDeployWorkflowCommandBuilderStep2
+    content.vb: Public Function AddResourceBytes(resourceBytes As Byte(), resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes*
+  nameWithType.vb: DeployWorkflowCommand.AddResourceBytes(Byte(), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes(System.Byte(), System.String)
+  name.vb: AddResourceBytes(Byte(), String)
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile(System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile(System.String)
+  id: AddResourceFile(System.String)
+  parent: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  langs:
+  - csharp
+  - vb
+  name: AddResourceFile(String)
+  nameWithType: DeployWorkflowCommand.AddResourceFile(String)
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile(System.String)
+  type: Method
+  source:
+    id: AddResourceFile
+    path: ''
+    startLine: 10559
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IDeployWorkflowCommandBuilderStep2 AddResourceFile(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+    return:
+      type: IDeployWorkflowCommandBuilderStep2
+    content.vb: Public Function AddResourceFile(filename As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream(Stream,System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream(Stream,System.String)
+  id: AddResourceStream(Stream,System.String)
+  parent: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  langs:
+  - csharp
+  - vb
+  name: AddResourceStream(Stream, String)
+  nameWithType: DeployWorkflowCommand.AddResourceStream(Stream, String)
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream(Stream, System.String)
+  type: Method
+  source:
+    id: AddResourceStream
+    path: ''
+    startLine: 10566
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IDeployWorkflowCommandBuilderStep2 AddResourceStream(Stream resourceStream, string resourceName)
+    parameters:
+    - id: resourceStream
+      type: Stream
+    - id: resourceName
+      type: System.String
+    return:
+      type: IDeployWorkflowCommandBuilderStep2
+    content.vb: Public Function AddResourceStream(resourceStream As Stream, resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString(System.String,Encoding,System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString(System.String,Encoding,System.String)
+  id: AddResourceString(System.String,Encoding,System.String)
+  parent: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  langs:
+  - csharp
+  - vb
+  name: AddResourceString(String, Encoding, String)
+  nameWithType: DeployWorkflowCommand.AddResourceString(String, Encoding, String)
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString(System.String, Encoding, System.String)
+  type: Method
+  source:
+    id: AddResourceString
+    path: ''
+    startLine: 10572
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IDeployWorkflowCommandBuilderStep2 AddResourceString(string resourceString, Encoding encoding, string resourceName)
+    parameters:
+    - id: resourceString
+      type: System.String
+    - id: encoding
+      type: Encoding
+    - id: resourceName
+      type: System.String
+    return:
+      type: IDeployWorkflowCommandBuilderStep2
+    content.vb: Public Function AddResourceString(resourceString As String, encoding As Encoding, resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8(System.String,System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8(System.String,System.String)
+  id: AddResourceStringUtf8(System.String,System.String)
+  parent: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  langs:
+  - csharp
+  - vb
+  name: AddResourceStringUtf8(String, String)
+  nameWithType: DeployWorkflowCommand.AddResourceStringUtf8(String, String)
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8(System.String, System.String)
+  type: Method
+  source:
+    id: AddResourceStringUtf8
+    path: ''
+    startLine: 10578
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IDeployWorkflowCommandBuilderStep2 AddResourceStringUtf8(string resourceString, string resourceName)
+    parameters:
+    - id: resourceString
+      type: System.String
+    - id: resourceName
+      type: System.String
+    return:
+      type: IDeployWorkflowCommandBuilderStep2
+    content.vb: Public Function AddResourceStringUtf8(resourceString As String, resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send(System.Nullable{TimeSpan})
+  id: Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+  langs:
+  - csharp
+  - vb
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: DeployWorkflowCommand.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send(System.Nullable<TimeSpan>)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 10584
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public Task<IDeployResponse> Send(TimeSpan? timeout = default(TimeSpan? ))
+    parameters:
+    - id: timeout
+      type: System.Nullable{TimeSpan}
+    return:
+      type: Task{IDeployResponse}
+    content.vb: Public Function Send(timeout As TimeSpan? = Nothing) As Task(Of IDeployResponse)
+  overload: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send*
+  nameWithType.vb: DeployWorkflowCommand.Send(Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+references:
+- uid: Zeebe.Client.Impl.Commands
+  commentId: N:Zeebe.Client.Impl.Commands
+  name: Zeebe.Client.Impl.Commands
+  nameWithType: Zeebe.Client.Impl.Commands
+  fullName: Zeebe.Client.Impl.Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.#ctor
+  name: DeployWorkflowCommand
+  nameWithType: DeployWorkflowCommand.DeployWorkflowCommand
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.DeployWorkflowCommand
+- uid: Gateway.GatewayClient
+  isExternal: true
+  name: Gateway.GatewayClient
+  nameWithType: Gateway.GatewayClient
+  fullName: Gateway.GatewayClient
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes*
+  commentId: Overload:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes
+  name: AddResourceBytes
+  nameWithType: DeployWorkflowCommand.AddResourceBytes
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: IDeployWorkflowCommandBuilderStep2
+  isExternal: true
+  name: IDeployWorkflowCommandBuilderStep2
+  nameWithType: IDeployWorkflowCommandBuilderStep2
+  fullName: IDeployWorkflowCommandBuilderStep2
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile*
+  commentId: Overload:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile
+  name: AddResourceFile
+  nameWithType: DeployWorkflowCommand.AddResourceFile
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceFile
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream*
+  commentId: Overload:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream
+  name: AddResourceStream
+  nameWithType: DeployWorkflowCommand.AddResourceStream
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStream
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString*
+  commentId: Overload:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString
+  name: AddResourceString
+  nameWithType: DeployWorkflowCommand.AddResourceString
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceString
+- uid: Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: Encoding
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8*
+  commentId: Overload:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8
+  name: AddResourceStringUtf8
+  nameWithType: DeployWorkflowCommand.AddResourceStringUtf8
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.AddResourceStringUtf8
+- uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send*
+  commentId: Overload:Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send
+  name: Send
+  nameWithType: DeployWorkflowCommand.Send
+  fullName: Zeebe.Client.Impl.Commands.DeployWorkflowCommand.Send
+- uid: System.Nullable{TimeSpan}
+  commentId: T:System.Nullable{TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{IDeployResponse}
+  commentId: '!:Task{IDeployResponse}'
+  definition: Task`1
+  name: Task<IDeployResponse>
+  nameWithType: Task<IDeployResponse>
+  fullName: Task<IDeployResponse>
+  nameWithType.vb: Task(Of IDeployResponse)
+  fullName.vb: Task(Of IDeployResponse)
+  name.vb: Task(Of IDeployResponse)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IDeployResponse
+    name: IDeployResponse
+    nameWithType: IDeployResponse
+    fullName: IDeployResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IDeployResponse
+    name: IDeployResponse
+    nameWithType: IDeployResponse
+    fullName: IDeployResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

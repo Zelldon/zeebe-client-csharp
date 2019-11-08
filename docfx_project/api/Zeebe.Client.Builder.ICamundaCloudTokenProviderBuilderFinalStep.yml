@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  id: ICamundaCloudTokenProviderBuilderFinalStep
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  langs:
+  - csharp
+  - vb
+  name: ICamundaCloudTokenProviderBuilderFinalStep
+  nameWithType: ICamundaCloudTokenProviderBuilderFinalStep
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  type: Interface
+  source:
+    id: ICamundaCloudTokenProviderBuilderFinalStep
+    path: ''
+    startLine: 2037
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public interface ICamundaCloudTokenProviderBuilderFinalStep
+    content.vb: Public Interface ICamundaCloudTokenProviderBuilderFinalStep
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  id: Build
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: ICamundaCloudTokenProviderBuilderFinalStep.Build()
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build()
+  type: Method
+  source:
+    id: Build
+    path: ''
+    startLine: 2044
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nBuilds the CamundaCloudTokenProvider, which can be used by the ZeebeClient to\ncommunicate with the Camunda Cloud.\n"
+  example: []
+  syntax:
+    content: CamundaCloudTokenProvider Build()
+    return:
+      type: Zeebe.Client.Builder.CamundaCloudTokenProvider
+      description: the CamundaCloudTokenProvider
+    content.vb: Function Build As CamundaCloudTokenProvider
+  overload: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build*
+  commentId: Overload:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  name: Build
+  nameWithType: ICamundaCloudTokenProviderBuilderFinalStep.Build
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider
+  commentId: T:Zeebe.Client.Builder.CamundaCloudTokenProvider
+  parent: Zeebe.Client.Builder
+  name: CamundaCloudTokenProvider
+  nameWithType: CamundaCloudTokenProvider
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider

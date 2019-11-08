@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo
+  commentId: T:Zeebe.Client.Impl.Responses.BrokerInfo
+  id: BrokerInfo
+  parent: Zeebe.Client.Impl.Responses
+  children:
+  - Zeebe.Client.Impl.Responses.BrokerInfo.#ctor(GatewayProtocol.BrokerInfo)
+  - Zeebe.Client.Impl.Responses.BrokerInfo.Address
+  - Zeebe.Client.Impl.Responses.BrokerInfo.Host
+  - Zeebe.Client.Impl.Responses.BrokerInfo.NodeId
+  - Zeebe.Client.Impl.Responses.BrokerInfo.Partitions
+  - Zeebe.Client.Impl.Responses.BrokerInfo.Port
+  - Zeebe.Client.Impl.Responses.BrokerInfo.ToString
+  langs:
+  - csharp
+  - vb
+  name: BrokerInfo
+  nameWithType: BrokerInfo
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo
+  type: Class
+  source:
+    id: BrokerInfo
+    path: ''
+    startLine: 9495
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class BrokerInfo : IBrokerInfo'
+    content.vb: >-
+      Public Class BrokerInfo
+          Inherits IBrokerInfo
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Address
+  commentId: P:Zeebe.Client.Impl.Responses.BrokerInfo.Address
+  id: Address
+  parent: Zeebe.Client.Impl.Responses.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: BrokerInfo.Address
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Address
+  type: Property
+  source:
+    id: Address
+    path: ''
+    startLine: 9499
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string Address { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Address As String
+  overload: Zeebe.Client.Impl.Responses.BrokerInfo.Address*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Host
+  commentId: P:Zeebe.Client.Impl.Responses.BrokerInfo.Host
+  id: Host
+  parent: Zeebe.Client.Impl.Responses.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: BrokerInfo.Host
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Host
+  type: Property
+  source:
+    id: Host
+    path: ''
+    startLine: 9500
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string Host { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Host As String
+  overload: Zeebe.Client.Impl.Responses.BrokerInfo.Host*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.NodeId
+  commentId: P:Zeebe.Client.Impl.Responses.BrokerInfo.NodeId
+  id: NodeId
+  parent: Zeebe.Client.Impl.Responses.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: NodeId
+  nameWithType: BrokerInfo.NodeId
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.NodeId
+  type: Property
+  source:
+    id: NodeId
+    path: ''
+    startLine: 9501
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public int NodeId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property NodeId As Integer
+  overload: Zeebe.Client.Impl.Responses.BrokerInfo.NodeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Port
+  commentId: P:Zeebe.Client.Impl.Responses.BrokerInfo.Port
+  id: Port
+  parent: Zeebe.Client.Impl.Responses.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: BrokerInfo.Port
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Port
+  type: Property
+  source:
+    id: Port
+    path: ''
+    startLine: 9502
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public int Port { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Port As Integer
+  overload: Zeebe.Client.Impl.Responses.BrokerInfo.Port*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Partitions
+  commentId: P:Zeebe.Client.Impl.Responses.BrokerInfo.Partitions
+  id: Partitions
+  parent: Zeebe.Client.Impl.Responses.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Partitions
+  nameWithType: BrokerInfo.Partitions
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Partitions
+  type: Property
+  source:
+    id: Partitions
+    path: ''
+    startLine: 9503
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public IList<IPartitionInfo> Partitions { get; }
+    parameters: []
+    return:
+      type: IList{IPartitionInfo}
+    content.vb: Public ReadOnly Property Partitions As IList(Of IPartitionInfo)
+  overload: Zeebe.Client.Impl.Responses.BrokerInfo.Partitions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.#ctor(GatewayProtocol.BrokerInfo)
+  commentId: M:Zeebe.Client.Impl.Responses.BrokerInfo.#ctor(GatewayProtocol.BrokerInfo)
+  id: '#ctor(GatewayProtocol.BrokerInfo)'
+  parent: Zeebe.Client.Impl.Responses.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: BrokerInfo(BrokerInfo)
+  nameWithType: BrokerInfo.BrokerInfo(BrokerInfo)
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.BrokerInfo(GatewayProtocol.BrokerInfo)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9505
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public BrokerInfo(BrokerInfo brokerInfo)
+    parameters:
+    - id: brokerInfo
+      type: GatewayProtocol.BrokerInfo
+    content.vb: Public Sub New(brokerInfo As BrokerInfo)
+  overload: Zeebe.Client.Impl.Responses.BrokerInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.ToString
+  commentId: M:Zeebe.Client.Impl.Responses.BrokerInfo.ToString
+  id: ToString
+  parent: Zeebe.Client.Impl.Responses.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: BrokerInfo.ToString()
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 9518
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Zeebe.Client.Impl.Responses.BrokerInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Address*
+  commentId: Overload:Zeebe.Client.Impl.Responses.BrokerInfo.Address
+  name: Address
+  nameWithType: BrokerInfo.Address
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Address
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Host*
+  commentId: Overload:Zeebe.Client.Impl.Responses.BrokerInfo.Host
+  name: Host
+  nameWithType: BrokerInfo.Host
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Host
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.NodeId*
+  commentId: Overload:Zeebe.Client.Impl.Responses.BrokerInfo.NodeId
+  name: NodeId
+  nameWithType: BrokerInfo.NodeId
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.NodeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Port*
+  commentId: Overload:Zeebe.Client.Impl.Responses.BrokerInfo.Port
+  name: Port
+  nameWithType: BrokerInfo.Port
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Port
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.Partitions*
+  commentId: Overload:Zeebe.Client.Impl.Responses.BrokerInfo.Partitions
+  name: Partitions
+  nameWithType: BrokerInfo.Partitions
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.Partitions
+- uid: IList{IPartitionInfo}
+  commentId: '!:IList{IPartitionInfo}'
+  definition: IList`1
+  name: IList<IPartitionInfo>
+  nameWithType: IList<IPartitionInfo>
+  fullName: IList<IPartitionInfo>
+  nameWithType.vb: IList(Of IPartitionInfo)
+  fullName.vb: IList(Of IPartitionInfo)
+  name.vb: IList(Of IPartitionInfo)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IPartitionInfo
+    name: IPartitionInfo
+    nameWithType: IPartitionInfo
+    fullName: IPartitionInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IPartitionInfo
+    name: IPartitionInfo
+    nameWithType: IPartitionInfo
+    fullName: IPartitionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Responses.BrokerInfo.#ctor
+  name: BrokerInfo
+  nameWithType: BrokerInfo.BrokerInfo
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.BrokerInfo
+- uid: GatewayProtocol.BrokerInfo
+  commentId: T:GatewayProtocol.BrokerInfo
+  parent: GatewayProtocol
+  name: BrokerInfo
+  nameWithType: BrokerInfo
+  fullName: GatewayProtocol.BrokerInfo
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: Zeebe.Client.Impl.Responses.BrokerInfo.ToString*
+  commentId: Overload:Zeebe.Client.Impl.Responses.BrokerInfo.ToString
+  name: ToString
+  nameWithType: BrokerInfo.ToString
+  fullName: Zeebe.Client.Impl.Responses.BrokerInfo.ToString

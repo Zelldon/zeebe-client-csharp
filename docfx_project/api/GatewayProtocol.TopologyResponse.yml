@@ -1,0 +1,990 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.TopologyResponse
+  commentId: T:GatewayProtocol.TopologyResponse
+  id: TopologyResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.TopologyResponse.#ctor
+  - GatewayProtocol.TopologyResponse.#ctor(GatewayProtocol.TopologyResponse)
+  - GatewayProtocol.TopologyResponse.Brokers
+  - GatewayProtocol.TopologyResponse.BrokersFieldNumber
+  - GatewayProtocol.TopologyResponse.CalculateSize
+  - GatewayProtocol.TopologyResponse.Clone
+  - GatewayProtocol.TopologyResponse.ClusterSize
+  - GatewayProtocol.TopologyResponse.ClusterSizeFieldNumber
+  - GatewayProtocol.TopologyResponse.Descriptor
+  - GatewayProtocol.TopologyResponse.Equals(GatewayProtocol.TopologyResponse)
+  - GatewayProtocol.TopologyResponse.Equals(System.Object)
+  - GatewayProtocol.TopologyResponse.GetHashCode
+  - GatewayProtocol.TopologyResponse.MergeFrom(GatewayProtocol.TopologyResponse)
+  - GatewayProtocol.TopologyResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.TopologyResponse.Parser
+  - GatewayProtocol.TopologyResponse.PartitionsCount
+  - GatewayProtocol.TopologyResponse.PartitionsCountFieldNumber
+  - GatewayProtocol.TopologyResponse.ReplicationFactor
+  - GatewayProtocol.TopologyResponse.ReplicationFactorFieldNumber
+  - GatewayProtocol.TopologyResponse.ToString
+  - GatewayProtocol.TopologyResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: TopologyResponse
+  nameWithType: TopologyResponse
+  fullName: GatewayProtocol.TopologyResponse
+  type: Class
+  source:
+    id: TopologyResponse
+    path: ''
+    startLine: 6585
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class TopologyResponse : pb.IMessage<TopologyResponse>'
+    content.vb: >-
+      Public NotInheritable Class TopologyResponse
+          Inherits pb.IMessage(Of TopologyResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.TopologyResponse.Parser
+  commentId: P:GatewayProtocol.TopologyResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: TopologyResponse.Parser
+  fullName: GatewayProtocol.TopologyResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 6588
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<TopologyResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.TopologyResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of TopologyResponse)
+  overload: GatewayProtocol.TopologyResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.TopologyResponse.Descriptor
+  commentId: P:GatewayProtocol.TopologyResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: TopologyResponse.Descriptor
+  fullName: GatewayProtocol.TopologyResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 6591
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.TopologyResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.TopologyResponse.#ctor
+  commentId: M:GatewayProtocol.TopologyResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: TopologyResponse()
+  nameWithType: TopologyResponse.TopologyResponse()
+  fullName: GatewayProtocol.TopologyResponse.TopologyResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6601
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public TopologyResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.TopologyResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.#ctor(GatewayProtocol.TopologyResponse)
+  commentId: M:GatewayProtocol.TopologyResponse.#ctor(GatewayProtocol.TopologyResponse)
+  id: '#ctor(GatewayProtocol.TopologyResponse)'
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: TopologyResponse(TopologyResponse)
+  nameWithType: TopologyResponse.TopologyResponse(TopologyResponse)
+  fullName: GatewayProtocol.TopologyResponse.TopologyResponse(GatewayProtocol.TopologyResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6608
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public TopologyResponse(TopologyResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.TopologyResponse
+    content.vb: Public Sub New(other As TopologyResponse)
+  overload: GatewayProtocol.TopologyResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.Clone
+  commentId: M:GatewayProtocol.TopologyResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: TopologyResponse.Clone()
+  fullName: GatewayProtocol.TopologyResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 6617
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public TopologyResponse Clone()
+    return:
+      type: GatewayProtocol.TopologyResponse
+    content.vb: Public Function Clone As TopologyResponse
+  overload: GatewayProtocol.TopologyResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.BrokersFieldNumber
+  commentId: F:GatewayProtocol.TopologyResponse.BrokersFieldNumber
+  id: BrokersFieldNumber
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: BrokersFieldNumber
+  nameWithType: TopologyResponse.BrokersFieldNumber
+  fullName: GatewayProtocol.TopologyResponse.BrokersFieldNumber
+  type: Field
+  source:
+    id: BrokersFieldNumber
+    path: ''
+    startLine: 6623
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;brokers&quot; field.
+  example: []
+  syntax:
+    content: public const int BrokersFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const BrokersFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.TopologyResponse.Brokers
+  commentId: P:GatewayProtocol.TopologyResponse.Brokers
+  id: Brokers
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: Brokers
+  nameWithType: TopologyResponse.Brokers
+  fullName: GatewayProtocol.TopologyResponse.Brokers
+  type: Property
+  source:
+    id: Brokers
+    path: ''
+    startLine: 6630
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nlist of brokers part of this cluster\n"
+  example: []
+  syntax:
+    content: public pbc.RepeatedField<BrokerInfo> Brokers { get; }
+    parameters: []
+    return:
+      type: pbc.RepeatedField{GatewayProtocol.BrokerInfo}
+    content.vb: Public ReadOnly Property Brokers As pbc.RepeatedField(Of BrokerInfo)
+  overload: GatewayProtocol.TopologyResponse.Brokers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GatewayProtocol.TopologyResponse.ClusterSizeFieldNumber
+  commentId: F:GatewayProtocol.TopologyResponse.ClusterSizeFieldNumber
+  id: ClusterSizeFieldNumber
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: ClusterSizeFieldNumber
+  nameWithType: TopologyResponse.ClusterSizeFieldNumber
+  fullName: GatewayProtocol.TopologyResponse.ClusterSizeFieldNumber
+  type: Field
+  source:
+    id: ClusterSizeFieldNumber
+    path: ''
+    startLine: 6636
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;clusterSize&quot; field.
+  example: []
+  syntax:
+    content: public const int ClusterSizeFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ClusterSizeFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.TopologyResponse.ClusterSize
+  commentId: P:GatewayProtocol.TopologyResponse.ClusterSize
+  id: ClusterSize
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: ClusterSize
+  nameWithType: TopologyResponse.ClusterSize
+  fullName: GatewayProtocol.TopologyResponse.ClusterSize
+  type: Property
+  source:
+    id: ClusterSize
+    path: ''
+    startLine: 6641
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nhow many nodes are in the cluster\n"
+  example: []
+  syntax:
+    content: public int ClusterSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ClusterSize As Integer
+  overload: GatewayProtocol.TopologyResponse.ClusterSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.PartitionsCountFieldNumber
+  commentId: F:GatewayProtocol.TopologyResponse.PartitionsCountFieldNumber
+  id: PartitionsCountFieldNumber
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: PartitionsCountFieldNumber
+  nameWithType: TopologyResponse.PartitionsCountFieldNumber
+  fullName: GatewayProtocol.TopologyResponse.PartitionsCountFieldNumber
+  type: Field
+  source:
+    id: PartitionsCountFieldNumber
+    path: ''
+    startLine: 6650
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;partitionsCount&quot; field.
+  example: []
+  syntax:
+    content: public const int PartitionsCountFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const PartitionsCountFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.TopologyResponse.PartitionsCount
+  commentId: P:GatewayProtocol.TopologyResponse.PartitionsCount
+  id: PartitionsCount
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: PartitionsCount
+  nameWithType: TopologyResponse.PartitionsCount
+  fullName: GatewayProtocol.TopologyResponse.PartitionsCount
+  type: Property
+  source:
+    id: PartitionsCount
+    path: ''
+    startLine: 6655
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nhow many partitions are spread across the cluster\n"
+  example: []
+  syntax:
+    content: public int PartitionsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PartitionsCount As Integer
+  overload: GatewayProtocol.TopologyResponse.PartitionsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.ReplicationFactorFieldNumber
+  commentId: F:GatewayProtocol.TopologyResponse.ReplicationFactorFieldNumber
+  id: ReplicationFactorFieldNumber
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: ReplicationFactorFieldNumber
+  nameWithType: TopologyResponse.ReplicationFactorFieldNumber
+  fullName: GatewayProtocol.TopologyResponse.ReplicationFactorFieldNumber
+  type: Field
+  source:
+    id: ReplicationFactorFieldNumber
+    path: ''
+    startLine: 6664
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;replicationFactor&quot; field.
+  example: []
+  syntax:
+    content: public const int ReplicationFactorFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ReplicationFactorFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.TopologyResponse.ReplicationFactor
+  commentId: P:GatewayProtocol.TopologyResponse.ReplicationFactor
+  id: ReplicationFactor
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: ReplicationFactor
+  nameWithType: TopologyResponse.ReplicationFactor
+  fullName: GatewayProtocol.TopologyResponse.ReplicationFactor
+  type: Property
+  source:
+    id: ReplicationFactor
+    path: ''
+    startLine: 6669
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nconfigured replication factor for this cluster\n"
+  example: []
+  syntax:
+    content: public int ReplicationFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReplicationFactor As Integer
+  overload: GatewayProtocol.TopologyResponse.ReplicationFactor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.TopologyResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: TopologyResponse.Equals(Object)
+  fullName: GatewayProtocol.TopologyResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6677
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.TopologyResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.TopologyResponse.Equals(GatewayProtocol.TopologyResponse)
+  commentId: M:GatewayProtocol.TopologyResponse.Equals(GatewayProtocol.TopologyResponse)
+  id: Equals(GatewayProtocol.TopologyResponse)
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(TopologyResponse)
+  nameWithType: TopologyResponse.Equals(TopologyResponse)
+  fullName: GatewayProtocol.TopologyResponse.Equals(GatewayProtocol.TopologyResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6682
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(TopologyResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.TopologyResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As TopologyResponse) As Boolean
+  overload: GatewayProtocol.TopologyResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.GetHashCode
+  commentId: M:GatewayProtocol.TopologyResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TopologyResponse.GetHashCode()
+  fullName: GatewayProtocol.TopologyResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 6697
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.TopologyResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.TopologyResponse.ToString
+  commentId: M:GatewayProtocol.TopologyResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TopologyResponse.ToString()
+  fullName: GatewayProtocol.TopologyResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 6710
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.TopologyResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.TopologyResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.TopologyResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: TopologyResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.TopologyResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 6715
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.TopologyResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.CalculateSize
+  commentId: M:GatewayProtocol.TopologyResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: TopologyResponse.CalculateSize()
+  fullName: GatewayProtocol.TopologyResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 6735
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.TopologyResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.MergeFrom(GatewayProtocol.TopologyResponse)
+  commentId: M:GatewayProtocol.TopologyResponse.MergeFrom(GatewayProtocol.TopologyResponse)
+  id: MergeFrom(GatewayProtocol.TopologyResponse)
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(TopologyResponse)
+  nameWithType: TopologyResponse.MergeFrom(TopologyResponse)
+  fullName: GatewayProtocol.TopologyResponse.MergeFrom(GatewayProtocol.TopologyResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6754
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(TopologyResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.TopologyResponse
+    content.vb: Public Sub MergeFrom(other As TopologyResponse)
+  overload: GatewayProtocol.TopologyResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.TopologyResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.TopologyResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.TopologyResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: TopologyResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.TopologyResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6772
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.TopologyResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.TopologyResponse.Parser*
+  commentId: Overload:GatewayProtocol.TopologyResponse.Parser
+  name: Parser
+  nameWithType: TopologyResponse.Parser
+  fullName: GatewayProtocol.TopologyResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.TopologyResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.TopologyResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<TopologyResponse>
+  nameWithType: pb.MessageParser<TopologyResponse>
+  fullName: pb.MessageParser<GatewayProtocol.TopologyResponse>
+  nameWithType.vb: pb.MessageParser(Of TopologyResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.TopologyResponse)
+  name.vb: pb.MessageParser(Of TopologyResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.TopologyResponse
+    name: TopologyResponse
+    nameWithType: TopologyResponse
+    fullName: GatewayProtocol.TopologyResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.TopologyResponse
+    name: TopologyResponse
+    nameWithType: TopologyResponse
+    fullName: GatewayProtocol.TopologyResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.TopologyResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.TopologyResponse.Descriptor
+  name: Descriptor
+  nameWithType: TopologyResponse.Descriptor
+  fullName: GatewayProtocol.TopologyResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.TopologyResponse.#ctor*
+  commentId: Overload:GatewayProtocol.TopologyResponse.#ctor
+  name: TopologyResponse
+  nameWithType: TopologyResponse.TopologyResponse
+  fullName: GatewayProtocol.TopologyResponse.TopologyResponse
+- uid: GatewayProtocol.TopologyResponse
+  commentId: T:GatewayProtocol.TopologyResponse
+  parent: GatewayProtocol
+  name: TopologyResponse
+  nameWithType: TopologyResponse
+  fullName: GatewayProtocol.TopologyResponse
+- uid: GatewayProtocol.TopologyResponse.Clone*
+  commentId: Overload:GatewayProtocol.TopologyResponse.Clone
+  name: Clone
+  nameWithType: TopologyResponse.Clone
+  fullName: GatewayProtocol.TopologyResponse.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.TopologyResponse.Brokers*
+  commentId: Overload:GatewayProtocol.TopologyResponse.Brokers
+  name: Brokers
+  nameWithType: TopologyResponse.Brokers
+  fullName: GatewayProtocol.TopologyResponse.Brokers
+- uid: pbc.RepeatedField{GatewayProtocol.BrokerInfo}
+  commentId: '!:pbc.RepeatedField{GatewayProtocol.BrokerInfo}'
+  definition: pbc.RepeatedField`1
+  name: pbc.RepeatedField<BrokerInfo>
+  nameWithType: pbc.RepeatedField<BrokerInfo>
+  fullName: pbc.RepeatedField<GatewayProtocol.BrokerInfo>
+  nameWithType.vb: pbc.RepeatedField(Of BrokerInfo)
+  fullName.vb: pbc.RepeatedField(Of GatewayProtocol.BrokerInfo)
+  name.vb: pbc.RepeatedField(Of BrokerInfo)
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.BrokerInfo
+    name: BrokerInfo
+    nameWithType: BrokerInfo
+    fullName: GatewayProtocol.BrokerInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.BrokerInfo
+    name: BrokerInfo
+    nameWithType: BrokerInfo
+    fullName: GatewayProtocol.BrokerInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pbc.RepeatedField`1
+  isExternal: true
+  name: pbc.RepeatedField<>
+  nameWithType: pbc.RepeatedField<>
+  fullName: pbc.RepeatedField<>
+  nameWithType.vb: pbc.RepeatedField(Of )
+  fullName.vb: pbc.RepeatedField(Of )
+  name.vb: pbc.RepeatedField(Of )
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.TopologyResponse.ClusterSize*
+  commentId: Overload:GatewayProtocol.TopologyResponse.ClusterSize
+  name: ClusterSize
+  nameWithType: TopologyResponse.ClusterSize
+  fullName: GatewayProtocol.TopologyResponse.ClusterSize
+- uid: GatewayProtocol.TopologyResponse.PartitionsCount*
+  commentId: Overload:GatewayProtocol.TopologyResponse.PartitionsCount
+  name: PartitionsCount
+  nameWithType: TopologyResponse.PartitionsCount
+  fullName: GatewayProtocol.TopologyResponse.PartitionsCount
+- uid: GatewayProtocol.TopologyResponse.ReplicationFactor*
+  commentId: Overload:GatewayProtocol.TopologyResponse.ReplicationFactor
+  name: ReplicationFactor
+  nameWithType: TopologyResponse.ReplicationFactor
+  fullName: GatewayProtocol.TopologyResponse.ReplicationFactor
+- uid: GatewayProtocol.TopologyResponse.Equals*
+  commentId: Overload:GatewayProtocol.TopologyResponse.Equals
+  name: Equals
+  nameWithType: TopologyResponse.Equals
+  fullName: GatewayProtocol.TopologyResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.TopologyResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.TopologyResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: TopologyResponse.GetHashCode
+  fullName: GatewayProtocol.TopologyResponse.GetHashCode
+- uid: GatewayProtocol.TopologyResponse.ToString*
+  commentId: Overload:GatewayProtocol.TopologyResponse.ToString
+  name: ToString
+  nameWithType: TopologyResponse.ToString
+  fullName: GatewayProtocol.TopologyResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.TopologyResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.TopologyResponse.WriteTo
+  name: WriteTo
+  nameWithType: TopologyResponse.WriteTo
+  fullName: GatewayProtocol.TopologyResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.TopologyResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.TopologyResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: TopologyResponse.CalculateSize
+  fullName: GatewayProtocol.TopologyResponse.CalculateSize
+- uid: GatewayProtocol.TopologyResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.TopologyResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: TopologyResponse.MergeFrom
+  fullName: GatewayProtocol.TopologyResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

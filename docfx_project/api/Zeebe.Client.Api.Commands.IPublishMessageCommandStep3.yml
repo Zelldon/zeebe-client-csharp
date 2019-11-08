@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  id: IPublishMessageCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId(System.String)
+  - Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive(TimeSpan)
+  - Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IPublishMessageCommandStep3
+  nameWithType: IPublishMessageCommandStep3
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  type: Interface
+  source:
+    id: IPublishMessageCommandStep3
+    path: ''
+    startLine: 1598
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: 'public interface IPublishMessageCommandStep3 : IFinalCommandStep<IPublishMessageResponse>'
+    content.vb: >-
+      Public Interface IPublishMessageCommandStep3
+          Inherits IFinalCommandStep(Of IPublishMessageResponse)
+  inheritedMembers:
+  - Zeebe.Client.Api.Commands.IFinalCommandStep{IPublishMessageResponse}.Send(System.Nullable{TimeSpan})
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId(System.String)
+  id: MessageId(System.String)
+  parent: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  langs:
+  - csharp
+  - vb
+  name: MessageId(String)
+  nameWithType: IPublishMessageCommandStep3.MessageId(String)
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId(System.String)
+  type: Method
+  source:
+    id: MessageId
+    path: ''
+    startLine: 1607
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the id of the message. The message is rejected if another message is already published\nwith the same id, name and correlation-key.\n"
+  example: []
+  syntax:
+    content: IPublishMessageCommandStep3 MessageId(string messageId)
+    parameters:
+    - id: messageId
+      type: System.String
+      description: the id of the message
+    return:
+      type: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send
+            it to the broker.
+    content.vb: Function MessageId(messageId As String) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId*
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive(TimeSpan)
+  commentId: M:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive(TimeSpan)
+  id: TimeToLive(TimeSpan)
+  parent: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  langs:
+  - csharp
+  - vb
+  name: TimeToLive(TimeSpan)
+  nameWithType: IPublishMessageCommandStep3.TimeToLive(TimeSpan)
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive(TimeSpan)
+  type: Method
+  source:
+    id: TimeToLive
+    path: ''
+    startLine: 1621
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: IPublishMessageCommandStep3 TimeToLive(TimeSpan timeToLive)
+    parameters:
+    - id: timeToLive
+      type: TimeSpan
+    return:
+      type: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+    content.vb: Function TimeToLive(timeToLive As TimeSpan) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive*
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables(System.String)
+  id: Variables(System.String)
+  parent: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  langs:
+  - csharp
+  - vb
+  name: Variables(String)
+  nameWithType: IPublishMessageCommandStep3.Variables(String)
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables(System.String)
+  type: Method
+  source:
+    id: Variables
+    path: ''
+    startLine: 1630
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the variables of the message.\n"
+  example: []
+  syntax:
+    content: IPublishMessageCommandStep3 Variables(string variables)
+    parameters:
+    - id: variables
+      type: System.String
+      description: the variables (JSON) as String
+    return:
+      type: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send
+            it to the broker.
+    content.vb: Function Variables(variables As String) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{IPublishMessageResponse}.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep{IPublishMessageResponse}.Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Api.Commands.IFinalCommandStep{IPublishMessageResponse}
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<IPublishMessageResponse>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IPublishMessageResponse>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of IPublishMessageResponse).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IPublishMessageResponse).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<IPublishMessageResponse>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IPublishMessageResponse>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of IPublishMessageResponse).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IPublishMessageResponse).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  isExternal: true
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<T>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of T).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<T>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of T).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{IPublishMessageResponse}
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep{IPublishMessageResponse}
+  parent: Zeebe.Client.Api.Commands
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<IPublishMessageResponse>
+  nameWithType: IFinalCommandStep<IPublishMessageResponse>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IPublishMessageResponse>
+  nameWithType.vb: IFinalCommandStep(Of IPublishMessageResponse)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IPublishMessageResponse)
+  name.vb: IFinalCommandStep(Of IPublishMessageResponse)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IPublishMessageResponse
+    name: IPublishMessageResponse
+    nameWithType: IPublishMessageResponse
+    fullName: IPublishMessageResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IPublishMessageResponse
+    name: IPublishMessageResponse
+    nameWithType: IPublishMessageResponse
+    fullName: IPublishMessageResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<T>
+  nameWithType: IFinalCommandStep<T>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>
+  nameWithType.vb: IFinalCommandStep(Of T)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T)
+  name.vb: IFinalCommandStep(Of T)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId*
+  commentId: Overload:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId
+  name: MessageId
+  nameWithType: IPublishMessageCommandStep3.MessageId
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.MessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  name: IPublishMessageCommandStep3
+  nameWithType: IPublishMessageCommandStep3
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive*
+  commentId: Overload:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive
+  name: TimeToLive
+  nameWithType: IPublishMessageCommandStep3.TimeToLive
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.TimeToLive
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables*
+  commentId: Overload:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables
+  name: Variables
+  nameWithType: IPublishMessageCommandStep3.Variables
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3.Variables

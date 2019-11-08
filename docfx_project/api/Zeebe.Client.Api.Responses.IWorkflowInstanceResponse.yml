@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+  commentId: T:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+  id: IWorkflowInstanceResponse
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey
+  langs:
+  - csharp
+  - vb
+  name: IWorkflowInstanceResponse
+  nameWithType: IWorkflowInstanceResponse
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+  type: Interface
+  source:
+    id: IWorkflowInstanceResponse
+    path: ''
+    startLine: 980
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nResponse for an create workflow instance command.\n"
+  example: []
+  syntax:
+    content: public interface IWorkflowInstanceResponse
+    content.vb: Public Interface IWorkflowInstanceResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey
+  id: WorkflowKey
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey
+  nameWithType: IWorkflowInstanceResponse.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey
+  type: Property
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 985
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long WorkflowKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: "\nKey of the workflow which this instance was created for.\n"
+    content.vb: ReadOnly Property WorkflowKey As Long
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId
+  id: BpmnProcessId
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId
+  nameWithType: IWorkflowInstanceResponse.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId
+  type: Property
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 990
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string BpmnProcessId { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nBPMN process id of the workflow which this instance was created for.\n"
+    content.vb: ReadOnly Property BpmnProcessId As String
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version
+  id: Version
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: IWorkflowInstanceResponse.Version
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version
+  type: Property
+  source:
+    id: Version
+    path: ''
+    startLine: 995
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: int Version { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nVersion of the workflow which this instance was created for.\n"
+    content.vb: ReadOnly Property Version As Integer
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey
+  id: WorkflowInstanceKey
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceKey
+  nameWithType: IWorkflowInstanceResponse.WorkflowInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey
+  type: Property
+  source:
+    id: WorkflowInstanceKey
+    path: ''
+    startLine: 1000
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long WorkflowInstanceKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: "\nUnique key of the created workflow instance on the partition.\n"
+    content.vb: ReadOnly Property WorkflowInstanceKey As Long
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey
+  name: WorkflowKey
+  nameWithType: IWorkflowInstanceResponse.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowKey
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: IWorkflowInstanceResponse.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.BpmnProcessId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version
+  name: Version
+  nameWithType: IWorkflowInstanceResponse.Version
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.Version
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey
+  name: WorkflowInstanceKey
+  nameWithType: IWorkflowInstanceResponse.WorkflowInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse.WorkflowInstanceKey

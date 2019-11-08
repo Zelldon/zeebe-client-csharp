@@ -1,0 +1,989 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.PublishMessageRequest
+  commentId: T:GatewayProtocol.PublishMessageRequest
+  id: PublishMessageRequest
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.PublishMessageRequest.#ctor
+  - GatewayProtocol.PublishMessageRequest.#ctor(GatewayProtocol.PublishMessageRequest)
+  - GatewayProtocol.PublishMessageRequest.CalculateSize
+  - GatewayProtocol.PublishMessageRequest.Clone
+  - GatewayProtocol.PublishMessageRequest.CorrelationKey
+  - GatewayProtocol.PublishMessageRequest.CorrelationKeyFieldNumber
+  - GatewayProtocol.PublishMessageRequest.Descriptor
+  - GatewayProtocol.PublishMessageRequest.Equals(GatewayProtocol.PublishMessageRequest)
+  - GatewayProtocol.PublishMessageRequest.Equals(System.Object)
+  - GatewayProtocol.PublishMessageRequest.GetHashCode
+  - GatewayProtocol.PublishMessageRequest.MergeFrom(GatewayProtocol.PublishMessageRequest)
+  - GatewayProtocol.PublishMessageRequest.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.PublishMessageRequest.MessageId
+  - GatewayProtocol.PublishMessageRequest.MessageIdFieldNumber
+  - GatewayProtocol.PublishMessageRequest.Name
+  - GatewayProtocol.PublishMessageRequest.NameFieldNumber
+  - GatewayProtocol.PublishMessageRequest.Parser
+  - GatewayProtocol.PublishMessageRequest.TimeToLive
+  - GatewayProtocol.PublishMessageRequest.TimeToLiveFieldNumber
+  - GatewayProtocol.PublishMessageRequest.ToString
+  - GatewayProtocol.PublishMessageRequest.Variables
+  - GatewayProtocol.PublishMessageRequest.VariablesFieldNumber
+  - GatewayProtocol.PublishMessageRequest.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: PublishMessageRequest
+  nameWithType: PublishMessageRequest
+  fullName: GatewayProtocol.PublishMessageRequest
+  type: Class
+  source:
+    id: PublishMessageRequest
+    path: ''
+    startLine: 5892
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class PublishMessageRequest : pb.IMessage<PublishMessageRequest>'
+    content.vb: >-
+      Public NotInheritable Class PublishMessageRequest
+          Inherits pb.IMessage(Of PublishMessageRequest)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.PublishMessageRequest.Parser
+  commentId: P:GatewayProtocol.PublishMessageRequest.Parser
+  id: Parser
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: PublishMessageRequest.Parser
+  fullName: GatewayProtocol.PublishMessageRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 5895
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<PublishMessageRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.PublishMessageRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of PublishMessageRequest)
+  overload: GatewayProtocol.PublishMessageRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.PublishMessageRequest.Descriptor
+  commentId: P:GatewayProtocol.PublishMessageRequest.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: PublishMessageRequest.Descriptor
+  fullName: GatewayProtocol.PublishMessageRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 5898
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.PublishMessageRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.PublishMessageRequest.#ctor
+  commentId: M:GatewayProtocol.PublishMessageRequest.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: PublishMessageRequest()
+  nameWithType: PublishMessageRequest.PublishMessageRequest()
+  fullName: GatewayProtocol.PublishMessageRequest.PublishMessageRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5908
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public PublishMessageRequest()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.PublishMessageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.#ctor(GatewayProtocol.PublishMessageRequest)
+  commentId: M:GatewayProtocol.PublishMessageRequest.#ctor(GatewayProtocol.PublishMessageRequest)
+  id: '#ctor(GatewayProtocol.PublishMessageRequest)'
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: PublishMessageRequest(PublishMessageRequest)
+  nameWithType: PublishMessageRequest.PublishMessageRequest(PublishMessageRequest)
+  fullName: GatewayProtocol.PublishMessageRequest.PublishMessageRequest(GatewayProtocol.PublishMessageRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5915
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public PublishMessageRequest(PublishMessageRequest other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.PublishMessageRequest
+    content.vb: Public Sub New(other As PublishMessageRequest)
+  overload: GatewayProtocol.PublishMessageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.Clone
+  commentId: M:GatewayProtocol.PublishMessageRequest.Clone
+  id: Clone
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: PublishMessageRequest.Clone()
+  fullName: GatewayProtocol.PublishMessageRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 5925
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public PublishMessageRequest Clone()
+    return:
+      type: GatewayProtocol.PublishMessageRequest
+    content.vb: Public Function Clone As PublishMessageRequest
+  overload: GatewayProtocol.PublishMessageRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.NameFieldNumber
+  commentId: F:GatewayProtocol.PublishMessageRequest.NameFieldNumber
+  id: NameFieldNumber
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: PublishMessageRequest.NameFieldNumber
+  fullName: GatewayProtocol.PublishMessageRequest.NameFieldNumber
+  type: Field
+  source:
+    id: NameFieldNumber
+    path: ''
+    startLine: 5931
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;name&quot; field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.PublishMessageRequest.Name
+  commentId: P:GatewayProtocol.PublishMessageRequest.Name
+  id: Name
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PublishMessageRequest.Name
+  fullName: GatewayProtocol.PublishMessageRequest.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 5936
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe name of the message\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: GatewayProtocol.PublishMessageRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.CorrelationKeyFieldNumber
+  commentId: F:GatewayProtocol.PublishMessageRequest.CorrelationKeyFieldNumber
+  id: CorrelationKeyFieldNumber
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: CorrelationKeyFieldNumber
+  nameWithType: PublishMessageRequest.CorrelationKeyFieldNumber
+  fullName: GatewayProtocol.PublishMessageRequest.CorrelationKeyFieldNumber
+  type: Field
+  source:
+    id: CorrelationKeyFieldNumber
+    path: ''
+    startLine: 5945
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;correlationKey&quot; field.
+  example: []
+  syntax:
+    content: public const int CorrelationKeyFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const CorrelationKeyFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.PublishMessageRequest.CorrelationKey
+  commentId: P:GatewayProtocol.PublishMessageRequest.CorrelationKey
+  id: CorrelationKey
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: CorrelationKey
+  nameWithType: PublishMessageRequest.CorrelationKey
+  fullName: GatewayProtocol.PublishMessageRequest.CorrelationKey
+  type: Property
+  source:
+    id: CorrelationKey
+    path: ''
+    startLine: 5950
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe correlation key of the message\n"
+  example: []
+  syntax:
+    content: public string CorrelationKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CorrelationKey As String
+  overload: GatewayProtocol.PublishMessageRequest.CorrelationKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.TimeToLiveFieldNumber
+  commentId: F:GatewayProtocol.PublishMessageRequest.TimeToLiveFieldNumber
+  id: TimeToLiveFieldNumber
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeToLiveFieldNumber
+  nameWithType: PublishMessageRequest.TimeToLiveFieldNumber
+  fullName: GatewayProtocol.PublishMessageRequest.TimeToLiveFieldNumber
+  type: Field
+  source:
+    id: TimeToLiveFieldNumber
+    path: ''
+    startLine: 5959
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;timeToLive&quot; field.
+  example: []
+  syntax:
+    content: public const int TimeToLiveFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TimeToLiveFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.PublishMessageRequest.TimeToLive
+  commentId: P:GatewayProtocol.PublishMessageRequest.TimeToLive
+  id: TimeToLive
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeToLive
+  nameWithType: PublishMessageRequest.TimeToLive
+  fullName: GatewayProtocol.PublishMessageRequest.TimeToLive
+  type: Property
+  source:
+    id: TimeToLive
+    path: ''
+    startLine: 5964
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nhow long the message should be buffered on the broker, in milliseconds\n"
+  example: []
+  syntax:
+    content: public long TimeToLive { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TimeToLive As Long
+  overload: GatewayProtocol.PublishMessageRequest.TimeToLive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.MessageIdFieldNumber
+  commentId: F:GatewayProtocol.PublishMessageRequest.MessageIdFieldNumber
+  id: MessageIdFieldNumber
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageIdFieldNumber
+  nameWithType: PublishMessageRequest.MessageIdFieldNumber
+  fullName: GatewayProtocol.PublishMessageRequest.MessageIdFieldNumber
+  type: Field
+  source:
+    id: MessageIdFieldNumber
+    path: ''
+    startLine: 5973
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;messageId&quot; field.
+  example: []
+  syntax:
+    content: public const int MessageIdFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const MessageIdFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.PublishMessageRequest.MessageId
+  commentId: P:GatewayProtocol.PublishMessageRequest.MessageId
+  id: MessageId
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: PublishMessageRequest.MessageId
+  fullName: GatewayProtocol.PublishMessageRequest.MessageId
+  type: Property
+  source:
+    id: MessageId
+    path: ''
+    startLine: 5979
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe unique ID of the message; can be omitted. only useful to ensure only one message\nwith the given ID will ever be published (during its lifetime)\n"
+  example: []
+  syntax:
+    content: public string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageId As String
+  overload: GatewayProtocol.PublishMessageRequest.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.VariablesFieldNumber
+  commentId: F:GatewayProtocol.PublishMessageRequest.VariablesFieldNumber
+  id: VariablesFieldNumber
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: VariablesFieldNumber
+  nameWithType: PublishMessageRequest.VariablesFieldNumber
+  fullName: GatewayProtocol.PublishMessageRequest.VariablesFieldNumber
+  type: Field
+  source:
+    id: VariablesFieldNumber
+    path: ''
+    startLine: 5988
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;variables&quot; field.
+  example: []
+  syntax:
+    content: public const int VariablesFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const VariablesFieldNumber As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.PublishMessageRequest.Variables
+  commentId: P:GatewayProtocol.PublishMessageRequest.Variables
+  id: Variables
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: PublishMessageRequest.Variables
+  fullName: GatewayProtocol.PublishMessageRequest.Variables
+  type: Property
+  source:
+    id: Variables
+    path: ''
+    startLine: 5994
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe message variables as a JSON document; to be valid, the root of the document must be an\nobject, e.g. { &quot;a&quot;: &quot;foo&quot; }. [ &quot;foo&quot; ] would not be valid.\n"
+  example: []
+  syntax:
+    content: public string Variables { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Variables As String
+  overload: GatewayProtocol.PublishMessageRequest.Variables*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.Equals(System.Object)
+  commentId: M:GatewayProtocol.PublishMessageRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: PublishMessageRequest.Equals(Object)
+  fullName: GatewayProtocol.PublishMessageRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6002
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.PublishMessageRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.PublishMessageRequest.Equals(GatewayProtocol.PublishMessageRequest)
+  commentId: M:GatewayProtocol.PublishMessageRequest.Equals(GatewayProtocol.PublishMessageRequest)
+  id: Equals(GatewayProtocol.PublishMessageRequest)
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(PublishMessageRequest)
+  nameWithType: PublishMessageRequest.Equals(PublishMessageRequest)
+  fullName: GatewayProtocol.PublishMessageRequest.Equals(GatewayProtocol.PublishMessageRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6007
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(PublishMessageRequest other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.PublishMessageRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As PublishMessageRequest) As Boolean
+  overload: GatewayProtocol.PublishMessageRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.GetHashCode
+  commentId: M:GatewayProtocol.PublishMessageRequest.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PublishMessageRequest.GetHashCode()
+  fullName: GatewayProtocol.PublishMessageRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 6023
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.PublishMessageRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.PublishMessageRequest.ToString
+  commentId: M:GatewayProtocol.PublishMessageRequest.ToString
+  id: ToString
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PublishMessageRequest.ToString()
+  fullName: GatewayProtocol.PublishMessageRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 6037
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.PublishMessageRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.PublishMessageRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.PublishMessageRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: PublishMessageRequest.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.PublishMessageRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 6042
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.PublishMessageRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.CalculateSize
+  commentId: M:GatewayProtocol.PublishMessageRequest.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: PublishMessageRequest.CalculateSize()
+  fullName: GatewayProtocol.PublishMessageRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 6069
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.PublishMessageRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.MergeFrom(GatewayProtocol.PublishMessageRequest)
+  commentId: M:GatewayProtocol.PublishMessageRequest.MergeFrom(GatewayProtocol.PublishMessageRequest)
+  id: MergeFrom(GatewayProtocol.PublishMessageRequest)
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(PublishMessageRequest)
+  nameWithType: PublishMessageRequest.MergeFrom(PublishMessageRequest)
+  fullName: GatewayProtocol.PublishMessageRequest.MergeFrom(GatewayProtocol.PublishMessageRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6093
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(PublishMessageRequest other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.PublishMessageRequest
+    content.vb: Public Sub MergeFrom(other As PublishMessageRequest)
+  overload: GatewayProtocol.PublishMessageRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.PublishMessageRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.PublishMessageRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.PublishMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: PublishMessageRequest.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.PublishMessageRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6116
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.PublishMessageRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.PublishMessageRequest.Parser*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.Parser
+  name: Parser
+  nameWithType: PublishMessageRequest.Parser
+  fullName: GatewayProtocol.PublishMessageRequest.Parser
+- uid: pb.MessageParser{GatewayProtocol.PublishMessageRequest}
+  commentId: '!:pb.MessageParser{GatewayProtocol.PublishMessageRequest}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<PublishMessageRequest>
+  nameWithType: pb.MessageParser<PublishMessageRequest>
+  fullName: pb.MessageParser<GatewayProtocol.PublishMessageRequest>
+  nameWithType.vb: pb.MessageParser(Of PublishMessageRequest)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.PublishMessageRequest)
+  name.vb: pb.MessageParser(Of PublishMessageRequest)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.PublishMessageRequest
+    name: PublishMessageRequest
+    nameWithType: PublishMessageRequest
+    fullName: GatewayProtocol.PublishMessageRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.PublishMessageRequest
+    name: PublishMessageRequest
+    nameWithType: PublishMessageRequest
+    fullName: GatewayProtocol.PublishMessageRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.PublishMessageRequest.Descriptor*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.Descriptor
+  name: Descriptor
+  nameWithType: PublishMessageRequest.Descriptor
+  fullName: GatewayProtocol.PublishMessageRequest.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.PublishMessageRequest.#ctor*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.#ctor
+  name: PublishMessageRequest
+  nameWithType: PublishMessageRequest.PublishMessageRequest
+  fullName: GatewayProtocol.PublishMessageRequest.PublishMessageRequest
+- uid: GatewayProtocol.PublishMessageRequest
+  commentId: T:GatewayProtocol.PublishMessageRequest
+  parent: GatewayProtocol
+  name: PublishMessageRequest
+  nameWithType: PublishMessageRequest
+  fullName: GatewayProtocol.PublishMessageRequest
+- uid: GatewayProtocol.PublishMessageRequest.Clone*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.Clone
+  name: Clone
+  nameWithType: PublishMessageRequest.Clone
+  fullName: GatewayProtocol.PublishMessageRequest.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.PublishMessageRequest.Name*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.Name
+  name: Name
+  nameWithType: PublishMessageRequest.Name
+  fullName: GatewayProtocol.PublishMessageRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.PublishMessageRequest.CorrelationKey*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.CorrelationKey
+  name: CorrelationKey
+  nameWithType: PublishMessageRequest.CorrelationKey
+  fullName: GatewayProtocol.PublishMessageRequest.CorrelationKey
+- uid: GatewayProtocol.PublishMessageRequest.TimeToLive*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.TimeToLive
+  name: TimeToLive
+  nameWithType: PublishMessageRequest.TimeToLive
+  fullName: GatewayProtocol.PublishMessageRequest.TimeToLive
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: GatewayProtocol.PublishMessageRequest.MessageId*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.MessageId
+  name: MessageId
+  nameWithType: PublishMessageRequest.MessageId
+  fullName: GatewayProtocol.PublishMessageRequest.MessageId
+- uid: GatewayProtocol.PublishMessageRequest.Variables*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.Variables
+  name: Variables
+  nameWithType: PublishMessageRequest.Variables
+  fullName: GatewayProtocol.PublishMessageRequest.Variables
+- uid: GatewayProtocol.PublishMessageRequest.Equals*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.Equals
+  name: Equals
+  nameWithType: PublishMessageRequest.Equals
+  fullName: GatewayProtocol.PublishMessageRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.PublishMessageRequest.GetHashCode*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.GetHashCode
+  name: GetHashCode
+  nameWithType: PublishMessageRequest.GetHashCode
+  fullName: GatewayProtocol.PublishMessageRequest.GetHashCode
+- uid: GatewayProtocol.PublishMessageRequest.ToString*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.ToString
+  name: ToString
+  nameWithType: PublishMessageRequest.ToString
+  fullName: GatewayProtocol.PublishMessageRequest.ToString
+- uid: GatewayProtocol.PublishMessageRequest.WriteTo*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.WriteTo
+  name: WriteTo
+  nameWithType: PublishMessageRequest.WriteTo
+  fullName: GatewayProtocol.PublishMessageRequest.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.PublishMessageRequest.CalculateSize*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.CalculateSize
+  name: CalculateSize
+  nameWithType: PublishMessageRequest.CalculateSize
+  fullName: GatewayProtocol.PublishMessageRequest.CalculateSize
+- uid: GatewayProtocol.PublishMessageRequest.MergeFrom*
+  commentId: Overload:GatewayProtocol.PublishMessageRequest.MergeFrom
+  name: MergeFrom
+  nameWithType: PublishMessageRequest.MergeFrom
+  fullName: GatewayProtocol.PublishMessageRequest.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

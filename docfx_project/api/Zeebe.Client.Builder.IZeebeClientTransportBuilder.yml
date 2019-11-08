@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  id: IZeebeClientTransportBuilder
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  - Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  - Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IZeebeClientTransportBuilder
+  nameWithType: IZeebeClientTransportBuilder
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  type: Interface
+  source:
+    id: IZeebeClientTransportBuilder
+    path: ''
+    startLine: 1930
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public interface IZeebeClientTransportBuilder
+    content.vb: Public Interface IZeebeClientTransportBuilder
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  commentId: M:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  id: UseTransportEncryption(System.String)
+  parent: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseTransportEncryption(String)
+  nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption(String)
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption(System.String)
+  type: Method
+  source:
+    id: UseTransportEncryption
+    path: ''
+    startLine: 1938
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nTo create a client which uses client-side SSL. The given path\npoints to a file, which contains root certificates (PEM encoded).\n"
+  example: []
+  syntax:
+    content: IZeebeSecureClientBuilder UseTransportEncryption(string rootCertificatePath)
+    parameters:
+    - id: rootCertificatePath
+      type: System.String
+      description: the path to the root certificates
+    return:
+      type: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+      description: the builder to create a secure client
+    content.vb: Function UseTransportEncryption(rootCertificatePath As String) As IZeebeSecureClientBuilder
+  overload: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption*
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  commentId: M:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  id: UseTransportEncryption
+  parent: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseTransportEncryption()
+  nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption()
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption()
+  type: Method
+  source:
+    id: UseTransportEncryption
+    path: ''
+    startLine: 1944
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nTo create a client which uses client-side SSL.\n"
+  example: []
+  syntax:
+    content: IZeebeSecureClientBuilder UseTransportEncryption()
+    return:
+      type: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+      description: the builder to create a secure client
+    content.vb: Function UseTransportEncryption As IZeebeSecureClientBuilder
+  overload: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption*
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  commentId: M:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  id: UsePlainText
+  parent: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  langs:
+  - csharp
+  - vb
+  name: UsePlainText()
+  nameWithType: IZeebeClientTransportBuilder.UsePlainText()
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText()
+  type: Method
+  source:
+    id: UsePlainText
+    path: ''
+    startLine: 1950
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nTo create an client without any transport encryption.\n"
+  example: []
+  syntax:
+    content: IZeebeClientFinalBuildStep UsePlainText()
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+      description: the final client builder to create the client
+    content.vb: Function UsePlainText As IZeebeClientFinalBuildStep
+  overload: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption*
+  commentId: Overload:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+  name: UseTransportEncryption
+  nameWithType: IZeebeClientTransportBuilder.UseTransportEncryption
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UseTransportEncryption
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  parent: Zeebe.Client.Builder
+  name: IZeebeSecureClientBuilder
+  nameWithType: IZeebeSecureClientBuilder
+  fullName: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText*
+  commentId: Overload:Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+  name: UsePlainText
+  nameWithType: IZeebeClientTransportBuilder.UsePlainText
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder.UsePlainText
+- uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  commentId: T:Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientFinalBuildStep
+  nameWithType: IZeebeClientFinalBuildStep
+  fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep

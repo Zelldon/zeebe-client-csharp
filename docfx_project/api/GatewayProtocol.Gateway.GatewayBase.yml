@@ -1,0 +1,1571 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.Gateway.GatewayBase
+  commentId: T:GatewayProtocol.Gateway.GatewayBase
+  id: Gateway.GatewayBase
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.Gateway.GatewayBase.ActivateJobs(GatewayProtocol.ActivateJobsRequest,grpc.IServerStreamWriter{GatewayProtocol.ActivateJobsResponse},grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance(GatewayProtocol.CancelWorkflowInstanceRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.CompleteJob(GatewayProtocol.CompleteJobRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance(GatewayProtocol.CreateWorkflowInstanceRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult(GatewayProtocol.CreateWorkflowInstanceWithResultRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.DeployWorkflow(GatewayProtocol.DeployWorkflowRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.FailJob(GatewayProtocol.FailJobRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.PublishMessage(GatewayProtocol.PublishMessageRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.ResolveIncident(GatewayProtocol.ResolveIncidentRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.SetVariables(GatewayProtocol.SetVariablesRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.Topology(GatewayProtocol.TopologyRequest,grpc.ServerCallContext)
+  - GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries(GatewayProtocol.UpdateJobRetriesRequest,grpc.ServerCallContext)
+  langs:
+  - csharp
+  - vb
+  name: Gateway.GatewayBase
+  nameWithType: Gateway.GatewayBase
+  fullName: GatewayProtocol.Gateway.GatewayBase
+  type: Class
+  source:
+    id: GatewayBase
+    path: ''
+    startLine: 7901
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Base class for server-side implementations of Gateway
+  example: []
+  syntax:
+    content: public abstract class GatewayBase
+    content.vb: Public MustInherit Class GatewayBase
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: GatewayProtocol.Gateway.GatewayBase.ActivateJobs(GatewayProtocol.ActivateJobsRequest,grpc.IServerStreamWriter{GatewayProtocol.ActivateJobsResponse},grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.ActivateJobs(GatewayProtocol.ActivateJobsRequest,grpc.IServerStreamWriter{GatewayProtocol.ActivateJobsResponse},grpc.ServerCallContext)
+  id: ActivateJobs(GatewayProtocol.ActivateJobsRequest,grpc.IServerStreamWriter{GatewayProtocol.ActivateJobsResponse},grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: ActivateJobs(ActivateJobsRequest, grpc.IServerStreamWriter<ActivateJobsResponse>, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.ActivateJobs(ActivateJobsRequest, grpc.IServerStreamWriter<ActivateJobsResponse>, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.ActivateJobs(GatewayProtocol.ActivateJobsRequest, grpc.IServerStreamWriter<GatewayProtocol.ActivateJobsResponse>, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ActivateJobs
+    path: ''
+    startLine: 7920
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nIterates through all known partitions round-robin and activates up to the requested\nmaximum and streams them back to the client as they are activated.\n\nErrors:\nINVALID_ARGUMENT:\n- type is blank (empty string, null)\n- worker is blank (empty string, null)\n- timeout less than 1\n- maxJobsToActivate is less than 1\n"
+  example: []
+  syntax:
+    content: public virtual Task ActivateJobs(ActivateJobsRequest request, grpc.IServerStreamWriter<ActivateJobsResponse> responseStream, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.ActivateJobsRequest
+      description: The request received from the client.
+    - id: responseStream
+      type: grpc.IServerStreamWriter{GatewayProtocol.ActivateJobsResponse}
+      description: Used for sending responses back to the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task indicating completion of the handler.
+    content.vb: Public Overridable Function ActivateJobs(request As ActivateJobsRequest, responseStream As grpc.IServerStreamWriter(Of ActivateJobsResponse), context As grpc.ServerCallContext) As Task
+  overload: GatewayProtocol.Gateway.GatewayBase.ActivateJobs*
+  nameWithType.vb: Gateway.GatewayBase.ActivateJobs(ActivateJobsRequest, grpc.IServerStreamWriter(Of ActivateJobsResponse), grpc.ServerCallContext)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: GatewayProtocol.Gateway.GatewayBase.ActivateJobs(GatewayProtocol.ActivateJobsRequest, grpc.IServerStreamWriter(Of GatewayProtocol.ActivateJobsResponse), grpc.ServerCallContext)
+  name.vb: ActivateJobs(ActivateJobsRequest, grpc.IServerStreamWriter(Of ActivateJobsResponse), grpc.ServerCallContext)
+- uid: GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance(GatewayProtocol.CancelWorkflowInstanceRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance(GatewayProtocol.CancelWorkflowInstanceRequest,grpc.ServerCallContext)
+  id: CancelWorkflowInstance(GatewayProtocol.CancelWorkflowInstanceRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: CancelWorkflowInstance(CancelWorkflowInstanceRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.CancelWorkflowInstance(CancelWorkflowInstanceRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance(GatewayProtocol.CancelWorkflowInstanceRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: CancelWorkflowInstance
+    path: ''
+    startLine: 7936
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nCancels a running workflow instance\n\nErrors:\nNOT_FOUND:\n- no workflow instance exists with the given key\n"
+  example: []
+  syntax:
+    content: public virtual Task<CancelWorkflowInstanceResponse> CancelWorkflowInstance(CancelWorkflowInstanceRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.CancelWorkflowInstanceRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.CancelWorkflowInstanceResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function CancelWorkflowInstance(request As CancelWorkflowInstanceRequest, context As grpc.ServerCallContext) As Task(Of CancelWorkflowInstanceResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.CompleteJob(GatewayProtocol.CompleteJobRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.CompleteJob(GatewayProtocol.CompleteJobRequest,grpc.ServerCallContext)
+  id: CompleteJob(GatewayProtocol.CompleteJobRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: CompleteJob(CompleteJobRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.CompleteJob(CompleteJobRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.CompleteJob(GatewayProtocol.CompleteJobRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: CompleteJob
+    path: ''
+    startLine: 7957
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nCompletes a job with the given variables, which allows completing the associated service task.\n\nErrors:\nNOT_FOUND:\n- no job exists with the given job key. Note that since jobs are removed once completed,\nit could be that this job did exist at some point.\n\nFAILED_PRECONDITION:\n- the job was marked as failed. In that case, the related incident must be resolved before\nthe job can be activated again and completed.\n"
+  example: []
+  syntax:
+    content: public virtual Task<CompleteJobResponse> CompleteJob(CompleteJobRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.CompleteJobRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.CompleteJobResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function CompleteJob(request As CompleteJobRequest, context As grpc.ServerCallContext) As Task(Of CompleteJobResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.CompleteJob*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance(GatewayProtocol.CreateWorkflowInstanceRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance(GatewayProtocol.CreateWorkflowInstanceRequest,grpc.ServerCallContext)
+  id: CreateWorkflowInstance(GatewayProtocol.CreateWorkflowInstanceRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkflowInstance(CreateWorkflowInstanceRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.CreateWorkflowInstance(CreateWorkflowInstanceRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance(GatewayProtocol.CreateWorkflowInstanceRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: CreateWorkflowInstance
+    path: ''
+    startLine: 7987
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nCreates and starts an instance of the specified workflow. The workflow definition to use to\ncreate the instance can be specified either using its unique key (as returned by\nDeployWorkflow), or using the BPMN process ID and a version. Pass -1 as the version to use the\nlatest deployed version. Note that only workflows with none start events can be started through\nthis command.\n\nErrors:\nNOT_FOUND:\n- no workflow with the given key exists (if workflowKey was given)\n- no workflow with the given process ID exists (if bpmnProcessId was given but version was -1)\n- no workflow with the given process ID and version exists (if both bpmnProcessId and version were given)\n\nFAILED_PRECONDITION:\n- the workflow definition does not contain a none start event; only workflows with none\nstart event can be started manually.\n\nINVALID_ARGUMENT:\n- the given variables argument is not a valid JSON document; it is expected to be a valid\nJSON document where the root node is an object.\n"
+  example: []
+  syntax:
+    content: public virtual Task<CreateWorkflowInstanceResponse> CreateWorkflowInstance(CreateWorkflowInstanceRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.CreateWorkflowInstanceRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.CreateWorkflowInstanceResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function CreateWorkflowInstance(request As CreateWorkflowInstanceRequest, context As grpc.ServerCallContext) As Task(Of CreateWorkflowInstanceResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult(GatewayProtocol.CreateWorkflowInstanceWithResultRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult(GatewayProtocol.CreateWorkflowInstanceWithResultRequest,grpc.ServerCallContext)
+  id: CreateWorkflowInstanceWithResult(GatewayProtocol.CreateWorkflowInstanceWithResultRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkflowInstanceWithResult(CreateWorkflowInstanceWithResultRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.CreateWorkflowInstanceWithResult(CreateWorkflowInstanceWithResultRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult(GatewayProtocol.CreateWorkflowInstanceWithResultRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: CreateWorkflowInstanceWithResult
+    path: ''
+    startLine: 7999
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nBehaves similarly to `rpc CreateWorkflowInstance`, except that a successful response is received when the workflow completes successfully.\n"
+  example: []
+  syntax:
+    content: public virtual Task<CreateWorkflowInstanceWithResultResponse> CreateWorkflowInstanceWithResult(CreateWorkflowInstanceWithResultRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.CreateWorkflowInstanceWithResultRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.CreateWorkflowInstanceWithResultResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function CreateWorkflowInstanceWithResult(request As CreateWorkflowInstanceWithResultRequest, context As grpc.ServerCallContext) As Task(Of CreateWorkflowInstanceWithResultResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.DeployWorkflow(GatewayProtocol.DeployWorkflowRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.DeployWorkflow(GatewayProtocol.DeployWorkflowRequest,grpc.ServerCallContext)
+  id: DeployWorkflow(GatewayProtocol.DeployWorkflowRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: DeployWorkflow(DeployWorkflowRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.DeployWorkflow(DeployWorkflowRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.DeployWorkflow(GatewayProtocol.DeployWorkflowRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: DeployWorkflow
+    path: ''
+    startLine: 8020
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nDeploys one or more workflows to Zeebe. Note that this is an atomic call,\ni.e. either all workflows are deployed, or none of them are.\n\nErrors:\nINVALID_ARGUMENT:\n- no resources given.\n- if at least one resource is invalid. A resource is considered invalid if:\n- it is not a BPMN or YAML file (currently detected through the file extension)\n- the resource data is not deserializable (e.g. detected as BPMN, but it&apos;s broken XML)\n- the workflow is invalid (e.g. an event-based gateway has an outgoing sequence flow to a task)\n"
+  example: []
+  syntax:
+    content: public virtual Task<DeployWorkflowResponse> DeployWorkflow(DeployWorkflowRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.DeployWorkflowRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.DeployWorkflowResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function DeployWorkflow(request As DeployWorkflowRequest, context As grpc.ServerCallContext) As Task(Of DeployWorkflowResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.DeployWorkflow*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.FailJob(GatewayProtocol.FailJobRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.FailJob(GatewayProtocol.FailJobRequest,grpc.ServerCallContext)
+  id: FailJob(GatewayProtocol.FailJobRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: FailJob(FailJobRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.FailJob(FailJobRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.FailJob(GatewayProtocol.FailJobRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: FailJob
+    path: ''
+    startLine: 8043
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nMarks the job as failed; if the retries argument is positive, then the job will be immediately\nactivatable again, and a worker could try again to process it. If it is zero or negative however,\nan incident will be raised, tagged with the given errorMessage, and the job will not be\nactivatable until the incident is resolved.\n\nErrors:\nNOT_FOUND:\n- no job was found with the given key\n\nFAILED_PRECONDITION:\n- the job was not activated\n- the job is already in a failed state, i.e. ran out of retries\n"
+  example: []
+  syntax:
+    content: public virtual Task<FailJobResponse> FailJob(FailJobRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.FailJobRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.FailJobResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function FailJob(request As FailJobRequest, context As grpc.ServerCallContext) As Task(Of FailJobResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.FailJob*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.PublishMessage(GatewayProtocol.PublishMessageRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.PublishMessage(GatewayProtocol.PublishMessageRequest,grpc.ServerCallContext)
+  id: PublishMessage(GatewayProtocol.PublishMessageRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: PublishMessage(PublishMessageRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.PublishMessage(PublishMessageRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.PublishMessage(GatewayProtocol.PublishMessageRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: PublishMessage
+    path: ''
+    startLine: 8060
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nPublishes a single message. Messages are published to specific partitions computed from their\ncorrelation keys.\n\nErrors:\nALREADY_EXISTS:\n- a message with the same ID was previously published (and is still alive)\n"
+  example: []
+  syntax:
+    content: public virtual Task<PublishMessageResponse> PublishMessage(PublishMessageRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.PublishMessageRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.PublishMessageResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function PublishMessage(request As PublishMessageRequest, context As grpc.ServerCallContext) As Task(Of PublishMessageResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.PublishMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.ResolveIncident(GatewayProtocol.ResolveIncidentRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.ResolveIncident(GatewayProtocol.ResolveIncidentRequest,grpc.ServerCallContext)
+  id: ResolveIncident(GatewayProtocol.ResolveIncidentRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: ResolveIncident(ResolveIncidentRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.ResolveIncident(ResolveIncidentRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.ResolveIncident(GatewayProtocol.ResolveIncidentRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ResolveIncident
+    path: ''
+    startLine: 8078
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nResolves a given incident. This simply marks the incident as resolved; most likely a call to\nUpdateJobRetries or SetVariables will be necessary to actually resolve the\nproblem, following by this call.\n\nErrors:\nNOT_FOUND:\n- no incident with the given key exists\n"
+  example: []
+  syntax:
+    content: public virtual Task<ResolveIncidentResponse> ResolveIncident(ResolveIncidentRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.ResolveIncidentRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.ResolveIncidentResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function ResolveIncident(request As ResolveIncidentRequest, context As grpc.ServerCallContext) As Task(Of ResolveIncidentResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.ResolveIncident*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.SetVariables(GatewayProtocol.SetVariablesRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.SetVariables(GatewayProtocol.SetVariablesRequest,grpc.ServerCallContext)
+  id: SetVariables(GatewayProtocol.SetVariablesRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: SetVariables(SetVariablesRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.SetVariables(SetVariablesRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.SetVariables(GatewayProtocol.SetVariablesRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: SetVariables
+    path: ''
+    startLine: 8098
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nUpdates all the variables of a particular scope (e.g. workflow instance, flow element instance)\nfrom the given JSON document.\n\nErrors:\nNOT_FOUND:\n- no element with the given elementInstanceKey exists\nINVALID_ARGUMENT:\n- the given variables document is not a valid JSON document; valid documents are expected to\nbe JSON documents where the root node is an object.\n"
+  example: []
+  syntax:
+    content: public virtual Task<SetVariablesResponse> SetVariables(SetVariablesRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.SetVariablesRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.SetVariablesResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function SetVariables(request As SetVariablesRequest, context As grpc.ServerCallContext) As Task(Of SetVariablesResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.SetVariables*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.Topology(GatewayProtocol.TopologyRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.Topology(GatewayProtocol.TopologyRequest,grpc.ServerCallContext)
+  id: Topology(GatewayProtocol.TopologyRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: Topology(TopologyRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.Topology(TopologyRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.Topology(GatewayProtocol.TopologyRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: Topology
+    path: ''
+    startLine: 8110
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nObtains the current topology of the cluster the gateway is part of.\n"
+  example: []
+  syntax:
+    content: public virtual Task<TopologyResponse> Topology(TopologyRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.TopologyRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.TopologyResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function Topology(request As TopologyRequest, context As grpc.ServerCallContext) As Task(Of TopologyResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.Topology*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries(GatewayProtocol.UpdateJobRetriesRequest,grpc.ServerCallContext)
+  commentId: M:GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries(GatewayProtocol.UpdateJobRetriesRequest,grpc.ServerCallContext)
+  id: UpdateJobRetries(GatewayProtocol.UpdateJobRetriesRequest,grpc.ServerCallContext)
+  parent: GatewayProtocol.Gateway.GatewayBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateJobRetries(UpdateJobRetriesRequest, grpc.ServerCallContext)
+  nameWithType: Gateway.GatewayBase.UpdateJobRetries(UpdateJobRetriesRequest, grpc.ServerCallContext)
+  fullName: GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries(GatewayProtocol.UpdateJobRetriesRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: UpdateJobRetries
+    path: ''
+    startLine: 8130
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\n\nUpdates the number of retries a job has left. This is mostly useful for jobs that have run out of\nretries, should the underlying problem be solved.\n\nErrors:\nNOT_FOUND:\n- no job exists with the given key\n\nINVALID_ARGUMENT:\n- retries is not greater than 0\n"
+  example: []
+  syntax:
+    content: public virtual Task<UpdateJobRetriesResponse> UpdateJobRetries(UpdateJobRetriesRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: GatewayProtocol.UpdateJobRetriesRequest
+      description: The request received from the client.
+    - id: context
+      type: grpc.ServerCallContext
+      description: The context of the server-side call handler being invoked.
+    return:
+      type: System.Threading.Tasks.Task{GatewayProtocol.UpdateJobRetriesResponse}
+      description: The response to send back to the client (wrapped by a task).
+    content.vb: Public Overridable Function UpdateJobRetries(request As UpdateJobRetriesRequest, context As grpc.ServerCallContext) As Task(Of UpdateJobRetriesResponse)
+  overload: GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.Gateway.GatewayBase.ActivateJobs*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.ActivateJobs
+  name: ActivateJobs
+  nameWithType: Gateway.GatewayBase.ActivateJobs
+  fullName: GatewayProtocol.Gateway.GatewayBase.ActivateJobs
+- uid: GatewayProtocol.ActivateJobsRequest
+  commentId: T:GatewayProtocol.ActivateJobsRequest
+  parent: GatewayProtocol
+  name: ActivateJobsRequest
+  nameWithType: ActivateJobsRequest
+  fullName: GatewayProtocol.ActivateJobsRequest
+- uid: grpc.IServerStreamWriter{GatewayProtocol.ActivateJobsResponse}
+  commentId: '!:grpc.IServerStreamWriter{GatewayProtocol.ActivateJobsResponse}'
+  definition: grpc.IServerStreamWriter`1
+  name: grpc.IServerStreamWriter<ActivateJobsResponse>
+  nameWithType: grpc.IServerStreamWriter<ActivateJobsResponse>
+  fullName: grpc.IServerStreamWriter<GatewayProtocol.ActivateJobsResponse>
+  nameWithType.vb: grpc.IServerStreamWriter(Of ActivateJobsResponse)
+  fullName.vb: grpc.IServerStreamWriter(Of GatewayProtocol.ActivateJobsResponse)
+  name.vb: grpc.IServerStreamWriter(Of ActivateJobsResponse)
+  spec.csharp:
+  - uid: grpc.IServerStreamWriter`1
+    name: grpc.IServerStreamWriter
+    nameWithType: grpc.IServerStreamWriter
+    fullName: grpc.IServerStreamWriter
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.ActivateJobsResponse
+    name: ActivateJobsResponse
+    nameWithType: ActivateJobsResponse
+    fullName: GatewayProtocol.ActivateJobsResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.IServerStreamWriter`1
+    name: grpc.IServerStreamWriter
+    nameWithType: grpc.IServerStreamWriter
+    fullName: grpc.IServerStreamWriter
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.ActivateJobsResponse
+    name: ActivateJobsResponse
+    nameWithType: ActivateJobsResponse
+    fullName: GatewayProtocol.ActivateJobsResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: grpc.ServerCallContext
+  isExternal: true
+  name: grpc.ServerCallContext
+  nameWithType: grpc.ServerCallContext
+  fullName: grpc.ServerCallContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: grpc.IServerStreamWriter`1
+  commentId: '!:grpc.IServerStreamWriter`1'
+  isExternal: true
+  name: grpc.IServerStreamWriter<>
+  nameWithType: grpc.IServerStreamWriter<>
+  fullName: grpc.IServerStreamWriter<>
+  nameWithType.vb: grpc.IServerStreamWriter(Of )
+  fullName.vb: grpc.IServerStreamWriter(Of )
+  name.vb: grpc.IServerStreamWriter(Of )
+  spec.csharp:
+  - uid: grpc.IServerStreamWriter`1
+    name: grpc.IServerStreamWriter
+    nameWithType: grpc.IServerStreamWriter
+    fullName: grpc.IServerStreamWriter
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.IServerStreamWriter`1
+    name: grpc.IServerStreamWriter
+    nameWithType: grpc.IServerStreamWriter
+    fullName: grpc.IServerStreamWriter
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance
+  name: CancelWorkflowInstance
+  nameWithType: Gateway.GatewayBase.CancelWorkflowInstance
+  fullName: GatewayProtocol.Gateway.GatewayBase.CancelWorkflowInstance
+- uid: GatewayProtocol.CancelWorkflowInstanceRequest
+  commentId: T:GatewayProtocol.CancelWorkflowInstanceRequest
+  parent: GatewayProtocol
+  name: CancelWorkflowInstanceRequest
+  nameWithType: CancelWorkflowInstanceRequest
+  fullName: GatewayProtocol.CancelWorkflowInstanceRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.CancelWorkflowInstanceResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.CancelWorkflowInstanceResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CancelWorkflowInstanceResponse>
+  nameWithType: Task<CancelWorkflowInstanceResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.CancelWorkflowInstanceResponse>
+  nameWithType.vb: Task(Of CancelWorkflowInstanceResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.CancelWorkflowInstanceResponse)
+  name.vb: Task(Of CancelWorkflowInstanceResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.CancelWorkflowInstanceResponse
+    name: CancelWorkflowInstanceResponse
+    nameWithType: CancelWorkflowInstanceResponse
+    fullName: GatewayProtocol.CancelWorkflowInstanceResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.CancelWorkflowInstanceResponse
+    name: CancelWorkflowInstanceResponse
+    nameWithType: CancelWorkflowInstanceResponse
+    fullName: GatewayProtocol.CancelWorkflowInstanceResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.CompleteJob*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.CompleteJob
+  name: CompleteJob
+  nameWithType: Gateway.GatewayBase.CompleteJob
+  fullName: GatewayProtocol.Gateway.GatewayBase.CompleteJob
+- uid: GatewayProtocol.CompleteJobRequest
+  commentId: T:GatewayProtocol.CompleteJobRequest
+  parent: GatewayProtocol
+  name: CompleteJobRequest
+  nameWithType: CompleteJobRequest
+  fullName: GatewayProtocol.CompleteJobRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.CompleteJobResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.CompleteJobResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CompleteJobResponse>
+  nameWithType: Task<CompleteJobResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.CompleteJobResponse>
+  nameWithType.vb: Task(Of CompleteJobResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.CompleteJobResponse)
+  name.vb: Task(Of CompleteJobResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.CompleteJobResponse
+    name: CompleteJobResponse
+    nameWithType: CompleteJobResponse
+    fullName: GatewayProtocol.CompleteJobResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.CompleteJobResponse
+    name: CompleteJobResponse
+    nameWithType: CompleteJobResponse
+    fullName: GatewayProtocol.CompleteJobResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance
+  name: CreateWorkflowInstance
+  nameWithType: Gateway.GatewayBase.CreateWorkflowInstance
+  fullName: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstance
+- uid: GatewayProtocol.CreateWorkflowInstanceRequest
+  commentId: T:GatewayProtocol.CreateWorkflowInstanceRequest
+  parent: GatewayProtocol
+  name: CreateWorkflowInstanceRequest
+  nameWithType: CreateWorkflowInstanceRequest
+  fullName: GatewayProtocol.CreateWorkflowInstanceRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.CreateWorkflowInstanceResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.CreateWorkflowInstanceResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CreateWorkflowInstanceResponse>
+  nameWithType: Task<CreateWorkflowInstanceResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.CreateWorkflowInstanceResponse>
+  nameWithType.vb: Task(Of CreateWorkflowInstanceResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.CreateWorkflowInstanceResponse)
+  name.vb: Task(Of CreateWorkflowInstanceResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.CreateWorkflowInstanceResponse
+    name: CreateWorkflowInstanceResponse
+    nameWithType: CreateWorkflowInstanceResponse
+    fullName: GatewayProtocol.CreateWorkflowInstanceResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.CreateWorkflowInstanceResponse
+    name: CreateWorkflowInstanceResponse
+    nameWithType: CreateWorkflowInstanceResponse
+    fullName: GatewayProtocol.CreateWorkflowInstanceResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult
+  name: CreateWorkflowInstanceWithResult
+  nameWithType: Gateway.GatewayBase.CreateWorkflowInstanceWithResult
+  fullName: GatewayProtocol.Gateway.GatewayBase.CreateWorkflowInstanceWithResult
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultRequest
+  commentId: T:GatewayProtocol.CreateWorkflowInstanceWithResultRequest
+  parent: GatewayProtocol
+  name: CreateWorkflowInstanceWithResultRequest
+  nameWithType: CreateWorkflowInstanceWithResultRequest
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.CreateWorkflowInstanceWithResultResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.CreateWorkflowInstanceWithResultResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CreateWorkflowInstanceWithResultResponse>
+  nameWithType: Task<CreateWorkflowInstanceWithResultResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.CreateWorkflowInstanceWithResultResponse>
+  nameWithType.vb: Task(Of CreateWorkflowInstanceWithResultResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  name.vb: Task(Of CreateWorkflowInstanceWithResultResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    name: CreateWorkflowInstanceWithResultResponse
+    nameWithType: CreateWorkflowInstanceWithResultResponse
+    fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    name: CreateWorkflowInstanceWithResultResponse
+    nameWithType: CreateWorkflowInstanceWithResultResponse
+    fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.DeployWorkflow*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.DeployWorkflow
+  name: DeployWorkflow
+  nameWithType: Gateway.GatewayBase.DeployWorkflow
+  fullName: GatewayProtocol.Gateway.GatewayBase.DeployWorkflow
+- uid: GatewayProtocol.DeployWorkflowRequest
+  commentId: T:GatewayProtocol.DeployWorkflowRequest
+  parent: GatewayProtocol
+  name: DeployWorkflowRequest
+  nameWithType: DeployWorkflowRequest
+  fullName: GatewayProtocol.DeployWorkflowRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.DeployWorkflowResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.DeployWorkflowResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DeployWorkflowResponse>
+  nameWithType: Task<DeployWorkflowResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.DeployWorkflowResponse>
+  nameWithType.vb: Task(Of DeployWorkflowResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.DeployWorkflowResponse)
+  name.vb: Task(Of DeployWorkflowResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.DeployWorkflowResponse
+    name: DeployWorkflowResponse
+    nameWithType: DeployWorkflowResponse
+    fullName: GatewayProtocol.DeployWorkflowResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.DeployWorkflowResponse
+    name: DeployWorkflowResponse
+    nameWithType: DeployWorkflowResponse
+    fullName: GatewayProtocol.DeployWorkflowResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.FailJob*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.FailJob
+  name: FailJob
+  nameWithType: Gateway.GatewayBase.FailJob
+  fullName: GatewayProtocol.Gateway.GatewayBase.FailJob
+- uid: GatewayProtocol.FailJobRequest
+  commentId: T:GatewayProtocol.FailJobRequest
+  parent: GatewayProtocol
+  name: FailJobRequest
+  nameWithType: FailJobRequest
+  fullName: GatewayProtocol.FailJobRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.FailJobResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.FailJobResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FailJobResponse>
+  nameWithType: Task<FailJobResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.FailJobResponse>
+  nameWithType.vb: Task(Of FailJobResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.FailJobResponse)
+  name.vb: Task(Of FailJobResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.FailJobResponse
+    name: FailJobResponse
+    nameWithType: FailJobResponse
+    fullName: GatewayProtocol.FailJobResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.FailJobResponse
+    name: FailJobResponse
+    nameWithType: FailJobResponse
+    fullName: GatewayProtocol.FailJobResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.PublishMessage*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.PublishMessage
+  name: PublishMessage
+  nameWithType: Gateway.GatewayBase.PublishMessage
+  fullName: GatewayProtocol.Gateway.GatewayBase.PublishMessage
+- uid: GatewayProtocol.PublishMessageRequest
+  commentId: T:GatewayProtocol.PublishMessageRequest
+  parent: GatewayProtocol
+  name: PublishMessageRequest
+  nameWithType: PublishMessageRequest
+  fullName: GatewayProtocol.PublishMessageRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.PublishMessageResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.PublishMessageResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PublishMessageResponse>
+  nameWithType: Task<PublishMessageResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.PublishMessageResponse>
+  nameWithType.vb: Task(Of PublishMessageResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.PublishMessageResponse)
+  name.vb: Task(Of PublishMessageResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.PublishMessageResponse
+    name: PublishMessageResponse
+    nameWithType: PublishMessageResponse
+    fullName: GatewayProtocol.PublishMessageResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.PublishMessageResponse
+    name: PublishMessageResponse
+    nameWithType: PublishMessageResponse
+    fullName: GatewayProtocol.PublishMessageResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.ResolveIncident*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.ResolveIncident
+  name: ResolveIncident
+  nameWithType: Gateway.GatewayBase.ResolveIncident
+  fullName: GatewayProtocol.Gateway.GatewayBase.ResolveIncident
+- uid: GatewayProtocol.ResolveIncidentRequest
+  commentId: T:GatewayProtocol.ResolveIncidentRequest
+  parent: GatewayProtocol
+  name: ResolveIncidentRequest
+  nameWithType: ResolveIncidentRequest
+  fullName: GatewayProtocol.ResolveIncidentRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.ResolveIncidentResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.ResolveIncidentResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ResolveIncidentResponse>
+  nameWithType: Task<ResolveIncidentResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.ResolveIncidentResponse>
+  nameWithType.vb: Task(Of ResolveIncidentResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.ResolveIncidentResponse)
+  name.vb: Task(Of ResolveIncidentResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.ResolveIncidentResponse
+    name: ResolveIncidentResponse
+    nameWithType: ResolveIncidentResponse
+    fullName: GatewayProtocol.ResolveIncidentResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.ResolveIncidentResponse
+    name: ResolveIncidentResponse
+    nameWithType: ResolveIncidentResponse
+    fullName: GatewayProtocol.ResolveIncidentResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.SetVariables*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.SetVariables
+  name: SetVariables
+  nameWithType: Gateway.GatewayBase.SetVariables
+  fullName: GatewayProtocol.Gateway.GatewayBase.SetVariables
+- uid: GatewayProtocol.SetVariablesRequest
+  commentId: T:GatewayProtocol.SetVariablesRequest
+  parent: GatewayProtocol
+  name: SetVariablesRequest
+  nameWithType: SetVariablesRequest
+  fullName: GatewayProtocol.SetVariablesRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.SetVariablesResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.SetVariablesResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SetVariablesResponse>
+  nameWithType: Task<SetVariablesResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.SetVariablesResponse>
+  nameWithType.vb: Task(Of SetVariablesResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.SetVariablesResponse)
+  name.vb: Task(Of SetVariablesResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.SetVariablesResponse
+    name: SetVariablesResponse
+    nameWithType: SetVariablesResponse
+    fullName: GatewayProtocol.SetVariablesResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.SetVariablesResponse
+    name: SetVariablesResponse
+    nameWithType: SetVariablesResponse
+    fullName: GatewayProtocol.SetVariablesResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.Topology*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.Topology
+  name: Topology
+  nameWithType: Gateway.GatewayBase.Topology
+  fullName: GatewayProtocol.Gateway.GatewayBase.Topology
+- uid: GatewayProtocol.TopologyRequest
+  commentId: T:GatewayProtocol.TopologyRequest
+  parent: GatewayProtocol
+  name: TopologyRequest
+  nameWithType: TopologyRequest
+  fullName: GatewayProtocol.TopologyRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.TopologyResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.TopologyResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TopologyResponse>
+  nameWithType: Task<TopologyResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.TopologyResponse>
+  nameWithType.vb: Task(Of TopologyResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.TopologyResponse)
+  name.vb: Task(Of TopologyResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.TopologyResponse
+    name: TopologyResponse
+    nameWithType: TopologyResponse
+    fullName: GatewayProtocol.TopologyResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.TopologyResponse
+    name: TopologyResponse
+    nameWithType: TopologyResponse
+    fullName: GatewayProtocol.TopologyResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries*
+  commentId: Overload:GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries
+  name: UpdateJobRetries
+  nameWithType: Gateway.GatewayBase.UpdateJobRetries
+  fullName: GatewayProtocol.Gateway.GatewayBase.UpdateJobRetries
+- uid: GatewayProtocol.UpdateJobRetriesRequest
+  commentId: T:GatewayProtocol.UpdateJobRetriesRequest
+  parent: GatewayProtocol
+  name: UpdateJobRetriesRequest
+  nameWithType: UpdateJobRetriesRequest
+  fullName: GatewayProtocol.UpdateJobRetriesRequest
+- uid: System.Threading.Tasks.Task{GatewayProtocol.UpdateJobRetriesResponse}
+  commentId: T:System.Threading.Tasks.Task{GatewayProtocol.UpdateJobRetriesResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UpdateJobRetriesResponse>
+  nameWithType: Task<UpdateJobRetriesResponse>
+  fullName: System.Threading.Tasks.Task<GatewayProtocol.UpdateJobRetriesResponse>
+  nameWithType.vb: Task(Of UpdateJobRetriesResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of GatewayProtocol.UpdateJobRetriesResponse)
+  name.vb: Task(Of UpdateJobRetriesResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.UpdateJobRetriesResponse
+    name: UpdateJobRetriesResponse
+    nameWithType: UpdateJobRetriesResponse
+    fullName: GatewayProtocol.UpdateJobRetriesResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.UpdateJobRetriesResponse
+    name: UpdateJobRetriesResponse
+    nameWithType: UpdateJobRetriesResponse
+    fullName: GatewayProtocol.UpdateJobRetriesResponse
+  - name: )
+    nameWithType: )
+    fullName: )

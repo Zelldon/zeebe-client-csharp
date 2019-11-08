@@ -1,0 +1,1141 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.ActivateJobsRequest
+  commentId: T:GatewayProtocol.ActivateJobsRequest
+  id: ActivateJobsRequest
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.ActivateJobsRequest.#ctor
+  - GatewayProtocol.ActivateJobsRequest.#ctor(GatewayProtocol.ActivateJobsRequest)
+  - GatewayProtocol.ActivateJobsRequest.CalculateSize
+  - GatewayProtocol.ActivateJobsRequest.Clone
+  - GatewayProtocol.ActivateJobsRequest.Descriptor
+  - GatewayProtocol.ActivateJobsRequest.Equals(GatewayProtocol.ActivateJobsRequest)
+  - GatewayProtocol.ActivateJobsRequest.Equals(System.Object)
+  - GatewayProtocol.ActivateJobsRequest.FetchVariable
+  - GatewayProtocol.ActivateJobsRequest.FetchVariableFieldNumber
+  - GatewayProtocol.ActivateJobsRequest.GetHashCode
+  - GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate
+  - GatewayProtocol.ActivateJobsRequest.MaxJobsToActivateFieldNumber
+  - GatewayProtocol.ActivateJobsRequest.MergeFrom(GatewayProtocol.ActivateJobsRequest)
+  - GatewayProtocol.ActivateJobsRequest.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.ActivateJobsRequest.Parser
+  - GatewayProtocol.ActivateJobsRequest.RequestTimeout
+  - GatewayProtocol.ActivateJobsRequest.RequestTimeoutFieldNumber
+  - GatewayProtocol.ActivateJobsRequest.Timeout
+  - GatewayProtocol.ActivateJobsRequest.TimeoutFieldNumber
+  - GatewayProtocol.ActivateJobsRequest.ToString
+  - GatewayProtocol.ActivateJobsRequest.Type
+  - GatewayProtocol.ActivateJobsRequest.TypeFieldNumber
+  - GatewayProtocol.ActivateJobsRequest.Worker
+  - GatewayProtocol.ActivateJobsRequest.WorkerFieldNumber
+  - GatewayProtocol.ActivateJobsRequest.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ActivateJobsRequest
+  nameWithType: ActivateJobsRequest
+  fullName: GatewayProtocol.ActivateJobsRequest
+  type: Class
+  source:
+    id: ActivateJobsRequest
+    path: ''
+    startLine: 2550
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class ActivateJobsRequest : pb.IMessage<ActivateJobsRequest>'
+    content.vb: >-
+      Public NotInheritable Class ActivateJobsRequest
+          Inherits pb.IMessage(Of ActivateJobsRequest)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.ActivateJobsRequest.Parser
+  commentId: P:GatewayProtocol.ActivateJobsRequest.Parser
+  id: Parser
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ActivateJobsRequest.Parser
+  fullName: GatewayProtocol.ActivateJobsRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 2553
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<ActivateJobsRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.ActivateJobsRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ActivateJobsRequest)
+  overload: GatewayProtocol.ActivateJobsRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.ActivateJobsRequest.Descriptor
+  commentId: P:GatewayProtocol.ActivateJobsRequest.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ActivateJobsRequest.Descriptor
+  fullName: GatewayProtocol.ActivateJobsRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 2556
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.ActivateJobsRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.ActivateJobsRequest.#ctor
+  commentId: M:GatewayProtocol.ActivateJobsRequest.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: ActivateJobsRequest()
+  nameWithType: ActivateJobsRequest.ActivateJobsRequest()
+  fullName: GatewayProtocol.ActivateJobsRequest.ActivateJobsRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2566
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public ActivateJobsRequest()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.ActivateJobsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.#ctor(GatewayProtocol.ActivateJobsRequest)
+  commentId: M:GatewayProtocol.ActivateJobsRequest.#ctor(GatewayProtocol.ActivateJobsRequest)
+  id: '#ctor(GatewayProtocol.ActivateJobsRequest)'
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: ActivateJobsRequest(ActivateJobsRequest)
+  nameWithType: ActivateJobsRequest.ActivateJobsRequest(ActivateJobsRequest)
+  fullName: GatewayProtocol.ActivateJobsRequest.ActivateJobsRequest(GatewayProtocol.ActivateJobsRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2573
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public ActivateJobsRequest(ActivateJobsRequest other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.ActivateJobsRequest
+    content.vb: Public Sub New(other As ActivateJobsRequest)
+  overload: GatewayProtocol.ActivateJobsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.Clone
+  commentId: M:GatewayProtocol.ActivateJobsRequest.Clone
+  id: Clone
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ActivateJobsRequest.Clone()
+  fullName: GatewayProtocol.ActivateJobsRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 2584
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public ActivateJobsRequest Clone()
+    return:
+      type: GatewayProtocol.ActivateJobsRequest
+    content.vb: Public Function Clone As ActivateJobsRequest
+  overload: GatewayProtocol.ActivateJobsRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.TypeFieldNumber
+  commentId: F:GatewayProtocol.ActivateJobsRequest.TypeFieldNumber
+  id: TypeFieldNumber
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: TypeFieldNumber
+  nameWithType: ActivateJobsRequest.TypeFieldNumber
+  fullName: GatewayProtocol.ActivateJobsRequest.TypeFieldNumber
+  type: Field
+  source:
+    id: TypeFieldNumber
+    path: ''
+    startLine: 2590
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;type&quot; field.
+  example: []
+  syntax:
+    content: public const int TypeFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const TypeFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.ActivateJobsRequest.Type
+  commentId: P:GatewayProtocol.ActivateJobsRequest.Type
+  id: Type
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ActivateJobsRequest.Type
+  fullName: GatewayProtocol.ActivateJobsRequest.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 2596
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe job type, as defined in the BPMN process (e.g. &lt;zeebe:taskDefinition\ntype=&quot;payment-service&quot; />)\n"
+  example: []
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: GatewayProtocol.ActivateJobsRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.WorkerFieldNumber
+  commentId: F:GatewayProtocol.ActivateJobsRequest.WorkerFieldNumber
+  id: WorkerFieldNumber
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: WorkerFieldNumber
+  nameWithType: ActivateJobsRequest.WorkerFieldNumber
+  fullName: GatewayProtocol.ActivateJobsRequest.WorkerFieldNumber
+  type: Field
+  source:
+    id: WorkerFieldNumber
+    path: ''
+    startLine: 2605
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;worker&quot; field.
+  example: []
+  syntax:
+    content: public const int WorkerFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const WorkerFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.ActivateJobsRequest.Worker
+  commentId: P:GatewayProtocol.ActivateJobsRequest.Worker
+  id: Worker
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Worker
+  nameWithType: ActivateJobsRequest.Worker
+  fullName: GatewayProtocol.ActivateJobsRequest.Worker
+  type: Property
+  source:
+    id: Worker
+    path: ''
+    startLine: 2610
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe name of the worker activating the jobs, mostly used for logging purposes\n"
+  example: []
+  syntax:
+    content: public string Worker { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Worker As String
+  overload: GatewayProtocol.ActivateJobsRequest.Worker*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.TimeoutFieldNumber
+  commentId: F:GatewayProtocol.ActivateJobsRequest.TimeoutFieldNumber
+  id: TimeoutFieldNumber
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeoutFieldNumber
+  nameWithType: ActivateJobsRequest.TimeoutFieldNumber
+  fullName: GatewayProtocol.ActivateJobsRequest.TimeoutFieldNumber
+  type: Field
+  source:
+    id: TimeoutFieldNumber
+    path: ''
+    startLine: 2619
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;timeout&quot; field.
+  example: []
+  syntax:
+    content: public const int TimeoutFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TimeoutFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.ActivateJobsRequest.Timeout
+  commentId: P:GatewayProtocol.ActivateJobsRequest.Timeout
+  id: Timeout
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: ActivateJobsRequest.Timeout
+  fullName: GatewayProtocol.ActivateJobsRequest.Timeout
+  type: Property
+  source:
+    id: Timeout
+    path: ''
+    startLine: 2625
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\na job returned after this call will not be activated by another call until the\ntimeout has been reached\n"
+  example: []
+  syntax:
+    content: public long Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Timeout As Long
+  overload: GatewayProtocol.ActivateJobsRequest.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.MaxJobsToActivateFieldNumber
+  commentId: F:GatewayProtocol.ActivateJobsRequest.MaxJobsToActivateFieldNumber
+  id: MaxJobsToActivateFieldNumber
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxJobsToActivateFieldNumber
+  nameWithType: ActivateJobsRequest.MaxJobsToActivateFieldNumber
+  fullName: GatewayProtocol.ActivateJobsRequest.MaxJobsToActivateFieldNumber
+  type: Field
+  source:
+    id: MaxJobsToActivateFieldNumber
+    path: ''
+    startLine: 2634
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;maxJobsToActivate&quot; field.
+  example: []
+  syntax:
+    content: public const int MaxJobsToActivateFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const MaxJobsToActivateFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate
+  commentId: P:GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate
+  id: MaxJobsToActivate
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxJobsToActivate
+  nameWithType: ActivateJobsRequest.MaxJobsToActivate
+  fullName: GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate
+  type: Property
+  source:
+    id: MaxJobsToActivate
+    path: ''
+    startLine: 2639
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe maximum jobs to activate by this request\n"
+  example: []
+  syntax:
+    content: public int MaxJobsToActivate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxJobsToActivate As Integer
+  overload: GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.FetchVariableFieldNumber
+  commentId: F:GatewayProtocol.ActivateJobsRequest.FetchVariableFieldNumber
+  id: FetchVariableFieldNumber
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: FetchVariableFieldNumber
+  nameWithType: ActivateJobsRequest.FetchVariableFieldNumber
+  fullName: GatewayProtocol.ActivateJobsRequest.FetchVariableFieldNumber
+  type: Field
+  source:
+    id: FetchVariableFieldNumber
+    path: ''
+    startLine: 2648
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;fetchVariable&quot; field.
+  example: []
+  syntax:
+    content: public const int FetchVariableFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const FetchVariableFieldNumber As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.ActivateJobsRequest.FetchVariable
+  commentId: P:GatewayProtocol.ActivateJobsRequest.FetchVariable
+  id: FetchVariable
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: FetchVariable
+  nameWithType: ActivateJobsRequest.FetchVariable
+  fullName: GatewayProtocol.ActivateJobsRequest.FetchVariable
+  type: Property
+  source:
+    id: FetchVariable
+    path: ''
+    startLine: 2656
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\na list of variables to fetch as the job variables; if empty, all visible variables at\nthe time of activation for the scope of the job will be returned\n"
+  example: []
+  syntax:
+    content: public pbc.RepeatedField<string> FetchVariable { get; }
+    parameters: []
+    return:
+      type: pbc.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property FetchVariable As pbc.RepeatedField(Of String)
+  overload: GatewayProtocol.ActivateJobsRequest.FetchVariable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GatewayProtocol.ActivateJobsRequest.RequestTimeoutFieldNumber
+  commentId: F:GatewayProtocol.ActivateJobsRequest.RequestTimeoutFieldNumber
+  id: RequestTimeoutFieldNumber
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: RequestTimeoutFieldNumber
+  nameWithType: ActivateJobsRequest.RequestTimeoutFieldNumber
+  fullName: GatewayProtocol.ActivateJobsRequest.RequestTimeoutFieldNumber
+  type: Field
+  source:
+    id: RequestTimeoutFieldNumber
+    path: ''
+    startLine: 2662
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;requestTimeout&quot; field.
+  example: []
+  syntax:
+    content: public const int RequestTimeoutFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const RequestTimeoutFieldNumber As Integer = 6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.ActivateJobsRequest.RequestTimeout
+  commentId: P:GatewayProtocol.ActivateJobsRequest.RequestTimeout
+  id: RequestTimeout
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: RequestTimeout
+  nameWithType: ActivateJobsRequest.RequestTimeout
+  fullName: GatewayProtocol.ActivateJobsRequest.RequestTimeout
+  type: Property
+  source:
+    id: RequestTimeout
+    path: ''
+    startLine: 2669
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nThe request will be completed when at least one job is activated or after the requestTimeout.\nif the requestTimeout = 0, a default timeout is used.\nif the requestTimeout &lt; 0, long polling is disabled and the request is completed immediately, even when no job is activated.\n"
+  example: []
+  syntax:
+    content: public long RequestTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RequestTimeout As Long
+  overload: GatewayProtocol.ActivateJobsRequest.RequestTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.Equals(System.Object)
+  commentId: M:GatewayProtocol.ActivateJobsRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ActivateJobsRequest.Equals(Object)
+  fullName: GatewayProtocol.ActivateJobsRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 2677
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.ActivateJobsRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.ActivateJobsRequest.Equals(GatewayProtocol.ActivateJobsRequest)
+  commentId: M:GatewayProtocol.ActivateJobsRequest.Equals(GatewayProtocol.ActivateJobsRequest)
+  id: Equals(GatewayProtocol.ActivateJobsRequest)
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(ActivateJobsRequest)
+  nameWithType: ActivateJobsRequest.Equals(ActivateJobsRequest)
+  fullName: GatewayProtocol.ActivateJobsRequest.Equals(GatewayProtocol.ActivateJobsRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 2682
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(ActivateJobsRequest other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.ActivateJobsRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ActivateJobsRequest) As Boolean
+  overload: GatewayProtocol.ActivateJobsRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.GetHashCode
+  commentId: M:GatewayProtocol.ActivateJobsRequest.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ActivateJobsRequest.GetHashCode()
+  fullName: GatewayProtocol.ActivateJobsRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 2699
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.ActivateJobsRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.ActivateJobsRequest.ToString
+  commentId: M:GatewayProtocol.ActivateJobsRequest.ToString
+  id: ToString
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ActivateJobsRequest.ToString()
+  fullName: GatewayProtocol.ActivateJobsRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 2714
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.ActivateJobsRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.ActivateJobsRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.ActivateJobsRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ActivateJobsRequest.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.ActivateJobsRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 2719
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.ActivateJobsRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.CalculateSize
+  commentId: M:GatewayProtocol.ActivateJobsRequest.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ActivateJobsRequest.CalculateSize()
+  fullName: GatewayProtocol.ActivateJobsRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 2747
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.ActivateJobsRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.MergeFrom(GatewayProtocol.ActivateJobsRequest)
+  commentId: M:GatewayProtocol.ActivateJobsRequest.MergeFrom(GatewayProtocol.ActivateJobsRequest)
+  id: MergeFrom(GatewayProtocol.ActivateJobsRequest)
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ActivateJobsRequest)
+  nameWithType: ActivateJobsRequest.MergeFrom(ActivateJobsRequest)
+  fullName: GatewayProtocol.ActivateJobsRequest.MergeFrom(GatewayProtocol.ActivateJobsRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 2772
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(ActivateJobsRequest other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.ActivateJobsRequest
+    content.vb: Public Sub MergeFrom(other As ActivateJobsRequest)
+  overload: GatewayProtocol.ActivateJobsRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ActivateJobsRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.ActivateJobsRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.ActivateJobsRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ActivateJobsRequest.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.ActivateJobsRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 2796
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.ActivateJobsRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.ActivateJobsRequest.Parser*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.Parser
+  name: Parser
+  nameWithType: ActivateJobsRequest.Parser
+  fullName: GatewayProtocol.ActivateJobsRequest.Parser
+- uid: pb.MessageParser{GatewayProtocol.ActivateJobsRequest}
+  commentId: '!:pb.MessageParser{GatewayProtocol.ActivateJobsRequest}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<ActivateJobsRequest>
+  nameWithType: pb.MessageParser<ActivateJobsRequest>
+  fullName: pb.MessageParser<GatewayProtocol.ActivateJobsRequest>
+  nameWithType.vb: pb.MessageParser(Of ActivateJobsRequest)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.ActivateJobsRequest)
+  name.vb: pb.MessageParser(Of ActivateJobsRequest)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.ActivateJobsRequest
+    name: ActivateJobsRequest
+    nameWithType: ActivateJobsRequest
+    fullName: GatewayProtocol.ActivateJobsRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.ActivateJobsRequest
+    name: ActivateJobsRequest
+    nameWithType: ActivateJobsRequest
+    fullName: GatewayProtocol.ActivateJobsRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.ActivateJobsRequest.Descriptor*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.Descriptor
+  name: Descriptor
+  nameWithType: ActivateJobsRequest.Descriptor
+  fullName: GatewayProtocol.ActivateJobsRequest.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.ActivateJobsRequest.#ctor*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.#ctor
+  name: ActivateJobsRequest
+  nameWithType: ActivateJobsRequest.ActivateJobsRequest
+  fullName: GatewayProtocol.ActivateJobsRequest.ActivateJobsRequest
+- uid: GatewayProtocol.ActivateJobsRequest
+  commentId: T:GatewayProtocol.ActivateJobsRequest
+  parent: GatewayProtocol
+  name: ActivateJobsRequest
+  nameWithType: ActivateJobsRequest
+  fullName: GatewayProtocol.ActivateJobsRequest
+- uid: GatewayProtocol.ActivateJobsRequest.Clone*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.Clone
+  name: Clone
+  nameWithType: ActivateJobsRequest.Clone
+  fullName: GatewayProtocol.ActivateJobsRequest.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.ActivateJobsRequest.Type*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.Type
+  name: Type
+  nameWithType: ActivateJobsRequest.Type
+  fullName: GatewayProtocol.ActivateJobsRequest.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.ActivateJobsRequest.Worker*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.Worker
+  name: Worker
+  nameWithType: ActivateJobsRequest.Worker
+  fullName: GatewayProtocol.ActivateJobsRequest.Worker
+- uid: GatewayProtocol.ActivateJobsRequest.Timeout*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.Timeout
+  name: Timeout
+  nameWithType: ActivateJobsRequest.Timeout
+  fullName: GatewayProtocol.ActivateJobsRequest.Timeout
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate
+  name: MaxJobsToActivate
+  nameWithType: ActivateJobsRequest.MaxJobsToActivate
+  fullName: GatewayProtocol.ActivateJobsRequest.MaxJobsToActivate
+- uid: GatewayProtocol.ActivateJobsRequest.FetchVariable*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.FetchVariable
+  name: FetchVariable
+  nameWithType: ActivateJobsRequest.FetchVariable
+  fullName: GatewayProtocol.ActivateJobsRequest.FetchVariable
+- uid: pbc.RepeatedField{System.String}
+  commentId: '!:pbc.RepeatedField{System.String}'
+  definition: pbc.RepeatedField`1
+  name: pbc.RepeatedField<String>
+  nameWithType: pbc.RepeatedField<String>
+  fullName: pbc.RepeatedField<System.String>
+  nameWithType.vb: pbc.RepeatedField(Of String)
+  fullName.vb: pbc.RepeatedField(Of System.String)
+  name.vb: pbc.RepeatedField(Of String)
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pbc.RepeatedField`1
+  isExternal: true
+  name: pbc.RepeatedField<>
+  nameWithType: pbc.RepeatedField<>
+  fullName: pbc.RepeatedField<>
+  nameWithType.vb: pbc.RepeatedField(Of )
+  fullName.vb: pbc.RepeatedField(Of )
+  name.vb: pbc.RepeatedField(Of )
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.ActivateJobsRequest.RequestTimeout*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.RequestTimeout
+  name: RequestTimeout
+  nameWithType: ActivateJobsRequest.RequestTimeout
+  fullName: GatewayProtocol.ActivateJobsRequest.RequestTimeout
+- uid: GatewayProtocol.ActivateJobsRequest.Equals*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.Equals
+  name: Equals
+  nameWithType: ActivateJobsRequest.Equals
+  fullName: GatewayProtocol.ActivateJobsRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.ActivateJobsRequest.GetHashCode*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.GetHashCode
+  name: GetHashCode
+  nameWithType: ActivateJobsRequest.GetHashCode
+  fullName: GatewayProtocol.ActivateJobsRequest.GetHashCode
+- uid: GatewayProtocol.ActivateJobsRequest.ToString*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.ToString
+  name: ToString
+  nameWithType: ActivateJobsRequest.ToString
+  fullName: GatewayProtocol.ActivateJobsRequest.ToString
+- uid: GatewayProtocol.ActivateJobsRequest.WriteTo*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.WriteTo
+  name: WriteTo
+  nameWithType: ActivateJobsRequest.WriteTo
+  fullName: GatewayProtocol.ActivateJobsRequest.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.ActivateJobsRequest.CalculateSize*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.CalculateSize
+  name: CalculateSize
+  nameWithType: ActivateJobsRequest.CalculateSize
+  fullName: GatewayProtocol.ActivateJobsRequest.CalculateSize
+- uid: GatewayProtocol.ActivateJobsRequest.MergeFrom*
+  commentId: Overload:GatewayProtocol.ActivateJobsRequest.MergeFrom
+  name: MergeFrom
+  nameWithType: ActivateJobsRequest.MergeFrom
+  fullName: GatewayProtocol.ActivateJobsRequest.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

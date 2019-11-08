@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.SetVariablesResponse
+  commentId: T:Zeebe.Client.Impl.Responses.SetVariablesResponse
+  id: SetVariablesResponse
+  parent: Zeebe.Client.Impl.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SetVariablesResponse
+  nameWithType: SetVariablesResponse
+  fullName: Zeebe.Client.Impl.Responses.SetVariablesResponse
+  type: Class
+  source:
+    id: SetVariablesResponse
+    path: ''
+    startLine: 9611
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class SetVariablesResponse : ISetVariablesResponse'
+    content.vb: >-
+      Public Class SetVariablesResponse
+          Inherits ISetVariablesResponse
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

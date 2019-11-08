@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+  id: ICreateWorkflowInstanceCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion
+  - Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ICreateWorkflowInstanceCommandStep2
+  nameWithType: ICreateWorkflowInstanceCommandStep2
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+  type: Interface
+  source:
+    id: ICreateWorkflowInstanceCommandStep2
+    path: ''
+    startLine: 1141
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface ICreateWorkflowInstanceCommandStep2
+    content.vb: Public Interface ICreateWorkflowInstanceCommandStep2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version(System.Int32)
+  commentId: M:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version(System.Int32)
+  id: Version(System.Int32)
+  parent: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+  langs:
+  - csharp
+  - vb
+  name: Version(Int32)
+  nameWithType: ICreateWorkflowInstanceCommandStep2.Version(Int32)
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version(System.Int32)
+  type: Method
+  source:
+    id: Version
+    path: ''
+    startLine: 1149
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the version of the workflow to create an instance of. The version is assigned by the\nbroker while deploying the workflow. It can be picked from the deployment or workflow event.\n"
+  example: []
+  syntax:
+    content: ICreateWorkflowInstanceCommandStep3 Version(int version)
+    parameters:
+    - id: version
+      type: System.Int32
+      description: the version of the workflow
+    return:
+      type: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+      description: the builder for this command
+    content.vb: Function Version(version As Integer) As ICreateWorkflowInstanceCommandStep3
+  overload: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version*
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion
+  commentId: M:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion
+  id: LatestVersion
+  parent: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+  langs:
+  - csharp
+  - vb
+  name: LatestVersion()
+  nameWithType: ICreateWorkflowInstanceCommandStep2.LatestVersion()
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion()
+  type: Method
+  source:
+    id: LatestVersion
+    path: ''
+    startLine: 1159
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nUse the latest version of the workflow to create an instance of.\n<p>\nIf the latest version was deployed few moments before then it can happen that the new\ninstance is created of the previous version.\n</p>\n"
+  example: []
+  syntax:
+    content: ICreateWorkflowInstanceCommandStep3 LatestVersion()
+    return:
+      type: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+      description: the builder for this command
+    content.vb: Function LatestVersion As ICreateWorkflowInstanceCommandStep3
+  overload: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version*
+  commentId: Overload:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version
+  name: Version
+  nameWithType: ICreateWorkflowInstanceCommandStep2.Version
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.Version
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  name: ICreateWorkflowInstanceCommandStep3
+  nameWithType: ICreateWorkflowInstanceCommandStep3
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion*
+  commentId: Overload:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion
+  name: LatestVersion
+  nameWithType: ICreateWorkflowInstanceCommandStep2.LatestVersion
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2.LatestVersion

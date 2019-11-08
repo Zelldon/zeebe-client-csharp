@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob
+  commentId: T:Zeebe.Client.Impl.Responses.ActivatedJob
+  id: ActivatedJob
+  parent: Zeebe.Client.Impl.Responses
+  children:
+  - Zeebe.Client.Impl.Responses.ActivatedJob.#ctor(GatewayProtocol.ActivatedJob)
+  - Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId
+  - Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders
+  - Zeebe.Client.Impl.Responses.ActivatedJob.Deadline
+  - Zeebe.Client.Impl.Responses.ActivatedJob.ElementId
+  - Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey
+  - Zeebe.Client.Impl.Responses.ActivatedJob.Key
+  - Zeebe.Client.Impl.Responses.ActivatedJob.Retries
+  - Zeebe.Client.Impl.Responses.ActivatedJob.ToString
+  - Zeebe.Client.Impl.Responses.ActivatedJob.Type
+  - Zeebe.Client.Impl.Responses.ActivatedJob.Variables
+  - Zeebe.Client.Impl.Responses.ActivatedJob.Worker
+  - Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion
+  - Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey
+  - Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey
+  langs:
+  - csharp
+  - vb
+  name: ActivatedJob
+  nameWithType: ActivatedJob
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob
+  type: Class
+  source:
+    id: ActivatedJob
+    path: ''
+    startLine: 9755
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class ActivatedJob : IJob'
+    content.vb: >-
+      Public Class ActivatedJob
+          Inherits IJob
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.#ctor(GatewayProtocol.ActivatedJob)
+  commentId: M:Zeebe.Client.Impl.Responses.ActivatedJob.#ctor(GatewayProtocol.ActivatedJob)
+  id: '#ctor(GatewayProtocol.ActivatedJob)'
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: ActivatedJob(ActivatedJob)
+  nameWithType: ActivatedJob.ActivatedJob(ActivatedJob)
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ActivatedJob(GatewayProtocol.ActivatedJob)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9764
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public ActivatedJob(ActivatedJob activatedJob)
+    parameters:
+    - id: activatedJob
+      type: GatewayProtocol.ActivatedJob
+    content.vb: Public Sub New(activatedJob As ActivatedJob)
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Key
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.Key
+  id: Key
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: ActivatedJob.Key
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Key
+  type: Property
+  source:
+    id: Key
+    path: ''
+    startLine: 9781
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public long Key { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property Key As Long
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.Key*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Type
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.Type
+  id: Type
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ActivatedJob.Type
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 9783
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Type As String
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey
+  id: WorkflowInstanceKey
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceKey
+  nameWithType: ActivatedJob.WorkflowInstanceKey
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey
+  type: Property
+  source:
+    id: WorkflowInstanceKey
+    path: ''
+    startLine: 9785
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public long WorkflowInstanceKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property WorkflowInstanceKey As Long
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId
+  id: BpmnProcessId
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId
+  nameWithType: ActivatedJob.BpmnProcessId
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId
+  type: Property
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 9787
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string BpmnProcessId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BpmnProcessId As String
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion
+  id: WorkflowDefinitionVersion
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: WorkflowDefinitionVersion
+  nameWithType: ActivatedJob.WorkflowDefinitionVersion
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion
+  type: Property
+  source:
+    id: WorkflowDefinitionVersion
+    path: ''
+    startLine: 9789
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public int WorkflowDefinitionVersion { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property WorkflowDefinitionVersion As Integer
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey
+  id: WorkflowKey
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey
+  nameWithType: ActivatedJob.WorkflowKey
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey
+  type: Property
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 9791
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public long WorkflowKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property WorkflowKey As Long
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.ElementId
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.ElementId
+  id: ElementId
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: ElementId
+  nameWithType: ActivatedJob.ElementId
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ElementId
+  type: Property
+  source:
+    id: ElementId
+    path: ''
+    startLine: 9793
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string ElementId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ElementId As String
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.ElementId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey
+  id: ElementInstanceKey
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: ElementInstanceKey
+  nameWithType: ActivatedJob.ElementInstanceKey
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey
+  type: Property
+  source:
+    id: ElementInstanceKey
+    path: ''
+    startLine: 9795
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public long ElementInstanceKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property ElementInstanceKey As Long
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Worker
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.Worker
+  id: Worker
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: Worker
+  nameWithType: ActivatedJob.Worker
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Worker
+  type: Property
+  source:
+    id: Worker
+    path: ''
+    startLine: 9797
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string Worker { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Worker As String
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.Worker*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Retries
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.Retries
+  id: Retries
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: Retries
+  nameWithType: ActivatedJob.Retries
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Retries
+  type: Property
+  source:
+    id: Retries
+    path: ''
+    startLine: 9799
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public int Retries { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Retries As Integer
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.Retries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Deadline
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.Deadline
+  id: Deadline
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: Deadline
+  nameWithType: ActivatedJob.Deadline
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Deadline
+  type: Property
+  source:
+    id: Deadline
+    path: ''
+    startLine: 9801
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public DateTime Deadline { get; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public ReadOnly Property Deadline As DateTime
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.Deadline*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Variables
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.Variables
+  id: Variables
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: ActivatedJob.Variables
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Variables
+  type: Property
+  source:
+    id: Variables
+    path: ''
+    startLine: 9803
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string Variables { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Variables As String
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.Variables*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders
+  commentId: P:Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders
+  id: CustomHeaders
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: CustomHeaders
+  nameWithType: ActivatedJob.CustomHeaders
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders
+  type: Property
+  source:
+    id: CustomHeaders
+    path: ''
+    startLine: 9805
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public string CustomHeaders { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CustomHeaders As String
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.ToString
+  commentId: M:Zeebe.Client.Impl.Responses.ActivatedJob.ToString
+  id: ToString
+  parent: Zeebe.Client.Impl.Responses.ActivatedJob
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ActivatedJob.ToString()
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 9807
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Zeebe.Client.Impl.Responses.ActivatedJob.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.#ctor
+  name: ActivatedJob
+  nameWithType: ActivatedJob.ActivatedJob
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ActivatedJob
+- uid: GatewayProtocol.ActivatedJob
+  commentId: T:GatewayProtocol.ActivatedJob
+  parent: GatewayProtocol
+  name: ActivatedJob
+  nameWithType: ActivatedJob
+  fullName: GatewayProtocol.ActivatedJob
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Key*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.Key
+  name: Key
+  nameWithType: ActivatedJob.Key
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Key
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Type*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.Type
+  name: Type
+  nameWithType: ActivatedJob.Type
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey
+  name: WorkflowInstanceKey
+  nameWithType: ActivatedJob.WorkflowInstanceKey
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowInstanceKey
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: ActivatedJob.BpmnProcessId
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.BpmnProcessId
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion
+  name: WorkflowDefinitionVersion
+  nameWithType: ActivatedJob.WorkflowDefinitionVersion
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowDefinitionVersion
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey
+  name: WorkflowKey
+  nameWithType: ActivatedJob.WorkflowKey
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.WorkflowKey
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.ElementId*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.ElementId
+  name: ElementId
+  nameWithType: ActivatedJob.ElementId
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ElementId
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey
+  name: ElementInstanceKey
+  nameWithType: ActivatedJob.ElementInstanceKey
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ElementInstanceKey
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Worker*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.Worker
+  name: Worker
+  nameWithType: ActivatedJob.Worker
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Worker
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Retries*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.Retries
+  name: Retries
+  nameWithType: ActivatedJob.Retries
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Retries
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Deadline*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.Deadline
+  name: Deadline
+  nameWithType: ActivatedJob.Deadline
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Deadline
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.Variables*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.Variables
+  name: Variables
+  nameWithType: ActivatedJob.Variables
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.Variables
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders
+  name: CustomHeaders
+  nameWithType: ActivatedJob.CustomHeaders
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.CustomHeaders
+- uid: Zeebe.Client.Impl.Responses.ActivatedJob.ToString*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivatedJob.ToString
+  name: ToString
+  nameWithType: ActivatedJob.ToString
+  fullName: Zeebe.Client.Impl.Responses.ActivatedJob.ToString

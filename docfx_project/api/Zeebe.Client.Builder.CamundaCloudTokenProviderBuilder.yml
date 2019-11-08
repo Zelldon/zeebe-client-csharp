@@ -1,0 +1,871 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  commentId: T:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  id: CamundaCloudTokenProviderBuilder
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build
+  - Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience(System.String)
+  - Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  - Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId(System.String)
+  - Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret(System.String)
+  - Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  langs:
+  - csharp
+  - vb
+  name: CamundaCloudTokenProviderBuilder
+  nameWithType: CamundaCloudTokenProviderBuilder
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  type: Class
+  source:
+    id: CamundaCloudTokenProviderBuilder
+    path: ''
+    startLine: 1823
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: 'public class CamundaCloudTokenProviderBuilder : ICamundaCloudTokenProviderBuilder, ICamundaCloudTokenProviderBuilderStep2, ICamundaCloudTokenProviderBuilderStep3, ICamundaCloudTokenProviderBuilderStep4, ICamundaCloudTokenProviderBuilderFinalStep'
+    content.vb: >-
+      Public Class CamundaCloudTokenProviderBuilder
+          Implements ICamundaCloudTokenProviderBuilder, ICamundaCloudTokenProviderBuilderStep2, ICamundaCloudTokenProviderBuilderStep3, ICamundaCloudTokenProviderBuilderStep4, ICamundaCloudTokenProviderBuilderFinalStep
+  inheritance:
+  - System.Object
+  implements:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  id: UseLoggerFactory(ILoggerFactory)
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseLoggerFactory(ILoggerFactory)
+  nameWithType: CamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  type: Method
+  source:
+    id: UseLoggerFactory
+    path: ''
+    startLine: 1837
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the logger factory which should be used by the token provider\nto log messages.\n*This is optional and no messages are logged if this method is not called.*\n"
+  example: []
+  syntax:
+    content: public ICamundaCloudTokenProviderBuilder UseLoggerFactory(ILoggerFactory loggerFactory)
+    parameters:
+    - id: loggerFactory
+      type: ILoggerFactory
+      description: the factory to create an ILogger
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+      description: the fluent ICamundaCloudTokenProviderBuilder
+    content.vb: Public Function UseLoggerFactory(loggerFactory As ILoggerFactory) As ICamundaCloudTokenProviderBuilder
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory*
+  implements:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  id: UseAuthServer(System.String)
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseAuthServer(String)
+  nameWithType: CamundaCloudTokenProviderBuilder.UseAuthServer(String)
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  type: Method
+  source:
+    id: UseAuthServer
+    path: ''
+    startLine: 1844
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the authorization server, from which the access token should be requested.\n"
+  example: []
+  syntax:
+    content: public ICamundaCloudTokenProviderBuilderStep2 UseAuthServer(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: an url, which points to the authorization server
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+      description: the next step in building a CamundaCloudTokenProvider
+    content.vb: Public Function UseAuthServer(url As String) As ICamundaCloudTokenProviderBuilderStep2
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer*
+  implements:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId(System.String)
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId(System.String)
+  id: UseClientId(System.String)
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseClientId(String)
+  nameWithType: CamundaCloudTokenProviderBuilder.UseClientId(String)
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId(System.String)
+  type: Method
+  source:
+    id: UseClientId
+    path: ''
+    startLine: 1856
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the client id, which should be used to create the access token.\nYou need to create a client in the Camunda Cloud, after that you can find a newly\ngenerated client id there.\n"
+  example: []
+  syntax:
+    content: public ICamundaCloudTokenProviderBuilderStep3 UseClientId(string clientId)
+    parameters:
+    - id: clientId
+      type: System.String
+      description: the client id, which is supplied by the Camunda Cloud
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+      description: the next step in building a CamundaCloudTokenProvider
+    content.vb: Public Function UseClientId(clientId As String) As ICamundaCloudTokenProviderBuilderStep3
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId*
+  implements:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret(System.String)
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret(System.String)
+  id: UseClientSecret(System.String)
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseClientSecret(String)
+  nameWithType: CamundaCloudTokenProviderBuilder.UseClientSecret(String)
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret(System.String)
+  type: Method
+  source:
+    id: UseClientSecret
+    path: ''
+    startLine: 1868
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the client secret, which should be used to create the access token.\nYou need to create a client in the Camunda Cloud, after that you can find a newly\ngenerated client secret there.\n"
+  example: []
+  syntax:
+    content: public ICamundaCloudTokenProviderBuilderStep4 UseClientSecret(string clientSecret)
+    parameters:
+    - id: clientSecret
+      type: System.String
+      description: the client secret, which is supplied by the Camunda Cloud
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+      description: the next step in building a CamundaCloudTokenProvider
+    content.vb: Public Function UseClientSecret(clientSecret As String) As ICamundaCloudTokenProviderBuilderStep4
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret*
+  implements:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience(System.String)
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience(System.String)
+  id: UseAudience(System.String)
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseAudience(String)
+  nameWithType: CamundaCloudTokenProviderBuilder.UseAudience(String)
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience(System.String)
+  type: Method
+  source:
+    id: UseAudience
+    path: ''
+    startLine: 1880
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the audience for which the token provider should create tokens.\n"
+  example: []
+  syntax:
+    content: public ICamundaCloudTokenProviderBuilderFinalStep UseAudience(string audience)
+    parameters:
+    - id: audience
+      type: System.String
+      description: the audience, which is normally a domain name
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+      description: the next step in building a CamundaCloudTokenProvider
+    content.vb: Public Function UseAudience(audience As String) As ICamundaCloudTokenProviderBuilderFinalStep
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience*
+  implements:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build
+  id: Build
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: CamundaCloudTokenProviderBuilder.Build()
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build()
+  type: Method
+  source:
+    id: Build
+    path: ''
+    startLine: 1892
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nBuilds the CamundaCloudTokenProvider, which can be used by the ZeebeClient to\ncommunicate with the Camunda Cloud.\n"
+  example: []
+  syntax:
+    content: public CamundaCloudTokenProvider Build()
+    return:
+      type: Zeebe.Client.Builder.CamundaCloudTokenProvider
+      description: the CamundaCloudTokenProvider
+    content.vb: Public Function Build As CamundaCloudTokenProvider
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build*
+  implements:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilder
+  nameWithType: ICamundaCloudTokenProviderBuilder
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilderStep2
+  nameWithType: ICamundaCloudTokenProviderBuilderStep2
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilderStep3
+  nameWithType: ICamundaCloudTokenProviderBuilderStep3
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilderStep4
+  nameWithType: ICamundaCloudTokenProviderBuilderStep4
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilderFinalStep
+  nameWithType: ICamundaCloudTokenProviderBuilderFinalStep
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory
+  name: UseLoggerFactory
+  nameWithType: CamundaCloudTokenProviderBuilder.UseLoggerFactory
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseLoggerFactory
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  isExternal: true
+  name: UseLoggerFactory(ILoggerFactory)
+  nameWithType: ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+    name: UseLoggerFactory
+    nameWithType: ICamundaCloudTokenProviderBuilder.UseLoggerFactory
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ILoggerFactory
+    name: ILoggerFactory
+    nameWithType: ILoggerFactory
+    fullName: ILoggerFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+    name: UseLoggerFactory
+    nameWithType: ICamundaCloudTokenProviderBuilder.UseLoggerFactory
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ILoggerFactory
+    name: ILoggerFactory
+    nameWithType: ILoggerFactory
+    fullName: ILoggerFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ILoggerFactory
+  isExternal: true
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: ILoggerFactory
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer
+  name: UseAuthServer
+  nameWithType: CamundaCloudTokenProviderBuilder.UseAuthServer
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAuthServer
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  isExternal: true
+  name: UseAuthServer(String)
+  nameWithType: ICamundaCloudTokenProviderBuilder.UseAuthServer(String)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+    name: UseAuthServer
+    nameWithType: ICamundaCloudTokenProviderBuilder.UseAuthServer
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+    name: UseAuthServer
+    nameWithType: ICamundaCloudTokenProviderBuilder.UseAuthServer
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId
+  name: UseClientId
+  nameWithType: CamundaCloudTokenProviderBuilder.UseClientId
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientId
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  isExternal: true
+  name: UseClientId(String)
+  nameWithType: ICamundaCloudTokenProviderBuilderStep2.UseClientId(String)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+    name: UseClientId
+    nameWithType: ICamundaCloudTokenProviderBuilderStep2.UseClientId
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+    name: UseClientId
+    nameWithType: ICamundaCloudTokenProviderBuilderStep2.UseClientId
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret
+  name: UseClientSecret
+  nameWithType: CamundaCloudTokenProviderBuilder.UseClientSecret
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseClientSecret
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret(System.String)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret(System.String)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+  isExternal: true
+  name: UseClientSecret(String)
+  nameWithType: ICamundaCloudTokenProviderBuilderStep3.UseClientSecret(String)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret(System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret(System.String)
+    name: UseClientSecret
+    nameWithType: ICamundaCloudTokenProviderBuilderStep3.UseClientSecret
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret(System.String)
+    name: UseClientSecret
+    nameWithType: ICamundaCloudTokenProviderBuilderStep3.UseClientSecret
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3.UseClientSecret
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience
+  name: UseAudience
+  nameWithType: CamundaCloudTokenProviderBuilder.UseAudience
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.UseAudience
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  isExternal: true
+  name: UseAudience(String)
+  nameWithType: ICamundaCloudTokenProviderBuilderStep4.UseAudience(String)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+    name: UseAudience
+    nameWithType: ICamundaCloudTokenProviderBuilderStep4.UseAudience
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+    name: UseAudience
+    nameWithType: ICamundaCloudTokenProviderBuilderStep4.UseAudience
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build
+  name: Build
+  nameWithType: CamundaCloudTokenProviderBuilder.Build
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder.Build
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  name: Build()
+  nameWithType: ICamundaCloudTokenProviderBuilderFinalStep.Build()
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build()
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+    name: Build
+    nameWithType: ICamundaCloudTokenProviderBuilderFinalStep.Build
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+    name: Build
+    nameWithType: ICamundaCloudTokenProviderBuilderFinalStep.Build
+    fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep.Build
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider
+  commentId: T:Zeebe.Client.Builder.CamundaCloudTokenProvider
+  parent: Zeebe.Client.Builder
+  name: CamundaCloudTokenProvider
+  nameWithType: CamundaCloudTokenProvider
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider

@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+  commentId: T:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+  id: CamundaCloudTokenProvider.AccessToken
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.#ctor(System.String,System.Int64)
+  - Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate
+  - Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token
+  - Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString
+  langs:
+  - csharp
+  - vb
+  name: CamundaCloudTokenProvider.AccessToken
+  nameWithType: CamundaCloudTokenProvider.AccessToken
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+  type: Class
+  source:
+    id: AccessToken
+    path: ''
+    startLine: 1787
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public class AccessToken
+    content.vb: Public Class AccessToken
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token
+  commentId: P:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token
+  id: Token
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: CamundaCloudTokenProvider.AccessToken.Token
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token
+  type: Property
+  source:
+    id: Token
+    path: ''
+    startLine: 1789
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public string Token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Token As String
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate
+  commentId: P:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate
+  id: DueDate
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+  langs:
+  - csharp
+  - vb
+  name: DueDate
+  nameWithType: CamundaCloudTokenProvider.AccessToken.DueDate
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate
+  type: Property
+  source:
+    id: DueDate
+    path: ''
+    startLine: 1790
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public long DueDate { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property DueDate As Long
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.#ctor(System.String,System.Int64)
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.#ctor(System.String,System.Int64)
+  id: '#ctor(System.String,System.Int64)'
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+  langs:
+  - csharp
+  - vb
+  name: AccessToken(String, Int64)
+  nameWithType: CamundaCloudTokenProvider.AccessToken.AccessToken(String, Int64)
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.AccessToken(System.String, System.Int64)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1792
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public AccessToken(string token, long dueDate)
+    parameters:
+    - id: token
+      type: System.String
+    - id: dueDate
+      type: System.Int64
+    content.vb: Public Sub New(token As String, dueDate As Long)
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString
+  commentId: M:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString
+  id: ToString
+  parent: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CamundaCloudTokenProvider.AccessToken.ToString()
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 1798
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token
+  name: Token
+  nameWithType: CamundaCloudTokenProvider.AccessToken.Token
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.Token
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate
+  name: DueDate
+  nameWithType: CamundaCloudTokenProvider.AccessToken.DueDate
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.DueDate
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.#ctor*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.#ctor
+  name: AccessToken
+  nameWithType: CamundaCloudTokenProvider.AccessToken.AccessToken
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.AccessToken
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString*
+  commentId: Overload:Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString
+  name: ToString
+  nameWithType: CamundaCloudTokenProvider.AccessToken.ToString
+  fullName: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken.ToString

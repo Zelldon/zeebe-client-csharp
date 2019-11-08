@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  commentId: T:Zeebe.Client.Api.Responses.PartitionBrokerRole
+  id: PartitionBrokerRole
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.PartitionBrokerRole.FOLLOWER
+  - Zeebe.Client.Api.Responses.PartitionBrokerRole.LEADER
+  langs:
+  - csharp
+  - vb
+  name: PartitionBrokerRole
+  nameWithType: PartitionBrokerRole
+  fullName: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  type: Enum
+  source:
+    id: PartitionBrokerRole
+    path: ''
+    startLine: 736
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nThe RAFT role of the broker either LEADER or FOLLOWER.\n"
+  example: []
+  syntax:
+    content: public enum PartitionBrokerRole
+    content.vb: Public Enum PartitionBrokerRole
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Zeebe.Client.Api.Responses.PartitionBrokerRole.LEADER
+  commentId: F:Zeebe.Client.Api.Responses.PartitionBrokerRole.LEADER
+  id: LEADER
+  parent: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  langs:
+  - csharp
+  - vb
+  name: LEADER
+  nameWithType: PartitionBrokerRole.LEADER
+  fullName: Zeebe.Client.Api.Responses.PartitionBrokerRole.LEADER
+  type: Field
+  source:
+    id: LEADER
+    path: ''
+    startLine: 738
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: LEADER = 0
+    return:
+      type: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Zeebe.Client.Api.Responses.PartitionBrokerRole.FOLLOWER
+  commentId: F:Zeebe.Client.Api.Responses.PartitionBrokerRole.FOLLOWER
+  id: FOLLOWER
+  parent: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  langs:
+  - csharp
+  - vb
+  name: FOLLOWER
+  nameWithType: PartitionBrokerRole.FOLLOWER
+  fullName: Zeebe.Client.Api.Responses.PartitionBrokerRole.FOLLOWER
+  type: Field
+  source:
+    id: FOLLOWER
+    path: ''
+    startLine: 739
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: FOLLOWER = 1
+    return:
+      type: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.PartitionBrokerRole
+  commentId: T:Zeebe.Client.Api.Responses.PartitionBrokerRole
+  parent: Zeebe.Client.Api.Responses
+  name: PartitionBrokerRole
+  nameWithType: PartitionBrokerRole
+  fullName: Zeebe.Client.Api.Responses.PartitionBrokerRole

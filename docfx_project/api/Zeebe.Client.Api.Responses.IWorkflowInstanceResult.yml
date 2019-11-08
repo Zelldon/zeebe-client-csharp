@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  commentId: T:Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  id: IWorkflowInstanceResult
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey
+  - Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey
+  langs:
+  - csharp
+  - vb
+  name: IWorkflowInstanceResult
+  nameWithType: IWorkflowInstanceResult
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  type: Interface
+  source:
+    id: IWorkflowInstanceResult
+    path: ''
+    startLine: 846
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nResponse for an create workflow instance with result command.\n"
+  example: []
+  syntax:
+    content: public interface IWorkflowInstanceResult
+    content.vb: Public Interface IWorkflowInstanceResult
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey
+  id: WorkflowKey
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey
+  nameWithType: IWorkflowInstanceResult.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey
+  type: Property
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 851
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long WorkflowKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: "\nKey of the workflow which this instance was created for.\n"
+    content.vb: ReadOnly Property WorkflowKey As Long
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId
+  id: BpmnProcessId
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId
+  nameWithType: IWorkflowInstanceResult.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId
+  type: Property
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 856
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string BpmnProcessId { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nBPMN process id of the workflow which this instance was created for.\n"
+    content.vb: ReadOnly Property BpmnProcessId As String
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version
+  id: Version
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: IWorkflowInstanceResult.Version
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version
+  type: Property
+  source:
+    id: Version
+    path: ''
+    startLine: 861
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: int Version { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nVersion of the workflow which this instance was created for.\n"
+    content.vb: ReadOnly Property Version As Integer
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey
+  id: WorkflowInstanceKey
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceKey
+  nameWithType: IWorkflowInstanceResult.WorkflowInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey
+  type: Property
+  source:
+    id: WorkflowInstanceKey
+    path: ''
+    startLine: 866
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long WorkflowInstanceKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: "\nUnique key of the created workflow instance on the partition.\n"
+    content.vb: ReadOnly Property WorkflowInstanceKey As Long
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables
+  id: Variables
+  parent: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: IWorkflowInstanceResult.Variables
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables
+  type: Property
+  source:
+    id: Variables
+    path: ''
+    startLine: 869
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string Variables { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'JSON-formatted variables '
+    content.vb: ReadOnly Property Variables As String
+  overload: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey
+  name: WorkflowKey
+  nameWithType: IWorkflowInstanceResult.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowKey
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: IWorkflowInstanceResult.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.BpmnProcessId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version
+  name: Version
+  nameWithType: IWorkflowInstanceResult.Version
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Version
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey
+  name: WorkflowInstanceKey
+  nameWithType: IWorkflowInstanceResult.WorkflowInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.WorkflowInstanceKey
+- uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables
+  name: Variables
+  nameWithType: IWorkflowInstanceResult.Variables
+  fullName: Zeebe.Client.Api.Responses.IWorkflowInstanceResult.Variables

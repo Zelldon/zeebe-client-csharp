@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.CompleteJobResponse
+  commentId: T:GatewayProtocol.CompleteJobResponse
+  id: CompleteJobResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.CompleteJobResponse.#ctor
+  - GatewayProtocol.CompleteJobResponse.#ctor(GatewayProtocol.CompleteJobResponse)
+  - GatewayProtocol.CompleteJobResponse.CalculateSize
+  - GatewayProtocol.CompleteJobResponse.Clone
+  - GatewayProtocol.CompleteJobResponse.Descriptor
+  - GatewayProtocol.CompleteJobResponse.Equals(GatewayProtocol.CompleteJobResponse)
+  - GatewayProtocol.CompleteJobResponse.Equals(System.Object)
+  - GatewayProtocol.CompleteJobResponse.GetHashCode
+  - GatewayProtocol.CompleteJobResponse.MergeFrom(GatewayProtocol.CompleteJobResponse)
+  - GatewayProtocol.CompleteJobResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.CompleteJobResponse.Parser
+  - GatewayProtocol.CompleteJobResponse.ToString
+  - GatewayProtocol.CompleteJobResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: CompleteJobResponse
+  nameWithType: CompleteJobResponse
+  fullName: GatewayProtocol.CompleteJobResponse
+  type: Class
+  source:
+    id: CompleteJobResponse
+    path: ''
+    startLine: 3862
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class CompleteJobResponse : pb.IMessage<CompleteJobResponse>'
+    content.vb: >-
+      Public NotInheritable Class CompleteJobResponse
+          Inherits pb.IMessage(Of CompleteJobResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.CompleteJobResponse.Parser
+  commentId: P:GatewayProtocol.CompleteJobResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: CompleteJobResponse.Parser
+  fullName: GatewayProtocol.CompleteJobResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 3865
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<CompleteJobResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.CompleteJobResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of CompleteJobResponse)
+  overload: GatewayProtocol.CompleteJobResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.CompleteJobResponse.Descriptor
+  commentId: P:GatewayProtocol.CompleteJobResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: CompleteJobResponse.Descriptor
+  fullName: GatewayProtocol.CompleteJobResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 3868
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.CompleteJobResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.CompleteJobResponse.#ctor
+  commentId: M:GatewayProtocol.CompleteJobResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: CompleteJobResponse()
+  nameWithType: CompleteJobResponse.CompleteJobResponse()
+  fullName: GatewayProtocol.CompleteJobResponse.CompleteJobResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3878
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CompleteJobResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.CompleteJobResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CompleteJobResponse.#ctor(GatewayProtocol.CompleteJobResponse)
+  commentId: M:GatewayProtocol.CompleteJobResponse.#ctor(GatewayProtocol.CompleteJobResponse)
+  id: '#ctor(GatewayProtocol.CompleteJobResponse)'
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: CompleteJobResponse(CompleteJobResponse)
+  nameWithType: CompleteJobResponse.CompleteJobResponse(CompleteJobResponse)
+  fullName: GatewayProtocol.CompleteJobResponse.CompleteJobResponse(GatewayProtocol.CompleteJobResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3885
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CompleteJobResponse(CompleteJobResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CompleteJobResponse
+    content.vb: Public Sub New(other As CompleteJobResponse)
+  overload: GatewayProtocol.CompleteJobResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CompleteJobResponse.Clone
+  commentId: M:GatewayProtocol.CompleteJobResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: CompleteJobResponse.Clone()
+  fullName: GatewayProtocol.CompleteJobResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 3890
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CompleteJobResponse Clone()
+    return:
+      type: GatewayProtocol.CompleteJobResponse
+    content.vb: Public Function Clone As CompleteJobResponse
+  overload: GatewayProtocol.CompleteJobResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CompleteJobResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.CompleteJobResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: CompleteJobResponse.Equals(Object)
+  fullName: GatewayProtocol.CompleteJobResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 3895
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.CompleteJobResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CompleteJobResponse.Equals(GatewayProtocol.CompleteJobResponse)
+  commentId: M:GatewayProtocol.CompleteJobResponse.Equals(GatewayProtocol.CompleteJobResponse)
+  id: Equals(GatewayProtocol.CompleteJobResponse)
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(CompleteJobResponse)
+  nameWithType: CompleteJobResponse.Equals(CompleteJobResponse)
+  fullName: GatewayProtocol.CompleteJobResponse.Equals(GatewayProtocol.CompleteJobResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 3900
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(CompleteJobResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CompleteJobResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As CompleteJobResponse) As Boolean
+  overload: GatewayProtocol.CompleteJobResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CompleteJobResponse.GetHashCode
+  commentId: M:GatewayProtocol.CompleteJobResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CompleteJobResponse.GetHashCode()
+  fullName: GatewayProtocol.CompleteJobResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 3911
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.CompleteJobResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CompleteJobResponse.ToString
+  commentId: M:GatewayProtocol.CompleteJobResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CompleteJobResponse.ToString()
+  fullName: GatewayProtocol.CompleteJobResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 3920
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.CompleteJobResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CompleteJobResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.CompleteJobResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: CompleteJobResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.CompleteJobResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 3925
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.CompleteJobResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CompleteJobResponse.CalculateSize
+  commentId: M:GatewayProtocol.CompleteJobResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: CompleteJobResponse.CalculateSize()
+  fullName: GatewayProtocol.CompleteJobResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 3932
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.CompleteJobResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CompleteJobResponse.MergeFrom(GatewayProtocol.CompleteJobResponse)
+  commentId: M:GatewayProtocol.CompleteJobResponse.MergeFrom(GatewayProtocol.CompleteJobResponse)
+  id: MergeFrom(GatewayProtocol.CompleteJobResponse)
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CompleteJobResponse)
+  nameWithType: CompleteJobResponse.MergeFrom(CompleteJobResponse)
+  fullName: GatewayProtocol.CompleteJobResponse.MergeFrom(GatewayProtocol.CompleteJobResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 3941
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(CompleteJobResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CompleteJobResponse
+    content.vb: Public Sub MergeFrom(other As CompleteJobResponse)
+  overload: GatewayProtocol.CompleteJobResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CompleteJobResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.CompleteJobResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.CompleteJobResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: CompleteJobResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.CompleteJobResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 3949
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.CompleteJobResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.CompleteJobResponse.Parser*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.Parser
+  name: Parser
+  nameWithType: CompleteJobResponse.Parser
+  fullName: GatewayProtocol.CompleteJobResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.CompleteJobResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.CompleteJobResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<CompleteJobResponse>
+  nameWithType: pb.MessageParser<CompleteJobResponse>
+  fullName: pb.MessageParser<GatewayProtocol.CompleteJobResponse>
+  nameWithType.vb: pb.MessageParser(Of CompleteJobResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.CompleteJobResponse)
+  name.vb: pb.MessageParser(Of CompleteJobResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.CompleteJobResponse
+    name: CompleteJobResponse
+    nameWithType: CompleteJobResponse
+    fullName: GatewayProtocol.CompleteJobResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.CompleteJobResponse
+    name: CompleteJobResponse
+    nameWithType: CompleteJobResponse
+    fullName: GatewayProtocol.CompleteJobResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.CompleteJobResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.Descriptor
+  name: Descriptor
+  nameWithType: CompleteJobResponse.Descriptor
+  fullName: GatewayProtocol.CompleteJobResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.CompleteJobResponse.#ctor*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.#ctor
+  name: CompleteJobResponse
+  nameWithType: CompleteJobResponse.CompleteJobResponse
+  fullName: GatewayProtocol.CompleteJobResponse.CompleteJobResponse
+- uid: GatewayProtocol.CompleteJobResponse
+  commentId: T:GatewayProtocol.CompleteJobResponse
+  parent: GatewayProtocol
+  name: CompleteJobResponse
+  nameWithType: CompleteJobResponse
+  fullName: GatewayProtocol.CompleteJobResponse
+- uid: GatewayProtocol.CompleteJobResponse.Clone*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.Clone
+  name: Clone
+  nameWithType: CompleteJobResponse.Clone
+  fullName: GatewayProtocol.CompleteJobResponse.Clone
+- uid: GatewayProtocol.CompleteJobResponse.Equals*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.Equals
+  name: Equals
+  nameWithType: CompleteJobResponse.Equals
+  fullName: GatewayProtocol.CompleteJobResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.CompleteJobResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: CompleteJobResponse.GetHashCode
+  fullName: GatewayProtocol.CompleteJobResponse.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.CompleteJobResponse.ToString*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.ToString
+  name: ToString
+  nameWithType: CompleteJobResponse.ToString
+  fullName: GatewayProtocol.CompleteJobResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.CompleteJobResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.WriteTo
+  name: WriteTo
+  nameWithType: CompleteJobResponse.WriteTo
+  fullName: GatewayProtocol.CompleteJobResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.CompleteJobResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: CompleteJobResponse.CalculateSize
+  fullName: GatewayProtocol.CompleteJobResponse.CalculateSize
+- uid: GatewayProtocol.CompleteJobResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.CompleteJobResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: CompleteJobResponse.MergeFrom
+  fullName: GatewayProtocol.CompleteJobResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

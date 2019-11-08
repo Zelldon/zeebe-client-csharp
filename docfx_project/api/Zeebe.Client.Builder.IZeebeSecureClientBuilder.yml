@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  id: IZeebeSecureClientBuilder
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken(System.String)
+  - Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier(Zeebe.Client.Builder.IAccessTokenSupplier)
+  langs:
+  - csharp
+  - vb
+  name: IZeebeSecureClientBuilder
+  nameWithType: IZeebeSecureClientBuilder
+  fullName: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  type: Interface
+  source:
+    id: IZeebeSecureClientBuilder
+    path: ''
+    startLine: 1953
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: 'public interface IZeebeSecureClientBuilder : IZeebeClientFinalBuildStep'
+    content.vb: >-
+      Public Interface IZeebeSecureClientBuilder
+          Inherits IZeebeClientFinalBuildStep
+  inheritedMembers:
+  - Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken(System.String)
+  commentId: M:Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken(System.String)
+  id: UseAccessToken(System.String)
+  parent: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseAccessToken(String)
+  nameWithType: IZeebeSecureClientBuilder.UseAccessToken(String)
+  fullName: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken(System.String)
+  type: Method
+  source:
+    id: UseAccessToken
+    path: ''
+    startLine: 1960
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nClient should use the given access token to authenticate with.\n"
+  example: []
+  syntax:
+    content: IZeebeClientFinalBuildStep UseAccessToken(string accessToken)
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: the access token which is used for authentication
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+      description: the final client builder step
+    content.vb: Function UseAccessToken(accessToken As String) As IZeebeClientFinalBuildStep
+  overload: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken*
+- uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier(Zeebe.Client.Builder.IAccessTokenSupplier)
+  commentId: M:Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier(Zeebe.Client.Builder.IAccessTokenSupplier)
+  id: UseAccessTokenSupplier(Zeebe.Client.Builder.IAccessTokenSupplier)
+  parent: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseAccessTokenSupplier(IAccessTokenSupplier)
+  nameWithType: IZeebeSecureClientBuilder.UseAccessTokenSupplier(IAccessTokenSupplier)
+  fullName: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier(Zeebe.Client.Builder.IAccessTokenSupplier)
+  type: Method
+  source:
+    id: UseAccessTokenSupplier
+    path: ''
+    startLine: 1968
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nClient should use an access token to authenticate with and the given\nsupplier should be used to receive the token.\n"
+  example: []
+  syntax:
+    content: IZeebeClientFinalBuildStep UseAccessTokenSupplier(IAccessTokenSupplier supplier)
+    parameters:
+    - id: supplier
+      type: Zeebe.Client.Builder.IAccessTokenSupplier
+      description: the access token supplier which is called to supplied the access token
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+      description: the final client builder step
+    content.vb: Function UseAccessTokenSupplier(supplier As IAccessTokenSupplier) As IZeebeClientFinalBuildStep
+  overload: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  commentId: M:Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  parent: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  name: Build()
+  nameWithType: IZeebeClientFinalBuildStep.Build()
+  fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build()
+  spec.csharp:
+  - uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+    name: Build
+    nameWithType: IZeebeClientFinalBuildStep.Build
+    fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+    name: Build
+    nameWithType: IZeebeClientFinalBuildStep.Build
+    fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  commentId: T:Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientFinalBuildStep
+  nameWithType: IZeebeClientFinalBuildStep
+  fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+- uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken*
+  commentId: Overload:Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken
+  name: UseAccessToken
+  nameWithType: IZeebeSecureClientBuilder.UseAccessToken
+  fullName: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier*
+  commentId: Overload:Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier
+  name: UseAccessTokenSupplier
+  nameWithType: IZeebeSecureClientBuilder.UseAccessTokenSupplier
+  fullName: Zeebe.Client.Builder.IZeebeSecureClientBuilder.UseAccessTokenSupplier
+- uid: Zeebe.Client.Builder.IAccessTokenSupplier
+  commentId: T:Zeebe.Client.Builder.IAccessTokenSupplier
+  parent: Zeebe.Client.Builder
+  name: IAccessTokenSupplier
+  nameWithType: IAccessTokenSupplier
+  fullName: Zeebe.Client.Builder.IAccessTokenSupplier

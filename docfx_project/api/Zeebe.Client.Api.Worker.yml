@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Worker
+  commentId: N:Zeebe.Client.Api.Worker
+  id: Zeebe.Client.Api.Worker
+  children:
+  - Zeebe.Client.Api.Worker.IJobClient
+  - Zeebe.Client.Api.Worker.IJobWorker
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  - Zeebe.Client.Api.Worker.JobHandler
+  langs:
+  - csharp
+  - vb
+  name: Zeebe.Client.Api.Worker
+  nameWithType: Zeebe.Client.Api.Worker
+  fullName: Zeebe.Client.Api.Worker
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+  name: IJobWorkerBuilderStep1
+  nameWithType: IJobWorkerBuilderStep1
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+- uid: Zeebe.Client.Api.Worker.JobHandler
+  commentId: T:Zeebe.Client.Api.Worker.JobHandler
+  parent: Zeebe.Client.Api.Worker
+  name: JobHandler
+  nameWithType: JobHandler
+  fullName: Zeebe.Client.Api.Worker.JobHandler
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  parent: Zeebe.Client.Api.Worker
+  name: IJobWorkerBuilderStep2
+  nameWithType: IJobWorkerBuilderStep2
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  parent: Zeebe.Client.Api.Worker
+  name: IJobWorkerBuilderStep3
+  nameWithType: IJobWorkerBuilderStep3
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+- uid: Zeebe.Client.Api.Worker.IJobClient
+  commentId: T:Zeebe.Client.Api.Worker.IJobClient
+  parent: Zeebe.Client.Api.Worker
+  name: IJobClient
+  nameWithType: IJobClient
+  fullName: Zeebe.Client.Api.Worker.IJobClient
+- uid: Zeebe.Client.Api.Worker.IJobWorker
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorker
+  parent: Zeebe.Client.Api.Worker
+  name: IJobWorker
+  nameWithType: IJobWorker
+  fullName: Zeebe.Client.Api.Worker.IJobWorker
+- uid: Zeebe.Client.Api.Worker
+  commentId: N:Zeebe.Client.Api.Worker
+  name: Zeebe.Client.Api.Worker
+  nameWithType: Zeebe.Client.Api.Worker
+  fullName: Zeebe.Client.Api.Worker

@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.ICancelWorkflowInstanceResponse
+  commentId: T:Zeebe.Client.Api.Responses.ICancelWorkflowInstanceResponse
+  id: ICancelWorkflowInstanceResponse
+  parent: Zeebe.Client.Api.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICancelWorkflowInstanceResponse
+  nameWithType: ICancelWorkflowInstanceResponse
+  fullName: Zeebe.Client.Api.Responses.ICancelWorkflowInstanceResponse
+  type: Interface
+  source:
+    id: ICancelWorkflowInstanceResponse
+    path: ''
+    startLine: 877
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nResponse on a cancel workflow instance command.\n"
+  example: []
+  syntax:
+    content: public interface ICancelWorkflowInstanceResponse
+    content.vb: Public Interface ICancelWorkflowInstanceResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses

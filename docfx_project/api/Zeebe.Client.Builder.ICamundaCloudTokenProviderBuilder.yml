@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  id: ICamundaCloudTokenProviderBuilder
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  langs:
+  - csharp
+  - vb
+  name: ICamundaCloudTokenProviderBuilder
+  nameWithType: ICamundaCloudTokenProviderBuilder
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  type: Interface
+  source:
+    id: ICamundaCloudTokenProviderBuilder
+    path: ''
+    startLine: 1984
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public interface ICamundaCloudTokenProviderBuilder
+    content.vb: Public Interface ICamundaCloudTokenProviderBuilder
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  id: UseLoggerFactory(ILoggerFactory)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseLoggerFactory(ILoggerFactory)
+  nameWithType: ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory(ILoggerFactory)
+  type: Method
+  source:
+    id: UseLoggerFactory
+    path: ''
+    startLine: 1993
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the logger factory which should be used by the token provider\nto log messages.\n*This is optional and no messages are logged if this method is not called.*\n"
+  example: []
+  syntax:
+    content: ICamundaCloudTokenProviderBuilder UseLoggerFactory(ILoggerFactory loggerFactory)
+    parameters:
+    - id: loggerFactory
+      type: ILoggerFactory
+      description: the factory to create an ILogger
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+      description: the fluent ICamundaCloudTokenProviderBuilder
+    content.vb: Function UseLoggerFactory(loggerFactory As ILoggerFactory) As ICamundaCloudTokenProviderBuilder
+  overload: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory*
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  id: UseAuthServer(System.String)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseAuthServer(String)
+  nameWithType: ICamundaCloudTokenProviderBuilder.UseAuthServer(String)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer(System.String)
+  type: Method
+  source:
+    id: UseAuthServer
+    path: ''
+    startLine: 2000
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the authorization server, from which the access token should be requested.\n"
+  example: []
+  syntax:
+    content: ICamundaCloudTokenProviderBuilderStep2 UseAuthServer(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: an url, which points to the authorization server
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+      description: the next step in building a CamundaCloudTokenProvider
+    content.vb: Function UseAuthServer(url As String) As ICamundaCloudTokenProviderBuilderStep2
+  overload: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory*
+  commentId: Overload:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory
+  name: UseLoggerFactory
+  nameWithType: ICamundaCloudTokenProviderBuilder.UseLoggerFactory
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseLoggerFactory
+- uid: ILoggerFactory
+  isExternal: true
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: ILoggerFactory
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilder
+  nameWithType: ICamundaCloudTokenProviderBuilder
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer*
+  commentId: Overload:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer
+  name: UseAuthServer
+  nameWithType: ICamundaCloudTokenProviderBuilder.UseAuthServer
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder.UseAuthServer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilderStep2
+  nameWithType: ICamundaCloudTokenProviderBuilderStep2
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.ISetVariablesCommandStep1
+  id: ISetVariablesCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISetVariablesCommandStep1
+  nameWithType: ISetVariablesCommandStep1
+  fullName: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1
+  type: Interface
+  source:
+    id: ISetVariablesCommandStep1
+    path: ''
+    startLine: 1202
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface ISetVariablesCommandStep1
+    content.vb: Public Interface ISetVariablesCommandStep1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables(System.String)
+  id: Variables(System.String)
+  parent: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: Variables(String)
+  nameWithType: ISetVariablesCommandStep1.Variables(String)
+  fullName: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables(System.String)
+  type: Method
+  source:
+    id: Variables
+    path: ''
+    startLine: 1211
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the new variables of the element instance.\n"
+  example: []
+  syntax:
+    content: ISetVariablesCommandStep2 Variables(string variables)
+    parameters:
+    - id: variables
+      type: System.String
+      description: the variables (JSON) as String
+    return:
+      type: Zeebe.Client.Api.Commands.ISetVariablesCommandStep2
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function Variables(variables As String) As ISetVariablesCommandStep2
+  overload: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables*
+  commentId: Overload:Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables
+  name: Variables
+  nameWithType: ISetVariablesCommandStep1.Variables
+  fullName: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1.Variables
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.ISetVariablesCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.ISetVariablesCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  name: ISetVariablesCommandStep2
+  nameWithType: ISetVariablesCommandStep2
+  fullName: Zeebe.Client.Api.Commands.ISetVariablesCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

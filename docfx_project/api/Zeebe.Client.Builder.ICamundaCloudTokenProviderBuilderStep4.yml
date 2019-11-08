@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  id: ICamundaCloudTokenProviderBuilderStep4
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICamundaCloudTokenProviderBuilderStep4
+  nameWithType: ICamundaCloudTokenProviderBuilderStep4
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  type: Interface
+  source:
+    id: ICamundaCloudTokenProviderBuilderStep4
+    path: ''
+    startLine: 2027
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public interface ICamundaCloudTokenProviderBuilderStep4
+    content.vb: Public Interface ICamundaCloudTokenProviderBuilderStep4
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  id: UseAudience(System.String)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+  langs:
+  - csharp
+  - vb
+  name: UseAudience(String)
+  nameWithType: ICamundaCloudTokenProviderBuilderStep4.UseAudience(String)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience(System.String)
+  type: Method
+  source:
+    id: UseAudience
+    path: ''
+    startLine: 2034
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the audience for which the token provider should create tokens.\n"
+  example: []
+  syntax:
+    content: ICamundaCloudTokenProviderBuilderFinalStep UseAudience(string audience)
+    parameters:
+    - id: audience
+      type: System.String
+      description: the audience, which is normally a domain name
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+      description: the next step in building a CamundaCloudTokenProvider
+    content.vb: Function UseAudience(audience As String) As ICamundaCloudTokenProviderBuilderFinalStep
+  overload: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience*
+  commentId: Overload:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience
+  name: UseAudience
+  nameWithType: ICamundaCloudTokenProviderBuilderStep4.UseAudience
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4.UseAudience
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilderFinalStep
+  nameWithType: ICamundaCloudTokenProviderBuilderFinalStep
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

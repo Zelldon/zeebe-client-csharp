@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.ITopology
+  commentId: T:Zeebe.Client.Api.Responses.ITopology
+  id: ITopology
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.ITopology.Brokers
+  langs:
+  - csharp
+  - vb
+  name: ITopology
+  nameWithType: ITopology
+  fullName: Zeebe.Client.Api.Responses.ITopology
+  type: Interface
+  source:
+    id: ITopology
+    path: ''
+    startLine: 1050
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: public interface ITopology
+    content.vb: Public Interface ITopology
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Responses.ITopology.Brokers
+  commentId: P:Zeebe.Client.Api.Responses.ITopology.Brokers
+  id: Brokers
+  parent: Zeebe.Client.Api.Responses.ITopology
+  langs:
+  - csharp
+  - vb
+  name: Brokers
+  nameWithType: ITopology.Brokers
+  fullName: Zeebe.Client.Api.Responses.ITopology.Brokers
+  type: Property
+  source:
+    id: Brokers
+    path: ''
+    startLine: 1053
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: IList<IBrokerInfo> Brokers { get; }
+    parameters: []
+    return:
+      type: IList{Zeebe.Client.Api.Responses.IBrokerInfo}
+      description: 'all (known) brokers of the cluster '
+    content.vb: ReadOnly Property Brokers As IList(Of IBrokerInfo)
+  overload: Zeebe.Client.Api.Responses.ITopology.Brokers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.ITopology.Brokers*
+  commentId: Overload:Zeebe.Client.Api.Responses.ITopology.Brokers
+  name: Brokers
+  nameWithType: ITopology.Brokers
+  fullName: Zeebe.Client.Api.Responses.ITopology.Brokers
+- uid: IList{Zeebe.Client.Api.Responses.IBrokerInfo}
+  commentId: '!:IList{Zeebe.Client.Api.Responses.IBrokerInfo}'
+  definition: IList`1
+  name: IList<IBrokerInfo>
+  nameWithType: IList<IBrokerInfo>
+  fullName: IList<Zeebe.Client.Api.Responses.IBrokerInfo>
+  nameWithType.vb: IList(Of IBrokerInfo)
+  fullName.vb: IList(Of Zeebe.Client.Api.Responses.IBrokerInfo)
+  name.vb: IList(Of IBrokerInfo)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Zeebe.Client.Api.Responses.IBrokerInfo
+    name: IBrokerInfo
+    nameWithType: IBrokerInfo
+    fullName: Zeebe.Client.Api.Responses.IBrokerInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Zeebe.Client.Api.Responses.IBrokerInfo
+    name: IBrokerInfo
+    nameWithType: IBrokerInfo
+    fullName: Zeebe.Client.Api.Responses.IBrokerInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

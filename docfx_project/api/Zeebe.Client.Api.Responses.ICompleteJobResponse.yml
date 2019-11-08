@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.ICompleteJobResponse
+  commentId: T:Zeebe.Client.Api.Responses.ICompleteJobResponse
+  id: ICompleteJobResponse
+  parent: Zeebe.Client.Api.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICompleteJobResponse
+  nameWithType: ICompleteJobResponse
+  fullName: Zeebe.Client.Api.Responses.ICompleteJobResponse
+  type: Interface
+  source:
+    id: ICompleteJobResponse
+    path: ''
+    startLine: 712
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nRepresents an response for an job complete command request.\n"
+  example: []
+  syntax:
+    content: public interface ICompleteJobResponse
+    content.vb: Public Interface ICompleteJobResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses

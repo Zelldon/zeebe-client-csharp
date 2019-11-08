@@ -1,0 +1,989 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  commentId: T:GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  id: CreateWorkflowInstanceWithResultResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessIdFieldNumber
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(System.Object)
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VariablesFieldNumber
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VersionFieldNumber
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKeyFieldNumber
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKeyFieldNumber
+  - GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkflowInstanceWithResultResponse
+  nameWithType: CreateWorkflowInstanceWithResultResponse
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  type: Class
+  source:
+    id: CreateWorkflowInstanceWithResultResponse
+    path: ''
+    startLine: 4612
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class CreateWorkflowInstanceWithResultResponse : pb.IMessage<CreateWorkflowInstanceWithResultResponse>'
+    content.vb: >-
+      Public NotInheritable Class CreateWorkflowInstanceWithResultResponse
+          Inherits pb.IMessage(Of CreateWorkflowInstanceWithResultResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser
+  commentId: P:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Parser
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 4615
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<CreateWorkflowInstanceWithResultResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.CreateWorkflowInstanceWithResultResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of CreateWorkflowInstanceWithResultResponse)
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor
+  commentId: P:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Descriptor
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 4618
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkflowInstanceWithResultResponse()
+  nameWithType: CreateWorkflowInstanceWithResultResponse.CreateWorkflowInstanceWithResultResponse()
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CreateWorkflowInstanceWithResultResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4628
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CreateWorkflowInstanceWithResultResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  id: '#ctor(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)'
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkflowInstanceWithResultResponse(CreateWorkflowInstanceWithResultResponse)
+  nameWithType: CreateWorkflowInstanceWithResultResponse.CreateWorkflowInstanceWithResultResponse(CreateWorkflowInstanceWithResultResponse)
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CreateWorkflowInstanceWithResultResponse(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4635
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CreateWorkflowInstanceWithResultResponse(CreateWorkflowInstanceWithResultResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    content.vb: Public Sub New(other As CreateWorkflowInstanceWithResultResponse)
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Clone()
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 4645
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CreateWorkflowInstanceWithResultResponse Clone()
+    return:
+      type: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    content.vb: Public Function Clone As CreateWorkflowInstanceWithResultResponse
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKeyFieldNumber
+  commentId: F:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKeyFieldNumber
+  id: WorkflowKeyFieldNumber
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKeyFieldNumber
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WorkflowKeyFieldNumber
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKeyFieldNumber
+  type: Field
+  source:
+    id: WorkflowKeyFieldNumber
+    path: ''
+    startLine: 4651
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;workflowKey&quot; field.
+  example: []
+  syntax:
+    content: public const int WorkflowKeyFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const WorkflowKeyFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey
+  commentId: P:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey
+  id: WorkflowKey
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WorkflowKey
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey
+  type: Property
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 4656
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe key of the workflow definition which was used to create the workflow instance\n"
+  example: []
+  syntax:
+    content: public long WorkflowKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property WorkflowKey As Long
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessIdFieldNumber
+  commentId: F:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessIdFieldNumber
+  id: BpmnProcessIdFieldNumber
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessIdFieldNumber
+  nameWithType: CreateWorkflowInstanceWithResultResponse.BpmnProcessIdFieldNumber
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessIdFieldNumber
+  type: Field
+  source:
+    id: BpmnProcessIdFieldNumber
+    path: ''
+    startLine: 4665
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;bpmnProcessId&quot; field.
+  example: []
+  syntax:
+    content: public const int BpmnProcessIdFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const BpmnProcessIdFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+  commentId: P:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+  id: BpmnProcessId
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId
+  nameWithType: CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+  type: Property
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 4671
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe BPMN process ID of the workflow definition which was used to create the workflow\ninstance\n"
+  example: []
+  syntax:
+    content: public string BpmnProcessId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BpmnProcessId As String
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VersionFieldNumber
+  commentId: F:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VersionFieldNumber
+  id: VersionFieldNumber
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: VersionFieldNumber
+  nameWithType: CreateWorkflowInstanceWithResultResponse.VersionFieldNumber
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VersionFieldNumber
+  type: Field
+  source:
+    id: VersionFieldNumber
+    path: ''
+    startLine: 4680
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;version&quot; field.
+  example: []
+  syntax:
+    content: public const int VersionFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const VersionFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version
+  commentId: P:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version
+  id: Version
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Version
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version
+  type: Property
+  source:
+    id: Version
+    path: ''
+    startLine: 4685
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe version of the workflow definition which was used to create the workflow instance\n"
+  example: []
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKeyFieldNumber
+  commentId: F:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKeyFieldNumber
+  id: WorkflowInstanceKeyFieldNumber
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceKeyFieldNumber
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKeyFieldNumber
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKeyFieldNumber
+  type: Field
+  source:
+    id: WorkflowInstanceKeyFieldNumber
+    path: ''
+    startLine: 4694
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;workflowInstanceKey&quot; field.
+  example: []
+  syntax:
+    content: public const int WorkflowInstanceKeyFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const WorkflowInstanceKeyFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+  commentId: P:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+  id: WorkflowInstanceKey
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceKey
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+  type: Property
+  source:
+    id: WorkflowInstanceKey
+    path: ''
+    startLine: 4700
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe unique identifier of the created workflow instance; to be used wherever a request\nneeds a workflow instance key (e.g. CancelWorkflowInstanceRequest)\n"
+  example: []
+  syntax:
+    content: public long WorkflowInstanceKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property WorkflowInstanceKey As Long
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VariablesFieldNumber
+  commentId: F:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VariablesFieldNumber
+  id: VariablesFieldNumber
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: VariablesFieldNumber
+  nameWithType: CreateWorkflowInstanceWithResultResponse.VariablesFieldNumber
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.VariablesFieldNumber
+  type: Field
+  source:
+    id: VariablesFieldNumber
+    path: ''
+    startLine: 4709
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;variables&quot; field.
+  example: []
+  syntax:
+    content: public const int VariablesFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const VariablesFieldNumber As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables
+  commentId: P:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables
+  id: Variables
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Variables
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables
+  type: Property
+  source:
+    id: Variables
+    path: ''
+    startLine: 4715
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nJSON document\nconsists of visible variables in the root scope\n"
+  example: []
+  syntax:
+    content: public string Variables { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Variables As String
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Equals(Object)
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 4723
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  id: Equals(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(CreateWorkflowInstanceWithResultResponse)
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Equals(CreateWorkflowInstanceWithResultResponse)
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 4728
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(CreateWorkflowInstanceWithResultResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As CreateWorkflowInstanceWithResultResponse) As Boolean
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CreateWorkflowInstanceWithResultResponse.GetHashCode()
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 4744
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CreateWorkflowInstanceWithResultResponse.ToString()
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 4758
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 4763
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: CreateWorkflowInstanceWithResultResponse.CalculateSize()
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 4790
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  id: MergeFrom(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CreateWorkflowInstanceWithResultResponse)
+  nameWithType: CreateWorkflowInstanceWithResultResponse.MergeFrom(CreateWorkflowInstanceWithResultResponse)
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 4814
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(CreateWorkflowInstanceWithResultResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    content.vb: Public Sub MergeFrom(other As CreateWorkflowInstanceWithResultResponse)
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: CreateWorkflowInstanceWithResultResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 4837
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser
+  name: Parser
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Parser
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.CreateWorkflowInstanceWithResultResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.CreateWorkflowInstanceWithResultResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<CreateWorkflowInstanceWithResultResponse>
+  nameWithType: pb.MessageParser<CreateWorkflowInstanceWithResultResponse>
+  fullName: pb.MessageParser<GatewayProtocol.CreateWorkflowInstanceWithResultResponse>
+  nameWithType.vb: pb.MessageParser(Of CreateWorkflowInstanceWithResultResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.CreateWorkflowInstanceWithResultResponse)
+  name.vb: pb.MessageParser(Of CreateWorkflowInstanceWithResultResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    name: CreateWorkflowInstanceWithResultResponse
+    nameWithType: CreateWorkflowInstanceWithResultResponse
+    fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    name: CreateWorkflowInstanceWithResultResponse
+    nameWithType: CreateWorkflowInstanceWithResultResponse
+    fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor
+  name: Descriptor
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Descriptor
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.#ctor
+  name: CreateWorkflowInstanceWithResultResponse
+  nameWithType: CreateWorkflowInstanceWithResultResponse.CreateWorkflowInstanceWithResultResponse
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CreateWorkflowInstanceWithResultResponse
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  commentId: T:GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+  parent: GatewayProtocol
+  name: CreateWorkflowInstanceWithResultResponse
+  nameWithType: CreateWorkflowInstanceWithResultResponse
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone
+  name: Clone
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Clone
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey
+  name: WorkflowKey
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WorkflowKey
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowKey
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.BpmnProcessId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version
+  name: Version
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Version
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Version
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+  name: WorkflowInstanceKey
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WorkflowInstanceKey
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables
+  name: Variables
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Variables
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Variables
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals
+  name: Equals
+  nameWithType: CreateWorkflowInstanceWithResultResponse.Equals
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: CreateWorkflowInstanceWithResultResponse.GetHashCode
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.GetHashCode
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString
+  name: ToString
+  nameWithType: CreateWorkflowInstanceWithResultResponse.ToString
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.ToString
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo
+  name: WriteTo
+  nameWithType: CreateWorkflowInstanceWithResultResponse.WriteTo
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: CreateWorkflowInstanceWithResultResponse.CalculateSize
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.CalculateSize
+- uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: CreateWorkflowInstanceWithResultResponse.MergeFrom
+  fullName: GatewayProtocol.CreateWorkflowInstanceWithResultResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

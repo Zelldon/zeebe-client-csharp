@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.IActivateJobsCommandStep1
+  id: IActivateJobsCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IActivateJobsCommandStep1
+  nameWithType: IActivateJobsCommandStep1
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1
+  type: Interface
+  source:
+    id: IActivateJobsCommandStep1
+    path: ''
+    startLine: 1363
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface IActivateJobsCommandStep1
+    content.vb: Public Interface IActivateJobsCommandStep1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType(System.String)
+  id: JobType(System.String)
+  parent: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: JobType(String)
+  nameWithType: IActivateJobsCommandStep1.JobType(String)
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType(System.String)
+  type: Method
+  source:
+    id: JobType
+    path: ''
+    startLine: 1370
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the type of jobs to work on.\n"
+  example: []
+  syntax:
+    content: IActivateJobsCommandStep2 JobType(string jobType)
+    parameters:
+    - id: jobType
+      type: System.String
+      description: the type of jobs (e.g. &quot;payment&quot;)
+    return:
+      type: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+      description: the builder for this command
+    content.vb: Function JobType(jobType As String) As IActivateJobsCommandStep2
+  overload: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType*
+  commentId: Overload:Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType
+  name: JobType
+  nameWithType: IActivateJobsCommandStep1.JobType
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1.JobType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  name: IActivateJobsCommandStep2
+  nameWithType: IActivateJobsCommandStep2
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

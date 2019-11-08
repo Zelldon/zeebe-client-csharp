@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IJob
+  commentId: T:Zeebe.Client.Api.Responses.IJob
+  id: IJob
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.IJob.BpmnProcessId
+  - Zeebe.Client.Api.Responses.IJob.CustomHeaders
+  - Zeebe.Client.Api.Responses.IJob.Deadline
+  - Zeebe.Client.Api.Responses.IJob.ElementId
+  - Zeebe.Client.Api.Responses.IJob.ElementInstanceKey
+  - Zeebe.Client.Api.Responses.IJob.Key
+  - Zeebe.Client.Api.Responses.IJob.Retries
+  - Zeebe.Client.Api.Responses.IJob.Type
+  - Zeebe.Client.Api.Responses.IJob.Variables
+  - Zeebe.Client.Api.Responses.IJob.Worker
+  - Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion
+  - Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey
+  - Zeebe.Client.Api.Responses.IJob.WorkflowKey
+  langs:
+  - csharp
+  - vb
+  name: IJob
+  nameWithType: IJob
+  fullName: Zeebe.Client.Api.Responses.IJob
+  type: Interface
+  source:
+    id: IJob
+    path: ''
+    startLine: 762
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: public interface IJob
+    content.vb: Public Interface IJob
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Responses.IJob.Key
+  commentId: P:Zeebe.Client.Api.Responses.IJob.Key
+  id: Key
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: IJob.Key
+  fullName: Zeebe.Client.Api.Responses.IJob.Key
+  type: Property
+  source:
+    id: Key
+    path: ''
+    startLine: 765
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long Key { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: 'The unique key of the job '
+    content.vb: ReadOnly Property Key As Long
+  overload: Zeebe.Client.Api.Responses.IJob.Key*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.Type
+  commentId: P:Zeebe.Client.Api.Responses.IJob.Type
+  id: Type
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: IJob.Type
+  fullName: Zeebe.Client.Api.Responses.IJob.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 768
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'The type of the job '
+    content.vb: ReadOnly Property Type As String
+  overload: Zeebe.Client.Api.Responses.IJob.Type*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey
+  commentId: P:Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey
+  id: WorkflowInstanceKey
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceKey
+  nameWithType: IJob.WorkflowInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey
+  type: Property
+  source:
+    id: WorkflowInstanceKey
+    path: ''
+    startLine: 771
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: long WorkflowInstanceKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: ReadOnly Property WorkflowInstanceKey As Long
+  overload: Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.BpmnProcessId
+  commentId: P:Zeebe.Client.Api.Responses.IJob.BpmnProcessId
+  id: BpmnProcessId
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId
+  nameWithType: IJob.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IJob.BpmnProcessId
+  type: Property
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 774
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: string BpmnProcessId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property BpmnProcessId As String
+  overload: Zeebe.Client.Api.Responses.IJob.BpmnProcessId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion
+  commentId: P:Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion
+  id: WorkflowDefinitionVersion
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: WorkflowDefinitionVersion
+  nameWithType: IJob.WorkflowDefinitionVersion
+  fullName: Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion
+  type: Property
+  source:
+    id: WorkflowDefinitionVersion
+    path: ''
+    startLine: 777
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: int WorkflowDefinitionVersion { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: 'Version of the workflow '
+    content.vb: ReadOnly Property WorkflowDefinitionVersion As Integer
+  overload: Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.WorkflowKey
+  commentId: P:Zeebe.Client.Api.Responses.IJob.WorkflowKey
+  id: WorkflowKey
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey
+  nameWithType: IJob.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IJob.WorkflowKey
+  type: Property
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 780
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long WorkflowKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: 'Key of the workflow '
+    content.vb: ReadOnly Property WorkflowKey As Long
+  overload: Zeebe.Client.Api.Responses.IJob.WorkflowKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.ElementId
+  commentId: P:Zeebe.Client.Api.Responses.IJob.ElementId
+  id: ElementId
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: ElementId
+  nameWithType: IJob.ElementId
+  fullName: Zeebe.Client.Api.Responses.IJob.ElementId
+  type: Property
+  source:
+    id: ElementId
+    path: ''
+    startLine: 783
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string ElementId { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'Id of the workflow element '
+    content.vb: ReadOnly Property ElementId As String
+  overload: Zeebe.Client.Api.Responses.IJob.ElementId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.ElementInstanceKey
+  commentId: P:Zeebe.Client.Api.Responses.IJob.ElementInstanceKey
+  id: ElementInstanceKey
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: ElementInstanceKey
+  nameWithType: IJob.ElementInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IJob.ElementInstanceKey
+  type: Property
+  source:
+    id: ElementInstanceKey
+    path: ''
+    startLine: 786
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long ElementInstanceKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: 'Key of the element instance '
+    content.vb: ReadOnly Property ElementInstanceKey As Long
+  overload: Zeebe.Client.Api.Responses.IJob.ElementInstanceKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.Worker
+  commentId: P:Zeebe.Client.Api.Responses.IJob.Worker
+  id: Worker
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: Worker
+  nameWithType: IJob.Worker
+  fullName: Zeebe.Client.Api.Responses.IJob.Worker
+  type: Property
+  source:
+    id: Worker
+    path: ''
+    startLine: 789
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string Worker { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'the assigned worker to complete the job '
+    content.vb: ReadOnly Property Worker As String
+  overload: Zeebe.Client.Api.Responses.IJob.Worker*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.Retries
+  commentId: P:Zeebe.Client.Api.Responses.IJob.Retries
+  id: Retries
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: Retries
+  nameWithType: IJob.Retries
+  fullName: Zeebe.Client.Api.Responses.IJob.Retries
+  type: Property
+  source:
+    id: Retries
+    path: ''
+    startLine: 792
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: int Retries { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: 'remaining retries '
+    content.vb: ReadOnly Property Retries As Integer
+  overload: Zeebe.Client.Api.Responses.IJob.Retries*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.Deadline
+  commentId: P:Zeebe.Client.Api.Responses.IJob.Deadline
+  id: Deadline
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: Deadline
+  nameWithType: IJob.Deadline
+  fullName: Zeebe.Client.Api.Responses.IJob.Deadline
+  type: Property
+  source:
+    id: Deadline
+    path: ''
+    startLine: 799
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: DateTime Deadline { get; }
+    parameters: []
+    return:
+      type: DateTime
+      description: "\nThe time until when the job is exclusively assigned to this worker. If the deadline is\nexceeded, it can happen that the job is handed to another worker and the work is performed\ntwice.\n"
+    content.vb: ReadOnly Property Deadline As DateTime
+  overload: Zeebe.Client.Api.Responses.IJob.Deadline*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.Variables
+  commentId: P:Zeebe.Client.Api.Responses.IJob.Variables
+  id: Variables
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: IJob.Variables
+  fullName: Zeebe.Client.Api.Responses.IJob.Variables
+  type: Property
+  source:
+    id: Variables
+    path: ''
+    startLine: 802
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string Variables { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'JSON-formatted variables '
+    content.vb: ReadOnly Property Variables As String
+  overload: Zeebe.Client.Api.Responses.IJob.Variables*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IJob.CustomHeaders
+  commentId: P:Zeebe.Client.Api.Responses.IJob.CustomHeaders
+  id: CustomHeaders
+  parent: Zeebe.Client.Api.Responses.IJob
+  langs:
+  - csharp
+  - vb
+  name: CustomHeaders
+  nameWithType: IJob.CustomHeaders
+  fullName: Zeebe.Client.Api.Responses.IJob.CustomHeaders
+  type: Property
+  source:
+    id: CustomHeaders
+    path: ''
+    startLine: 805
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string CustomHeaders { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'JSON-formatted Custom Headers '
+    content.vb: ReadOnly Property CustomHeaders As String
+  overload: Zeebe.Client.Api.Responses.IJob.CustomHeaders*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.IJob.Key*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.Key
+  name: Key
+  nameWithType: IJob.Key
+  fullName: Zeebe.Client.Api.Responses.IJob.Key
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Responses.IJob.Type*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.Type
+  name: Type
+  nameWithType: IJob.Type
+  fullName: Zeebe.Client.Api.Responses.IJob.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey
+  name: WorkflowInstanceKey
+  nameWithType: IJob.WorkflowInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IJob.WorkflowInstanceKey
+- uid: Zeebe.Client.Api.Responses.IJob.BpmnProcessId*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: IJob.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IJob.BpmnProcessId
+- uid: Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion
+  name: WorkflowDefinitionVersion
+  nameWithType: IJob.WorkflowDefinitionVersion
+  fullName: Zeebe.Client.Api.Responses.IJob.WorkflowDefinitionVersion
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Responses.IJob.WorkflowKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.WorkflowKey
+  name: WorkflowKey
+  nameWithType: IJob.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IJob.WorkflowKey
+- uid: Zeebe.Client.Api.Responses.IJob.ElementId*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.ElementId
+  name: ElementId
+  nameWithType: IJob.ElementId
+  fullName: Zeebe.Client.Api.Responses.IJob.ElementId
+- uid: Zeebe.Client.Api.Responses.IJob.ElementInstanceKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.ElementInstanceKey
+  name: ElementInstanceKey
+  nameWithType: IJob.ElementInstanceKey
+  fullName: Zeebe.Client.Api.Responses.IJob.ElementInstanceKey
+- uid: Zeebe.Client.Api.Responses.IJob.Worker*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.Worker
+  name: Worker
+  nameWithType: IJob.Worker
+  fullName: Zeebe.Client.Api.Responses.IJob.Worker
+- uid: Zeebe.Client.Api.Responses.IJob.Retries*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.Retries
+  name: Retries
+  nameWithType: IJob.Retries
+  fullName: Zeebe.Client.Api.Responses.IJob.Retries
+- uid: Zeebe.Client.Api.Responses.IJob.Deadline*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.Deadline
+  name: Deadline
+  nameWithType: IJob.Deadline
+  fullName: Zeebe.Client.Api.Responses.IJob.Deadline
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Zeebe.Client.Api.Responses.IJob.Variables*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.Variables
+  name: Variables
+  nameWithType: IJob.Variables
+  fullName: Zeebe.Client.Api.Responses.IJob.Variables
+- uid: Zeebe.Client.Api.Responses.IJob.CustomHeaders*
+  commentId: Overload:Zeebe.Client.Api.Responses.IJob.CustomHeaders
+  name: CustomHeaders
+  nameWithType: IJob.CustomHeaders
+  fullName: Zeebe.Client.Api.Responses.IJob.CustomHeaders

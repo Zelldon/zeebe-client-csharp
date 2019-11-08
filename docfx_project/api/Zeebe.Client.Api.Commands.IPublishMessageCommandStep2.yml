@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+  id: IPublishMessageCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IPublishMessageCommandStep2
+  nameWithType: IPublishMessageCommandStep2
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+  type: Interface
+  source:
+    id: IPublishMessageCommandStep2
+    path: ''
+    startLine: 1587
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface IPublishMessageCommandStep2
+    content.vb: Public Interface IPublishMessageCommandStep2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey(System.String)
+  id: CorrelationKey(System.String)
+  parent: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+  langs:
+  - csharp
+  - vb
+  name: CorrelationKey(String)
+  nameWithType: IPublishMessageCommandStep2.CorrelationKey(String)
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey(System.String)
+  type: Method
+  source:
+    id: CorrelationKey
+    path: ''
+    startLine: 1595
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the correlation-key of the message.\n"
+  example: []
+  syntax:
+    content: IPublishMessageCommandStep3 CorrelationKey(string correlationKey)
+    parameters:
+    - id: correlationKey
+      type: System.String
+      description: the correlation-key of the message
+    return:
+      type: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+      description: the builder for this command
+    content.vb: Function CorrelationKey(correlationKey As String) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey*
+  commentId: Overload:Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey
+  name: CorrelationKey
+  nameWithType: IPublishMessageCommandStep2.CorrelationKey
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2.CorrelationKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  name: IPublishMessageCommandStep3
+  nameWithType: IPublishMessageCommandStep3
+  fullName: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

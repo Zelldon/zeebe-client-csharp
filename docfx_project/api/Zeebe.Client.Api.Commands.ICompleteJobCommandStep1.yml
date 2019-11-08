@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+  id: ICompleteJobCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICompleteJobCommandStep1
+  nameWithType: ICompleteJobCommandStep1
+  fullName: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+  type: Interface
+  source:
+    id: ICompleteJobCommandStep1
+    path: ''
+    startLine: 1469
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: 'public interface ICompleteJobCommandStep1 : IFinalCommandStep<ICompleteJobResponse>'
+    content.vb: >-
+      Public Interface ICompleteJobCommandStep1
+          Inherits IFinalCommandStep(Of ICompleteJobResponse)
+  inheritedMembers:
+  - Zeebe.Client.Api.Commands.IFinalCommandStep{ICompleteJobResponse}.Send(System.Nullable{TimeSpan})
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables(System.String)
+  id: Variables(System.String)
+  parent: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: Variables(String)
+  nameWithType: ICompleteJobCommandStep1.Variables(String)
+  fullName: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables(System.String)
+  type: Method
+  source:
+    id: Variables
+    path: ''
+    startLine: 1477
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the variables to complete the job with.\n"
+  example: []
+  syntax:
+    content: ICompleteJobCommandStep1 Variables(string variables)
+    parameters:
+    - id: variables
+      type: System.String
+      description: the variables (JSON) as String
+    return:
+      type: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function Variables(variables As String) As ICompleteJobCommandStep1
+  overload: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{ICompleteJobResponse}.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep{ICompleteJobResponse}.Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Api.Commands.IFinalCommandStep{ICompleteJobResponse}
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<ICompleteJobResponse>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<ICompleteJobResponse>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of ICompleteJobResponse).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of ICompleteJobResponse).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<ICompleteJobResponse>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<ICompleteJobResponse>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of ICompleteJobResponse).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of ICompleteJobResponse).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  isExternal: true
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<T>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of T).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<T>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of T).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{ICompleteJobResponse}
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep{ICompleteJobResponse}
+  parent: Zeebe.Client.Api.Commands
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<ICompleteJobResponse>
+  nameWithType: IFinalCommandStep<ICompleteJobResponse>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<ICompleteJobResponse>
+  nameWithType.vb: IFinalCommandStep(Of ICompleteJobResponse)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of ICompleteJobResponse)
+  name.vb: IFinalCommandStep(Of ICompleteJobResponse)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ICompleteJobResponse
+    name: ICompleteJobResponse
+    nameWithType: ICompleteJobResponse
+    fullName: ICompleteJobResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ICompleteJobResponse
+    name: ICompleteJobResponse
+    nameWithType: ICompleteJobResponse
+    fullName: ICompleteJobResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<T>
+  nameWithType: IFinalCommandStep<T>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>
+  nameWithType.vb: IFinalCommandStep(Of T)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T)
+  name.vb: IFinalCommandStep(Of T)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables*
+  commentId: Overload:Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables
+  name: Variables
+  nameWithType: ICompleteJobCommandStep1.Variables
+  fullName: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1.Variables
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  name: ICompleteJobCommandStep1
+  nameWithType: ICompleteJobCommandStep1
+  fullName: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

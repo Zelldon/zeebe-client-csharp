@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+  commentId: T:Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+  id: IDeployWorkflowCommandBuilderStep2
+  parent: Zeebe.Client.Api.Commands
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IDeployWorkflowCommandBuilderStep2
+  nameWithType: IDeployWorkflowCommandBuilderStep2
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+  type: Interface
+  source:
+    id: IDeployWorkflowCommandBuilderStep2
+    path: ''
+    startLine: 1314
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: 'public interface IDeployWorkflowCommandBuilderStep2 : IDeployWorkflowCommandStep1, IFinalCommandStep<IDeployResponse>'
+    content.vb: >-
+      Public Interface IDeployWorkflowCommandBuilderStep2
+          Inherits IDeployWorkflowCommandStep1, IFinalCommandStep(Of IDeployResponse)
+  inheritedMembers:
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  - Zeebe.Client.Api.Commands.IFinalCommandStep{IDeployResponse}.Send(System.Nullable{TimeSpan})
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  isExternal: true
+  name: AddResourceBytes(Byte[], String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceBytes(Byte[], String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[], System.String)
+  nameWithType.vb: IDeployWorkflowCommandStep1.AddResourceBytes(Byte(), String)
+  fullName.vb: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte(), System.String)
+  name.vb: AddResourceBytes(Byte(), String)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+    name: AddResourceBytes
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceBytes
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+    name: AddResourceBytes
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceBytes
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  isExternal: true
+  name: AddResourceString(String, Encoding, String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceString(String, Encoding, String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String, Encoding, System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+    name: AddResourceString
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceString
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+    name: AddResourceString
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceString
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  isExternal: true
+  name: AddResourceStringUtf8(String, String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceStringUtf8(String, String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String, System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+    name: AddResourceStringUtf8
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceStringUtf8
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+    name: AddResourceStringUtf8
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceStringUtf8
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  isExternal: true
+  name: AddResourceStream(Stream, String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceStream(Stream, String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream, System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+    name: AddResourceStream
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceStream
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+    name: AddResourceStream
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceStream
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  isExternal: true
+  name: AddResourceFile(String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceFile(String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+    name: AddResourceFile
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceFile
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+    name: AddResourceFile
+    nameWithType: IDeployWorkflowCommandStep1.AddResourceFile
+    fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{IDeployResponse}.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep{IDeployResponse}.Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Api.Commands.IFinalCommandStep{IDeployResponse}
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<IDeployResponse>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IDeployResponse>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of IDeployResponse).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IDeployResponse).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<IDeployResponse>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IDeployResponse>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of IDeployResponse).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IDeployResponse).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  name: IDeployWorkflowCommandStep1
+  nameWithType: IDeployWorkflowCommandStep1
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  isExternal: true
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<T>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of T).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<T>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of T).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{IDeployResponse}
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep{IDeployResponse}
+  parent: Zeebe.Client.Api.Commands
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<IDeployResponse>
+  nameWithType: IFinalCommandStep<IDeployResponse>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IDeployResponse>
+  nameWithType.vb: IFinalCommandStep(Of IDeployResponse)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IDeployResponse)
+  name.vb: IFinalCommandStep(Of IDeployResponse)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IDeployResponse
+    name: IDeployResponse
+    nameWithType: IDeployResponse
+    fullName: IDeployResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IDeployResponse
+    name: IDeployResponse
+    nameWithType: IDeployResponse
+    fullName: IDeployResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<T>
+  nameWithType: IFinalCommandStep<T>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>
+  nameWithType.vb: IFinalCommandStep(Of T)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T)
+  name.vb: IFinalCommandStep(Of T)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

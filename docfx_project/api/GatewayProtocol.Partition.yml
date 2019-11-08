@@ -1,0 +1,775 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.Partition
+  commentId: T:GatewayProtocol.Partition
+  id: Partition
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.Partition.#ctor
+  - GatewayProtocol.Partition.#ctor(GatewayProtocol.Partition)
+  - GatewayProtocol.Partition.CalculateSize
+  - GatewayProtocol.Partition.Clone
+  - GatewayProtocol.Partition.Descriptor
+  - GatewayProtocol.Partition.Equals(GatewayProtocol.Partition)
+  - GatewayProtocol.Partition.Equals(System.Object)
+  - GatewayProtocol.Partition.GetHashCode
+  - GatewayProtocol.Partition.MergeFrom(GatewayProtocol.Partition)
+  - GatewayProtocol.Partition.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.Partition.Parser
+  - GatewayProtocol.Partition.PartitionId
+  - GatewayProtocol.Partition.PartitionIdFieldNumber
+  - GatewayProtocol.Partition.Role
+  - GatewayProtocol.Partition.RoleFieldNumber
+  - GatewayProtocol.Partition.ToString
+  - GatewayProtocol.Partition.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: Partition
+  nameWithType: Partition
+  fullName: GatewayProtocol.Partition
+  type: Class
+  source:
+    id: Partition
+    path: ''
+    startLine: 7019
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class Partition : pb.IMessage<Partition>'
+    content.vb: >-
+      Public NotInheritable Class Partition
+          Inherits pb.IMessage(Of Partition)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.Partition.Parser
+  commentId: P:GatewayProtocol.Partition.Parser
+  id: Parser
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: Partition.Parser
+  fullName: GatewayProtocol.Partition.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 7022
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<Partition> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.Partition}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of Partition)
+  overload: GatewayProtocol.Partition.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.Partition.Descriptor
+  commentId: P:GatewayProtocol.Partition.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: Partition.Descriptor
+  fullName: GatewayProtocol.Partition.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 7025
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.Partition.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.Partition.#ctor
+  commentId: M:GatewayProtocol.Partition.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Partition()
+  nameWithType: Partition.Partition()
+  fullName: GatewayProtocol.Partition.Partition()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7035
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public Partition()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.Partition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.#ctor(GatewayProtocol.Partition)
+  commentId: M:GatewayProtocol.Partition.#ctor(GatewayProtocol.Partition)
+  id: '#ctor(GatewayProtocol.Partition)'
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Partition(Partition)
+  nameWithType: Partition.Partition(Partition)
+  fullName: GatewayProtocol.Partition.Partition(GatewayProtocol.Partition)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7042
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public Partition(Partition other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.Partition
+    content.vb: Public Sub New(other As Partition)
+  overload: GatewayProtocol.Partition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.Clone
+  commentId: M:GatewayProtocol.Partition.Clone
+  id: Clone
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: Partition.Clone()
+  fullName: GatewayProtocol.Partition.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 7049
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public Partition Clone()
+    return:
+      type: GatewayProtocol.Partition
+    content.vb: Public Function Clone As Partition
+  overload: GatewayProtocol.Partition.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.PartitionIdFieldNumber
+  commentId: F:GatewayProtocol.Partition.PartitionIdFieldNumber
+  id: PartitionIdFieldNumber
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: PartitionIdFieldNumber
+  nameWithType: Partition.PartitionIdFieldNumber
+  fullName: GatewayProtocol.Partition.PartitionIdFieldNumber
+  type: Field
+  source:
+    id: PartitionIdFieldNumber
+    path: ''
+    startLine: 7055
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;partitionId&quot; field.
+  example: []
+  syntax:
+    content: public const int PartitionIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const PartitionIdFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.Partition.PartitionId
+  commentId: P:GatewayProtocol.Partition.PartitionId
+  id: PartitionId
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: PartitionId
+  nameWithType: Partition.PartitionId
+  fullName: GatewayProtocol.Partition.PartitionId
+  type: Property
+  source:
+    id: PartitionId
+    path: ''
+    startLine: 7060
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe unique ID of this partition\n"
+  example: []
+  syntax:
+    content: public int PartitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PartitionId As Integer
+  overload: GatewayProtocol.Partition.PartitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.RoleFieldNumber
+  commentId: F:GatewayProtocol.Partition.RoleFieldNumber
+  id: RoleFieldNumber
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: RoleFieldNumber
+  nameWithType: Partition.RoleFieldNumber
+  fullName: GatewayProtocol.Partition.RoleFieldNumber
+  type: Field
+  source:
+    id: RoleFieldNumber
+    path: ''
+    startLine: 7069
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;role&quot; field.
+  example: []
+  syntax:
+    content: public const int RoleFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const RoleFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.Partition.Role
+  commentId: P:GatewayProtocol.Partition.Role
+  id: Role
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: Partition.Role
+  fullName: GatewayProtocol.Partition.Role
+  type: Property
+  source:
+    id: Role
+    path: ''
+    startLine: 7074
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe role of the broker for this partition\n"
+  example: []
+  syntax:
+    content: public Partition.Types.PartitionBrokerRole Role { get; set; }
+    parameters: []
+    return:
+      type: GatewayProtocol.Partition.Types.PartitionBrokerRole
+    content.vb: Public Property Role As Partition.Types.PartitionBrokerRole
+  overload: GatewayProtocol.Partition.Role*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.Equals(System.Object)
+  commentId: M:GatewayProtocol.Partition.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Partition.Equals(Object)
+  fullName: GatewayProtocol.Partition.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 7082
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.Partition.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.Partition.Equals(GatewayProtocol.Partition)
+  commentId: M:GatewayProtocol.Partition.Equals(GatewayProtocol.Partition)
+  id: Equals(GatewayProtocol.Partition)
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: Equals(Partition)
+  nameWithType: Partition.Equals(Partition)
+  fullName: GatewayProtocol.Partition.Equals(GatewayProtocol.Partition)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 7087
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(Partition other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.Partition
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Partition) As Boolean
+  overload: GatewayProtocol.Partition.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.GetHashCode
+  commentId: M:GatewayProtocol.Partition.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Partition.GetHashCode()
+  fullName: GatewayProtocol.Partition.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 7100
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.Partition.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.Partition.ToString
+  commentId: M:GatewayProtocol.Partition.ToString
+  id: ToString
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Partition.ToString()
+  fullName: GatewayProtocol.Partition.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 7111
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.Partition.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.Partition.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.Partition.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: Partition.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.Partition.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 7116
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.Partition.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.CalculateSize
+  commentId: M:GatewayProtocol.Partition.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: Partition.CalculateSize()
+  fullName: GatewayProtocol.Partition.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 7131
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.Partition.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.MergeFrom(GatewayProtocol.Partition)
+  commentId: M:GatewayProtocol.Partition.MergeFrom(GatewayProtocol.Partition)
+  id: MergeFrom(GatewayProtocol.Partition)
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(Partition)
+  nameWithType: Partition.MergeFrom(Partition)
+  fullName: GatewayProtocol.Partition.MergeFrom(GatewayProtocol.Partition)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 7146
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(Partition other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.Partition
+    content.vb: Public Sub MergeFrom(other As Partition)
+  overload: GatewayProtocol.Partition.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.Partition.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.Partition.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.Partition
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: Partition.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.Partition.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 7160
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.Partition.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.Partition.Parser*
+  commentId: Overload:GatewayProtocol.Partition.Parser
+  name: Parser
+  nameWithType: Partition.Parser
+  fullName: GatewayProtocol.Partition.Parser
+- uid: pb.MessageParser{GatewayProtocol.Partition}
+  commentId: '!:pb.MessageParser{GatewayProtocol.Partition}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<Partition>
+  nameWithType: pb.MessageParser<Partition>
+  fullName: pb.MessageParser<GatewayProtocol.Partition>
+  nameWithType.vb: pb.MessageParser(Of Partition)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.Partition)
+  name.vb: pb.MessageParser(Of Partition)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.Partition
+    name: Partition
+    nameWithType: Partition
+    fullName: GatewayProtocol.Partition
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.Partition
+    name: Partition
+    nameWithType: Partition
+    fullName: GatewayProtocol.Partition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.Partition.Descriptor*
+  commentId: Overload:GatewayProtocol.Partition.Descriptor
+  name: Descriptor
+  nameWithType: Partition.Descriptor
+  fullName: GatewayProtocol.Partition.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.Partition.#ctor*
+  commentId: Overload:GatewayProtocol.Partition.#ctor
+  name: Partition
+  nameWithType: Partition.Partition
+  fullName: GatewayProtocol.Partition.Partition
+- uid: GatewayProtocol.Partition
+  commentId: T:GatewayProtocol.Partition
+  parent: GatewayProtocol
+  name: Partition
+  nameWithType: Partition
+  fullName: GatewayProtocol.Partition
+- uid: GatewayProtocol.Partition.Clone*
+  commentId: Overload:GatewayProtocol.Partition.Clone
+  name: Clone
+  nameWithType: Partition.Clone
+  fullName: GatewayProtocol.Partition.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.Partition.PartitionId*
+  commentId: Overload:GatewayProtocol.Partition.PartitionId
+  name: PartitionId
+  nameWithType: Partition.PartitionId
+  fullName: GatewayProtocol.Partition.PartitionId
+- uid: GatewayProtocol.Partition.Role*
+  commentId: Overload:GatewayProtocol.Partition.Role
+  name: Role
+  nameWithType: Partition.Role
+  fullName: GatewayProtocol.Partition.Role
+- uid: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  commentId: T:GatewayProtocol.Partition.Types.PartitionBrokerRole
+  parent: GatewayProtocol
+  name: Partition.Types.PartitionBrokerRole
+  nameWithType: Partition.Types.PartitionBrokerRole
+  fullName: GatewayProtocol.Partition.Types.PartitionBrokerRole
+- uid: GatewayProtocol.Partition.Equals*
+  commentId: Overload:GatewayProtocol.Partition.Equals
+  name: Equals
+  nameWithType: Partition.Equals
+  fullName: GatewayProtocol.Partition.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.Partition.GetHashCode*
+  commentId: Overload:GatewayProtocol.Partition.GetHashCode
+  name: GetHashCode
+  nameWithType: Partition.GetHashCode
+  fullName: GatewayProtocol.Partition.GetHashCode
+- uid: GatewayProtocol.Partition.ToString*
+  commentId: Overload:GatewayProtocol.Partition.ToString
+  name: ToString
+  nameWithType: Partition.ToString
+  fullName: GatewayProtocol.Partition.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.Partition.WriteTo*
+  commentId: Overload:GatewayProtocol.Partition.WriteTo
+  name: WriteTo
+  nameWithType: Partition.WriteTo
+  fullName: GatewayProtocol.Partition.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.Partition.CalculateSize*
+  commentId: Overload:GatewayProtocol.Partition.CalculateSize
+  name: CalculateSize
+  nameWithType: Partition.CalculateSize
+  fullName: GatewayProtocol.Partition.CalculateSize
+- uid: GatewayProtocol.Partition.MergeFrom*
+  commentId: Overload:GatewayProtocol.Partition.MergeFrom
+  name: MergeFrom
+  nameWithType: Partition.MergeFrom
+  fullName: GatewayProtocol.Partition.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

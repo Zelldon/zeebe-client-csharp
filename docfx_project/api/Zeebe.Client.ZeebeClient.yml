@@ -1,0 +1,1318 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.ZeebeClient
+  commentId: T:Zeebe.Client.ZeebeClient
+  id: ZeebeClient
+  parent: Zeebe.Client
+  children:
+  - Zeebe.Client.ZeebeClient.Builder
+  - Zeebe.Client.ZeebeClient.Dispose
+  - Zeebe.Client.ZeebeClient.NewActivateJobsCommand
+  - Zeebe.Client.ZeebeClient.NewCancelInstanceCommand(System.Int64)
+  - Zeebe.Client.ZeebeClient.NewCompleteJobCommand(IJob)
+  - Zeebe.Client.ZeebeClient.NewCompleteJobCommand(System.Int64)
+  - Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand
+  - Zeebe.Client.ZeebeClient.NewDeployCommand
+  - Zeebe.Client.ZeebeClient.NewFailCommand(System.Int64)
+  - Zeebe.Client.ZeebeClient.NewPublishMessageCommand
+  - Zeebe.Client.ZeebeClient.NewResolveIncidentCommand(System.Int64)
+  - Zeebe.Client.ZeebeClient.NewSetVariablesCommand(System.Int64)
+  - Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  - Zeebe.Client.ZeebeClient.NewWorker
+  - Zeebe.Client.ZeebeClient.TopologyRequest
+  langs:
+  - csharp
+  - vb
+  name: ZeebeClient
+  nameWithType: ZeebeClient
+  fullName: Zeebe.Client.ZeebeClient
+  type: Class
+  source:
+    id: ZeebeClient
+    path: ''
+    startLine: 267
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nThe client to communicate with a Zeebe broker/cluster.\n"
+  example: []
+  syntax:
+    content: 'public class ZeebeClient : IZeebeClient, IJobClient, IDisposable'
+    content.vb: >-
+      Public Class ZeebeClient
+          Implements IZeebeClient, IJobClient, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - Zeebe.Client.IZeebeClient
+  - IJobClient
+  - IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.ZeebeClient.NewWorker
+  commentId: M:Zeebe.Client.ZeebeClient.NewWorker
+  id: NewWorker
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewWorker()
+  nameWithType: ZeebeClient.NewWorker()
+  fullName: Zeebe.Client.ZeebeClient.NewWorker()
+  type: Method
+  source:
+    id: NewWorker
+    path: ''
+    startLine: 288
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public IJobWorkerBuilderStep1 NewWorker()
+    return:
+      type: IJobWorkerBuilderStep1
+    content.vb: Public Function NewWorker As IJobWorkerBuilderStep1
+  overload: Zeebe.Client.ZeebeClient.NewWorker*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewWorker
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewActivateJobsCommand
+  commentId: M:Zeebe.Client.ZeebeClient.NewActivateJobsCommand
+  id: NewActivateJobsCommand
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewActivateJobsCommand()
+  nameWithType: ZeebeClient.NewActivateJobsCommand()
+  fullName: Zeebe.Client.ZeebeClient.NewActivateJobsCommand()
+  type: Method
+  source:
+    id: NewActivateJobsCommand
+    path: ''
+    startLine: 293
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public IActivateJobsCommandStep1 NewActivateJobsCommand()
+    return:
+      type: IActivateJobsCommandStep1
+    content.vb: Public Function NewActivateJobsCommand As IActivateJobsCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewActivateJobsCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewCompleteJobCommand(System.Int64)
+  commentId: M:Zeebe.Client.ZeebeClient.NewCompleteJobCommand(System.Int64)
+  id: NewCompleteJobCommand(System.Int64)
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewCompleteJobCommand(Int64)
+  nameWithType: ZeebeClient.NewCompleteJobCommand(Int64)
+  fullName: Zeebe.Client.ZeebeClient.NewCompleteJobCommand(System.Int64)
+  type: Method
+  source:
+    id: NewCompleteJobCommand
+    path: ''
+    startLine: 298
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public ICompleteJobCommandStep1 NewCompleteJobCommand(long jobKey)
+    parameters:
+    - id: jobKey
+      type: System.Int64
+    return:
+      type: ICompleteJobCommandStep1
+    content.vb: Public Function NewCompleteJobCommand(jobKey As Long) As ICompleteJobCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewCompleteJobCommand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewCompleteJobCommand(IJob)
+  commentId: M:Zeebe.Client.ZeebeClient.NewCompleteJobCommand(IJob)
+  id: NewCompleteJobCommand(IJob)
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewCompleteJobCommand(IJob)
+  nameWithType: ZeebeClient.NewCompleteJobCommand(IJob)
+  fullName: Zeebe.Client.ZeebeClient.NewCompleteJobCommand(IJob)
+  type: Method
+  source:
+    id: NewCompleteJobCommand
+    path: ''
+    startLine: 303
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public ICompleteJobCommandStep1 NewCompleteJobCommand(IJob activatedJob)
+    parameters:
+    - id: activatedJob
+      type: IJob
+    return:
+      type: ICompleteJobCommandStep1
+    content.vb: Public Function NewCompleteJobCommand(activatedJob As IJob) As ICompleteJobCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewCompleteJobCommand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewFailCommand(System.Int64)
+  commentId: M:Zeebe.Client.ZeebeClient.NewFailCommand(System.Int64)
+  id: NewFailCommand(System.Int64)
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewFailCommand(Int64)
+  nameWithType: ZeebeClient.NewFailCommand(Int64)
+  fullName: Zeebe.Client.ZeebeClient.NewFailCommand(System.Int64)
+  type: Method
+  source:
+    id: NewFailCommand
+    path: ''
+    startLine: 308
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public IFailJobCommandStep1 NewFailCommand(long jobKey)
+    parameters:
+    - id: jobKey
+      type: System.Int64
+    return:
+      type: IFailJobCommandStep1
+    content.vb: Public Function NewFailCommand(jobKey As Long) As IFailJobCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewFailCommand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  commentId: M:Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  id: NewUpdateRetriesCommand(System.Int64)
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewUpdateRetriesCommand(Int64)
+  nameWithType: ZeebeClient.NewUpdateRetriesCommand(Int64)
+  fullName: Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  type: Method
+  source:
+    id: NewUpdateRetriesCommand
+    path: ''
+    startLine: 313
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public IUpdateRetriesCommandStep1 NewUpdateRetriesCommand(long jobKey)
+    parameters:
+    - id: jobKey
+      type: System.Int64
+    return:
+      type: IUpdateRetriesCommandStep1
+    content.vb: Public Function NewUpdateRetriesCommand(jobKey As Long) As IUpdateRetriesCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewDeployCommand
+  commentId: M:Zeebe.Client.ZeebeClient.NewDeployCommand
+  id: NewDeployCommand
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewDeployCommand()
+  nameWithType: ZeebeClient.NewDeployCommand()
+  fullName: Zeebe.Client.ZeebeClient.NewDeployCommand()
+  type: Method
+  source:
+    id: NewDeployCommand
+    path: ''
+    startLine: 322
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public IDeployWorkflowCommandStep1 NewDeployCommand()
+    return:
+      type: IDeployWorkflowCommandStep1
+    content.vb: Public Function NewDeployCommand As IDeployWorkflowCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewDeployCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewDeployCommand
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand
+  commentId: M:Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand
+  id: NewCreateWorkflowInstanceCommand
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewCreateWorkflowInstanceCommand()
+  nameWithType: ZeebeClient.NewCreateWorkflowInstanceCommand()
+  fullName: Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand()
+  type: Method
+  source:
+    id: NewCreateWorkflowInstanceCommand
+    path: ''
+    startLine: 327
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public ICreateWorkflowInstanceCommandStep1 NewCreateWorkflowInstanceCommand()
+    return:
+      type: ICreateWorkflowInstanceCommandStep1
+    content.vb: Public Function NewCreateWorkflowInstanceCommand As ICreateWorkflowInstanceCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewCancelInstanceCommand(System.Int64)
+  commentId: M:Zeebe.Client.ZeebeClient.NewCancelInstanceCommand(System.Int64)
+  id: NewCancelInstanceCommand(System.Int64)
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewCancelInstanceCommand(Int64)
+  nameWithType: ZeebeClient.NewCancelInstanceCommand(Int64)
+  fullName: Zeebe.Client.ZeebeClient.NewCancelInstanceCommand(System.Int64)
+  type: Method
+  source:
+    id: NewCancelInstanceCommand
+    path: ''
+    startLine: 332
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public ICancelWorkflowInstanceCommandStep1 NewCancelInstanceCommand(long workflowInstanceKey)
+    parameters:
+    - id: workflowInstanceKey
+      type: System.Int64
+    return:
+      type: ICancelWorkflowInstanceCommandStep1
+    content.vb: Public Function NewCancelInstanceCommand(workflowInstanceKey As Long) As ICancelWorkflowInstanceCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewCancelInstanceCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewSetVariablesCommand(System.Int64)
+  commentId: M:Zeebe.Client.ZeebeClient.NewSetVariablesCommand(System.Int64)
+  id: NewSetVariablesCommand(System.Int64)
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewSetVariablesCommand(Int64)
+  nameWithType: ZeebeClient.NewSetVariablesCommand(Int64)
+  fullName: Zeebe.Client.ZeebeClient.NewSetVariablesCommand(System.Int64)
+  type: Method
+  source:
+    id: NewSetVariablesCommand
+    path: ''
+    startLine: 337
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public ISetVariablesCommandStep1 NewSetVariablesCommand(long elementInstanceKey)
+    parameters:
+    - id: elementInstanceKey
+      type: System.Int64
+    return:
+      type: ISetVariablesCommandStep1
+    content.vb: Public Function NewSetVariablesCommand(elementInstanceKey As Long) As ISetVariablesCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewSetVariablesCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewResolveIncidentCommand(System.Int64)
+  commentId: M:Zeebe.Client.ZeebeClient.NewResolveIncidentCommand(System.Int64)
+  id: NewResolveIncidentCommand(System.Int64)
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewResolveIncidentCommand(Int64)
+  nameWithType: ZeebeClient.NewResolveIncidentCommand(Int64)
+  fullName: Zeebe.Client.ZeebeClient.NewResolveIncidentCommand(System.Int64)
+  type: Method
+  source:
+    id: NewResolveIncidentCommand
+    path: ''
+    startLine: 342
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public IResolveIncidentCommandStep1 NewResolveIncidentCommand(long incidentKey)
+    parameters:
+    - id: incidentKey
+      type: System.Int64
+    return:
+      type: IResolveIncidentCommandStep1
+    content.vb: Public Function NewResolveIncidentCommand(incidentKey As Long) As IResolveIncidentCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewResolveIncidentCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.NewPublishMessageCommand
+  commentId: M:Zeebe.Client.ZeebeClient.NewPublishMessageCommand
+  id: NewPublishMessageCommand
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewPublishMessageCommand()
+  nameWithType: ZeebeClient.NewPublishMessageCommand()
+  fullName: Zeebe.Client.ZeebeClient.NewPublishMessageCommand()
+  type: Method
+  source:
+    id: NewPublishMessageCommand
+    path: ''
+    startLine: 347
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public IPublishMessageCommandStep1 NewPublishMessageCommand()
+    return:
+      type: IPublishMessageCommandStep1
+    content.vb: Public Function NewPublishMessageCommand As IPublishMessageCommandStep1
+  overload: Zeebe.Client.ZeebeClient.NewPublishMessageCommand*
+  implements:
+  - Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.TopologyRequest
+  commentId: M:Zeebe.Client.ZeebeClient.TopologyRequest
+  id: TopologyRequest
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: TopologyRequest()
+  nameWithType: ZeebeClient.TopologyRequest()
+  fullName: Zeebe.Client.ZeebeClient.TopologyRequest()
+  type: Method
+  source:
+    id: TopologyRequest
+    path: ''
+    startLine: 352
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public ITopologyRequestStep1 TopologyRequest()
+    return:
+      type: ITopologyRequestStep1
+    content.vb: Public Function TopologyRequest As ITopologyRequestStep1
+  overload: Zeebe.Client.ZeebeClient.TopologyRequest*
+  implements:
+  - Zeebe.Client.IZeebeClient.TopologyRequest
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.Dispose
+  commentId: M:Zeebe.Client.ZeebeClient.Dispose
+  id: Dispose
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ZeebeClient.Dispose()
+  fullName: Zeebe.Client.ZeebeClient.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Zeebe.Client.ZeebeClient.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.ZeebeClient.Builder
+  commentId: M:Zeebe.Client.ZeebeClient.Builder
+  id: Builder
+  parent: Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: Builder()
+  nameWithType: ZeebeClient.Builder()
+  fullName: Zeebe.Client.ZeebeClient.Builder()
+  type: Method
+  source:
+    id: Builder
+    path: ''
+    startLine: 365
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nCreates an new IZeebeClientBuilder. This builder need to be used to construct\na ZeebeClient.\n"
+  example: []
+  syntax:
+    content: public static IZeebeClientBuilder Builder()
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientBuilder
+      description: an builder to construct an ZeebeClient
+    content.vb: Public Shared Function Builder As IZeebeClientBuilder
+  overload: Zeebe.Client.ZeebeClient.Builder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Zeebe.Client
+  commentId: N:Zeebe.Client
+  name: Zeebe.Client
+  nameWithType: Zeebe.Client
+  fullName: Zeebe.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Zeebe.Client.IZeebeClient
+  commentId: T:Zeebe.Client.IZeebeClient
+  parent: Zeebe.Client
+  name: IZeebeClient
+  nameWithType: IZeebeClient
+  fullName: Zeebe.Client.IZeebeClient
+- uid: IJobClient
+  isExternal: true
+  name: IJobClient
+  nameWithType: IJobClient
+  fullName: IJobClient
+- uid: IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.ZeebeClient.NewWorker*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewWorker
+  name: NewWorker
+  nameWithType: ZeebeClient.NewWorker
+  fullName: Zeebe.Client.ZeebeClient.NewWorker
+- uid: Zeebe.Client.IZeebeClient.NewWorker
+  commentId: M:Zeebe.Client.IZeebeClient.NewWorker
+  parent: Zeebe.Client.IZeebeClient
+  name: NewWorker()
+  nameWithType: IZeebeClient.NewWorker()
+  fullName: Zeebe.Client.IZeebeClient.NewWorker()
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewWorker
+    name: NewWorker
+    nameWithType: IZeebeClient.NewWorker
+    fullName: Zeebe.Client.IZeebeClient.NewWorker
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewWorker
+    name: NewWorker
+    nameWithType: IZeebeClient.NewWorker
+    fullName: Zeebe.Client.IZeebeClient.NewWorker
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IJobWorkerBuilderStep1
+  isExternal: true
+  name: IJobWorkerBuilderStep1
+  nameWithType: IJobWorkerBuilderStep1
+  fullName: IJobWorkerBuilderStep1
+- uid: Zeebe.Client.ZeebeClient.NewActivateJobsCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewActivateJobsCommand
+  name: NewActivateJobsCommand
+  nameWithType: ZeebeClient.NewActivateJobsCommand
+  fullName: Zeebe.Client.ZeebeClient.NewActivateJobsCommand
+- uid: Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  parent: Zeebe.Client.IZeebeClient
+  name: NewActivateJobsCommand()
+  nameWithType: IZeebeClient.NewActivateJobsCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewActivateJobsCommand()
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+    name: NewActivateJobsCommand
+    nameWithType: IZeebeClient.NewActivateJobsCommand
+    fullName: Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+    name: NewActivateJobsCommand
+    nameWithType: IZeebeClient.NewActivateJobsCommand
+    fullName: Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IActivateJobsCommandStep1
+  isExternal: true
+  name: IActivateJobsCommandStep1
+  nameWithType: IActivateJobsCommandStep1
+  fullName: IActivateJobsCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewCompleteJobCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewCompleteJobCommand
+  name: NewCompleteJobCommand
+  nameWithType: ZeebeClient.NewCompleteJobCommand
+  fullName: Zeebe.Client.ZeebeClient.NewCompleteJobCommand
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: ICompleteJobCommandStep1
+  isExternal: true
+  name: ICompleteJobCommandStep1
+  nameWithType: ICompleteJobCommandStep1
+  fullName: ICompleteJobCommandStep1
+- uid: IJob
+  isExternal: true
+  name: IJob
+  nameWithType: IJob
+  fullName: IJob
+- uid: Zeebe.Client.ZeebeClient.NewFailCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewFailCommand
+  name: NewFailCommand
+  nameWithType: ZeebeClient.NewFailCommand
+  fullName: Zeebe.Client.ZeebeClient.NewFailCommand
+- uid: IFailJobCommandStep1
+  isExternal: true
+  name: IFailJobCommandStep1
+  nameWithType: IFailJobCommandStep1
+  fullName: IFailJobCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand
+  name: NewUpdateRetriesCommand
+  nameWithType: ZeebeClient.NewUpdateRetriesCommand
+  fullName: Zeebe.Client.ZeebeClient.NewUpdateRetriesCommand
+- uid: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  isExternal: true
+  name: NewUpdateRetriesCommand(Int64)
+  nameWithType: IZeebeClient.NewUpdateRetriesCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+    name: NewUpdateRetriesCommand
+    nameWithType: IZeebeClient.NewUpdateRetriesCommand
+    fullName: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+    name: NewUpdateRetriesCommand
+    nameWithType: IZeebeClient.NewUpdateRetriesCommand
+    fullName: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IUpdateRetriesCommandStep1
+  isExternal: true
+  name: IUpdateRetriesCommandStep1
+  nameWithType: IUpdateRetriesCommandStep1
+  fullName: IUpdateRetriesCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewDeployCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewDeployCommand
+  name: NewDeployCommand
+  nameWithType: ZeebeClient.NewDeployCommand
+  fullName: Zeebe.Client.ZeebeClient.NewDeployCommand
+- uid: Zeebe.Client.IZeebeClient.NewDeployCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewDeployCommand
+  parent: Zeebe.Client.IZeebeClient
+  name: NewDeployCommand()
+  nameWithType: IZeebeClient.NewDeployCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewDeployCommand()
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewDeployCommand
+    name: NewDeployCommand
+    nameWithType: IZeebeClient.NewDeployCommand
+    fullName: Zeebe.Client.IZeebeClient.NewDeployCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewDeployCommand
+    name: NewDeployCommand
+    nameWithType: IZeebeClient.NewDeployCommand
+    fullName: Zeebe.Client.IZeebeClient.NewDeployCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDeployWorkflowCommandStep1
+  isExternal: true
+  name: IDeployWorkflowCommandStep1
+  nameWithType: IDeployWorkflowCommandStep1
+  fullName: IDeployWorkflowCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand
+  name: NewCreateWorkflowInstanceCommand
+  nameWithType: ZeebeClient.NewCreateWorkflowInstanceCommand
+  fullName: Zeebe.Client.ZeebeClient.NewCreateWorkflowInstanceCommand
+- uid: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  parent: Zeebe.Client.IZeebeClient
+  name: NewCreateWorkflowInstanceCommand()
+  nameWithType: IZeebeClient.NewCreateWorkflowInstanceCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand()
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+    name: NewCreateWorkflowInstanceCommand
+    nameWithType: IZeebeClient.NewCreateWorkflowInstanceCommand
+    fullName: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+    name: NewCreateWorkflowInstanceCommand
+    nameWithType: IZeebeClient.NewCreateWorkflowInstanceCommand
+    fullName: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ICreateWorkflowInstanceCommandStep1
+  isExternal: true
+  name: ICreateWorkflowInstanceCommandStep1
+  nameWithType: ICreateWorkflowInstanceCommandStep1
+  fullName: ICreateWorkflowInstanceCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewCancelInstanceCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewCancelInstanceCommand
+  name: NewCancelInstanceCommand
+  nameWithType: ZeebeClient.NewCancelInstanceCommand
+  fullName: Zeebe.Client.ZeebeClient.NewCancelInstanceCommand
+- uid: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  isExternal: true
+  name: NewCancelInstanceCommand(Int64)
+  nameWithType: IZeebeClient.NewCancelInstanceCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+    name: NewCancelInstanceCommand
+    nameWithType: IZeebeClient.NewCancelInstanceCommand
+    fullName: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+    name: NewCancelInstanceCommand
+    nameWithType: IZeebeClient.NewCancelInstanceCommand
+    fullName: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ICancelWorkflowInstanceCommandStep1
+  isExternal: true
+  name: ICancelWorkflowInstanceCommandStep1
+  nameWithType: ICancelWorkflowInstanceCommandStep1
+  fullName: ICancelWorkflowInstanceCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewSetVariablesCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewSetVariablesCommand
+  name: NewSetVariablesCommand
+  nameWithType: ZeebeClient.NewSetVariablesCommand
+  fullName: Zeebe.Client.ZeebeClient.NewSetVariablesCommand
+- uid: Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  isExternal: true
+  name: NewSetVariablesCommand(Int64)
+  nameWithType: IZeebeClient.NewSetVariablesCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+    name: NewSetVariablesCommand
+    nameWithType: IZeebeClient.NewSetVariablesCommand
+    fullName: Zeebe.Client.IZeebeClient.NewSetVariablesCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+    name: NewSetVariablesCommand
+    nameWithType: IZeebeClient.NewSetVariablesCommand
+    fullName: Zeebe.Client.IZeebeClient.NewSetVariablesCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ISetVariablesCommandStep1
+  isExternal: true
+  name: ISetVariablesCommandStep1
+  nameWithType: ISetVariablesCommandStep1
+  fullName: ISetVariablesCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewResolveIncidentCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewResolveIncidentCommand
+  name: NewResolveIncidentCommand
+  nameWithType: ZeebeClient.NewResolveIncidentCommand
+  fullName: Zeebe.Client.ZeebeClient.NewResolveIncidentCommand
+- uid: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  isExternal: true
+  name: NewResolveIncidentCommand(Int64)
+  nameWithType: IZeebeClient.NewResolveIncidentCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+    name: NewResolveIncidentCommand
+    nameWithType: IZeebeClient.NewResolveIncidentCommand
+    fullName: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+    name: NewResolveIncidentCommand
+    nameWithType: IZeebeClient.NewResolveIncidentCommand
+    fullName: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IResolveIncidentCommandStep1
+  isExternal: true
+  name: IResolveIncidentCommandStep1
+  nameWithType: IResolveIncidentCommandStep1
+  fullName: IResolveIncidentCommandStep1
+- uid: Zeebe.Client.ZeebeClient.NewPublishMessageCommand*
+  commentId: Overload:Zeebe.Client.ZeebeClient.NewPublishMessageCommand
+  name: NewPublishMessageCommand
+  nameWithType: ZeebeClient.NewPublishMessageCommand
+  fullName: Zeebe.Client.ZeebeClient.NewPublishMessageCommand
+- uid: Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  parent: Zeebe.Client.IZeebeClient
+  name: NewPublishMessageCommand()
+  nameWithType: IZeebeClient.NewPublishMessageCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewPublishMessageCommand()
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+    name: NewPublishMessageCommand
+    nameWithType: IZeebeClient.NewPublishMessageCommand
+    fullName: Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+    name: NewPublishMessageCommand
+    nameWithType: IZeebeClient.NewPublishMessageCommand
+    fullName: Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IPublishMessageCommandStep1
+  isExternal: true
+  name: IPublishMessageCommandStep1
+  nameWithType: IPublishMessageCommandStep1
+  fullName: IPublishMessageCommandStep1
+- uid: Zeebe.Client.ZeebeClient.TopologyRequest*
+  commentId: Overload:Zeebe.Client.ZeebeClient.TopologyRequest
+  name: TopologyRequest
+  nameWithType: ZeebeClient.TopologyRequest
+  fullName: Zeebe.Client.ZeebeClient.TopologyRequest
+- uid: Zeebe.Client.IZeebeClient.TopologyRequest
+  commentId: M:Zeebe.Client.IZeebeClient.TopologyRequest
+  parent: Zeebe.Client.IZeebeClient
+  name: TopologyRequest()
+  nameWithType: IZeebeClient.TopologyRequest()
+  fullName: Zeebe.Client.IZeebeClient.TopologyRequest()
+  spec.csharp:
+  - uid: Zeebe.Client.IZeebeClient.TopologyRequest
+    name: TopologyRequest
+    nameWithType: IZeebeClient.TopologyRequest
+    fullName: Zeebe.Client.IZeebeClient.TopologyRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.IZeebeClient.TopologyRequest
+    name: TopologyRequest
+    nameWithType: IZeebeClient.TopologyRequest
+    fullName: Zeebe.Client.IZeebeClient.TopologyRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ITopologyRequestStep1
+  isExternal: true
+  name: ITopologyRequestStep1
+  nameWithType: ITopologyRequestStep1
+  fullName: ITopologyRequestStep1
+- uid: Zeebe.Client.ZeebeClient.Dispose*
+  commentId: Overload:Zeebe.Client.ZeebeClient.Dispose
+  name: Dispose
+  nameWithType: ZeebeClient.Dispose
+  fullName: Zeebe.Client.ZeebeClient.Dispose
+- uid: Zeebe.Client.ZeebeClient.Builder*
+  commentId: Overload:Zeebe.Client.ZeebeClient.Builder
+  name: Builder
+  nameWithType: ZeebeClient.Builder
+  fullName: Zeebe.Client.ZeebeClient.Builder
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeClientBuilder
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientBuilder
+  nameWithType: IZeebeClientBuilder
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder

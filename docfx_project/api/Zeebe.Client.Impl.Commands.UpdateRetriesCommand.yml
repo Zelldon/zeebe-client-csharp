@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand
+  commentId: T:Zeebe.Client.Impl.Commands.UpdateRetriesCommand
+  id: UpdateRetriesCommand
+  parent: Zeebe.Client.Impl.Commands
+  children:
+  - Zeebe.Client.Impl.Commands.UpdateRetriesCommand.#ctor(Gateway.GatewayClient,System.Int64)
+  - Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries(System.Int32)
+  - Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send(System.Nullable{TimeSpan})
+  langs:
+  - csharp
+  - vb
+  name: UpdateRetriesCommand
+  nameWithType: UpdateRetriesCommand
+  fullName: Zeebe.Client.Impl.Commands.UpdateRetriesCommand
+  type: Class
+  source:
+    id: UpdateRetriesCommand
+    path: ''
+    startLine: 10351
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: 'public class UpdateRetriesCommand : IUpdateRetriesCommandStep1, IUpdateRetriesCommandStep2'
+    content.vb: >-
+      Public Class UpdateRetriesCommand
+          Inherits IUpdateRetriesCommandStep1
+          Implements IUpdateRetriesCommandStep2
+  inheritance:
+  - System.Object
+  implements:
+  - IUpdateRetriesCommandStep2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.#ctor(Gateway.GatewayClient,System.Int64)
+  commentId: M:Zeebe.Client.Impl.Commands.UpdateRetriesCommand.#ctor(Gateway.GatewayClient,System.Int64)
+  id: '#ctor(Gateway.GatewayClient,System.Int64)'
+  parent: Zeebe.Client.Impl.Commands.UpdateRetriesCommand
+  langs:
+  - csharp
+  - vb
+  name: UpdateRetriesCommand(Gateway.GatewayClient, Int64)
+  nameWithType: UpdateRetriesCommand.UpdateRetriesCommand(Gateway.GatewayClient, Int64)
+  fullName: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.UpdateRetriesCommand(Gateway.GatewayClient, System.Int64)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10356
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public UpdateRetriesCommand(Gateway.GatewayClient client, long jobKey)
+    parameters:
+    - id: client
+      type: Gateway.GatewayClient
+    - id: jobKey
+      type: System.Int64
+    content.vb: Public Sub New(client As Gateway.GatewayClient, jobKey As Long)
+  overload: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries(System.Int32)
+  commentId: M:Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries(System.Int32)
+  id: Retries(System.Int32)
+  parent: Zeebe.Client.Impl.Commands.UpdateRetriesCommand
+  langs:
+  - csharp
+  - vb
+  name: Retries(Int32)
+  nameWithType: UpdateRetriesCommand.Retries(Int32)
+  fullName: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries(System.Int32)
+  type: Method
+  source:
+    id: Retries
+    path: ''
+    startLine: 10365
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IUpdateRetriesCommandStep2 Retries(int retries)
+    parameters:
+    - id: retries
+      type: System.Int32
+    return:
+      type: IUpdateRetriesCommandStep2
+    content.vb: Public Function Retries(retries As Integer) As IUpdateRetriesCommandStep2
+  overload: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send(System.Nullable{TimeSpan})
+  id: Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Impl.Commands.UpdateRetriesCommand
+  langs:
+  - csharp
+  - vb
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: UpdateRetriesCommand.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send(System.Nullable<TimeSpan>)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 10371
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public Task<IUpdateRetriesResponse> Send(TimeSpan? timeout = default(TimeSpan? ))
+    parameters:
+    - id: timeout
+      type: System.Nullable{TimeSpan}
+    return:
+      type: Task{IUpdateRetriesResponse}
+    content.vb: Public Function Send(timeout As TimeSpan? = Nothing) As Task(Of IUpdateRetriesResponse)
+  overload: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send*
+  nameWithType.vb: UpdateRetriesCommand.Send(Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+references:
+- uid: Zeebe.Client.Impl.Commands
+  commentId: N:Zeebe.Client.Impl.Commands
+  name: Zeebe.Client.Impl.Commands
+  nameWithType: Zeebe.Client.Impl.Commands
+  fullName: Zeebe.Client.Impl.Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IUpdateRetriesCommandStep2
+  isExternal: true
+  name: IUpdateRetriesCommandStep2
+  nameWithType: IUpdateRetriesCommandStep2
+  fullName: IUpdateRetriesCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Commands.UpdateRetriesCommand.#ctor
+  name: UpdateRetriesCommand
+  nameWithType: UpdateRetriesCommand.UpdateRetriesCommand
+  fullName: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.UpdateRetriesCommand
+- uid: Gateway.GatewayClient
+  isExternal: true
+  name: Gateway.GatewayClient
+  nameWithType: Gateway.GatewayClient
+  fullName: Gateway.GatewayClient
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries*
+  commentId: Overload:Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries
+  name: Retries
+  nameWithType: UpdateRetriesCommand.Retries
+  fullName: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Retries
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send*
+  commentId: Overload:Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send
+  name: Send
+  nameWithType: UpdateRetriesCommand.Send
+  fullName: Zeebe.Client.Impl.Commands.UpdateRetriesCommand.Send
+- uid: System.Nullable{TimeSpan}
+  commentId: T:System.Nullable{TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{IUpdateRetriesResponse}
+  commentId: '!:Task{IUpdateRetriesResponse}'
+  definition: Task`1
+  name: Task<IUpdateRetriesResponse>
+  nameWithType: Task<IUpdateRetriesResponse>
+  fullName: Task<IUpdateRetriesResponse>
+  nameWithType.vb: Task(Of IUpdateRetriesResponse)
+  fullName.vb: Task(Of IUpdateRetriesResponse)
+  name.vb: Task(Of IUpdateRetriesResponse)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IUpdateRetriesResponse
+    name: IUpdateRetriesResponse
+    nameWithType: IUpdateRetriesResponse
+    fullName: IUpdateRetriesResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IUpdateRetriesResponse
+    name: IUpdateRetriesResponse
+    nameWithType: IUpdateRetriesResponse
+    fullName: IUpdateRetriesResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  id: ICamundaCloudTokenProviderBuilderStep2
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICamundaCloudTokenProviderBuilderStep2
+  nameWithType: ICamundaCloudTokenProviderBuilderStep2
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  type: Interface
+  source:
+    id: ICamundaCloudTokenProviderBuilderStep2
+    path: ''
+    startLine: 2003
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public interface ICamundaCloudTokenProviderBuilderStep2
+    content.vb: Public Interface ICamundaCloudTokenProviderBuilderStep2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  commentId: M:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  id: UseClientId(System.String)
+  parent: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+  langs:
+  - csharp
+  - vb
+  name: UseClientId(String)
+  nameWithType: ICamundaCloudTokenProviderBuilderStep2.UseClientId(String)
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId(System.String)
+  type: Method
+  source:
+    id: UseClientId
+    path: ''
+    startLine: 2012
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nDefines the client id, which should be used to create the access token.\nYou need to create a client in the Camunda Cloud, after that you can find a newly\ngenerated client id there.\n"
+  example: []
+  syntax:
+    content: ICamundaCloudTokenProviderBuilderStep3 UseClientId(string clientId)
+    parameters:
+    - id: clientId
+      type: System.String
+      description: the client id, which is supplied by the Camunda Cloud
+    return:
+      type: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+      description: the next step in building a CamundaCloudTokenProvider
+    content.vb: Function UseClientId(clientId As String) As ICamundaCloudTokenProviderBuilderStep3
+  overload: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId*
+  commentId: Overload:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId
+  name: UseClientId
+  nameWithType: ICamundaCloudTokenProviderBuilderStep2.UseClientId
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2.UseClientId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+  commentId: T:Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+  parent: Zeebe.Client.Builder
+  name: ICamundaCloudTokenProviderBuilderStep3
+  nameWithType: ICamundaCloudTokenProviderBuilderStep3
+  fullName: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.FailJobResponse
+  commentId: T:GatewayProtocol.FailJobResponse
+  id: FailJobResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.FailJobResponse.#ctor
+  - GatewayProtocol.FailJobResponse.#ctor(GatewayProtocol.FailJobResponse)
+  - GatewayProtocol.FailJobResponse.CalculateSize
+  - GatewayProtocol.FailJobResponse.Clone
+  - GatewayProtocol.FailJobResponse.Descriptor
+  - GatewayProtocol.FailJobResponse.Equals(GatewayProtocol.FailJobResponse)
+  - GatewayProtocol.FailJobResponse.Equals(System.Object)
+  - GatewayProtocol.FailJobResponse.GetHashCode
+  - GatewayProtocol.FailJobResponse.MergeFrom(GatewayProtocol.FailJobResponse)
+  - GatewayProtocol.FailJobResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.FailJobResponse.Parser
+  - GatewayProtocol.FailJobResponse.ToString
+  - GatewayProtocol.FailJobResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: FailJobResponse
+  nameWithType: FailJobResponse
+  fullName: GatewayProtocol.FailJobResponse
+  type: Class
+  source:
+    id: FailJobResponse
+    path: ''
+    startLine: 5791
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class FailJobResponse : pb.IMessage<FailJobResponse>'
+    content.vb: >-
+      Public NotInheritable Class FailJobResponse
+          Inherits pb.IMessage(Of FailJobResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.FailJobResponse.Parser
+  commentId: P:GatewayProtocol.FailJobResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: FailJobResponse.Parser
+  fullName: GatewayProtocol.FailJobResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 5794
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<FailJobResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.FailJobResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of FailJobResponse)
+  overload: GatewayProtocol.FailJobResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.FailJobResponse.Descriptor
+  commentId: P:GatewayProtocol.FailJobResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: FailJobResponse.Descriptor
+  fullName: GatewayProtocol.FailJobResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 5797
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.FailJobResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.FailJobResponse.#ctor
+  commentId: M:GatewayProtocol.FailJobResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: FailJobResponse()
+  nameWithType: FailJobResponse.FailJobResponse()
+  fullName: GatewayProtocol.FailJobResponse.FailJobResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5807
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public FailJobResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.FailJobResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.FailJobResponse.#ctor(GatewayProtocol.FailJobResponse)
+  commentId: M:GatewayProtocol.FailJobResponse.#ctor(GatewayProtocol.FailJobResponse)
+  id: '#ctor(GatewayProtocol.FailJobResponse)'
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: FailJobResponse(FailJobResponse)
+  nameWithType: FailJobResponse.FailJobResponse(FailJobResponse)
+  fullName: GatewayProtocol.FailJobResponse.FailJobResponse(GatewayProtocol.FailJobResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5814
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public FailJobResponse(FailJobResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.FailJobResponse
+    content.vb: Public Sub New(other As FailJobResponse)
+  overload: GatewayProtocol.FailJobResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.FailJobResponse.Clone
+  commentId: M:GatewayProtocol.FailJobResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: FailJobResponse.Clone()
+  fullName: GatewayProtocol.FailJobResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 5819
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public FailJobResponse Clone()
+    return:
+      type: GatewayProtocol.FailJobResponse
+    content.vb: Public Function Clone As FailJobResponse
+  overload: GatewayProtocol.FailJobResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.FailJobResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.FailJobResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: FailJobResponse.Equals(Object)
+  fullName: GatewayProtocol.FailJobResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5824
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.FailJobResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.FailJobResponse.Equals(GatewayProtocol.FailJobResponse)
+  commentId: M:GatewayProtocol.FailJobResponse.Equals(GatewayProtocol.FailJobResponse)
+  id: Equals(GatewayProtocol.FailJobResponse)
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(FailJobResponse)
+  nameWithType: FailJobResponse.Equals(FailJobResponse)
+  fullName: GatewayProtocol.FailJobResponse.Equals(GatewayProtocol.FailJobResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5829
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(FailJobResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.FailJobResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As FailJobResponse) As Boolean
+  overload: GatewayProtocol.FailJobResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.FailJobResponse.GetHashCode
+  commentId: M:GatewayProtocol.FailJobResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: FailJobResponse.GetHashCode()
+  fullName: GatewayProtocol.FailJobResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 5840
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.FailJobResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.FailJobResponse.ToString
+  commentId: M:GatewayProtocol.FailJobResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FailJobResponse.ToString()
+  fullName: GatewayProtocol.FailJobResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 5849
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.FailJobResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.FailJobResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.FailJobResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: FailJobResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.FailJobResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 5854
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.FailJobResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.FailJobResponse.CalculateSize
+  commentId: M:GatewayProtocol.FailJobResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: FailJobResponse.CalculateSize()
+  fullName: GatewayProtocol.FailJobResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 5861
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.FailJobResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.FailJobResponse.MergeFrom(GatewayProtocol.FailJobResponse)
+  commentId: M:GatewayProtocol.FailJobResponse.MergeFrom(GatewayProtocol.FailJobResponse)
+  id: MergeFrom(GatewayProtocol.FailJobResponse)
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(FailJobResponse)
+  nameWithType: FailJobResponse.MergeFrom(FailJobResponse)
+  fullName: GatewayProtocol.FailJobResponse.MergeFrom(GatewayProtocol.FailJobResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5870
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(FailJobResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.FailJobResponse
+    content.vb: Public Sub MergeFrom(other As FailJobResponse)
+  overload: GatewayProtocol.FailJobResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.FailJobResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.FailJobResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.FailJobResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: FailJobResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.FailJobResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5878
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.FailJobResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.FailJobResponse.Parser*
+  commentId: Overload:GatewayProtocol.FailJobResponse.Parser
+  name: Parser
+  nameWithType: FailJobResponse.Parser
+  fullName: GatewayProtocol.FailJobResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.FailJobResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.FailJobResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<FailJobResponse>
+  nameWithType: pb.MessageParser<FailJobResponse>
+  fullName: pb.MessageParser<GatewayProtocol.FailJobResponse>
+  nameWithType.vb: pb.MessageParser(Of FailJobResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.FailJobResponse)
+  name.vb: pb.MessageParser(Of FailJobResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.FailJobResponse
+    name: FailJobResponse
+    nameWithType: FailJobResponse
+    fullName: GatewayProtocol.FailJobResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.FailJobResponse
+    name: FailJobResponse
+    nameWithType: FailJobResponse
+    fullName: GatewayProtocol.FailJobResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.FailJobResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.FailJobResponse.Descriptor
+  name: Descriptor
+  nameWithType: FailJobResponse.Descriptor
+  fullName: GatewayProtocol.FailJobResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.FailJobResponse.#ctor*
+  commentId: Overload:GatewayProtocol.FailJobResponse.#ctor
+  name: FailJobResponse
+  nameWithType: FailJobResponse.FailJobResponse
+  fullName: GatewayProtocol.FailJobResponse.FailJobResponse
+- uid: GatewayProtocol.FailJobResponse
+  commentId: T:GatewayProtocol.FailJobResponse
+  parent: GatewayProtocol
+  name: FailJobResponse
+  nameWithType: FailJobResponse
+  fullName: GatewayProtocol.FailJobResponse
+- uid: GatewayProtocol.FailJobResponse.Clone*
+  commentId: Overload:GatewayProtocol.FailJobResponse.Clone
+  name: Clone
+  nameWithType: FailJobResponse.Clone
+  fullName: GatewayProtocol.FailJobResponse.Clone
+- uid: GatewayProtocol.FailJobResponse.Equals*
+  commentId: Overload:GatewayProtocol.FailJobResponse.Equals
+  name: Equals
+  nameWithType: FailJobResponse.Equals
+  fullName: GatewayProtocol.FailJobResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.FailJobResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.FailJobResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: FailJobResponse.GetHashCode
+  fullName: GatewayProtocol.FailJobResponse.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.FailJobResponse.ToString*
+  commentId: Overload:GatewayProtocol.FailJobResponse.ToString
+  name: ToString
+  nameWithType: FailJobResponse.ToString
+  fullName: GatewayProtocol.FailJobResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.FailJobResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.FailJobResponse.WriteTo
+  name: WriteTo
+  nameWithType: FailJobResponse.WriteTo
+  fullName: GatewayProtocol.FailJobResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.FailJobResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.FailJobResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: FailJobResponse.CalculateSize
+  fullName: GatewayProtocol.FailJobResponse.CalculateSize
+- uid: GatewayProtocol.FailJobResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.FailJobResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: FailJobResponse.MergeFrom
+  fullName: GatewayProtocol.FailJobResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

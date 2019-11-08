@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.Gateway
+  commentId: T:GatewayProtocol.Gateway
+  id: Gateway
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.Gateway.BindService(GatewayProtocol.Gateway.GatewayBase)
+  - GatewayProtocol.Gateway.BindService(grpc.ServiceBinderBase,GatewayProtocol.Gateway.GatewayBase)
+  - GatewayProtocol.Gateway.Descriptor
+  langs:
+  - csharp
+  - vb
+  name: Gateway
+  nameWithType: Gateway
+  fullName: GatewayProtocol.Gateway
+  type: Class
+  source:
+    id: Gateway
+    path: ''
+    startLine: 7781
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static class Gateway
+    content.vb: Public Module Gateway
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GatewayProtocol.Gateway.Descriptor
+  commentId: P:GatewayProtocol.Gateway.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.Gateway
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: Gateway.Descriptor
+  fullName: GatewayProtocol.Gateway.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 7895
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Service descriptor
+  example: []
+  syntax:
+    content: public static Google.Protobuf.Reflection.ServiceDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.ServiceDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As Google.Protobuf.Reflection.ServiceDescriptor
+  overload: GatewayProtocol.Gateway.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.Gateway.BindService(GatewayProtocol.Gateway.GatewayBase)
+  commentId: M:GatewayProtocol.Gateway.BindService(GatewayProtocol.Gateway.GatewayBase)
+  id: BindService(GatewayProtocol.Gateway.GatewayBase)
+  parent: GatewayProtocol.Gateway
+  langs:
+  - csharp
+  - vb
+  name: BindService(Gateway.GatewayBase)
+  nameWithType: Gateway.BindService(Gateway.GatewayBase)
+  fullName: GatewayProtocol.Gateway.BindService(GatewayProtocol.Gateway.GatewayBase)
+  type: Method
+  source:
+    id: BindService
+    path: ''
+    startLine: 9049
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Creates service definition that can be registered with a server
+  example: []
+  syntax:
+    content: public static grpc.ServerServiceDefinition BindService(Gateway.GatewayBase serviceImpl)
+    parameters:
+    - id: serviceImpl
+      type: GatewayProtocol.Gateway.GatewayBase
+      description: An object implementing the server-side handling logic.
+    return:
+      type: grpc.ServerServiceDefinition
+    content.vb: Public Shared Function BindService(serviceImpl As Gateway.GatewayBase) As grpc.ServerServiceDefinition
+  overload: GatewayProtocol.Gateway.BindService*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GatewayProtocol.Gateway.BindService(grpc.ServiceBinderBase,GatewayProtocol.Gateway.GatewayBase)
+  commentId: M:GatewayProtocol.Gateway.BindService(grpc.ServiceBinderBase,GatewayProtocol.Gateway.GatewayBase)
+  id: BindService(grpc.ServiceBinderBase,GatewayProtocol.Gateway.GatewayBase)
+  parent: GatewayProtocol.Gateway
+  langs:
+  - csharp
+  - vb
+  name: BindService(grpc.ServiceBinderBase, Gateway.GatewayBase)
+  nameWithType: Gateway.BindService(grpc.ServiceBinderBase, Gateway.GatewayBase)
+  fullName: GatewayProtocol.Gateway.BindService(grpc.ServiceBinderBase, GatewayProtocol.Gateway.GatewayBase)
+  type: Method
+  source:
+    id: BindService
+    path: ''
+    startLine: 9070
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: >-
+    Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+
+    Note: this method is part of an experimental API that can change or be removed without any prior notice.
+  example: []
+  syntax:
+    content: public static void BindService(grpc.ServiceBinderBase serviceBinder, Gateway.GatewayBase serviceImpl)
+    parameters:
+    - id: serviceBinder
+      type: grpc.ServiceBinderBase
+      description: Service methods will be bound by calling <code>AddMethod</code> on this object.
+    - id: serviceImpl
+      type: GatewayProtocol.Gateway.GatewayBase
+      description: An object implementing the server-side handling logic.
+    content.vb: Public Shared Sub BindService(serviceBinder As grpc.ServiceBinderBase, serviceImpl As Gateway.GatewayBase)
+  overload: GatewayProtocol.Gateway.BindService*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.Gateway.Descriptor*
+  commentId: Overload:GatewayProtocol.Gateway.Descriptor
+  name: Descriptor
+  nameWithType: Gateway.Descriptor
+  fullName: GatewayProtocol.Gateway.Descriptor
+- uid: Google.Protobuf.Reflection.ServiceDescriptor
+  commentId: '!:Google.Protobuf.Reflection.ServiceDescriptor'
+  isExternal: true
+  name: Google.Protobuf.Reflection.ServiceDescriptor
+  nameWithType: Google.Protobuf.Reflection.ServiceDescriptor
+  fullName: Google.Protobuf.Reflection.ServiceDescriptor
+- uid: GatewayProtocol.Gateway.BindService*
+  commentId: Overload:GatewayProtocol.Gateway.BindService
+  name: BindService
+  nameWithType: Gateway.BindService
+  fullName: GatewayProtocol.Gateway.BindService
+- uid: GatewayProtocol.Gateway.GatewayBase
+  commentId: T:GatewayProtocol.Gateway.GatewayBase
+  parent: GatewayProtocol
+  name: Gateway.GatewayBase
+  nameWithType: Gateway.GatewayBase
+  fullName: GatewayProtocol.Gateway.GatewayBase
+- uid: grpc.ServerServiceDefinition
+  commentId: '!:grpc.ServerServiceDefinition'
+  isExternal: true
+  name: grpc.ServerServiceDefinition
+  nameWithType: grpc.ServerServiceDefinition
+  fullName: grpc.ServerServiceDefinition
+- uid: grpc.ServiceBinderBase
+  commentId: '!:grpc.ServiceBinderBase'
+  isExternal: true
+  name: grpc.ServiceBinderBase
+  nameWithType: grpc.ServiceBinderBase
+  fullName: grpc.ServiceBinderBase

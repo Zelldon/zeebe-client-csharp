@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IResolveIncidentResponse
+  commentId: T:Zeebe.Client.Api.Responses.IResolveIncidentResponse
+  id: IResolveIncidentResponse
+  parent: Zeebe.Client.Api.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IResolveIncidentResponse
+  nameWithType: IResolveIncidentResponse
+  fullName: Zeebe.Client.Api.Responses.IResolveIncidentResponse
+  type: Interface
+  source:
+    id: IResolveIncidentResponse
+    path: ''
+    startLine: 689
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nResponse for an resolve incident request.\n"
+  example: []
+  syntax:
+    content: public interface IResolveIncidentResponse
+    content.vb: Public Interface IResolveIncidentResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses

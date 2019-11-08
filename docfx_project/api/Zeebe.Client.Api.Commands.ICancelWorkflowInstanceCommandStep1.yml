@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.ICancelWorkflowInstanceCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.ICancelWorkflowInstanceCommandStep1
+  id: ICancelWorkflowInstanceCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICancelWorkflowInstanceCommandStep1
+  nameWithType: ICancelWorkflowInstanceCommandStep1
+  fullName: Zeebe.Client.Api.Commands.ICancelWorkflowInstanceCommandStep1
+  type: Interface
+  source:
+    id: ICancelWorkflowInstanceCommandStep1
+    path: ''
+    startLine: 1112
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: 'public interface ICancelWorkflowInstanceCommandStep1 : IFinalCommandStep<ICancelWorkflowInstanceResponse>'
+    content.vb: >-
+      Public Interface ICancelWorkflowInstanceCommandStep1
+          Inherits IFinalCommandStep(Of ICancelWorkflowInstanceResponse)
+  inheritedMembers:
+  - Zeebe.Client.Api.Commands.IFinalCommandStep{ICancelWorkflowInstanceResponse}.Send(System.Nullable{TimeSpan})
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{ICancelWorkflowInstanceResponse}.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep{ICancelWorkflowInstanceResponse}.Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Api.Commands.IFinalCommandStep{ICancelWorkflowInstanceResponse}
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<ICancelWorkflowInstanceResponse>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<ICancelWorkflowInstanceResponse>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of ICancelWorkflowInstanceResponse).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of ICancelWorkflowInstanceResponse).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<ICancelWorkflowInstanceResponse>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<ICancelWorkflowInstanceResponse>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of ICancelWorkflowInstanceResponse).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of ICancelWorkflowInstanceResponse).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  isExternal: true
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<T>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of T).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<T>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of T).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{ICancelWorkflowInstanceResponse}
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep{ICancelWorkflowInstanceResponse}
+  parent: Zeebe.Client.Api.Commands
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<ICancelWorkflowInstanceResponse>
+  nameWithType: IFinalCommandStep<ICancelWorkflowInstanceResponse>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<ICancelWorkflowInstanceResponse>
+  nameWithType.vb: IFinalCommandStep(Of ICancelWorkflowInstanceResponse)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of ICancelWorkflowInstanceResponse)
+  name.vb: IFinalCommandStep(Of ICancelWorkflowInstanceResponse)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ICancelWorkflowInstanceResponse
+    name: ICancelWorkflowInstanceResponse
+    nameWithType: ICancelWorkflowInstanceResponse
+    fullName: ICancelWorkflowInstanceResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ICancelWorkflowInstanceResponse
+    name: ICancelWorkflowInstanceResponse
+    nameWithType: ICancelWorkflowInstanceResponse
+    fullName: ICancelWorkflowInstanceResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<T>
+  nameWithType: IFinalCommandStep<T>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>
+  nameWithType.vb: IFinalCommandStep(Of T)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T)
+  name.vb: IFinalCommandStep(Of T)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.IAccessTokenSupplier
+  commentId: T:Zeebe.Client.Builder.IAccessTokenSupplier
+  id: IAccessTokenSupplier
+  parent: Zeebe.Client.Builder
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IAccessTokenSupplier
+  nameWithType: IAccessTokenSupplier
+  fullName: Zeebe.Client.Builder.IAccessTokenSupplier
+  type: Interface
+  source:
+    id: IAccessTokenSupplier
+    path: ''
+    startLine: 1812
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nSupplies access tokens to communicate with the gateway.\n"
+  example: []
+  syntax:
+    content: 'public interface IAccessTokenSupplier : ITokenAccess'
+    content.vb: >-
+      Public Interface IAccessTokenSupplier
+          Inherits ITokenAccess
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder

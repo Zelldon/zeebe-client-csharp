@@ -1,0 +1,918 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.WorkflowMetadata
+  commentId: T:GatewayProtocol.WorkflowMetadata
+  id: WorkflowMetadata
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.WorkflowMetadata.#ctor
+  - GatewayProtocol.WorkflowMetadata.#ctor(GatewayProtocol.WorkflowMetadata)
+  - GatewayProtocol.WorkflowMetadata.BpmnProcessId
+  - GatewayProtocol.WorkflowMetadata.BpmnProcessIdFieldNumber
+  - GatewayProtocol.WorkflowMetadata.CalculateSize
+  - GatewayProtocol.WorkflowMetadata.Clone
+  - GatewayProtocol.WorkflowMetadata.Descriptor
+  - GatewayProtocol.WorkflowMetadata.Equals(GatewayProtocol.WorkflowMetadata)
+  - GatewayProtocol.WorkflowMetadata.Equals(System.Object)
+  - GatewayProtocol.WorkflowMetadata.GetHashCode
+  - GatewayProtocol.WorkflowMetadata.MergeFrom(GatewayProtocol.WorkflowMetadata)
+  - GatewayProtocol.WorkflowMetadata.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.WorkflowMetadata.Parser
+  - GatewayProtocol.WorkflowMetadata.ResourceName
+  - GatewayProtocol.WorkflowMetadata.ResourceNameFieldNumber
+  - GatewayProtocol.WorkflowMetadata.ToString
+  - GatewayProtocol.WorkflowMetadata.Version
+  - GatewayProtocol.WorkflowMetadata.VersionFieldNumber
+  - GatewayProtocol.WorkflowMetadata.WorkflowKey
+  - GatewayProtocol.WorkflowMetadata.WorkflowKeyFieldNumber
+  - GatewayProtocol.WorkflowMetadata.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowMetadata
+  nameWithType: WorkflowMetadata
+  fullName: GatewayProtocol.WorkflowMetadata
+  type: Class
+  source:
+    id: WorkflowMetadata
+    path: ''
+    startLine: 5368
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class WorkflowMetadata : pb.IMessage<WorkflowMetadata>'
+    content.vb: >-
+      Public NotInheritable Class WorkflowMetadata
+          Inherits pb.IMessage(Of WorkflowMetadata)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.WorkflowMetadata.Parser
+  commentId: P:GatewayProtocol.WorkflowMetadata.Parser
+  id: Parser
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: WorkflowMetadata.Parser
+  fullName: GatewayProtocol.WorkflowMetadata.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 5371
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<WorkflowMetadata> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.WorkflowMetadata}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of WorkflowMetadata)
+  overload: GatewayProtocol.WorkflowMetadata.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.WorkflowMetadata.Descriptor
+  commentId: P:GatewayProtocol.WorkflowMetadata.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: WorkflowMetadata.Descriptor
+  fullName: GatewayProtocol.WorkflowMetadata.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 5374
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.WorkflowMetadata.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.WorkflowMetadata.#ctor
+  commentId: M:GatewayProtocol.WorkflowMetadata.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: WorkflowMetadata()
+  nameWithType: WorkflowMetadata.WorkflowMetadata()
+  fullName: GatewayProtocol.WorkflowMetadata.WorkflowMetadata()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5384
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public WorkflowMetadata()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.WorkflowMetadata.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.#ctor(GatewayProtocol.WorkflowMetadata)
+  commentId: M:GatewayProtocol.WorkflowMetadata.#ctor(GatewayProtocol.WorkflowMetadata)
+  id: '#ctor(GatewayProtocol.WorkflowMetadata)'
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: WorkflowMetadata(WorkflowMetadata)
+  nameWithType: WorkflowMetadata.WorkflowMetadata(WorkflowMetadata)
+  fullName: GatewayProtocol.WorkflowMetadata.WorkflowMetadata(GatewayProtocol.WorkflowMetadata)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5391
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public WorkflowMetadata(WorkflowMetadata other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.WorkflowMetadata
+    content.vb: Public Sub New(other As WorkflowMetadata)
+  overload: GatewayProtocol.WorkflowMetadata.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.Clone
+  commentId: M:GatewayProtocol.WorkflowMetadata.Clone
+  id: Clone
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: WorkflowMetadata.Clone()
+  fullName: GatewayProtocol.WorkflowMetadata.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 5400
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public WorkflowMetadata Clone()
+    return:
+      type: GatewayProtocol.WorkflowMetadata
+    content.vb: Public Function Clone As WorkflowMetadata
+  overload: GatewayProtocol.WorkflowMetadata.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.BpmnProcessIdFieldNumber
+  commentId: F:GatewayProtocol.WorkflowMetadata.BpmnProcessIdFieldNumber
+  id: BpmnProcessIdFieldNumber
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessIdFieldNumber
+  nameWithType: WorkflowMetadata.BpmnProcessIdFieldNumber
+  fullName: GatewayProtocol.WorkflowMetadata.BpmnProcessIdFieldNumber
+  type: Field
+  source:
+    id: BpmnProcessIdFieldNumber
+    path: ''
+    startLine: 5406
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;bpmnProcessId&quot; field.
+  example: []
+  syntax:
+    content: public const int BpmnProcessIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const BpmnProcessIdFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.WorkflowMetadata.BpmnProcessId
+  commentId: P:GatewayProtocol.WorkflowMetadata.BpmnProcessId
+  id: BpmnProcessId
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId
+  nameWithType: WorkflowMetadata.BpmnProcessId
+  fullName: GatewayProtocol.WorkflowMetadata.BpmnProcessId
+  type: Property
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 5412
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe bpmn process ID, as parsed during deployment; together with the version forms a\nunique identifier for a specific workflow definition\n"
+  example: []
+  syntax:
+    content: public string BpmnProcessId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BpmnProcessId As String
+  overload: GatewayProtocol.WorkflowMetadata.BpmnProcessId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.VersionFieldNumber
+  commentId: F:GatewayProtocol.WorkflowMetadata.VersionFieldNumber
+  id: VersionFieldNumber
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: VersionFieldNumber
+  nameWithType: WorkflowMetadata.VersionFieldNumber
+  fullName: GatewayProtocol.WorkflowMetadata.VersionFieldNumber
+  type: Field
+  source:
+    id: VersionFieldNumber
+    path: ''
+    startLine: 5421
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;version&quot; field.
+  example: []
+  syntax:
+    content: public const int VersionFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const VersionFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.WorkflowMetadata.Version
+  commentId: P:GatewayProtocol.WorkflowMetadata.Version
+  id: Version
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: WorkflowMetadata.Version
+  fullName: GatewayProtocol.WorkflowMetadata.Version
+  type: Property
+  source:
+    id: Version
+    path: ''
+    startLine: 5426
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe assigned process version\n"
+  example: []
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: GatewayProtocol.WorkflowMetadata.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.WorkflowKeyFieldNumber
+  commentId: F:GatewayProtocol.WorkflowMetadata.WorkflowKeyFieldNumber
+  id: WorkflowKeyFieldNumber
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKeyFieldNumber
+  nameWithType: WorkflowMetadata.WorkflowKeyFieldNumber
+  fullName: GatewayProtocol.WorkflowMetadata.WorkflowKeyFieldNumber
+  type: Field
+  source:
+    id: WorkflowKeyFieldNumber
+    path: ''
+    startLine: 5435
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;workflowKey&quot; field.
+  example: []
+  syntax:
+    content: public const int WorkflowKeyFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const WorkflowKeyFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.WorkflowMetadata.WorkflowKey
+  commentId: P:GatewayProtocol.WorkflowMetadata.WorkflowKey
+  id: WorkflowKey
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey
+  nameWithType: WorkflowMetadata.WorkflowKey
+  fullName: GatewayProtocol.WorkflowMetadata.WorkflowKey
+  type: Property
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 5440
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe assigned key, which acts as a unique identifier for this workflow\n"
+  example: []
+  syntax:
+    content: public long WorkflowKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property WorkflowKey As Long
+  overload: GatewayProtocol.WorkflowMetadata.WorkflowKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.ResourceNameFieldNumber
+  commentId: F:GatewayProtocol.WorkflowMetadata.ResourceNameFieldNumber
+  id: ResourceNameFieldNumber
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: ResourceNameFieldNumber
+  nameWithType: WorkflowMetadata.ResourceNameFieldNumber
+  fullName: GatewayProtocol.WorkflowMetadata.ResourceNameFieldNumber
+  type: Field
+  source:
+    id: ResourceNameFieldNumber
+    path: ''
+    startLine: 5449
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;resourceName&quot; field.
+  example: []
+  syntax:
+    content: public const int ResourceNameFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ResourceNameFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.WorkflowMetadata.ResourceName
+  commentId: P:GatewayProtocol.WorkflowMetadata.ResourceName
+  id: ResourceName
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: ResourceName
+  nameWithType: WorkflowMetadata.ResourceName
+  fullName: GatewayProtocol.WorkflowMetadata.ResourceName
+  type: Property
+  source:
+    id: ResourceName
+    path: ''
+    startLine: 5455
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe resource name (see: WorkflowRequestObject.name) from which this workflow was\nparsed\n"
+  example: []
+  syntax:
+    content: public string ResourceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ResourceName As String
+  overload: GatewayProtocol.WorkflowMetadata.ResourceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.Equals(System.Object)
+  commentId: M:GatewayProtocol.WorkflowMetadata.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: WorkflowMetadata.Equals(Object)
+  fullName: GatewayProtocol.WorkflowMetadata.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5463
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.WorkflowMetadata.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.WorkflowMetadata.Equals(GatewayProtocol.WorkflowMetadata)
+  commentId: M:GatewayProtocol.WorkflowMetadata.Equals(GatewayProtocol.WorkflowMetadata)
+  id: Equals(GatewayProtocol.WorkflowMetadata)
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: Equals(WorkflowMetadata)
+  nameWithType: WorkflowMetadata.Equals(WorkflowMetadata)
+  fullName: GatewayProtocol.WorkflowMetadata.Equals(GatewayProtocol.WorkflowMetadata)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5468
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(WorkflowMetadata other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.WorkflowMetadata
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As WorkflowMetadata) As Boolean
+  overload: GatewayProtocol.WorkflowMetadata.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.GetHashCode
+  commentId: M:GatewayProtocol.WorkflowMetadata.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WorkflowMetadata.GetHashCode()
+  fullName: GatewayProtocol.WorkflowMetadata.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 5483
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.WorkflowMetadata.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.WorkflowMetadata.ToString
+  commentId: M:GatewayProtocol.WorkflowMetadata.ToString
+  id: ToString
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowMetadata.ToString()
+  fullName: GatewayProtocol.WorkflowMetadata.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 5496
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.WorkflowMetadata.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.WorkflowMetadata.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.WorkflowMetadata.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: WorkflowMetadata.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.WorkflowMetadata.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 5501
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.WorkflowMetadata.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.CalculateSize
+  commentId: M:GatewayProtocol.WorkflowMetadata.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: WorkflowMetadata.CalculateSize()
+  fullName: GatewayProtocol.WorkflowMetadata.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 5524
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.WorkflowMetadata.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.MergeFrom(GatewayProtocol.WorkflowMetadata)
+  commentId: M:GatewayProtocol.WorkflowMetadata.MergeFrom(GatewayProtocol.WorkflowMetadata)
+  id: MergeFrom(GatewayProtocol.WorkflowMetadata)
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(WorkflowMetadata)
+  nameWithType: WorkflowMetadata.MergeFrom(WorkflowMetadata)
+  fullName: GatewayProtocol.WorkflowMetadata.MergeFrom(GatewayProtocol.WorkflowMetadata)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5545
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(WorkflowMetadata other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.WorkflowMetadata
+    content.vb: Public Sub MergeFrom(other As WorkflowMetadata)
+  overload: GatewayProtocol.WorkflowMetadata.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.WorkflowMetadata.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.WorkflowMetadata.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.WorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: WorkflowMetadata.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.WorkflowMetadata.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5565
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.WorkflowMetadata.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.WorkflowMetadata.Parser*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.Parser
+  name: Parser
+  nameWithType: WorkflowMetadata.Parser
+  fullName: GatewayProtocol.WorkflowMetadata.Parser
+- uid: pb.MessageParser{GatewayProtocol.WorkflowMetadata}
+  commentId: '!:pb.MessageParser{GatewayProtocol.WorkflowMetadata}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<WorkflowMetadata>
+  nameWithType: pb.MessageParser<WorkflowMetadata>
+  fullName: pb.MessageParser<GatewayProtocol.WorkflowMetadata>
+  nameWithType.vb: pb.MessageParser(Of WorkflowMetadata)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.WorkflowMetadata)
+  name.vb: pb.MessageParser(Of WorkflowMetadata)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.WorkflowMetadata
+    name: WorkflowMetadata
+    nameWithType: WorkflowMetadata
+    fullName: GatewayProtocol.WorkflowMetadata
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.WorkflowMetadata
+    name: WorkflowMetadata
+    nameWithType: WorkflowMetadata
+    fullName: GatewayProtocol.WorkflowMetadata
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.WorkflowMetadata.Descriptor*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.Descriptor
+  name: Descriptor
+  nameWithType: WorkflowMetadata.Descriptor
+  fullName: GatewayProtocol.WorkflowMetadata.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.WorkflowMetadata.#ctor*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.#ctor
+  name: WorkflowMetadata
+  nameWithType: WorkflowMetadata.WorkflowMetadata
+  fullName: GatewayProtocol.WorkflowMetadata.WorkflowMetadata
+- uid: GatewayProtocol.WorkflowMetadata
+  commentId: T:GatewayProtocol.WorkflowMetadata
+  parent: GatewayProtocol
+  name: WorkflowMetadata
+  nameWithType: WorkflowMetadata
+  fullName: GatewayProtocol.WorkflowMetadata
+- uid: GatewayProtocol.WorkflowMetadata.Clone*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.Clone
+  name: Clone
+  nameWithType: WorkflowMetadata.Clone
+  fullName: GatewayProtocol.WorkflowMetadata.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.WorkflowMetadata.BpmnProcessId*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: WorkflowMetadata.BpmnProcessId
+  fullName: GatewayProtocol.WorkflowMetadata.BpmnProcessId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.WorkflowMetadata.Version*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.Version
+  name: Version
+  nameWithType: WorkflowMetadata.Version
+  fullName: GatewayProtocol.WorkflowMetadata.Version
+- uid: GatewayProtocol.WorkflowMetadata.WorkflowKey*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.WorkflowKey
+  name: WorkflowKey
+  nameWithType: WorkflowMetadata.WorkflowKey
+  fullName: GatewayProtocol.WorkflowMetadata.WorkflowKey
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: GatewayProtocol.WorkflowMetadata.ResourceName*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.ResourceName
+  name: ResourceName
+  nameWithType: WorkflowMetadata.ResourceName
+  fullName: GatewayProtocol.WorkflowMetadata.ResourceName
+- uid: GatewayProtocol.WorkflowMetadata.Equals*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.Equals
+  name: Equals
+  nameWithType: WorkflowMetadata.Equals
+  fullName: GatewayProtocol.WorkflowMetadata.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.WorkflowMetadata.GetHashCode*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.GetHashCode
+  name: GetHashCode
+  nameWithType: WorkflowMetadata.GetHashCode
+  fullName: GatewayProtocol.WorkflowMetadata.GetHashCode
+- uid: GatewayProtocol.WorkflowMetadata.ToString*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.ToString
+  name: ToString
+  nameWithType: WorkflowMetadata.ToString
+  fullName: GatewayProtocol.WorkflowMetadata.ToString
+- uid: GatewayProtocol.WorkflowMetadata.WriteTo*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.WriteTo
+  name: WriteTo
+  nameWithType: WorkflowMetadata.WriteTo
+  fullName: GatewayProtocol.WorkflowMetadata.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.WorkflowMetadata.CalculateSize*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.CalculateSize
+  name: CalculateSize
+  nameWithType: WorkflowMetadata.CalculateSize
+  fullName: GatewayProtocol.WorkflowMetadata.CalculateSize
+- uid: GatewayProtocol.WorkflowMetadata.MergeFrom*
+  commentId: Overload:GatewayProtocol.WorkflowMetadata.MergeFrom
+  name: MergeFrom
+  nameWithType: WorkflowMetadata.MergeFrom
+  fullName: GatewayProtocol.WorkflowMetadata.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

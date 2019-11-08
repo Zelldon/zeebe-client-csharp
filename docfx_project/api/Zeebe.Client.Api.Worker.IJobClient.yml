@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Worker.IJobClient
+  commentId: T:Zeebe.Client.Api.Worker.IJobClient
+  id: IJobClient
+  parent: Zeebe.Client.Api.Worker
+  children:
+  - Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(IJob)
+  - Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(System.Int64)
+  - Zeebe.Client.Api.Worker.IJobClient.NewFailCommand(System.Int64)
+  langs:
+  - csharp
+  - vb
+  name: IJobClient
+  nameWithType: IJobClient
+  fullName: Zeebe.Client.Api.Worker.IJobClient
+  type: Interface
+  source:
+    id: IJobClient
+    path: ''
+    startLine: 570
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: public interface IJobClient
+    content.vb: Public Interface IJobClient
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(System.Int64)
+  commentId: M:Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(System.Int64)
+  id: NewCompleteJobCommand(System.Int64)
+  parent: Zeebe.Client.Api.Worker.IJobClient
+  langs:
+  - csharp
+  - vb
+  name: NewCompleteJobCommand(Int64)
+  nameWithType: IJobClient.NewCompleteJobCommand(Int64)
+  fullName: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(System.Int64)
+  type: Method
+  source:
+    id: NewCompleteJobCommand
+    path: ''
+    startLine: 591
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: ICompleteJobCommandStep1 NewCompleteJobCommand(long jobKey)
+    parameters:
+    - id: jobKey
+      type: System.Int64
+    return:
+      type: ICompleteJobCommandStep1
+    content.vb: Function NewCompleteJobCommand(jobKey As Long) As ICompleteJobCommandStep1
+  overload: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand*
+- uid: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(IJob)
+  commentId: M:Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(IJob)
+  id: NewCompleteJobCommand(IJob)
+  parent: Zeebe.Client.Api.Worker.IJobClient
+  langs:
+  - csharp
+  - vb
+  name: NewCompleteJobCommand(IJob)
+  nameWithType: IJobClient.NewCompleteJobCommand(IJob)
+  fullName: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand(IJob)
+  type: Method
+  source:
+    id: NewCompleteJobCommand
+    path: ''
+    startLine: 611
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: ICompleteJobCommandStep1 NewCompleteJobCommand(IJob activatedJob)
+    parameters:
+    - id: activatedJob
+      type: IJob
+    return:
+      type: ICompleteJobCommandStep1
+    content.vb: Function NewCompleteJobCommand(activatedJob As IJob) As ICompleteJobCommandStep1
+  overload: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand*
+- uid: Zeebe.Client.Api.Worker.IJobClient.NewFailCommand(System.Int64)
+  commentId: M:Zeebe.Client.Api.Worker.IJobClient.NewFailCommand(System.Int64)
+  id: NewFailCommand(System.Int64)
+  parent: Zeebe.Client.Api.Worker.IJobClient
+  langs:
+  - csharp
+  - vb
+  name: NewFailCommand(Int64)
+  nameWithType: IJobClient.NewFailCommand(Int64)
+  fullName: Zeebe.Client.Api.Worker.IJobClient.NewFailCommand(System.Int64)
+  type: Method
+  source:
+    id: NewFailCommand
+    path: ''
+    startLine: 631
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IFailJobCommandStep1 NewFailCommand(long jobKey)
+    parameters:
+    - id: jobKey
+      type: System.Int64
+    return:
+      type: IFailJobCommandStep1
+    content.vb: Function NewFailCommand(jobKey As Long) As IFailJobCommandStep1
+  overload: Zeebe.Client.Api.Worker.IJobClient.NewFailCommand*
+references:
+- uid: Zeebe.Client.Api.Worker
+  commentId: N:Zeebe.Client.Api.Worker
+  name: Zeebe.Client.Api.Worker
+  nameWithType: Zeebe.Client.Api.Worker
+  fullName: Zeebe.Client.Api.Worker
+- uid: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand
+  name: NewCompleteJobCommand
+  nameWithType: IJobClient.NewCompleteJobCommand
+  fullName: Zeebe.Client.Api.Worker.IJobClient.NewCompleteJobCommand
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: ICompleteJobCommandStep1
+  isExternal: true
+  name: ICompleteJobCommandStep1
+  nameWithType: ICompleteJobCommandStep1
+  fullName: ICompleteJobCommandStep1
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IJob
+  isExternal: true
+  name: IJob
+  nameWithType: IJob
+  fullName: IJob
+- uid: Zeebe.Client.Api.Worker.IJobClient.NewFailCommand*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobClient.NewFailCommand
+  name: NewFailCommand
+  nameWithType: IJobClient.NewFailCommand
+  fullName: Zeebe.Client.Api.Worker.IJobClient.NewFailCommand
+- uid: IFailJobCommandStep1
+  isExternal: true
+  name: IFailJobCommandStep1
+  nameWithType: IFailJobCommandStep1
+  fullName: IFailJobCommandStep1

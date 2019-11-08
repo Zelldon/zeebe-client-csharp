@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.ActivateJobsResponses
+  commentId: T:Zeebe.Client.Impl.Responses.ActivateJobsResponses
+  id: ActivateJobsResponses
+  parent: Zeebe.Client.Impl.Responses
+  children:
+  - Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor
+  - Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor(GatewayProtocol.ActivateJobsResponse)
+  - Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs
+  langs:
+  - csharp
+  - vb
+  name: ActivateJobsResponses
+  nameWithType: ActivateJobsResponses
+  fullName: Zeebe.Client.Impl.Responses.ActivateJobsResponses
+  type: Class
+  source:
+    id: ActivateJobsResponses
+    path: ''
+    startLine: 9588
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class ActivateJobsResponses : IActivateJobsResponse'
+    content.vb: >-
+      Public Class ActivateJobsResponses
+          Inherits IActivateJobsResponse
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs
+  commentId: P:Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs
+  id: Jobs
+  parent: Zeebe.Client.Impl.Responses.ActivateJobsResponses
+  langs:
+  - csharp
+  - vb
+  name: Jobs
+  nameWithType: ActivateJobsResponses.Jobs
+  fullName: Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs
+  type: Property
+  source:
+    id: Jobs
+    path: ''
+    startLine: 9590
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public IList<IJob> Jobs { get; set; }
+    parameters: []
+    return:
+      type: IList{IJob}
+    content.vb: Public Property Jobs As IList(Of IJob)
+  overload: Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor
+  commentId: M:Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor
+  id: '#ctor'
+  parent: Zeebe.Client.Impl.Responses.ActivateJobsResponses
+  langs:
+  - csharp
+  - vb
+  name: ActivateJobsResponses()
+  nameWithType: ActivateJobsResponses.ActivateJobsResponses()
+  fullName: Zeebe.Client.Impl.Responses.ActivateJobsResponses.ActivateJobsResponses()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9592
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public ActivateJobsResponses()
+    content.vb: Public Sub New
+  overload: Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor(GatewayProtocol.ActivateJobsResponse)
+  commentId: M:Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor(GatewayProtocol.ActivateJobsResponse)
+  id: '#ctor(GatewayProtocol.ActivateJobsResponse)'
+  parent: Zeebe.Client.Impl.Responses.ActivateJobsResponses
+  langs:
+  - csharp
+  - vb
+  name: ActivateJobsResponses(ActivateJobsResponse)
+  nameWithType: ActivateJobsResponses.ActivateJobsResponses(ActivateJobsResponse)
+  fullName: Zeebe.Client.Impl.Responses.ActivateJobsResponses.ActivateJobsResponses(GatewayProtocol.ActivateJobsResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9597
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public ActivateJobsResponses(ActivateJobsResponse jobsResponse)
+    parameters:
+    - id: jobsResponse
+      type: GatewayProtocol.ActivateJobsResponse
+    content.vb: Public Sub New(jobsResponse As ActivateJobsResponse)
+  overload: Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs
+  name: Jobs
+  nameWithType: ActivateJobsResponses.Jobs
+  fullName: Zeebe.Client.Impl.Responses.ActivateJobsResponses.Jobs
+- uid: IList{IJob}
+  commentId: '!:IList{IJob}'
+  definition: IList`1
+  name: IList<IJob>
+  nameWithType: IList<IJob>
+  fullName: IList<IJob>
+  nameWithType.vb: IList(Of IJob)
+  fullName.vb: IList(Of IJob)
+  name.vb: IList(Of IJob)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IJob
+    name: IJob
+    nameWithType: IJob
+    fullName: IJob
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IJob
+    name: IJob
+    nameWithType: IJob
+    fullName: IJob
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Responses.ActivateJobsResponses.#ctor
+  name: ActivateJobsResponses
+  nameWithType: ActivateJobsResponses.ActivateJobsResponses
+  fullName: Zeebe.Client.Impl.Responses.ActivateJobsResponses.ActivateJobsResponses
+- uid: GatewayProtocol.ActivateJobsResponse
+  commentId: T:GatewayProtocol.ActivateJobsResponse
+  parent: GatewayProtocol
+  name: ActivateJobsResponse
+  nameWithType: ActivateJobsResponse
+  fullName: GatewayProtocol.ActivateJobsResponse
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol

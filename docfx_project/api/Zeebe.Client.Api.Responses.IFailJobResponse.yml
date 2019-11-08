@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IFailJobResponse
+  commentId: T:Zeebe.Client.Api.Responses.IFailJobResponse
+  id: IFailJobResponse
+  parent: Zeebe.Client.Api.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IFailJobResponse
+  nameWithType: IFailJobResponse
+  fullName: Zeebe.Client.Api.Responses.IFailJobResponse
+  type: Interface
+  source:
+    id: IFailJobResponse
+    path: ''
+    startLine: 827
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nRepresents an response for an job fail command request.\n"
+  example: []
+  syntax:
+    content: public interface IFailJobResponse
+    content.vb: Public Interface IFailJobResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses

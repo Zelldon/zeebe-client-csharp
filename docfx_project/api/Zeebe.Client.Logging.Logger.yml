@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Logging.Logger
+  commentId: T:Zeebe.Client.Logging.Logger
+  id: Logger
+  parent: Zeebe.Client.Logging
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: Logger
+  fullName: Zeebe.Client.Logging.Logger
+  type: Delegate
+  source:
+    id: Logger
+    path: ''
+    startLine: 11121
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nLogger delegate.\n"
+  example: []
+  syntax:
+    content: public delegate bool Logger(LogLevel logLevel, Func<string> messageFunc, Exception exception = null, params object[] formatParameters);
+    parameters:
+    - id: logLevel
+      type: Zeebe.Client.Logging.LogLevel
+      description: The log level
+    - id: messageFunc
+      type: System.Func{System.String}
+      description: The message function
+    - id: exception
+      type: System.Exception
+      description: The exception
+    - id: formatParameters
+      type: System.Object[]
+      description: The format parameters
+    return:
+      type: System.Boolean
+      description: A boolean.
+    content.vb: Public Delegate Function Logger(logLevel As LogLevel, messageFunc As Func(Of String), exception As Exception = Nothing, ParamArray formatParameters As Object()) As Boolean
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Zeebe.Client.Logging
+  commentId: N:Zeebe.Client.Logging
+  name: Zeebe.Client.Logging
+  nameWithType: Zeebe.Client.Logging
+  fullName: Zeebe.Client.Logging
+- uid: Zeebe.Client.Logging.LogLevel
+  commentId: T:Zeebe.Client.Logging.LogLevel
+  parent: Zeebe.Client.Logging
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Zeebe.Client.Logging.LogLevel
+- uid: System.Func{System.String}
+  commentId: T:System.Func{System.String}
+  parent: System
+  definition: System.Func`1
+  name: Func<String>
+  nameWithType: Func<String>
+  fullName: System.Func<System.String>
+  nameWithType.vb: Func(Of String)
+  fullName.vb: System.Func(Of System.String)
+  name.vb: Func(Of String)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

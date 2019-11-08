@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IUpdateRetriesResponse
+  commentId: T:Zeebe.Client.Api.Responses.IUpdateRetriesResponse
+  id: IUpdateRetriesResponse
+  parent: Zeebe.Client.Api.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IUpdateRetriesResponse
+  nameWithType: IUpdateRetriesResponse
+  fullName: Zeebe.Client.Api.Responses.IUpdateRetriesResponse
+  type: Interface
+  source:
+    id: IUpdateRetriesResponse
+    path: ''
+    startLine: 837
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nResponse for an update retries request.\n"
+  example: []
+  syntax:
+    content: public interface IUpdateRetriesResponse
+    content.vb: Public Interface IUpdateRetriesResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses

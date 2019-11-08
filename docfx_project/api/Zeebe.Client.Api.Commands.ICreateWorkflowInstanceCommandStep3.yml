@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  id: ICreateWorkflowInstanceCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables(System.String)
+  - Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult
+  langs:
+  - csharp
+  - vb
+  name: ICreateWorkflowInstanceCommandStep3
+  nameWithType: ICreateWorkflowInstanceCommandStep3
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  type: Interface
+  source:
+    id: ICreateWorkflowInstanceCommandStep3
+    path: ''
+    startLine: 1162
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: 'public interface ICreateWorkflowInstanceCommandStep3 : IFinalCommandStep<IWorkflowInstanceResponse>'
+    content.vb: >-
+      Public Interface ICreateWorkflowInstanceCommandStep3
+          Inherits IFinalCommandStep(Of IWorkflowInstanceResponse)
+  inheritedMembers:
+  - Zeebe.Client.Api.Commands.IFinalCommandStep{IWorkflowInstanceResponse}.Send(System.Nullable{TimeSpan})
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables(System.String)
+  id: Variables(System.String)
+  parent: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  langs:
+  - csharp
+  - vb
+  name: Variables(String)
+  nameWithType: ICreateWorkflowInstanceCommandStep3.Variables(String)
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables(System.String)
+  type: Method
+  source:
+    id: Variables
+    path: ''
+    startLine: 1170
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the initial variables of the workflow instance.\n"
+  example: []
+  syntax:
+    content: ICreateWorkflowInstanceCommandStep3 Variables(string variables)
+    parameters:
+    - id: variables
+      type: System.String
+      description: the variables (JSON) as String
+    return:
+      type: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send
+            it to the broker.
+    content.vb: Function Variables(variables As String) As ICreateWorkflowInstanceCommandStep3
+  overload: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables*
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult
+  commentId: M:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult
+  id: WithResult
+  parent: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  langs:
+  - csharp
+  - vb
+  name: WithResult()
+  nameWithType: ICreateWorkflowInstanceCommandStep3.WithResult()
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult()
+  type: Method
+  source:
+    id: WithResult
+    path: ''
+    startLine: 1177
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nWhen this method is called, the response to the command will be received after the workflow\nis completed. The response consists of a set of variables.\n"
+  example: []
+  syntax:
+    content: ICreateWorkflowInstanceWithResultCommandStep1 WithResult()
+    return:
+      type: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceWithResultCommandStep1
+      description: the builder for this command. Call <see cref="!:FinalCommandStep#send"></see> to complete the command and send it to the broker
+    content.vb: Function WithResult As ICreateWorkflowInstanceWithResultCommandStep1
+  overload: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{IWorkflowInstanceResponse}.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep{IWorkflowInstanceResponse}.Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Api.Commands.IFinalCommandStep{IWorkflowInstanceResponse}
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<IWorkflowInstanceResponse>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IWorkflowInstanceResponse>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of IWorkflowInstanceResponse).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IWorkflowInstanceResponse).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<IWorkflowInstanceResponse>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IWorkflowInstanceResponse>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of IWorkflowInstanceResponse).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IWorkflowInstanceResponse).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+  isExternal: true
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: IFinalCommandStep<T>.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send(System.Nullable<TimeSpan>)
+  nameWithType.vb: IFinalCommandStep(Of T).Send(Nullable(Of TimeSpan))
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep<T>.Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1.Send(System.Nullable{TimeSpan})
+    name: Send
+    nameWithType: IFinalCommandStep(Of T).Send
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T).Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep{IWorkflowInstanceResponse}
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep{IWorkflowInstanceResponse}
+  parent: Zeebe.Client.Api.Commands
+  definition: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<IWorkflowInstanceResponse>
+  nameWithType: IFinalCommandStep<IWorkflowInstanceResponse>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<IWorkflowInstanceResponse>
+  nameWithType.vb: IFinalCommandStep(Of IWorkflowInstanceResponse)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of IWorkflowInstanceResponse)
+  name.vb: IFinalCommandStep(Of IWorkflowInstanceResponse)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWorkflowInstanceResponse
+    name: IWorkflowInstanceResponse
+    nameWithType: IWorkflowInstanceResponse
+    fullName: IWorkflowInstanceResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWorkflowInstanceResponse
+    name: IWorkflowInstanceResponse
+    nameWithType: IWorkflowInstanceResponse
+    fullName: IWorkflowInstanceResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  commentId: T:Zeebe.Client.Api.Commands.IFinalCommandStep`1
+  name: IFinalCommandStep<T>
+  nameWithType: IFinalCommandStep<T>
+  fullName: Zeebe.Client.Api.Commands.IFinalCommandStep<T>
+  nameWithType.vb: IFinalCommandStep(Of T)
+  fullName.vb: Zeebe.Client.Api.Commands.IFinalCommandStep(Of T)
+  name.vb: IFinalCommandStep(Of T)
+  spec.csharp:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep
+    nameWithType: IFinalCommandStep
+    fullName: Zeebe.Client.Api.Commands.IFinalCommandStep
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables*
+  commentId: Overload:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables
+  name: Variables
+  nameWithType: ICreateWorkflowInstanceCommandStep3.Variables
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.Variables
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  name: ICreateWorkflowInstanceCommandStep3
+  nameWithType: ICreateWorkflowInstanceCommandStep3
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult*
+  commentId: Overload:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult
+  name: WithResult
+  nameWithType: ICreateWorkflowInstanceCommandStep3.WithResult
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3.WithResult
+- uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceWithResultCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.ICreateWorkflowInstanceWithResultCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  name: ICreateWorkflowInstanceWithResultCommandStep1
+  nameWithType: ICreateWorkflowInstanceWithResultCommandStep1
+  fullName: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceWithResultCommandStep1

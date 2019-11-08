@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+  id: IActivateJobsCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IActivateJobsCommandStep2
+  nameWithType: IActivateJobsCommandStep2
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+  type: Interface
+  source:
+    id: IActivateJobsCommandStep2
+    path: ''
+    startLine: 1373
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface IActivateJobsCommandStep2
+    content.vb: Public Interface IActivateJobsCommandStep2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate(System.Int32)
+  commentId: M:Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate(System.Int32)
+  id: MaxJobsToActivate(System.Int32)
+  parent: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+  langs:
+  - csharp
+  - vb
+  name: MaxJobsToActivate(Int32)
+  nameWithType: IActivateJobsCommandStep2.MaxJobsToActivate(Int32)
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate(System.Int32)
+  type: Method
+  source:
+    id: MaxJobsToActivate
+    path: ''
+    startLine: 1381
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the maximum of jobs to activate. If less jobs are available for activation the\ncommand will return a list with fewer jobs.\n"
+  example: []
+  syntax:
+    content: IActivateJobsCommandStep3 MaxJobsToActivate(int maxJobsToActivate)
+    parameters:
+    - id: maxJobsToActivate
+      type: System.Int32
+      description: the maximal number of jobs to activate
+    return:
+      type: Zeebe.Client.Api.Commands.IActivateJobsCommandStep3
+      description: the builder for this command
+    content.vb: Function MaxJobsToActivate(maxJobsToActivate As Integer) As IActivateJobsCommandStep3
+  overload: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate*
+  commentId: Overload:Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate
+  name: MaxJobsToActivate
+  nameWithType: IActivateJobsCommandStep2.MaxJobsToActivate
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2.MaxJobsToActivate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep3
+  commentId: T:Zeebe.Client.Api.Commands.IActivateJobsCommandStep3
+  parent: Zeebe.Client.Api.Commands
+  name: IActivateJobsCommandStep3
+  nameWithType: IActivateJobsCommandStep3
+  fullName: Zeebe.Client.Api.Commands.IActivateJobsCommandStep3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  commentId: T:Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  id: IZeebeClientFinalBuildStep
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  langs:
+  - csharp
+  - vb
+  name: IZeebeClientFinalBuildStep
+  nameWithType: IZeebeClientFinalBuildStep
+  fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  type: Interface
+  source:
+    id: IZeebeClientFinalBuildStep
+    path: ''
+    startLine: 1971
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public interface IZeebeClientFinalBuildStep
+    content.vb: Public Interface IZeebeClientFinalBuildStep
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  commentId: M:Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  id: Build
+  parent: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: IZeebeClientFinalBuildStep.Build()
+  fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build()
+  type: Method
+  source:
+    id: Build
+    path: ''
+    startLine: 1977
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nBuilds the client with the given configuration.\n"
+  example: []
+  syntax:
+    content: IZeebeClient Build()
+    return:
+      type: Zeebe.Client.IZeebeClient
+      description: the client which was build with the given configuration
+    content.vb: Function Build As IZeebeClient
+  overload: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build*
+  commentId: Overload:Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+  name: Build
+  nameWithType: IZeebeClientFinalBuildStep.Build
+  fullName: Zeebe.Client.Builder.IZeebeClientFinalBuildStep.Build
+- uid: Zeebe.Client.IZeebeClient
+  commentId: T:Zeebe.Client.IZeebeClient
+  parent: Zeebe.Client
+  name: IZeebeClient
+  nameWithType: IZeebeClient
+  fullName: Zeebe.Client.IZeebeClient
+- uid: Zeebe.Client
+  commentId: N:Zeebe.Client
+  name: Zeebe.Client
+  nameWithType: Zeebe.Client
+  fullName: Zeebe.Client

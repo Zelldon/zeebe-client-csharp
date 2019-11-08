@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  commentId: T:Zeebe.Client.Api.Responses.IWorkflowMetadata
+  id: IWorkflowMetadata
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId
+  - Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName
+  - Zeebe.Client.Api.Responses.IWorkflowMetadata.Version
+  - Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey
+  langs:
+  - csharp
+  - vb
+  name: IWorkflowMetadata
+  nameWithType: IWorkflowMetadata
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  type: Interface
+  source:
+    id: IWorkflowMetadata
+    path: ''
+    startLine: 669
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: public interface IWorkflowMetadata
+    content.vb: Public Interface IWorkflowMetadata
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId
+  id: BpmnProcessId
+  parent: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: BpmnProcessId
+  nameWithType: IWorkflowMetadata.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId
+  type: Property
+  source:
+    id: BpmnProcessId
+    path: ''
+    startLine: 672
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string BpmnProcessId { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'the BPMN process id of the workflow '
+    content.vb: ReadOnly Property BpmnProcessId As String
+  overload: Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.Version
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowMetadata.Version
+  id: Version
+  parent: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: IWorkflowMetadata.Version
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.Version
+  type: Property
+  source:
+    id: Version
+    path: ''
+    startLine: 675
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: int Version { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: 'the version of the deployed workflow '
+    content.vb: ReadOnly Property Version As Integer
+  overload: Zeebe.Client.Api.Responses.IWorkflowMetadata.Version*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey
+  id: WorkflowKey
+  parent: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: WorkflowKey
+  nameWithType: IWorkflowMetadata.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey
+  type: Property
+  source:
+    id: WorkflowKey
+    path: ''
+    startLine: 678
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: long WorkflowKey { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: ReadOnly Property WorkflowKey As Long
+  overload: Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName
+  commentId: P:Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName
+  id: ResourceName
+  parent: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  langs:
+  - csharp
+  - vb
+  name: ResourceName
+  nameWithType: IWorkflowMetadata.ResourceName
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName
+  type: Property
+  source:
+    id: ResourceName
+    path: ''
+    startLine: 681
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: string ResourceName { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: 'the name of the deployment resource which contains the workflow '
+    content.vb: ReadOnly Property ResourceName As String
+  overload: Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId
+  name: BpmnProcessId
+  nameWithType: IWorkflowMetadata.BpmnProcessId
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.BpmnProcessId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.Version*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowMetadata.Version
+  name: Version
+  nameWithType: IWorkflowMetadata.Version
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.Version
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey
+  name: WorkflowKey
+  nameWithType: IWorkflowMetadata.WorkflowKey
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.WorkflowKey
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName*
+  commentId: Overload:Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName
+  name: ResourceName
+  nameWithType: IWorkflowMetadata.ResourceName
+  fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata.ResourceName

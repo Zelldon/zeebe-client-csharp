@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IPublishMessageResponse
+  commentId: T:Zeebe.Client.Api.Responses.IPublishMessageResponse
+  id: IPublishMessageResponse
+  parent: Zeebe.Client.Api.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IPublishMessageResponse
+  nameWithType: IPublishMessageResponse
+  fullName: Zeebe.Client.Api.Responses.IPublishMessageResponse
+  type: Interface
+  source:
+    id: IPublishMessageResponse
+    path: ''
+    startLine: 921
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  summary: "\nResponse for publishing a message.\n"
+  example: []
+  syntax:
+    content: public interface IPublishMessageResponse
+    content.vb: Public Interface IPublishMessageResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses

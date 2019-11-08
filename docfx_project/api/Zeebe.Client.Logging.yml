@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Logging
+  commentId: N:Zeebe.Client.Logging
+  id: Zeebe.Client.Logging
+  children:
+  - Zeebe.Client.Logging.ILogProvider
+  - Zeebe.Client.Logging.Logger
+  - Zeebe.Client.Logging.LogLevel
+  - Zeebe.Client.Logging.LogProvider
+  langs:
+  - csharp
+  - vb
+  name: Zeebe.Client.Logging
+  nameWithType: Zeebe.Client.Logging
+  fullName: Zeebe.Client.Logging
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Zeebe.Client.Logging.LogLevel
+  commentId: T:Zeebe.Client.Logging.LogLevel
+  parent: Zeebe.Client.Logging
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Zeebe.Client.Logging.LogLevel
+- uid: Zeebe.Client.Logging.LogProvider
+  commentId: T:Zeebe.Client.Logging.LogProvider
+  name: LogProvider
+  nameWithType: LogProvider
+  fullName: Zeebe.Client.Logging.LogProvider
+- uid: Zeebe.Client.Logging.Logger
+  commentId: T:Zeebe.Client.Logging.Logger
+  parent: Zeebe.Client.Logging
+  name: Logger
+  nameWithType: Logger
+  fullName: Zeebe.Client.Logging.Logger
+- uid: Zeebe.Client.Logging.ILogProvider
+  commentId: T:Zeebe.Client.Logging.ILogProvider
+  parent: Zeebe.Client.Logging
+  name: ILogProvider
+  nameWithType: ILogProvider
+  fullName: Zeebe.Client.Logging.ILogProvider
+- uid: Zeebe.Client.Logging
+  commentId: N:Zeebe.Client.Logging
+  name: Zeebe.Client.Logging
+  nameWithType: Zeebe.Client.Logging
+  fullName: Zeebe.Client.Logging

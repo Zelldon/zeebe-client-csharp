@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.FailJobResponse
+  commentId: T:Zeebe.Client.Impl.Responses.FailJobResponse
+  id: FailJobResponse
+  parent: Zeebe.Client.Impl.Responses
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FailJobResponse
+  nameWithType: FailJobResponse
+  fullName: Zeebe.Client.Impl.Responses.FailJobResponse
+  type: Class
+  source:
+    id: FailJobResponse
+    path: ''
+    startLine: 9569
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class FailJobResponse : IFailJobResponse'
+    content.vb: >-
+      Public Class FailJobResponse
+          Inherits IFailJobResponse
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

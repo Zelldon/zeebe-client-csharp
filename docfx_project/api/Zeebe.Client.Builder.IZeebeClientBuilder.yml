@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeClientBuilder
+  id: IZeebeClientBuilder
+  parent: Zeebe.Client.Builder
+  children:
+  - Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  - Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  langs:
+  - csharp
+  - vb
+  name: IZeebeClientBuilder
+  nameWithType: IZeebeClientBuilder
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder
+  type: Interface
+  source:
+    id: IZeebeClientBuilder
+    path: ''
+    startLine: 1908
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  syntax:
+    content: public interface IZeebeClientBuilder
+    content.vb: Public Interface IZeebeClientBuilder
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  commentId: M:Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  id: UseLoggerFactory(ILoggerFactory)
+  parent: Zeebe.Client.Builder.IZeebeClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseLoggerFactory(ILoggerFactory)
+  nameWithType: IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory(ILoggerFactory)
+  type: Method
+  source:
+    id: UseLoggerFactory
+    path: ''
+    startLine: 1918
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nThe logger factory which the client should use to log messages.\nThis is optional and if not set the client will not log any messages.\n"
+  example: []
+  syntax:
+    content: IZeebeClientBuilder UseLoggerFactory(ILoggerFactory loggerFactory)
+    parameters:
+    - id: loggerFactory
+      type: ILoggerFactory
+      description: the factory which is used to create an logger
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientBuilder
+      description: "\nthe builder, to configure the zeebe client\n"
+    content.vb: Function UseLoggerFactory(loggerFactory As ILoggerFactory) As IZeebeClientBuilder
+  overload: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory*
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  commentId: M:Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  id: UseGatewayAddress(System.String)
+  parent: Zeebe.Client.Builder.IZeebeClientBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseGatewayAddress(String)
+  nameWithType: IZeebeClientBuilder.UseGatewayAddress(String)
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress(System.String)
+  type: Method
+  source:
+    id: UseGatewayAddress
+    path: ''
+    startLine: 1927
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Builder
+  summary: "\nThe address which the client should connect to.\n"
+  example: []
+  syntax:
+    content: IZeebeClientTransportBuilder UseGatewayAddress(string gatewayAddress)
+    parameters:
+    - id: gatewayAddress
+      type: System.String
+      description: the address to which the client should connect to
+    return:
+      type: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+      description: "\nthe next step builder, to configure transport security which the client should use\n"
+    content.vb: Function UseGatewayAddress(gatewayAddress As String) As IZeebeClientTransportBuilder
+  overload: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress*
+references:
+- uid: Zeebe.Client.Builder
+  commentId: N:Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  nameWithType: Zeebe.Client.Builder
+  fullName: Zeebe.Client.Builder
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory*
+  commentId: Overload:Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory
+  name: UseLoggerFactory
+  nameWithType: IZeebeClientBuilder.UseLoggerFactory
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseLoggerFactory
+- uid: ILoggerFactory
+  isExternal: true
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: ILoggerFactory
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeClientBuilder
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientBuilder
+  nameWithType: IZeebeClientBuilder
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder
+- uid: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress*
+  commentId: Overload:Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress
+  name: UseGatewayAddress
+  nameWithType: IZeebeClientBuilder.UseGatewayAddress
+  fullName: Zeebe.Client.Builder.IZeebeClientBuilder.UseGatewayAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  commentId: T:Zeebe.Client.Builder.IZeebeClientTransportBuilder
+  parent: Zeebe.Client.Builder
+  name: IZeebeClientTransportBuilder
+  nameWithType: IZeebeClientTransportBuilder
+  fullName: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

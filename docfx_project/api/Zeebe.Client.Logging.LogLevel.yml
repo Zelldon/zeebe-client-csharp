@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Logging.LogLevel
+  commentId: T:Zeebe.Client.Logging.LogLevel
+  id: LogLevel
+  parent: Zeebe.Client.Logging
+  children:
+  - Zeebe.Client.Logging.LogLevel.Debug
+  - Zeebe.Client.Logging.LogLevel.Error
+  - Zeebe.Client.Logging.LogLevel.Fatal
+  - Zeebe.Client.Logging.LogLevel.Info
+  - Zeebe.Client.Logging.LogLevel.Trace
+  - Zeebe.Client.Logging.LogLevel.Warn
+  langs:
+  - csharp
+  - vb
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Zeebe.Client.Logging.LogLevel
+  type: Enum
+  source:
+    id: LogLevel
+    path: ''
+    startLine: 10635
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nThe log level.\n"
+  example: []
+  syntax:
+    content: public enum LogLevel
+    content.vb: Public Enum LogLevel
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Zeebe.Client.Logging.LogLevel.Trace
+  commentId: F:Zeebe.Client.Logging.LogLevel.Trace
+  id: Trace
+  parent: Zeebe.Client.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Trace
+  nameWithType: LogLevel.Trace
+  fullName: Zeebe.Client.Logging.LogLevel.Trace
+  type: Field
+  source:
+    id: Trace
+    path: ''
+    startLine: 10642
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nTrace\n"
+  example: []
+  syntax:
+    content: Trace = 0
+    return:
+      type: Zeebe.Client.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Zeebe.Client.Logging.LogLevel.Debug
+  commentId: F:Zeebe.Client.Logging.LogLevel.Debug
+  id: Debug
+  parent: Zeebe.Client.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: LogLevel.Debug
+  fullName: Zeebe.Client.Logging.LogLevel.Debug
+  type: Field
+  source:
+    id: Debug
+    path: ''
+    startLine: 10647
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nDebug\n"
+  example: []
+  syntax:
+    content: Debug = 1
+    return:
+      type: Zeebe.Client.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Zeebe.Client.Logging.LogLevel.Info
+  commentId: F:Zeebe.Client.Logging.LogLevel.Info
+  id: Info
+  parent: Zeebe.Client.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: LogLevel.Info
+  fullName: Zeebe.Client.Logging.LogLevel.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 10652
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nInfo\n"
+  example: []
+  syntax:
+    content: Info = 2
+    return:
+      type: Zeebe.Client.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Zeebe.Client.Logging.LogLevel.Warn
+  commentId: F:Zeebe.Client.Logging.LogLevel.Warn
+  id: Warn
+  parent: Zeebe.Client.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Warn
+  nameWithType: LogLevel.Warn
+  fullName: Zeebe.Client.Logging.LogLevel.Warn
+  type: Field
+  source:
+    id: Warn
+    path: ''
+    startLine: 10657
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nWarn\n"
+  example: []
+  syntax:
+    content: Warn = 3
+    return:
+      type: Zeebe.Client.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Zeebe.Client.Logging.LogLevel.Error
+  commentId: F:Zeebe.Client.Logging.LogLevel.Error
+  id: Error
+  parent: Zeebe.Client.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LogLevel.Error
+  fullName: Zeebe.Client.Logging.LogLevel.Error
+  type: Field
+  source:
+    id: Error
+    path: ''
+    startLine: 10662
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nError\n"
+  example: []
+  syntax:
+    content: Error = 4
+    return:
+      type: Zeebe.Client.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Zeebe.Client.Logging.LogLevel.Fatal
+  commentId: F:Zeebe.Client.Logging.LogLevel.Fatal
+  id: Fatal
+  parent: Zeebe.Client.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Fatal
+  nameWithType: LogLevel.Fatal
+  fullName: Zeebe.Client.Logging.LogLevel.Fatal
+  type: Field
+  source:
+    id: Fatal
+    path: ''
+    startLine: 10667
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nFatal\n"
+  example: []
+  syntax:
+    content: Fatal = 5
+    return:
+      type: Zeebe.Client.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Zeebe.Client.Logging
+  commentId: N:Zeebe.Client.Logging
+  name: Zeebe.Client.Logging
+  nameWithType: Zeebe.Client.Logging
+  fullName: Zeebe.Client.Logging
+- uid: Zeebe.Client.Logging.LogLevel
+  commentId: T:Zeebe.Client.Logging.LogLevel
+  parent: Zeebe.Client.Logging
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Zeebe.Client.Logging.LogLevel

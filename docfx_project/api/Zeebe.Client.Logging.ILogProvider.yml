@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Logging.ILogProvider
+  commentId: T:Zeebe.Client.Logging.ILogProvider
+  id: ILogProvider
+  parent: Zeebe.Client.Logging
+  children:
+  - Zeebe.Client.Logging.ILogProvider.GetLogger(System.String)
+  - Zeebe.Client.Logging.ILogProvider.OpenMappedContext(System.String,System.Object,System.Boolean)
+  - Zeebe.Client.Logging.ILogProvider.OpenNestedContext(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ILogProvider
+  nameWithType: ILogProvider
+  fullName: Zeebe.Client.Logging.ILogProvider
+  type: Interface
+  source:
+    id: ILogProvider
+    path: ''
+    startLine: 11703
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nRepresents a way to get a <xref href=\"Zeebe.Client.Logging.ILog\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public interface ILogProvider
+    content.vb: Public Interface ILogProvider
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Logging.ILogProvider.GetLogger(System.String)
+  commentId: M:Zeebe.Client.Logging.ILogProvider.GetLogger(System.String)
+  id: GetLogger(System.String)
+  parent: Zeebe.Client.Logging.ILogProvider
+  langs:
+  - csharp
+  - vb
+  name: GetLogger(String)
+  nameWithType: ILogProvider.GetLogger(String)
+  fullName: Zeebe.Client.Logging.ILogProvider.GetLogger(System.String)
+  type: Method
+  source:
+    id: GetLogger
+    path: ''
+    startLine: 11712
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nGets the specified named logger.\n"
+  example: []
+  syntax:
+    content: Logger GetLogger(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the logger.
+    return:
+      type: Zeebe.Client.Logging.Logger
+      description: The logger reference.
+    content.vb: Function GetLogger(name As String) As Logger
+  overload: Zeebe.Client.Logging.ILogProvider.GetLogger*
+- uid: Zeebe.Client.Logging.ILogProvider.OpenNestedContext(System.String)
+  commentId: M:Zeebe.Client.Logging.ILogProvider.OpenNestedContext(System.String)
+  id: OpenNestedContext(System.String)
+  parent: Zeebe.Client.Logging.ILogProvider
+  langs:
+  - csharp
+  - vb
+  name: OpenNestedContext(String)
+  nameWithType: ILogProvider.OpenNestedContext(String)
+  fullName: Zeebe.Client.Logging.ILogProvider.OpenNestedContext(System.String)
+  type: Method
+  source:
+    id: OpenNestedContext
+    path: ''
+    startLine: 11719
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nOpens a nested diagnostics context. Not supported in EntLib logging.\n"
+  example: []
+  syntax:
+    content: IDisposable OpenNestedContext(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to add to the diagnostics context.
+    return:
+      type: IDisposable
+      description: A disposable that when disposed removes the message from the context.
+    content.vb: Function OpenNestedContext(message As String) As IDisposable
+  overload: Zeebe.Client.Logging.ILogProvider.OpenNestedContext*
+- uid: Zeebe.Client.Logging.ILogProvider.OpenMappedContext(System.String,System.Object,System.Boolean)
+  commentId: M:Zeebe.Client.Logging.ILogProvider.OpenMappedContext(System.String,System.Object,System.Boolean)
+  id: OpenMappedContext(System.String,System.Object,System.Boolean)
+  parent: Zeebe.Client.Logging.ILogProvider
+  langs:
+  - csharp
+  - vb
+  name: OpenMappedContext(String, Object, Boolean)
+  nameWithType: ILogProvider.OpenMappedContext(String, Object, Boolean)
+  fullName: Zeebe.Client.Logging.ILogProvider.OpenMappedContext(System.String, System.Object, System.Boolean)
+  type: Method
+  source:
+    id: OpenMappedContext
+    path: ''
+    startLine: 11728
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Logging
+  summary: "\nOpens a mapped diagnostics context. Not supported in EntLib logging.\n"
+  example: []
+  syntax:
+    content: IDisposable OpenMappedContext(string key, object value, bool destructure = false)
+    parameters:
+    - id: key
+      type: System.String
+      description: A key.
+    - id: value
+      type: System.Object
+      description: A value.
+    - id: destructure
+      type: System.Boolean
+      description: Determines whether to call the destructor or not.
+    return:
+      type: IDisposable
+      description: A disposable that when disposed removes the map from the context.
+    content.vb: Function OpenMappedContext(key As String, value As Object, destructure As Boolean = False) As IDisposable
+  overload: Zeebe.Client.Logging.ILogProvider.OpenMappedContext*
+references:
+- uid: Zeebe.Client.Logging.ILog
+  commentId: T:Zeebe.Client.Logging.ILog
+  isExternal: true
+- uid: Zeebe.Client.Logging
+  commentId: N:Zeebe.Client.Logging
+  name: Zeebe.Client.Logging
+  nameWithType: Zeebe.Client.Logging
+  fullName: Zeebe.Client.Logging
+- uid: Zeebe.Client.Logging.ILogProvider.GetLogger*
+  commentId: Overload:Zeebe.Client.Logging.ILogProvider.GetLogger
+  name: GetLogger
+  nameWithType: ILogProvider.GetLogger
+  fullName: Zeebe.Client.Logging.ILogProvider.GetLogger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Logging.Logger
+  commentId: T:Zeebe.Client.Logging.Logger
+  parent: Zeebe.Client.Logging
+  name: Logger
+  nameWithType: Logger
+  fullName: Zeebe.Client.Logging.Logger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Logging.ILogProvider.OpenNestedContext*
+  commentId: Overload:Zeebe.Client.Logging.ILogProvider.OpenNestedContext
+  name: OpenNestedContext
+  nameWithType: ILogProvider.OpenNestedContext
+  fullName: Zeebe.Client.Logging.ILogProvider.OpenNestedContext
+- uid: IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: IDisposable
+- uid: Zeebe.Client.Logging.ILogProvider.OpenMappedContext*
+  commentId: Overload:Zeebe.Client.Logging.ILogProvider.OpenMappedContext
+  name: OpenMappedContext
+  nameWithType: ILogProvider.OpenMappedContext
+  fullName: Zeebe.Client.Logging.ILogProvider.OpenMappedContext
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.UpdateJobRetriesResponse
+  commentId: T:GatewayProtocol.UpdateJobRetriesResponse
+  id: UpdateJobRetriesResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.UpdateJobRetriesResponse.#ctor
+  - GatewayProtocol.UpdateJobRetriesResponse.#ctor(GatewayProtocol.UpdateJobRetriesResponse)
+  - GatewayProtocol.UpdateJobRetriesResponse.CalculateSize
+  - GatewayProtocol.UpdateJobRetriesResponse.Clone
+  - GatewayProtocol.UpdateJobRetriesResponse.Descriptor
+  - GatewayProtocol.UpdateJobRetriesResponse.Equals(GatewayProtocol.UpdateJobRetriesResponse)
+  - GatewayProtocol.UpdateJobRetriesResponse.Equals(System.Object)
+  - GatewayProtocol.UpdateJobRetriesResponse.GetHashCode
+  - GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(GatewayProtocol.UpdateJobRetriesResponse)
+  - GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.UpdateJobRetriesResponse.Parser
+  - GatewayProtocol.UpdateJobRetriesResponse.ToString
+  - GatewayProtocol.UpdateJobRetriesResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: UpdateJobRetriesResponse
+  nameWithType: UpdateJobRetriesResponse
+  fullName: GatewayProtocol.UpdateJobRetriesResponse
+  type: Class
+  source:
+    id: UpdateJobRetriesResponse
+    path: ''
+    startLine: 7360
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class UpdateJobRetriesResponse : pb.IMessage<UpdateJobRetriesResponse>'
+    content.vb: >-
+      Public NotInheritable Class UpdateJobRetriesResponse
+          Inherits pb.IMessage(Of UpdateJobRetriesResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Parser
+  commentId: P:GatewayProtocol.UpdateJobRetriesResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: UpdateJobRetriesResponse.Parser
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 7363
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<UpdateJobRetriesResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.UpdateJobRetriesResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of UpdateJobRetriesResponse)
+  overload: GatewayProtocol.UpdateJobRetriesResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Descriptor
+  commentId: P:GatewayProtocol.UpdateJobRetriesResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: UpdateJobRetriesResponse.Descriptor
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 7366
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.UpdateJobRetriesResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.UpdateJobRetriesResponse.#ctor
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: UpdateJobRetriesResponse()
+  nameWithType: UpdateJobRetriesResponse.UpdateJobRetriesResponse()
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.UpdateJobRetriesResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7376
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public UpdateJobRetriesResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.UpdateJobRetriesResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.UpdateJobRetriesResponse.#ctor(GatewayProtocol.UpdateJobRetriesResponse)
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.#ctor(GatewayProtocol.UpdateJobRetriesResponse)
+  id: '#ctor(GatewayProtocol.UpdateJobRetriesResponse)'
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: UpdateJobRetriesResponse(UpdateJobRetriesResponse)
+  nameWithType: UpdateJobRetriesResponse.UpdateJobRetriesResponse(UpdateJobRetriesResponse)
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.UpdateJobRetriesResponse(GatewayProtocol.UpdateJobRetriesResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7383
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public UpdateJobRetriesResponse(UpdateJobRetriesResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.UpdateJobRetriesResponse
+    content.vb: Public Sub New(other As UpdateJobRetriesResponse)
+  overload: GatewayProtocol.UpdateJobRetriesResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Clone
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: UpdateJobRetriesResponse.Clone()
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 7388
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public UpdateJobRetriesResponse Clone()
+    return:
+      type: GatewayProtocol.UpdateJobRetriesResponse
+    content.vb: Public Function Clone As UpdateJobRetriesResponse
+  overload: GatewayProtocol.UpdateJobRetriesResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: UpdateJobRetriesResponse.Equals(Object)
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 7393
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.UpdateJobRetriesResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Equals(GatewayProtocol.UpdateJobRetriesResponse)
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.Equals(GatewayProtocol.UpdateJobRetriesResponse)
+  id: Equals(GatewayProtocol.UpdateJobRetriesResponse)
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(UpdateJobRetriesResponse)
+  nameWithType: UpdateJobRetriesResponse.Equals(UpdateJobRetriesResponse)
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Equals(GatewayProtocol.UpdateJobRetriesResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 7398
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(UpdateJobRetriesResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.UpdateJobRetriesResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As UpdateJobRetriesResponse) As Boolean
+  overload: GatewayProtocol.UpdateJobRetriesResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.UpdateJobRetriesResponse.GetHashCode
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: UpdateJobRetriesResponse.GetHashCode()
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 7409
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.UpdateJobRetriesResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.UpdateJobRetriesResponse.ToString
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UpdateJobRetriesResponse.ToString()
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 7418
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.UpdateJobRetriesResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.UpdateJobRetriesResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: UpdateJobRetriesResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 7423
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.UpdateJobRetriesResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.UpdateJobRetriesResponse.CalculateSize
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: UpdateJobRetriesResponse.CalculateSize()
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 7430
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.UpdateJobRetriesResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(GatewayProtocol.UpdateJobRetriesResponse)
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(GatewayProtocol.UpdateJobRetriesResponse)
+  id: MergeFrom(GatewayProtocol.UpdateJobRetriesResponse)
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(UpdateJobRetriesResponse)
+  nameWithType: UpdateJobRetriesResponse.MergeFrom(UpdateJobRetriesResponse)
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(GatewayProtocol.UpdateJobRetriesResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 7439
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(UpdateJobRetriesResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.UpdateJobRetriesResponse
+    content.vb: Public Sub MergeFrom(other As UpdateJobRetriesResponse)
+  overload: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.UpdateJobRetriesResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: UpdateJobRetriesResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 7447
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Parser*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.Parser
+  name: Parser
+  nameWithType: UpdateJobRetriesResponse.Parser
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.UpdateJobRetriesResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.UpdateJobRetriesResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<UpdateJobRetriesResponse>
+  nameWithType: pb.MessageParser<UpdateJobRetriesResponse>
+  fullName: pb.MessageParser<GatewayProtocol.UpdateJobRetriesResponse>
+  nameWithType.vb: pb.MessageParser(Of UpdateJobRetriesResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.UpdateJobRetriesResponse)
+  name.vb: pb.MessageParser(Of UpdateJobRetriesResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.UpdateJobRetriesResponse
+    name: UpdateJobRetriesResponse
+    nameWithType: UpdateJobRetriesResponse
+    fullName: GatewayProtocol.UpdateJobRetriesResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.UpdateJobRetriesResponse
+    name: UpdateJobRetriesResponse
+    nameWithType: UpdateJobRetriesResponse
+    fullName: GatewayProtocol.UpdateJobRetriesResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.Descriptor
+  name: Descriptor
+  nameWithType: UpdateJobRetriesResponse.Descriptor
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.UpdateJobRetriesResponse.#ctor*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.#ctor
+  name: UpdateJobRetriesResponse
+  nameWithType: UpdateJobRetriesResponse.UpdateJobRetriesResponse
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.UpdateJobRetriesResponse
+- uid: GatewayProtocol.UpdateJobRetriesResponse
+  commentId: T:GatewayProtocol.UpdateJobRetriesResponse
+  parent: GatewayProtocol
+  name: UpdateJobRetriesResponse
+  nameWithType: UpdateJobRetriesResponse
+  fullName: GatewayProtocol.UpdateJobRetriesResponse
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Clone*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.Clone
+  name: Clone
+  nameWithType: UpdateJobRetriesResponse.Clone
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Clone
+- uid: GatewayProtocol.UpdateJobRetriesResponse.Equals*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.Equals
+  name: Equals
+  nameWithType: UpdateJobRetriesResponse.Equals
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.UpdateJobRetriesResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: UpdateJobRetriesResponse.GetHashCode
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.UpdateJobRetriesResponse.ToString*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.ToString
+  name: ToString
+  nameWithType: UpdateJobRetriesResponse.ToString
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.UpdateJobRetriesResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.WriteTo
+  name: WriteTo
+  nameWithType: UpdateJobRetriesResponse.WriteTo
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.UpdateJobRetriesResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: UpdateJobRetriesResponse.CalculateSize
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.CalculateSize
+- uid: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.UpdateJobRetriesResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: UpdateJobRetriesResponse.MergeFrom
+  fullName: GatewayProtocol.UpdateJobRetriesResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

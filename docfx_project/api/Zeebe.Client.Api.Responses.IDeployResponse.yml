@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Responses.IDeployResponse
+  commentId: T:Zeebe.Client.Api.Responses.IDeployResponse
+  id: IDeployResponse
+  parent: Zeebe.Client.Api.Responses
+  children:
+  - Zeebe.Client.Api.Responses.IDeployResponse.Key
+  - Zeebe.Client.Api.Responses.IDeployResponse.Workflows
+  langs:
+  - csharp
+  - vb
+  name: IDeployResponse
+  nameWithType: IDeployResponse
+  fullName: Zeebe.Client.Api.Responses.IDeployResponse
+  type: Interface
+  source:
+    id: IDeployResponse
+    path: ''
+    startLine: 966
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  syntax:
+    content: public interface IDeployResponse
+    content.vb: Public Interface IDeployResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Responses.IDeployResponse.Key
+  commentId: P:Zeebe.Client.Api.Responses.IDeployResponse.Key
+  id: Key
+  parent: Zeebe.Client.Api.Responses.IDeployResponse
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: IDeployResponse.Key
+  fullName: Zeebe.Client.Api.Responses.IDeployResponse.Key
+  type: Property
+  source:
+    id: Key
+    path: ''
+    startLine: 969
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: long Key { get; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: 'the unique key of the deployment '
+    content.vb: ReadOnly Property Key As Long
+  overload: Zeebe.Client.Api.Responses.IDeployResponse.Key*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Zeebe.Client.Api.Responses.IDeployResponse.Workflows
+  commentId: P:Zeebe.Client.Api.Responses.IDeployResponse.Workflows
+  id: Workflows
+  parent: Zeebe.Client.Api.Responses.IDeployResponse
+  langs:
+  - csharp
+  - vb
+  name: Workflows
+  nameWithType: IDeployResponse.Workflows
+  fullName: Zeebe.Client.Api.Responses.IDeployResponse.Workflows
+  type: Property
+  source:
+    id: Workflows
+    path: ''
+    startLine: 972
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Responses
+  example: []
+  syntax:
+    content: IList<IWorkflowMetadata> Workflows { get; }
+    parameters: []
+    return:
+      type: IList{Zeebe.Client.Api.Responses.IWorkflowMetadata}
+      description: 'the workflows meta data, which are deployed '
+    content.vb: ReadOnly Property Workflows As IList(Of IWorkflowMetadata)
+  overload: Zeebe.Client.Api.Responses.IDeployResponse.Workflows*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Zeebe.Client.Api.Responses
+  commentId: N:Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  nameWithType: Zeebe.Client.Api.Responses
+  fullName: Zeebe.Client.Api.Responses
+- uid: Zeebe.Client.Api.Responses.IDeployResponse.Key*
+  commentId: Overload:Zeebe.Client.Api.Responses.IDeployResponse.Key
+  name: Key
+  nameWithType: IDeployResponse.Key
+  fullName: Zeebe.Client.Api.Responses.IDeployResponse.Key
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Responses.IDeployResponse.Workflows*
+  commentId: Overload:Zeebe.Client.Api.Responses.IDeployResponse.Workflows
+  name: Workflows
+  nameWithType: IDeployResponse.Workflows
+  fullName: Zeebe.Client.Api.Responses.IDeployResponse.Workflows
+- uid: IList{Zeebe.Client.Api.Responses.IWorkflowMetadata}
+  commentId: '!:IList{Zeebe.Client.Api.Responses.IWorkflowMetadata}'
+  definition: IList`1
+  name: IList<IWorkflowMetadata>
+  nameWithType: IList<IWorkflowMetadata>
+  fullName: IList<Zeebe.Client.Api.Responses.IWorkflowMetadata>
+  nameWithType.vb: IList(Of IWorkflowMetadata)
+  fullName.vb: IList(Of Zeebe.Client.Api.Responses.IWorkflowMetadata)
+  name.vb: IList(Of IWorkflowMetadata)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Zeebe.Client.Api.Responses.IWorkflowMetadata
+    name: IWorkflowMetadata
+    nameWithType: IWorkflowMetadata
+    fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Zeebe.Client.Api.Responses.IWorkflowMetadata
+    name: IWorkflowMetadata
+    nameWithType: IWorkflowMetadata
+    fullName: Zeebe.Client.Api.Responses.IWorkflowMetadata
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

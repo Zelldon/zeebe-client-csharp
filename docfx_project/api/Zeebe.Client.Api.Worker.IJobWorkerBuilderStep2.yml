@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  id: IJobWorkerBuilderStep2
+  parent: Zeebe.Client.Api.Worker
+  children:
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler(Zeebe.Client.Api.Worker.JobHandler)
+  langs:
+  - csharp
+  - vb
+  name: IJobWorkerBuilderStep2
+  nameWithType: IJobWorkerBuilderStep2
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  type: Interface
+  source:
+    id: IJobWorkerBuilderStep2
+    path: ''
+    startLine: 408
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: public interface IJobWorkerBuilderStep2
+    content.vb: Public Interface IJobWorkerBuilderStep2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler(Zeebe.Client.Api.Worker.JobHandler)
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler(Zeebe.Client.Api.Worker.JobHandler)
+  id: Handler(Zeebe.Client.Api.Worker.JobHandler)
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  langs:
+  - csharp
+  - vb
+  name: Handler(JobHandler)
+  nameWithType: IJobWorkerBuilderStep2.Handler(JobHandler)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler(Zeebe.Client.Api.Worker.JobHandler)
+  type: Method
+  source:
+    id: Handler
+    path: ''
+    startLine: 433
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 Handler(JobHandler handler)
+    parameters:
+    - id: handler
+      type: Zeebe.Client.Api.Worker.JobHandler
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function Handler(handler As JobHandler) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler*
+references:
+- uid: Zeebe.Client.Api.Worker
+  commentId: N:Zeebe.Client.Api.Worker
+  name: Zeebe.Client.Api.Worker
+  nameWithType: Zeebe.Client.Api.Worker
+  fullName: Zeebe.Client.Api.Worker
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler
+  name: Handler
+  nameWithType: IJobWorkerBuilderStep2.Handler
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2.Handler
+- uid: Zeebe.Client.Api.Worker.JobHandler
+  commentId: T:Zeebe.Client.Api.Worker.JobHandler
+  parent: Zeebe.Client.Api.Worker
+  name: JobHandler
+  nameWithType: JobHandler
+  fullName: Zeebe.Client.Api.Worker.JobHandler
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  parent: Zeebe.Client.Api.Worker
+  name: IJobWorkerBuilderStep3
+  nameWithType: IJobWorkerBuilderStep3
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3

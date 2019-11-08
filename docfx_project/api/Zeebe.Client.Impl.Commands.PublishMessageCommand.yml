@@ -1,0 +1,508 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  commentId: T:Zeebe.Client.Impl.Commands.PublishMessageCommand
+  id: PublishMessageCommand
+  parent: Zeebe.Client.Impl.Commands
+  children:
+  - Zeebe.Client.Impl.Commands.PublishMessageCommand.#ctor(GatewayClient)
+  - Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey(System.String)
+  - Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId(System.String)
+  - Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName(System.String)
+  - Zeebe.Client.Impl.Commands.PublishMessageCommand.Send(System.Nullable{TimeSpan})
+  - Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive(TimeSpan)
+  - Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PublishMessageCommand
+  nameWithType: PublishMessageCommand
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  type: Class
+  source:
+    id: PublishMessageCommand
+    path: ''
+    startLine: 10404
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: 'public class PublishMessageCommand : IPublishMessageCommandStep1, IPublishMessageCommandStep2, IPublishMessageCommandStep3'
+    content.vb: >-
+      Public Class PublishMessageCommand
+          Inherits IPublishMessageCommandStep1
+          Implements IPublishMessageCommandStep2, IPublishMessageCommandStep3
+  inheritance:
+  - System.Object
+  implements:
+  - IPublishMessageCommandStep2
+  - IPublishMessageCommandStep3
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.#ctor(GatewayClient)
+  commentId: M:Zeebe.Client.Impl.Commands.PublishMessageCommand.#ctor(GatewayClient)
+  id: '#ctor(GatewayClient)'
+  parent: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: PublishMessageCommand(GatewayClient)
+  nameWithType: PublishMessageCommand.PublishMessageCommand(GatewayClient)
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.PublishMessageCommand(GatewayClient)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10409
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public PublishMessageCommand(GatewayClient client)
+    parameters:
+    - id: client
+      type: GatewayClient
+    content.vb: Public Sub New(client As GatewayClient)
+  overload: Zeebe.Client.Impl.Commands.PublishMessageCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey(System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey(System.String)
+  id: CorrelationKey(System.String)
+  parent: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: CorrelationKey(String)
+  nameWithType: PublishMessageCommand.CorrelationKey(String)
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey(System.String)
+  type: Method
+  source:
+    id: CorrelationKey
+    path: ''
+    startLine: 10415
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IPublishMessageCommandStep3 CorrelationKey(string correlationKey)
+    parameters:
+    - id: correlationKey
+      type: System.String
+    return:
+      type: IPublishMessageCommandStep3
+    content.vb: Public Function CorrelationKey(correlationKey As String) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId(System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId(System.String)
+  id: MessageId(System.String)
+  parent: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: MessageId(String)
+  nameWithType: PublishMessageCommand.MessageId(String)
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId(System.String)
+  type: Method
+  source:
+    id: MessageId
+    path: ''
+    startLine: 10421
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IPublishMessageCommandStep3 MessageId(string messageId)
+    parameters:
+    - id: messageId
+      type: System.String
+    return:
+      type: IPublishMessageCommandStep3
+    content.vb: Public Function MessageId(messageId As String) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName(System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName(System.String)
+  id: MessageName(System.String)
+  parent: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: MessageName(String)
+  nameWithType: PublishMessageCommand.MessageName(String)
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName(System.String)
+  type: Method
+  source:
+    id: MessageName
+    path: ''
+    startLine: 10427
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IPublishMessageCommandStep2 MessageName(string messageName)
+    parameters:
+    - id: messageName
+      type: System.String
+    return:
+      type: IPublishMessageCommandStep2
+    content.vb: Public Function MessageName(messageName As String) As IPublishMessageCommandStep2
+  overload: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables(System.String)
+  commentId: M:Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables(System.String)
+  id: Variables(System.String)
+  parent: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: Variables(String)
+  nameWithType: PublishMessageCommand.Variables(String)
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables(System.String)
+  type: Method
+  source:
+    id: Variables
+    path: ''
+    startLine: 10433
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IPublishMessageCommandStep3 Variables(string variables)
+    parameters:
+    - id: variables
+      type: System.String
+    return:
+      type: IPublishMessageCommandStep3
+    content.vb: Public Function Variables(variables As String) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive(TimeSpan)
+  commentId: M:Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive(TimeSpan)
+  id: TimeToLive(TimeSpan)
+  parent: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: TimeToLive(TimeSpan)
+  nameWithType: PublishMessageCommand.TimeToLive(TimeSpan)
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive(TimeSpan)
+  type: Method
+  source:
+    id: TimeToLive
+    path: ''
+    startLine: 10439
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public IPublishMessageCommandStep3 TimeToLive(TimeSpan timeToLive)
+    parameters:
+    - id: timeToLive
+      type: TimeSpan
+    return:
+      type: IPublishMessageCommandStep3
+    content.vb: Public Function TimeToLive(timeToLive As TimeSpan) As IPublishMessageCommandStep3
+  overload: Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Impl.Commands.PublishMessageCommand.Send(System.Nullable{TimeSpan})
+  id: Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Impl.Commands.PublishMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: PublishMessageCommand.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.Send(System.Nullable<TimeSpan>)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 10445
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public Task<IPublishMessageResponse> Send(TimeSpan? timeout = default(TimeSpan? ))
+    parameters:
+    - id: timeout
+      type: System.Nullable{TimeSpan}
+    return:
+      type: Task{IPublishMessageResponse}
+    content.vb: Public Function Send(timeout As TimeSpan? = Nothing) As Task(Of IPublishMessageResponse)
+  overload: Zeebe.Client.Impl.Commands.PublishMessageCommand.Send*
+  nameWithType.vb: PublishMessageCommand.Send(Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.PublishMessageCommand.Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+references:
+- uid: Zeebe.Client.Impl.Commands
+  commentId: N:Zeebe.Client.Impl.Commands
+  name: Zeebe.Client.Impl.Commands
+  nameWithType: Zeebe.Client.Impl.Commands
+  fullName: Zeebe.Client.Impl.Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IPublishMessageCommandStep2
+  isExternal: true
+  name: IPublishMessageCommandStep2
+  nameWithType: IPublishMessageCommandStep2
+  fullName: IPublishMessageCommandStep2
+- uid: IPublishMessageCommandStep3
+  isExternal: true
+  name: IPublishMessageCommandStep3
+  nameWithType: IPublishMessageCommandStep3
+  fullName: IPublishMessageCommandStep3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Commands.PublishMessageCommand.#ctor
+  name: PublishMessageCommand
+  nameWithType: PublishMessageCommand.PublishMessageCommand
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.PublishMessageCommand
+- uid: GatewayClient
+  isExternal: true
+  name: GatewayClient
+  nameWithType: GatewayClient
+  fullName: GatewayClient
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey*
+  commentId: Overload:Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey
+  name: CorrelationKey
+  nameWithType: PublishMessageCommand.CorrelationKey
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.CorrelationKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId*
+  commentId: Overload:Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId
+  name: MessageId
+  nameWithType: PublishMessageCommand.MessageId
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageId
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName*
+  commentId: Overload:Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName
+  name: MessageName
+  nameWithType: PublishMessageCommand.MessageName
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.MessageName
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables*
+  commentId: Overload:Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables
+  name: Variables
+  nameWithType: PublishMessageCommand.Variables
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.Variables
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive*
+  commentId: Overload:Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive
+  name: TimeToLive
+  nameWithType: PublishMessageCommand.TimeToLive
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.TimeToLive
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Zeebe.Client.Impl.Commands.PublishMessageCommand.Send*
+  commentId: Overload:Zeebe.Client.Impl.Commands.PublishMessageCommand.Send
+  name: Send
+  nameWithType: PublishMessageCommand.Send
+  fullName: Zeebe.Client.Impl.Commands.PublishMessageCommand.Send
+- uid: System.Nullable{TimeSpan}
+  commentId: T:System.Nullable{TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{IPublishMessageResponse}
+  commentId: '!:Task{IPublishMessageResponse}'
+  definition: Task`1
+  name: Task<IPublishMessageResponse>
+  nameWithType: Task<IPublishMessageResponse>
+  fullName: Task<IPublishMessageResponse>
+  nameWithType.vb: Task(Of IPublishMessageResponse)
+  fullName.vb: Task(Of IPublishMessageResponse)
+  name.vb: Task(Of IPublishMessageResponse)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IPublishMessageResponse
+    name: IPublishMessageResponse
+    nameWithType: IPublishMessageResponse
+    fullName: IPublishMessageResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IPublishMessageResponse
+    name: IPublishMessageResponse
+    nameWithType: IPublishMessageResponse
+    fullName: IPublishMessageResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

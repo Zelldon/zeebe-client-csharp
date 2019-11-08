@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.IZeebeClient
+  commentId: T:Zeebe.Client.IZeebeClient
+  id: IZeebeClient
+  parent: Zeebe.Client
+  children:
+  - Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  - Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  - Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  - Zeebe.Client.IZeebeClient.NewDeployCommand
+  - Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  - Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  - Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  - Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  - Zeebe.Client.IZeebeClient.NewWorker
+  - Zeebe.Client.IZeebeClient.TopologyRequest
+  langs:
+  - csharp
+  - vb
+  name: IZeebeClient
+  nameWithType: IZeebeClient
+  fullName: Zeebe.Client.IZeebeClient
+  type: Interface
+  source:
+    id: IZeebeClient
+    path: ''
+    startLine: 53
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nThe client to communicate with a Zeebe broker/cluster.\n"
+  example: []
+  syntax:
+    content: 'public interface IZeebeClient : IJobClient, IDisposable'
+    content.vb: >-
+      Public Interface IZeebeClient
+          Inherits IJobClient, IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.IZeebeClient.NewWorker
+  commentId: M:Zeebe.Client.IZeebeClient.NewWorker
+  id: NewWorker
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewWorker()
+  nameWithType: IZeebeClient.NewWorker()
+  fullName: Zeebe.Client.IZeebeClient.NewWorker()
+  type: Method
+  source:
+    id: NewWorker
+    path: ''
+    startLine: 92
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: IJobWorkerBuilderStep1 NewWorker()
+    return:
+      type: IJobWorkerBuilderStep1
+    content.vb: Function NewWorker As IJobWorkerBuilderStep1
+  overload: Zeebe.Client.IZeebeClient.NewWorker*
+- uid: Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  id: NewActivateJobsCommand
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewActivateJobsCommand()
+  nameWithType: IZeebeClient.NewActivateJobsCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewActivateJobsCommand()
+  type: Method
+  source:
+    id: NewActivateJobsCommand
+    path: ''
+    startLine: 115
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: IActivateJobsCommandStep1 NewActivateJobsCommand()
+    return:
+      type: IActivateJobsCommandStep1
+    content.vb: Function NewActivateJobsCommand As IActivateJobsCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewActivateJobsCommand*
+- uid: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  id: NewUpdateRetriesCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewUpdateRetriesCommand(Int64)
+  nameWithType: IZeebeClient.NewUpdateRetriesCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand(System.Int64)
+  type: Method
+  source:
+    id: NewUpdateRetriesCommand
+    path: ''
+    startLine: 134
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: IUpdateRetriesCommandStep1 NewUpdateRetriesCommand(long jobKey)
+    parameters:
+    - id: jobKey
+      type: System.Int64
+    return:
+      type: IUpdateRetriesCommandStep1
+    content.vb: Function NewUpdateRetriesCommand(jobKey As Long) As IUpdateRetriesCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand*
+- uid: Zeebe.Client.IZeebeClient.NewDeployCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewDeployCommand
+  id: NewDeployCommand
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewDeployCommand()
+  nameWithType: IZeebeClient.NewDeployCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewDeployCommand()
+  type: Method
+  source:
+    id: NewDeployCommand
+    path: ''
+    startLine: 149
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nCommand to deploy new workflows.\n\n<pre>\nzeebeClient\n .NewDeployCommand()\n .AddResourceFile(&quot;~/wf/workflow1.bpmn&quot;)\n .AddResourceFile(&quot;~/wf/workflow2.bpmn&quot;)\n .Send();\n</pre>\n"
+  example: []
+  syntax:
+    content: IDeployWorkflowCommandStep1 NewDeployCommand()
+    return:
+      type: IDeployWorkflowCommandStep1
+      description: a builder for the deploy command
+    content.vb: Function NewDeployCommand As IDeployWorkflowCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewDeployCommand*
+- uid: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  id: NewCreateWorkflowInstanceCommand
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewCreateWorkflowInstanceCommand()
+  nameWithType: IZeebeClient.NewCreateWorkflowInstanceCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand()
+  type: Method
+  source:
+    id: NewCreateWorkflowInstanceCommand
+    path: ''
+    startLine: 165
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nCommand to create/start a new instance of a workflow.\n\n<pre>\nzeebeClient\n .NewCreateInstanceCommand()\n .BpmnProcessId(&quot;my-process&quot;)\n .LatestVersion()\n .Variables(json)\n .Send();\n</pre>\n\n"
+  example: []
+  syntax:
+    content: ICreateWorkflowInstanceCommandStep1 NewCreateWorkflowInstanceCommand()
+    return:
+      type: ICreateWorkflowInstanceCommandStep1
+      description: a builder for the command
+    content.vb: Function NewCreateWorkflowInstanceCommand As ICreateWorkflowInstanceCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand*
+- uid: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  id: NewCancelInstanceCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewCancelInstanceCommand(Int64)
+  nameWithType: IZeebeClient.NewCancelInstanceCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand(System.Int64)
+  type: Method
+  source:
+    id: NewCancelInstanceCommand
+    path: ''
+    startLine: 178
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nCommand to cancel a workflow instance.\n\n<pre>\nzeebeClient\n .NewCancelInstanceCommand(workflowInstanceKey)\n .Send();\n</pre>\n"
+  example: []
+  syntax:
+    content: ICancelWorkflowInstanceCommandStep1 NewCancelInstanceCommand(long workflowInstanceKey)
+    parameters:
+    - id: workflowInstanceKey
+      type: System.Int64
+    return:
+      type: ICancelWorkflowInstanceCommandStep1
+      description: 'a builder for the command '
+    content.vb: Function NewCancelInstanceCommand(workflowInstanceKey As Long) As ICancelWorkflowInstanceCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand*
+- uid: Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  id: NewSetVariablesCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewSetVariablesCommand(Int64)
+  nameWithType: IZeebeClient.NewSetVariablesCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewSetVariablesCommand(System.Int64)
+  type: Method
+  source:
+    id: NewSetVariablesCommand
+    path: ''
+    startLine: 191
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nCommand to update the variables of a workflow instance.\n<pre>\n zeebeClient\n  .NewSetVariablesCommand(elementInstanceKey)\n  .Variables(json)\n  .Send();\n</pre>\n"
+  example: []
+  syntax:
+    content: ISetVariablesCommandStep1 NewSetVariablesCommand(long elementInstanceKey)
+    parameters:
+    - id: elementInstanceKey
+      type: System.Int64
+      description: the key of the element instance to set the variables for
+    return:
+      type: ISetVariablesCommandStep1
+      description: a builder for the command
+    content.vb: Function NewSetVariablesCommand(elementInstanceKey As Long) As ISetVariablesCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewSetVariablesCommand*
+- uid: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  commentId: M:Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  id: NewResolveIncidentCommand(System.Int64)
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewResolveIncidentCommand(Int64)
+  nameWithType: IZeebeClient.NewResolveIncidentCommand(Int64)
+  fullName: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand(System.Int64)
+  type: Method
+  source:
+    id: NewResolveIncidentCommand
+    path: ''
+    startLine: 203
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nCommand to resolve an existing incident.\n<pre>\n  zeebeClient\n    .NewResolveIncidentCommand(incidentKey)\n    .Send();\n</pre>\n"
+  example: []
+  syntax:
+    content: IResolveIncidentCommandStep1 NewResolveIncidentCommand(long incidentKey)
+    parameters:
+    - id: incidentKey
+      type: System.Int64
+      description: incidentKey the key of the corresponding incident
+    return:
+      type: IResolveIncidentCommandStep1
+      description: the builder for the command
+    content.vb: Function NewResolveIncidentCommand(incidentKey As Long) As IResolveIncidentCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand*
+- uid: Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  commentId: M:Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  id: NewPublishMessageCommand
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: NewPublishMessageCommand()
+  nameWithType: IZeebeClient.NewPublishMessageCommand()
+  fullName: Zeebe.Client.IZeebeClient.NewPublishMessageCommand()
+  type: Method
+  source:
+    id: NewPublishMessageCommand
+    path: ''
+    startLine: 220
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  summary: "\nCommand to publish a message which can be correlated to a workflow instance.\n\n<pre>\nzeebeClient\n .NewPublishMessageCommand()\n .MessageName(&quot;order canceled&quot;)\n .CorrelationKey(orderId)\n .Variables(json)\n .Send();\n</pre>\n\n"
+  example: []
+  syntax:
+    content: IPublishMessageCommandStep1 NewPublishMessageCommand()
+    return:
+      type: IPublishMessageCommandStep1
+      description: a builder for the command
+    content.vb: Function NewPublishMessageCommand As IPublishMessageCommandStep1
+  overload: Zeebe.Client.IZeebeClient.NewPublishMessageCommand*
+- uid: Zeebe.Client.IZeebeClient.TopologyRequest
+  commentId: M:Zeebe.Client.IZeebeClient.TopologyRequest
+  id: TopologyRequest
+  parent: Zeebe.Client.IZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: TopologyRequest()
+  nameWithType: IZeebeClient.TopologyRequest()
+  fullName: Zeebe.Client.IZeebeClient.TopologyRequest()
+  type: Method
+  source:
+    id: TopologyRequest
+    path: ''
+    startLine: 234
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client
+  syntax:
+    content: ITopologyRequestStep1 TopologyRequest()
+    return:
+      type: ITopologyRequestStep1
+    content.vb: Function TopologyRequest As ITopologyRequestStep1
+  overload: Zeebe.Client.IZeebeClient.TopologyRequest*
+references:
+- uid: Zeebe.Client
+  commentId: N:Zeebe.Client
+  name: Zeebe.Client
+  nameWithType: Zeebe.Client
+  fullName: Zeebe.Client
+- uid: Zeebe.Client.IZeebeClient.NewWorker*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewWorker
+  name: NewWorker
+  nameWithType: IZeebeClient.NewWorker
+  fullName: Zeebe.Client.IZeebeClient.NewWorker
+- uid: IJobWorkerBuilderStep1
+  isExternal: true
+  name: IJobWorkerBuilderStep1
+  nameWithType: IJobWorkerBuilderStep1
+  fullName: IJobWorkerBuilderStep1
+- uid: Zeebe.Client.IZeebeClient.NewActivateJobsCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+  name: NewActivateJobsCommand
+  nameWithType: IZeebeClient.NewActivateJobsCommand
+  fullName: Zeebe.Client.IZeebeClient.NewActivateJobsCommand
+- uid: IActivateJobsCommandStep1
+  isExternal: true
+  name: IActivateJobsCommandStep1
+  nameWithType: IActivateJobsCommandStep1
+  fullName: IActivateJobsCommandStep1
+- uid: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand
+  name: NewUpdateRetriesCommand
+  nameWithType: IZeebeClient.NewUpdateRetriesCommand
+  fullName: Zeebe.Client.IZeebeClient.NewUpdateRetriesCommand
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: IUpdateRetriesCommandStep1
+  isExternal: true
+  name: IUpdateRetriesCommandStep1
+  nameWithType: IUpdateRetriesCommandStep1
+  fullName: IUpdateRetriesCommandStep1
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.IZeebeClient.NewDeployCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewDeployCommand
+  name: NewDeployCommand
+  nameWithType: IZeebeClient.NewDeployCommand
+  fullName: Zeebe.Client.IZeebeClient.NewDeployCommand
+- uid: IDeployWorkflowCommandStep1
+  isExternal: true
+  name: IDeployWorkflowCommandStep1
+  nameWithType: IDeployWorkflowCommandStep1
+  fullName: IDeployWorkflowCommandStep1
+- uid: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+  name: NewCreateWorkflowInstanceCommand
+  nameWithType: IZeebeClient.NewCreateWorkflowInstanceCommand
+  fullName: Zeebe.Client.IZeebeClient.NewCreateWorkflowInstanceCommand
+- uid: ICreateWorkflowInstanceCommandStep1
+  isExternal: true
+  name: ICreateWorkflowInstanceCommandStep1
+  nameWithType: ICreateWorkflowInstanceCommandStep1
+  fullName: ICreateWorkflowInstanceCommandStep1
+- uid: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewCancelInstanceCommand
+  name: NewCancelInstanceCommand
+  nameWithType: IZeebeClient.NewCancelInstanceCommand
+  fullName: Zeebe.Client.IZeebeClient.NewCancelInstanceCommand
+- uid: ICancelWorkflowInstanceCommandStep1
+  isExternal: true
+  name: ICancelWorkflowInstanceCommandStep1
+  nameWithType: ICancelWorkflowInstanceCommandStep1
+  fullName: ICancelWorkflowInstanceCommandStep1
+- uid: Zeebe.Client.IZeebeClient.NewSetVariablesCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewSetVariablesCommand
+  name: NewSetVariablesCommand
+  nameWithType: IZeebeClient.NewSetVariablesCommand
+  fullName: Zeebe.Client.IZeebeClient.NewSetVariablesCommand
+- uid: ISetVariablesCommandStep1
+  isExternal: true
+  name: ISetVariablesCommandStep1
+  nameWithType: ISetVariablesCommandStep1
+  fullName: ISetVariablesCommandStep1
+- uid: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewResolveIncidentCommand
+  name: NewResolveIncidentCommand
+  nameWithType: IZeebeClient.NewResolveIncidentCommand
+  fullName: Zeebe.Client.IZeebeClient.NewResolveIncidentCommand
+- uid: IResolveIncidentCommandStep1
+  isExternal: true
+  name: IResolveIncidentCommandStep1
+  nameWithType: IResolveIncidentCommandStep1
+  fullName: IResolveIncidentCommandStep1
+- uid: Zeebe.Client.IZeebeClient.NewPublishMessageCommand*
+  commentId: Overload:Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+  name: NewPublishMessageCommand
+  nameWithType: IZeebeClient.NewPublishMessageCommand
+  fullName: Zeebe.Client.IZeebeClient.NewPublishMessageCommand
+- uid: IPublishMessageCommandStep1
+  isExternal: true
+  name: IPublishMessageCommandStep1
+  nameWithType: IPublishMessageCommandStep1
+  fullName: IPublishMessageCommandStep1
+- uid: Zeebe.Client.IZeebeClient.TopologyRequest*
+  commentId: Overload:Zeebe.Client.IZeebeClient.TopologyRequest
+  name: TopologyRequest
+  nameWithType: IZeebeClient.TopologyRequest
+  fullName: Zeebe.Client.IZeebeClient.TopologyRequest
+- uid: ITopologyRequestStep1
+  isExternal: true
+  name: ITopologyRequestStep1
+  nameWithType: ITopologyRequestStep1
+  fullName: ITopologyRequestStep1

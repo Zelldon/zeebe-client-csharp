@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  id: IDeployWorkflowCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+  - Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IDeployWorkflowCommandStep1
+  nameWithType: IDeployWorkflowCommandStep1
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  type: Interface
+  source:
+    id: IDeployWorkflowCommandStep1
+    path: ''
+    startLine: 1262
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface IDeployWorkflowCommandStep1
+    content.vb: Public Interface IDeployWorkflowCommandStep1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[],System.String)
+  id: AddResourceBytes(System.Byte[],System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: AddResourceBytes(Byte[], String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceBytes(Byte[], String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte[], System.String)
+  type: Method
+  source:
+    id: AddResourceBytes
+    path: ''
+    startLine: 1271
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nAdd the given resource to the deployment.\n"
+  example: []
+  syntax:
+    content: IDeployWorkflowCommandBuilderStep2 AddResourceBytes(byte[] resourceBytes, string resourceName)
+    parameters:
+    - id: resourceBytes
+      type: System.Byte[]
+      description: the workflow resource as byte array
+    - id: resourceName
+      type: System.String
+      description: the name of the resource (e.g. &quot;workflow.bpmn&quot;)
+    return:
+      type: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function AddResourceBytes(resourceBytes As Byte(), resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes*
+  nameWithType.vb: IDeployWorkflowCommandStep1.AddResourceBytes(Byte(), String)
+  fullName.vb: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes(System.Byte(), System.String)
+  name.vb: AddResourceBytes(Byte(), String)
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String,Encoding,System.String)
+  id: AddResourceString(System.String,Encoding,System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: AddResourceString(String, Encoding, String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceString(String, Encoding, String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString(System.String, Encoding, System.String)
+  type: Method
+  source:
+    id: AddResourceString
+    path: ''
+    startLine: 1281
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nAdd the given resource to the deployment.\n"
+  example: []
+  syntax:
+    content: IDeployWorkflowCommandBuilderStep2 AddResourceString(string resourceString, Encoding encoding, string resourceName)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: the workflow resource as String
+    - id: encoding
+      type: Encoding
+    - id: resourceName
+      type: System.String
+      description: the name of the resource (e.g. &quot;workflow.bpmn&quot;)
+    return:
+      type: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function AddResourceString(resourceString As String, encoding As Encoding, resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString*
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String,System.String)
+  id: AddResourceStringUtf8(System.String,System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: AddResourceStringUtf8(String, String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceStringUtf8(String, String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8(System.String, System.String)
+  type: Method
+  source:
+    id: AddResourceStringUtf8
+    path: ''
+    startLine: 1291
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nAdd the given resource to the deployment.\n"
+  example: []
+  syntax:
+    content: IDeployWorkflowCommandBuilderStep2 AddResourceStringUtf8(string resourceString, string resourceName)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: the workflow resource as UTF-8-encoded String
+    - id: resourceName
+      type: System.String
+      description: the name of the resource (e.g. &quot;workflow.bpmn&quot;)
+    return:
+      type: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function AddResourceStringUtf8(resourceString As String, resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8*
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream,System.String)
+  id: AddResourceStream(Stream,System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: AddResourceStream(Stream, String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceStream(Stream, String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream(Stream, System.String)
+  type: Method
+  source:
+    id: AddResourceStream
+    path: ''
+    startLine: 1302
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nAdd the given resource to the deployment.\n"
+  example: []
+  syntax:
+    content: IDeployWorkflowCommandBuilderStep2 AddResourceStream(Stream resourceStream, string resourceName)
+    parameters:
+    - id: resourceStream
+      type: Stream
+      description: the workflow resource as stream
+    - id: resourceName
+      type: System.String
+      description: the name of the resource (e.g. &quot;workflow.bpmn&quot;)
+    return:
+      type: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+      description: >
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function AddResourceStream(resourceStream As Stream, resourceName As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream*
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  commentId: M:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  id: AddResourceFile(System.String)
+  parent: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: AddResourceFile(String)
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceFile(String)
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile(System.String)
+  type: Method
+  source:
+    id: AddResourceFile
+    path: ''
+    startLine: 1311
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nAdd the given resource to the deployment.\n"
+  example: []
+  syntax:
+    content: IDeployWorkflowCommandBuilderStep2 AddResourceFile(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+      description: the absolute path of the workflow resource (e.g. &quot;~/wf/workflow.bpmn&quot;)
+    return:
+      type: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+      description: >-
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function AddResourceFile(filename As String) As IDeployWorkflowCommandBuilderStep2
+  overload: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes*
+  commentId: Overload:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes
+  name: AddResourceBytes
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceBytes
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+  commentId: T:Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+  parent: Zeebe.Client.Api.Commands
+  name: IDeployWorkflowCommandBuilderStep2
+  nameWithType: IDeployWorkflowCommandBuilderStep2
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString*
+  commentId: Overload:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString
+  name: AddResourceString
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceString
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceString
+- uid: Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: Encoding
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8*
+  commentId: Overload:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8
+  name: AddResourceStringUtf8
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceStringUtf8
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStringUtf8
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream*
+  commentId: Overload:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream
+  name: AddResourceStream
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceStream
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceStream
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile*
+  commentId: Overload:Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile
+  name: AddResourceFile
+  nameWithType: IDeployWorkflowCommandStep1.AddResourceFile
+  fullName: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1.AddResourceFile

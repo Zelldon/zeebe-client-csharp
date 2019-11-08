@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.ResolveIncidentResponse
+  commentId: T:GatewayProtocol.ResolveIncidentResponse
+  id: ResolveIncidentResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.ResolveIncidentResponse.#ctor
+  - GatewayProtocol.ResolveIncidentResponse.#ctor(GatewayProtocol.ResolveIncidentResponse)
+  - GatewayProtocol.ResolveIncidentResponse.CalculateSize
+  - GatewayProtocol.ResolveIncidentResponse.Clone
+  - GatewayProtocol.ResolveIncidentResponse.Descriptor
+  - GatewayProtocol.ResolveIncidentResponse.Equals(GatewayProtocol.ResolveIncidentResponse)
+  - GatewayProtocol.ResolveIncidentResponse.Equals(System.Object)
+  - GatewayProtocol.ResolveIncidentResponse.GetHashCode
+  - GatewayProtocol.ResolveIncidentResponse.MergeFrom(GatewayProtocol.ResolveIncidentResponse)
+  - GatewayProtocol.ResolveIncidentResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.ResolveIncidentResponse.Parser
+  - GatewayProtocol.ResolveIncidentResponse.ToString
+  - GatewayProtocol.ResolveIncidentResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ResolveIncidentResponse
+  nameWithType: ResolveIncidentResponse
+  fullName: GatewayProtocol.ResolveIncidentResponse
+  type: Class
+  source:
+    id: ResolveIncidentResponse
+    path: ''
+    startLine: 6383
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class ResolveIncidentResponse : pb.IMessage<ResolveIncidentResponse>'
+    content.vb: >-
+      Public NotInheritable Class ResolveIncidentResponse
+          Inherits pb.IMessage(Of ResolveIncidentResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.ResolveIncidentResponse.Parser
+  commentId: P:GatewayProtocol.ResolveIncidentResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ResolveIncidentResponse.Parser
+  fullName: GatewayProtocol.ResolveIncidentResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 6386
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<ResolveIncidentResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.ResolveIncidentResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ResolveIncidentResponse)
+  overload: GatewayProtocol.ResolveIncidentResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.ResolveIncidentResponse.Descriptor
+  commentId: P:GatewayProtocol.ResolveIncidentResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ResolveIncidentResponse.Descriptor
+  fullName: GatewayProtocol.ResolveIncidentResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 6389
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.ResolveIncidentResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.ResolveIncidentResponse.#ctor
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: ResolveIncidentResponse()
+  nameWithType: ResolveIncidentResponse.ResolveIncidentResponse()
+  fullName: GatewayProtocol.ResolveIncidentResponse.ResolveIncidentResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6399
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public ResolveIncidentResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.ResolveIncidentResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ResolveIncidentResponse.#ctor(GatewayProtocol.ResolveIncidentResponse)
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.#ctor(GatewayProtocol.ResolveIncidentResponse)
+  id: '#ctor(GatewayProtocol.ResolveIncidentResponse)'
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: ResolveIncidentResponse(ResolveIncidentResponse)
+  nameWithType: ResolveIncidentResponse.ResolveIncidentResponse(ResolveIncidentResponse)
+  fullName: GatewayProtocol.ResolveIncidentResponse.ResolveIncidentResponse(GatewayProtocol.ResolveIncidentResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6406
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public ResolveIncidentResponse(ResolveIncidentResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.ResolveIncidentResponse
+    content.vb: Public Sub New(other As ResolveIncidentResponse)
+  overload: GatewayProtocol.ResolveIncidentResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ResolveIncidentResponse.Clone
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ResolveIncidentResponse.Clone()
+  fullName: GatewayProtocol.ResolveIncidentResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 6411
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public ResolveIncidentResponse Clone()
+    return:
+      type: GatewayProtocol.ResolveIncidentResponse
+    content.vb: Public Function Clone As ResolveIncidentResponse
+  overload: GatewayProtocol.ResolveIncidentResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ResolveIncidentResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ResolveIncidentResponse.Equals(Object)
+  fullName: GatewayProtocol.ResolveIncidentResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6416
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.ResolveIncidentResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.ResolveIncidentResponse.Equals(GatewayProtocol.ResolveIncidentResponse)
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.Equals(GatewayProtocol.ResolveIncidentResponse)
+  id: Equals(GatewayProtocol.ResolveIncidentResponse)
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(ResolveIncidentResponse)
+  nameWithType: ResolveIncidentResponse.Equals(ResolveIncidentResponse)
+  fullName: GatewayProtocol.ResolveIncidentResponse.Equals(GatewayProtocol.ResolveIncidentResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6421
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(ResolveIncidentResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.ResolveIncidentResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ResolveIncidentResponse) As Boolean
+  overload: GatewayProtocol.ResolveIncidentResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ResolveIncidentResponse.GetHashCode
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ResolveIncidentResponse.GetHashCode()
+  fullName: GatewayProtocol.ResolveIncidentResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 6432
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.ResolveIncidentResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.ResolveIncidentResponse.ToString
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ResolveIncidentResponse.ToString()
+  fullName: GatewayProtocol.ResolveIncidentResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 6441
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.ResolveIncidentResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.ResolveIncidentResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ResolveIncidentResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.ResolveIncidentResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 6446
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.ResolveIncidentResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ResolveIncidentResponse.CalculateSize
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ResolveIncidentResponse.CalculateSize()
+  fullName: GatewayProtocol.ResolveIncidentResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 6453
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.ResolveIncidentResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ResolveIncidentResponse.MergeFrom(GatewayProtocol.ResolveIncidentResponse)
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.MergeFrom(GatewayProtocol.ResolveIncidentResponse)
+  id: MergeFrom(GatewayProtocol.ResolveIncidentResponse)
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ResolveIncidentResponse)
+  nameWithType: ResolveIncidentResponse.MergeFrom(ResolveIncidentResponse)
+  fullName: GatewayProtocol.ResolveIncidentResponse.MergeFrom(GatewayProtocol.ResolveIncidentResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6462
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(ResolveIncidentResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.ResolveIncidentResponse
+    content.vb: Public Sub MergeFrom(other As ResolveIncidentResponse)
+  overload: GatewayProtocol.ResolveIncidentResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.ResolveIncidentResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.ResolveIncidentResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.ResolveIncidentResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ResolveIncidentResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.ResolveIncidentResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6470
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.ResolveIncidentResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.ResolveIncidentResponse.Parser*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.Parser
+  name: Parser
+  nameWithType: ResolveIncidentResponse.Parser
+  fullName: GatewayProtocol.ResolveIncidentResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.ResolveIncidentResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.ResolveIncidentResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<ResolveIncidentResponse>
+  nameWithType: pb.MessageParser<ResolveIncidentResponse>
+  fullName: pb.MessageParser<GatewayProtocol.ResolveIncidentResponse>
+  nameWithType.vb: pb.MessageParser(Of ResolveIncidentResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.ResolveIncidentResponse)
+  name.vb: pb.MessageParser(Of ResolveIncidentResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.ResolveIncidentResponse
+    name: ResolveIncidentResponse
+    nameWithType: ResolveIncidentResponse
+    fullName: GatewayProtocol.ResolveIncidentResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.ResolveIncidentResponse
+    name: ResolveIncidentResponse
+    nameWithType: ResolveIncidentResponse
+    fullName: GatewayProtocol.ResolveIncidentResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.ResolveIncidentResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.Descriptor
+  name: Descriptor
+  nameWithType: ResolveIncidentResponse.Descriptor
+  fullName: GatewayProtocol.ResolveIncidentResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.ResolveIncidentResponse.#ctor*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.#ctor
+  name: ResolveIncidentResponse
+  nameWithType: ResolveIncidentResponse.ResolveIncidentResponse
+  fullName: GatewayProtocol.ResolveIncidentResponse.ResolveIncidentResponse
+- uid: GatewayProtocol.ResolveIncidentResponse
+  commentId: T:GatewayProtocol.ResolveIncidentResponse
+  parent: GatewayProtocol
+  name: ResolveIncidentResponse
+  nameWithType: ResolveIncidentResponse
+  fullName: GatewayProtocol.ResolveIncidentResponse
+- uid: GatewayProtocol.ResolveIncidentResponse.Clone*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.Clone
+  name: Clone
+  nameWithType: ResolveIncidentResponse.Clone
+  fullName: GatewayProtocol.ResolveIncidentResponse.Clone
+- uid: GatewayProtocol.ResolveIncidentResponse.Equals*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.Equals
+  name: Equals
+  nameWithType: ResolveIncidentResponse.Equals
+  fullName: GatewayProtocol.ResolveIncidentResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.ResolveIncidentResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: ResolveIncidentResponse.GetHashCode
+  fullName: GatewayProtocol.ResolveIncidentResponse.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.ResolveIncidentResponse.ToString*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.ToString
+  name: ToString
+  nameWithType: ResolveIncidentResponse.ToString
+  fullName: GatewayProtocol.ResolveIncidentResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.ResolveIncidentResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.WriteTo
+  name: WriteTo
+  nameWithType: ResolveIncidentResponse.WriteTo
+  fullName: GatewayProtocol.ResolveIncidentResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.ResolveIncidentResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: ResolveIncidentResponse.CalculateSize
+  fullName: GatewayProtocol.ResolveIncidentResponse.CalculateSize
+- uid: GatewayProtocol.ResolveIncidentResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.ResolveIncidentResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: ResolveIncidentResponse.MergeFrom
+  fullName: GatewayProtocol.ResolveIncidentResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

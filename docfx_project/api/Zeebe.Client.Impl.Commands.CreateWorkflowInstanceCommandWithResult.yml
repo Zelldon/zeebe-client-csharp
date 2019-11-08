@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+  commentId: T:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+  id: CreateWorkflowInstanceCommandWithResult
+  parent: Zeebe.Client.Impl.Commands
+  children:
+  - Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.#ctor(Gateway.GatewayClient,CreateWorkflowInstanceRequest)
+  - Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(IList{System.String})
+  - Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(System.String[])
+  - Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send(System.Nullable{TimeSpan})
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkflowInstanceCommandWithResult
+  nameWithType: CreateWorkflowInstanceCommandWithResult
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+  type: Class
+  source:
+    id: CreateWorkflowInstanceCommandWithResult
+    path: ''
+    startLine: 10120
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  example: []
+  syntax:
+    content: 'public class CreateWorkflowInstanceCommandWithResult : ICreateWorkflowInstanceWithResultCommandStep1'
+    content.vb: >-
+      Public Class CreateWorkflowInstanceCommandWithResult
+          Inherits ICreateWorkflowInstanceWithResultCommandStep1
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.#ctor(Gateway.GatewayClient,CreateWorkflowInstanceRequest)
+  commentId: M:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.#ctor(Gateway.GatewayClient,CreateWorkflowInstanceRequest)
+  id: '#ctor(Gateway.GatewayClient,CreateWorkflowInstanceRequest)'
+  parent: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+  langs:
+  - csharp
+  - vb
+  name: CreateWorkflowInstanceCommandWithResult(Gateway.GatewayClient, CreateWorkflowInstanceRequest)
+  nameWithType: CreateWorkflowInstanceCommandWithResult.CreateWorkflowInstanceCommandWithResult(Gateway.GatewayClient, CreateWorkflowInstanceRequest)
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.CreateWorkflowInstanceCommandWithResult(Gateway.GatewayClient, CreateWorkflowInstanceRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10125
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  syntax:
+    content: public CreateWorkflowInstanceCommandWithResult(Gateway.GatewayClient client, CreateWorkflowInstanceRequest createRequest)
+    parameters:
+    - id: client
+      type: Gateway.GatewayClient
+    - id: createRequest
+      type: CreateWorkflowInstanceRequest
+    content.vb: Public Sub New(client As Gateway.GatewayClient, createRequest As CreateWorkflowInstanceRequest)
+  overload: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(IList{System.String})
+  commentId: M:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(IList{System.String})
+  id: FetchVariables(IList{System.String})
+  parent: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+  langs:
+  - csharp
+  - vb
+  name: FetchVariables(IList<String>)
+  nameWithType: CreateWorkflowInstanceCommandWithResult.FetchVariables(IList<String>)
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(IList<System.String>)
+  type: Method
+  source:
+    id: FetchVariables
+    path: ''
+    startLine: 10132
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  example: []
+  syntax:
+    content: public ICreateWorkflowInstanceWithResultCommandStep1 FetchVariables(IList<string> fetchVariables)
+    parameters:
+    - id: fetchVariables
+      type: IList{System.String}
+    return:
+      type: ICreateWorkflowInstanceWithResultCommandStep1
+    content.vb: Public Function FetchVariables(fetchVariables As IList(Of String)) As ICreateWorkflowInstanceWithResultCommandStep1
+  overload: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables*
+  nameWithType.vb: CreateWorkflowInstanceCommandWithResult.FetchVariables(IList(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(IList(Of System.String))
+  name.vb: FetchVariables(IList(Of String))
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(System.String[])
+  commentId: M:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(System.String[])
+  id: FetchVariables(System.String[])
+  parent: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+  langs:
+  - csharp
+  - vb
+  name: FetchVariables(String[])
+  nameWithType: CreateWorkflowInstanceCommandWithResult.FetchVariables(String[])
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(System.String[])
+  type: Method
+  source:
+    id: FetchVariables
+    path: ''
+    startLine: 10139
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  example: []
+  syntax:
+    content: public ICreateWorkflowInstanceWithResultCommandStep1 FetchVariables(params string[] fetchVariables)
+    parameters:
+    - id: fetchVariables
+      type: System.String[]
+    return:
+      type: ICreateWorkflowInstanceWithResultCommandStep1
+    content.vb: Public Function FetchVariables(ParamArray fetchVariables As String()) As ICreateWorkflowInstanceWithResultCommandStep1
+  overload: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables*
+  nameWithType.vb: CreateWorkflowInstanceCommandWithResult.FetchVariables(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables(System.String())
+  name.vb: FetchVariables(String())
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send(System.Nullable{TimeSpan})
+  commentId: M:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send(System.Nullable{TimeSpan})
+  id: Send(System.Nullable{TimeSpan})
+  parent: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+  langs:
+  - csharp
+  - vb
+  name: Send(Nullable<TimeSpan>)
+  nameWithType: CreateWorkflowInstanceCommandWithResult.Send(Nullable<TimeSpan>)
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send(System.Nullable<TimeSpan>)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 10146
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Commands
+  example: []
+  syntax:
+    content: public Task<IWorkflowInstanceResult> Send(TimeSpan? timeout = default(TimeSpan? ))
+    parameters:
+    - id: timeout
+      type: System.Nullable{TimeSpan}
+    return:
+      type: Task{IWorkflowInstanceResult}
+    content.vb: Public Function Send(timeout As TimeSpan? = Nothing) As Task(Of IWorkflowInstanceResult)
+  overload: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send*
+  nameWithType.vb: CreateWorkflowInstanceCommandWithResult.Send(Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send(System.Nullable(Of TimeSpan))
+  name.vb: Send(Nullable(Of TimeSpan))
+references:
+- uid: Zeebe.Client.Impl.Commands
+  commentId: N:Zeebe.Client.Impl.Commands
+  name: Zeebe.Client.Impl.Commands
+  nameWithType: Zeebe.Client.Impl.Commands
+  fullName: Zeebe.Client.Impl.Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.#ctor
+  name: CreateWorkflowInstanceCommandWithResult
+  nameWithType: CreateWorkflowInstanceCommandWithResult.CreateWorkflowInstanceCommandWithResult
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.CreateWorkflowInstanceCommandWithResult
+- uid: Gateway.GatewayClient
+  isExternal: true
+  name: Gateway.GatewayClient
+  nameWithType: Gateway.GatewayClient
+  fullName: Gateway.GatewayClient
+- uid: CreateWorkflowInstanceRequest
+  commentId: '!:CreateWorkflowInstanceRequest'
+  isExternal: true
+  name: CreateWorkflowInstanceRequest
+  nameWithType: CreateWorkflowInstanceRequest
+  fullName: CreateWorkflowInstanceRequest
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables*
+  commentId: Overload:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables
+  name: FetchVariables
+  nameWithType: CreateWorkflowInstanceCommandWithResult.FetchVariables
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.FetchVariables
+- uid: IList{System.String}
+  commentId: '!:IList{System.String}'
+  definition: IList`1
+  name: IList<String>
+  nameWithType: IList<String>
+  fullName: IList<System.String>
+  nameWithType.vb: IList(Of String)
+  fullName.vb: IList(Of System.String)
+  name.vb: IList(Of String)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ICreateWorkflowInstanceWithResultCommandStep1
+  isExternal: true
+  name: ICreateWorkflowInstanceWithResultCommandStep1
+  nameWithType: ICreateWorkflowInstanceWithResultCommandStep1
+  fullName: ICreateWorkflowInstanceWithResultCommandStep1
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send*
+  commentId: Overload:Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send
+  name: Send
+  nameWithType: CreateWorkflowInstanceCommandWithResult.Send
+  fullName: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult.Send
+- uid: System.Nullable{TimeSpan}
+  commentId: T:System.Nullable{TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{IWorkflowInstanceResult}
+  commentId: '!:Task{IWorkflowInstanceResult}'
+  definition: Task`1
+  name: Task<IWorkflowInstanceResult>
+  nameWithType: Task<IWorkflowInstanceResult>
+  fullName: Task<IWorkflowInstanceResult>
+  nameWithType.vb: Task(Of IWorkflowInstanceResult)
+  fullName.vb: Task(Of IWorkflowInstanceResult)
+  name.vb: Task(Of IWorkflowInstanceResult)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWorkflowInstanceResult
+    name: IWorkflowInstanceResult
+    nameWithType: IWorkflowInstanceResult
+    fullName: IWorkflowInstanceResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWorkflowInstanceResult
+    name: IWorkflowInstanceResult
+    nameWithType: IWorkflowInstanceResult
+    fullName: IWorkflowInstanceResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

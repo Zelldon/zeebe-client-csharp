@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Logging.LogProviders
+  commentId: N:Zeebe.Client.Logging.LogProviders
+  id: Zeebe.Client.Logging.LogProviders
+  children:
+  - Zeebe.Client.Logging.LogProviders.LibLogException
+  langs:
+  - csharp
+  - vb
+  name: Zeebe.Client.Logging.LogProviders
+  nameWithType: Zeebe.Client.Logging.LogProviders
+  fullName: Zeebe.Client.Logging.LogProviders
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Zeebe.Client.Logging.LogProviders.LibLogException
+  commentId: T:Zeebe.Client.Logging.LogProviders.LibLogException
+  name: LibLogException
+  nameWithType: LibLogException
+  fullName: Zeebe.Client.Logging.LogProviders.LibLogException

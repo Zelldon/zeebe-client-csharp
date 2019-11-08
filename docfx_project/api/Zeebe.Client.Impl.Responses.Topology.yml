@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.Topology
+  commentId: T:Zeebe.Client.Impl.Responses.Topology
+  id: Topology
+  parent: Zeebe.Client.Impl.Responses
+  children:
+  - Zeebe.Client.Impl.Responses.Topology.#ctor(TopologyResponse)
+  - Zeebe.Client.Impl.Responses.Topology.Brokers
+  - Zeebe.Client.Impl.Responses.Topology.ToString
+  langs:
+  - csharp
+  - vb
+  name: Topology
+  nameWithType: Topology
+  fullName: Zeebe.Client.Impl.Responses.Topology
+  type: Class
+  source:
+    id: Topology
+    path: ''
+    startLine: 9836
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class Topology : ITopology'
+    content.vb: >-
+      Public Class Topology
+          Inherits ITopology
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Responses.Topology.Brokers
+  commentId: P:Zeebe.Client.Impl.Responses.Topology.Brokers
+  id: Brokers
+  parent: Zeebe.Client.Impl.Responses.Topology
+  langs:
+  - csharp
+  - vb
+  name: Brokers
+  nameWithType: Topology.Brokers
+  fullName: Zeebe.Client.Impl.Responses.Topology.Brokers
+  type: Property
+  source:
+    id: Brokers
+    path: ''
+    startLine: 9838
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public IList<IBrokerInfo> Brokers { get; }
+    parameters: []
+    return:
+      type: IList{IBrokerInfo}
+    content.vb: Public ReadOnly Property Brokers As IList(Of IBrokerInfo)
+  overload: Zeebe.Client.Impl.Responses.Topology.Brokers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.Topology.#ctor(TopologyResponse)
+  commentId: M:Zeebe.Client.Impl.Responses.Topology.#ctor(TopologyResponse)
+  id: '#ctor(TopologyResponse)'
+  parent: Zeebe.Client.Impl.Responses.Topology
+  langs:
+  - csharp
+  - vb
+  name: Topology(TopologyResponse)
+  nameWithType: Topology.Topology(TopologyResponse)
+  fullName: Zeebe.Client.Impl.Responses.Topology.Topology(TopologyResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9840
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public Topology(TopologyResponse response)
+    parameters:
+    - id: response
+      type: TopologyResponse
+    content.vb: Public Sub New(response As TopologyResponse)
+  overload: Zeebe.Client.Impl.Responses.Topology.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Zeebe.Client.Impl.Responses.Topology.ToString
+  commentId: M:Zeebe.Client.Impl.Responses.Topology.ToString
+  id: ToString
+  parent: Zeebe.Client.Impl.Responses.Topology
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Topology.ToString()
+  fullName: Zeebe.Client.Impl.Responses.Topology.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 9845
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Zeebe.Client.Impl.Responses.Topology.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Responses.Topology.Brokers*
+  commentId: Overload:Zeebe.Client.Impl.Responses.Topology.Brokers
+  name: Brokers
+  nameWithType: Topology.Brokers
+  fullName: Zeebe.Client.Impl.Responses.Topology.Brokers
+- uid: IList{IBrokerInfo}
+  commentId: '!:IList{IBrokerInfo}'
+  definition: IList`1
+  name: IList<IBrokerInfo>
+  nameWithType: IList<IBrokerInfo>
+  fullName: IList<IBrokerInfo>
+  nameWithType.vb: IList(Of IBrokerInfo)
+  fullName.vb: IList(Of IBrokerInfo)
+  name.vb: IList(Of IBrokerInfo)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IBrokerInfo
+    name: IBrokerInfo
+    nameWithType: IBrokerInfo
+    fullName: IBrokerInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IBrokerInfo
+    name: IBrokerInfo
+    nameWithType: IBrokerInfo
+    fullName: IBrokerInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Impl.Responses.Topology.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Responses.Topology.#ctor
+  name: Topology
+  nameWithType: Topology.Topology
+  fullName: Zeebe.Client.Impl.Responses.Topology.Topology
+- uid: TopologyResponse
+  commentId: '!:TopologyResponse'
+  isExternal: true
+  name: TopologyResponse
+  nameWithType: TopologyResponse
+  fullName: TopologyResponse
+- uid: Zeebe.Client.Impl.Responses.Topology.ToString*
+  commentId: Overload:Zeebe.Client.Impl.Responses.Topology.ToString
+  name: ToString
+  nameWithType: Topology.ToString
+  fullName: Zeebe.Client.Impl.Responses.Topology.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

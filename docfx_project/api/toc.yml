@@ -1,0 +1,303 @@
+### YamlMime:TableOfContent
+- uid: GatewayProtocol
+  name: GatewayProtocol
+  items:
+  - uid: GatewayProtocol.ActivatedJob
+    name: ActivatedJob
+  - uid: GatewayProtocol.ActivateJobsRequest
+    name: ActivateJobsRequest
+  - uid: GatewayProtocol.ActivateJobsResponse
+    name: ActivateJobsResponse
+  - uid: GatewayProtocol.BrokerInfo
+    name: BrokerInfo
+  - uid: GatewayProtocol.CancelWorkflowInstanceRequest
+    name: CancelWorkflowInstanceRequest
+  - uid: GatewayProtocol.CancelWorkflowInstanceResponse
+    name: CancelWorkflowInstanceResponse
+  - uid: GatewayProtocol.ClosedGatewayClient
+    name: ClosedGatewayClient
+  - uid: GatewayProtocol.CompleteJobRequest
+    name: CompleteJobRequest
+  - uid: GatewayProtocol.CompleteJobResponse
+    name: CompleteJobResponse
+  - uid: GatewayProtocol.CreateWorkflowInstanceRequest
+    name: CreateWorkflowInstanceRequest
+  - uid: GatewayProtocol.CreateWorkflowInstanceResponse
+    name: CreateWorkflowInstanceResponse
+  - uid: GatewayProtocol.CreateWorkflowInstanceWithResultRequest
+    name: CreateWorkflowInstanceWithResultRequest
+  - uid: GatewayProtocol.CreateWorkflowInstanceWithResultResponse
+    name: CreateWorkflowInstanceWithResultResponse
+  - uid: GatewayProtocol.DeployWorkflowRequest
+    name: DeployWorkflowRequest
+  - uid: GatewayProtocol.DeployWorkflowResponse
+    name: DeployWorkflowResponse
+  - uid: GatewayProtocol.FailJobRequest
+    name: FailJobRequest
+  - uid: GatewayProtocol.FailJobResponse
+    name: FailJobResponse
+  - uid: GatewayProtocol.Gateway
+    name: Gateway
+  - uid: GatewayProtocol.Gateway.GatewayBase
+    name: Gateway.GatewayBase
+  - uid: GatewayProtocol.Gateway.GatewayClient
+    name: Gateway.GatewayClient
+  - uid: GatewayProtocol.GatewayReflection
+    name: GatewayReflection
+  - uid: GatewayProtocol.Partition
+    name: Partition
+  - uid: GatewayProtocol.Partition.Types
+    name: Partition.Types
+  - uid: GatewayProtocol.Partition.Types.PartitionBrokerRole
+    name: Partition.Types.PartitionBrokerRole
+  - uid: GatewayProtocol.PublishMessageRequest
+    name: PublishMessageRequest
+  - uid: GatewayProtocol.PublishMessageResponse
+    name: PublishMessageResponse
+  - uid: GatewayProtocol.ResolveIncidentRequest
+    name: ResolveIncidentRequest
+  - uid: GatewayProtocol.ResolveIncidentResponse
+    name: ResolveIncidentResponse
+  - uid: GatewayProtocol.SetVariablesRequest
+    name: SetVariablesRequest
+  - uid: GatewayProtocol.SetVariablesResponse
+    name: SetVariablesResponse
+  - uid: GatewayProtocol.TopologyRequest
+    name: TopologyRequest
+  - uid: GatewayProtocol.TopologyResponse
+    name: TopologyResponse
+  - uid: GatewayProtocol.UpdateJobRetriesRequest
+    name: UpdateJobRetriesRequest
+  - uid: GatewayProtocol.UpdateJobRetriesResponse
+    name: UpdateJobRetriesResponse
+  - uid: GatewayProtocol.WorkflowMetadata
+    name: WorkflowMetadata
+  - uid: GatewayProtocol.WorkflowRequestObject
+    name: WorkflowRequestObject
+  - uid: GatewayProtocol.WorkflowRequestObject.Types
+    name: WorkflowRequestObject.Types
+  - uid: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+    name: WorkflowRequestObject.Types.ResourceType
+- uid: Zeebe.Client
+  name: Zeebe.Client
+  items:
+  - uid: Zeebe.Client.IZeebeClient
+    name: IZeebeClient
+  - uid: Zeebe.Client.ServiceCollectionExtensions
+    name: ServiceCollectionExtensions
+  - uid: Zeebe.Client.ZeebeClient
+    name: ZeebeClient
+- uid: Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  items:
+  - uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep1
+    name: IActivateJobsCommandStep1
+  - uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep2
+    name: IActivateJobsCommandStep2
+  - uid: Zeebe.Client.Api.Commands.IActivateJobsCommandStep3
+    name: IActivateJobsCommandStep3
+  - uid: Zeebe.Client.Api.Commands.ICancelWorkflowInstanceCommandStep1
+    name: ICancelWorkflowInstanceCommandStep1
+  - uid: Zeebe.Client.Api.Commands.ICompleteJobCommandStep1
+    name: ICompleteJobCommandStep1
+  - uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep1
+    name: ICreateWorkflowInstanceCommandStep1
+  - uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep2
+    name: ICreateWorkflowInstanceCommandStep2
+  - uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceCommandStep3
+    name: ICreateWorkflowInstanceCommandStep3
+  - uid: Zeebe.Client.Api.Commands.ICreateWorkflowInstanceWithResultCommandStep1
+    name: ICreateWorkflowInstanceWithResultCommandStep1
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandBuilderStep2
+    name: IDeployWorkflowCommandBuilderStep2
+  - uid: Zeebe.Client.Api.Commands.IDeployWorkflowCommandStep1
+    name: IDeployWorkflowCommandStep1
+  - uid: Zeebe.Client.Api.Commands.IFailJobCommandStep1
+    name: IFailJobCommandStep1
+  - uid: Zeebe.Client.Api.Commands.IFailJobCommandStep2
+    name: IFailJobCommandStep2
+  - uid: Zeebe.Client.Api.Commands.IFinalCommandStep`1
+    name: IFinalCommandStep<T>
+    name.vb: IFinalCommandStep(Of T)
+  - uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep1
+    name: IPublishMessageCommandStep1
+  - uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep2
+    name: IPublishMessageCommandStep2
+  - uid: Zeebe.Client.Api.Commands.IPublishMessageCommandStep3
+    name: IPublishMessageCommandStep3
+  - uid: Zeebe.Client.Api.Commands.IResolveIncidentCommandStep1
+    name: IResolveIncidentCommandStep1
+  - uid: Zeebe.Client.Api.Commands.ISetVariablesCommandStep1
+    name: ISetVariablesCommandStep1
+  - uid: Zeebe.Client.Api.Commands.ISetVariablesCommandStep2
+    name: ISetVariablesCommandStep2
+  - uid: Zeebe.Client.Api.Commands.ITopologyRequestStep1
+    name: ITopologyRequestStep1
+  - uid: Zeebe.Client.Api.Commands.IUpdateRetriesCommandStep1
+    name: IUpdateRetriesCommandStep1
+  - uid: Zeebe.Client.Api.Commands.IUpdateRetriesCommandStep2
+    name: IUpdateRetriesCommandStep2
+- uid: Zeebe.Client.Api.Responses
+  name: Zeebe.Client.Api.Responses
+  items:
+  - uid: Zeebe.Client.Api.Responses.IActivateJobsResponse
+    name: IActivateJobsResponse
+  - uid: Zeebe.Client.Api.Responses.IBrokerInfo
+    name: IBrokerInfo
+  - uid: Zeebe.Client.Api.Responses.ICancelWorkflowInstanceResponse
+    name: ICancelWorkflowInstanceResponse
+  - uid: Zeebe.Client.Api.Responses.ICompleteJobResponse
+    name: ICompleteJobResponse
+  - uid: Zeebe.Client.Api.Responses.IDeployResponse
+    name: IDeployResponse
+  - uid: Zeebe.Client.Api.Responses.IFailJobResponse
+    name: IFailJobResponse
+  - uid: Zeebe.Client.Api.Responses.IJob
+    name: IJob
+  - uid: Zeebe.Client.Api.Responses.IPartitionInfo
+    name: IPartitionInfo
+  - uid: Zeebe.Client.Api.Responses.IPublishMessageResponse
+    name: IPublishMessageResponse
+  - uid: Zeebe.Client.Api.Responses.IResolveIncidentResponse
+    name: IResolveIncidentResponse
+  - uid: Zeebe.Client.Api.Responses.ISetVariablesResponse
+    name: ISetVariablesResponse
+  - uid: Zeebe.Client.Api.Responses.ITopology
+    name: ITopology
+  - uid: Zeebe.Client.Api.Responses.IUpdateRetriesResponse
+    name: IUpdateRetriesResponse
+  - uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResponse
+    name: IWorkflowInstanceResponse
+  - uid: Zeebe.Client.Api.Responses.IWorkflowInstanceResult
+    name: IWorkflowInstanceResult
+  - uid: Zeebe.Client.Api.Responses.IWorkflowMetadata
+    name: IWorkflowMetadata
+  - uid: Zeebe.Client.Api.Responses.PartitionBrokerRole
+    name: PartitionBrokerRole
+- uid: Zeebe.Client.Api.Worker
+  name: Zeebe.Client.Api.Worker
+  items:
+  - uid: Zeebe.Client.Api.Worker.IJobClient
+    name: IJobClient
+  - uid: Zeebe.Client.Api.Worker.IJobWorker
+    name: IJobWorker
+  - uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+    name: IJobWorkerBuilderStep1
+  - uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+    name: IJobWorkerBuilderStep2
+  - uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    name: IJobWorkerBuilderStep3
+  - uid: Zeebe.Client.Api.Worker.JobHandler
+    name: JobHandler
+- uid: Zeebe.Client.Builder
+  name: Zeebe.Client.Builder
+  items:
+  - uid: Zeebe.Client.Builder.CamundaCloudTokenProvider
+    name: CamundaCloudTokenProvider
+  - uid: Zeebe.Client.Builder.CamundaCloudTokenProvider.AccessToken
+    name: CamundaCloudTokenProvider.AccessToken
+  - uid: Zeebe.Client.Builder.CamundaCloudTokenProviderBuilder
+    name: CamundaCloudTokenProviderBuilder
+  - uid: Zeebe.Client.Builder.IAccessTokenSupplier
+    name: IAccessTokenSupplier
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilder
+    name: ICamundaCloudTokenProviderBuilder
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderFinalStep
+    name: ICamundaCloudTokenProviderBuilderFinalStep
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep2
+    name: ICamundaCloudTokenProviderBuilderStep2
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep3
+    name: ICamundaCloudTokenProviderBuilderStep3
+  - uid: Zeebe.Client.Builder.ICamundaCloudTokenProviderBuilderStep4
+    name: ICamundaCloudTokenProviderBuilderStep4
+  - uid: Zeebe.Client.Builder.IZeebeClientBuilder
+    name: IZeebeClientBuilder
+  - uid: Zeebe.Client.Builder.IZeebeClientFinalBuildStep
+    name: IZeebeClientFinalBuildStep
+  - uid: Zeebe.Client.Builder.IZeebeClientTransportBuilder
+    name: IZeebeClientTransportBuilder
+  - uid: Zeebe.Client.Builder.IZeebeSecureClientBuilder
+    name: IZeebeSecureClientBuilder
+  - uid: Zeebe.Client.Builder.ZeebeClientBuilder
+    name: ZeebeClientBuilder
+- uid: Zeebe.Client.Impl.Commands
+  name: Zeebe.Client.Impl.Commands
+  items:
+  - uid: Zeebe.Client.Impl.Commands.CancelWorkflowInstanceCommand
+    name: CancelWorkflowInstanceCommand
+  - uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommand
+    name: CreateWorkflowInstanceCommand
+  - uid: Zeebe.Client.Impl.Commands.CreateWorkflowInstanceCommandWithResult
+    name: CreateWorkflowInstanceCommandWithResult
+  - uid: Zeebe.Client.Impl.Commands.DeployWorkflowCommand
+    name: DeployWorkflowCommand
+  - uid: Zeebe.Client.Impl.Commands.FailJobCommand
+    name: FailJobCommand
+  - uid: Zeebe.Client.Impl.Commands.PublishMessageCommand
+    name: PublishMessageCommand
+  - uid: Zeebe.Client.Impl.Commands.ResolveIncidentCommand
+    name: ResolveIncidentCommand
+  - uid: Zeebe.Client.Impl.Commands.SetVariablesCommand
+    name: SetVariablesCommand
+  - uid: Zeebe.Client.Impl.Commands.TimeSpanExtensions
+    name: TimeSpanExtensions
+  - uid: Zeebe.Client.Impl.Commands.TopologyRequestCommand
+    name: TopologyRequestCommand
+  - uid: Zeebe.Client.Impl.Commands.UpdateRetriesCommand
+    name: UpdateRetriesCommand
+- uid: Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  items:
+  - uid: Zeebe.Client.Impl.Responses.ActivatedJob
+    name: ActivatedJob
+  - uid: Zeebe.Client.Impl.Responses.ActivateJobsResponses
+    name: ActivateJobsResponses
+  - uid: Zeebe.Client.Impl.Responses.BrokerInfo
+    name: BrokerInfo
+  - uid: Zeebe.Client.Impl.Responses.CancelWorkflowInstanceResponse
+    name: CancelWorkflowInstanceResponse
+  - uid: Zeebe.Client.Impl.Responses.DeployResponse
+    name: DeployResponse
+  - uid: Zeebe.Client.Impl.Responses.FailJobResponse
+    name: FailJobResponse
+  - uid: Zeebe.Client.Impl.Responses.PartitionInfo
+    name: PartitionInfo
+  - uid: Zeebe.Client.Impl.Responses.PublishMessageResponse
+    name: PublishMessageResponse
+  - uid: Zeebe.Client.Impl.Responses.ResolveIncidentResponse
+    name: ResolveIncidentResponse
+  - uid: Zeebe.Client.Impl.Responses.SetVariablesResponse
+    name: SetVariablesResponse
+  - uid: Zeebe.Client.Impl.Responses.Topology
+    name: Topology
+  - uid: Zeebe.Client.Impl.Responses.UpdateRetriesResponse
+    name: UpdateRetriesResponse
+  - uid: Zeebe.Client.Impl.Responses.WorkflowInstanceResponse
+    name: WorkflowInstanceResponse
+  - uid: Zeebe.Client.Impl.Responses.WorkflowInstanceResultResponse
+    name: WorkflowInstanceResultResponse
+  - uid: Zeebe.Client.Impl.Responses.WorkflowMetadata
+    name: WorkflowMetadata
+- uid: Zeebe.Client.Impl.Worker
+  name: Zeebe.Client.Impl.Worker
+  items:
+  - uid: Zeebe.Client.Impl.Worker.JobWorker
+    name: JobWorker
+  - uid: Zeebe.Client.Impl.Worker.JobWorkerBuilder
+    name: JobWorkerBuilder
+- uid: Zeebe.Client.Logging
+  name: Zeebe.Client.Logging
+  items:
+  - uid: Zeebe.Client.Logging.ILogProvider
+    name: ILogProvider
+  - uid: Zeebe.Client.Logging.Logger
+    name: Logger
+  - uid: Zeebe.Client.Logging.LogLevel
+    name: LogLevel
+  - uid: Zeebe.Client.Logging.LogProvider
+    name: LogProvider
+- uid: Zeebe.Client.Logging.LogProviders
+  name: Zeebe.Client.Logging.LogProviders
+  items:
+  - uid: Zeebe.Client.Logging.LogProviders.LibLogException
+    name: LibLogException

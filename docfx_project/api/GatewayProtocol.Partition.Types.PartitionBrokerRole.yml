@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  commentId: T:GatewayProtocol.Partition.Types.PartitionBrokerRole
+  id: Partition.Types.PartitionBrokerRole
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.Partition.Types.PartitionBrokerRole.Follower
+  - GatewayProtocol.Partition.Types.PartitionBrokerRole.Leader
+  langs:
+  - csharp
+  - vb
+  name: Partition.Types.PartitionBrokerRole
+  nameWithType: Partition.Types.PartitionBrokerRole
+  fullName: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  type: Enum
+  source:
+    id: PartitionBrokerRole
+    path: ''
+    startLine: 7187
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nDescribes the Raft role of the broker for a given partition\n"
+  example: []
+  syntax:
+    content: public enum PartitionBrokerRole
+    content.vb: Public Enum PartitionBrokerRole
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: GatewayProtocol.Partition.Types.PartitionBrokerRole.Leader
+  commentId: F:GatewayProtocol.Partition.Types.PartitionBrokerRole.Leader
+  id: Leader
+  parent: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  langs:
+  - csharp
+  - vb
+  name: Leader
+  nameWithType: Partition.Types.PartitionBrokerRole.Leader
+  fullName: GatewayProtocol.Partition.Types.PartitionBrokerRole.Leader
+  type: Field
+  source:
+    id: Leader
+    path: ''
+    startLine: 7188
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: Leader = 0
+    return:
+      type: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.Partition.Types.PartitionBrokerRole.Follower
+  commentId: F:GatewayProtocol.Partition.Types.PartitionBrokerRole.Follower
+  id: Follower
+  parent: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  langs:
+  - csharp
+  - vb
+  name: Follower
+  nameWithType: Partition.Types.PartitionBrokerRole.Follower
+  fullName: GatewayProtocol.Partition.Types.PartitionBrokerRole.Follower
+  type: Field
+  source:
+    id: Follower
+    path: ''
+    startLine: 7189
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: Follower = 1
+    return:
+      type: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: GatewayProtocol.Partition.Types.PartitionBrokerRole
+  commentId: T:GatewayProtocol.Partition.Types.PartitionBrokerRole
+  parent: GatewayProtocol
+  name: Partition.Types.PartitionBrokerRole
+  nameWithType: Partition.Types.PartitionBrokerRole
+  fullName: GatewayProtocol.Partition.Types.PartitionBrokerRole

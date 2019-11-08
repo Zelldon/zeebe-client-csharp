@@ -1,0 +1,990 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.BrokerInfo
+  commentId: T:GatewayProtocol.BrokerInfo
+  id: BrokerInfo
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.BrokerInfo.#ctor
+  - GatewayProtocol.BrokerInfo.#ctor(GatewayProtocol.BrokerInfo)
+  - GatewayProtocol.BrokerInfo.CalculateSize
+  - GatewayProtocol.BrokerInfo.Clone
+  - GatewayProtocol.BrokerInfo.Descriptor
+  - GatewayProtocol.BrokerInfo.Equals(GatewayProtocol.BrokerInfo)
+  - GatewayProtocol.BrokerInfo.Equals(System.Object)
+  - GatewayProtocol.BrokerInfo.GetHashCode
+  - GatewayProtocol.BrokerInfo.Host
+  - GatewayProtocol.BrokerInfo.HostFieldNumber
+  - GatewayProtocol.BrokerInfo.MergeFrom(GatewayProtocol.BrokerInfo)
+  - GatewayProtocol.BrokerInfo.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.BrokerInfo.NodeId
+  - GatewayProtocol.BrokerInfo.NodeIdFieldNumber
+  - GatewayProtocol.BrokerInfo.Parser
+  - GatewayProtocol.BrokerInfo.Partitions
+  - GatewayProtocol.BrokerInfo.PartitionsFieldNumber
+  - GatewayProtocol.BrokerInfo.Port
+  - GatewayProtocol.BrokerInfo.PortFieldNumber
+  - GatewayProtocol.BrokerInfo.ToString
+  - GatewayProtocol.BrokerInfo.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: BrokerInfo
+  nameWithType: BrokerInfo
+  fullName: GatewayProtocol.BrokerInfo
+  type: Class
+  source:
+    id: BrokerInfo
+    path: ''
+    startLine: 6802
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class BrokerInfo : pb.IMessage<BrokerInfo>'
+    content.vb: >-
+      Public NotInheritable Class BrokerInfo
+          Inherits pb.IMessage(Of BrokerInfo)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.BrokerInfo.Parser
+  commentId: P:GatewayProtocol.BrokerInfo.Parser
+  id: Parser
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: BrokerInfo.Parser
+  fullName: GatewayProtocol.BrokerInfo.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 6805
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<BrokerInfo> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.BrokerInfo}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of BrokerInfo)
+  overload: GatewayProtocol.BrokerInfo.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.BrokerInfo.Descriptor
+  commentId: P:GatewayProtocol.BrokerInfo.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: BrokerInfo.Descriptor
+  fullName: GatewayProtocol.BrokerInfo.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 6808
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.BrokerInfo.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.BrokerInfo.#ctor
+  commentId: M:GatewayProtocol.BrokerInfo.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: BrokerInfo()
+  nameWithType: BrokerInfo.BrokerInfo()
+  fullName: GatewayProtocol.BrokerInfo.BrokerInfo()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6818
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public BrokerInfo()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.BrokerInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.#ctor(GatewayProtocol.BrokerInfo)
+  commentId: M:GatewayProtocol.BrokerInfo.#ctor(GatewayProtocol.BrokerInfo)
+  id: '#ctor(GatewayProtocol.BrokerInfo)'
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: BrokerInfo(BrokerInfo)
+  nameWithType: BrokerInfo.BrokerInfo(BrokerInfo)
+  fullName: GatewayProtocol.BrokerInfo.BrokerInfo(GatewayProtocol.BrokerInfo)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6825
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public BrokerInfo(BrokerInfo other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.BrokerInfo
+    content.vb: Public Sub New(other As BrokerInfo)
+  overload: GatewayProtocol.BrokerInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.Clone
+  commentId: M:GatewayProtocol.BrokerInfo.Clone
+  id: Clone
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: BrokerInfo.Clone()
+  fullName: GatewayProtocol.BrokerInfo.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 6834
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public BrokerInfo Clone()
+    return:
+      type: GatewayProtocol.BrokerInfo
+    content.vb: Public Function Clone As BrokerInfo
+  overload: GatewayProtocol.BrokerInfo.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.NodeIdFieldNumber
+  commentId: F:GatewayProtocol.BrokerInfo.NodeIdFieldNumber
+  id: NodeIdFieldNumber
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: NodeIdFieldNumber
+  nameWithType: BrokerInfo.NodeIdFieldNumber
+  fullName: GatewayProtocol.BrokerInfo.NodeIdFieldNumber
+  type: Field
+  source:
+    id: NodeIdFieldNumber
+    path: ''
+    startLine: 6840
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;nodeId&quot; field.
+  example: []
+  syntax:
+    content: public const int NodeIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const NodeIdFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.BrokerInfo.NodeId
+  commentId: P:GatewayProtocol.BrokerInfo.NodeId
+  id: NodeId
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: NodeId
+  nameWithType: BrokerInfo.NodeId
+  fullName: GatewayProtocol.BrokerInfo.NodeId
+  type: Property
+  source:
+    id: NodeId
+    path: ''
+    startLine: 6845
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nunique (within a cluster) node ID for the broker\n"
+  example: []
+  syntax:
+    content: public int NodeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NodeId As Integer
+  overload: GatewayProtocol.BrokerInfo.NodeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.HostFieldNumber
+  commentId: F:GatewayProtocol.BrokerInfo.HostFieldNumber
+  id: HostFieldNumber
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: HostFieldNumber
+  nameWithType: BrokerInfo.HostFieldNumber
+  fullName: GatewayProtocol.BrokerInfo.HostFieldNumber
+  type: Field
+  source:
+    id: HostFieldNumber
+    path: ''
+    startLine: 6854
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;host&quot; field.
+  example: []
+  syntax:
+    content: public const int HostFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const HostFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.BrokerInfo.Host
+  commentId: P:GatewayProtocol.BrokerInfo.Host
+  id: Host
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: BrokerInfo.Host
+  fullName: GatewayProtocol.BrokerInfo.Host
+  type: Property
+  source:
+    id: Host
+    path: ''
+    startLine: 6859
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nhostname of the broker\n"
+  example: []
+  syntax:
+    content: public string Host { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Host As String
+  overload: GatewayProtocol.BrokerInfo.Host*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.PortFieldNumber
+  commentId: F:GatewayProtocol.BrokerInfo.PortFieldNumber
+  id: PortFieldNumber
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: PortFieldNumber
+  nameWithType: BrokerInfo.PortFieldNumber
+  fullName: GatewayProtocol.BrokerInfo.PortFieldNumber
+  type: Field
+  source:
+    id: PortFieldNumber
+    path: ''
+    startLine: 6868
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;port&quot; field.
+  example: []
+  syntax:
+    content: public const int PortFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const PortFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.BrokerInfo.Port
+  commentId: P:GatewayProtocol.BrokerInfo.Port
+  id: Port
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: BrokerInfo.Port
+  fullName: GatewayProtocol.BrokerInfo.Port
+  type: Property
+  source:
+    id: Port
+    path: ''
+    startLine: 6873
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nport for the broker\n"
+  example: []
+  syntax:
+    content: public int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Port As Integer
+  overload: GatewayProtocol.BrokerInfo.Port*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.PartitionsFieldNumber
+  commentId: F:GatewayProtocol.BrokerInfo.PartitionsFieldNumber
+  id: PartitionsFieldNumber
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: PartitionsFieldNumber
+  nameWithType: BrokerInfo.PartitionsFieldNumber
+  fullName: GatewayProtocol.BrokerInfo.PartitionsFieldNumber
+  type: Field
+  source:
+    id: PartitionsFieldNumber
+    path: ''
+    startLine: 6882
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;partitions&quot; field.
+  example: []
+  syntax:
+    content: public const int PartitionsFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const PartitionsFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.BrokerInfo.Partitions
+  commentId: P:GatewayProtocol.BrokerInfo.Partitions
+  id: Partitions
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Partitions
+  nameWithType: BrokerInfo.Partitions
+  fullName: GatewayProtocol.BrokerInfo.Partitions
+  type: Property
+  source:
+    id: Partitions
+    path: ''
+    startLine: 6889
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nlist of partitions managed or replicated on this broker\n"
+  example: []
+  syntax:
+    content: public pbc.RepeatedField<Partition> Partitions { get; }
+    parameters: []
+    return:
+      type: pbc.RepeatedField{GatewayProtocol.Partition}
+    content.vb: Public ReadOnly Property Partitions As pbc.RepeatedField(Of Partition)
+  overload: GatewayProtocol.BrokerInfo.Partitions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GatewayProtocol.BrokerInfo.Equals(System.Object)
+  commentId: M:GatewayProtocol.BrokerInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: BrokerInfo.Equals(Object)
+  fullName: GatewayProtocol.BrokerInfo.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6894
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.BrokerInfo.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.BrokerInfo.Equals(GatewayProtocol.BrokerInfo)
+  commentId: M:GatewayProtocol.BrokerInfo.Equals(GatewayProtocol.BrokerInfo)
+  id: Equals(GatewayProtocol.BrokerInfo)
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(BrokerInfo)
+  nameWithType: BrokerInfo.Equals(BrokerInfo)
+  fullName: GatewayProtocol.BrokerInfo.Equals(GatewayProtocol.BrokerInfo)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 6899
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(BrokerInfo other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.BrokerInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As BrokerInfo) As Boolean
+  overload: GatewayProtocol.BrokerInfo.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.GetHashCode
+  commentId: M:GatewayProtocol.BrokerInfo.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: BrokerInfo.GetHashCode()
+  fullName: GatewayProtocol.BrokerInfo.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 6914
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.BrokerInfo.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.BrokerInfo.ToString
+  commentId: M:GatewayProtocol.BrokerInfo.ToString
+  id: ToString
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: BrokerInfo.ToString()
+  fullName: GatewayProtocol.BrokerInfo.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 6927
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.BrokerInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.BrokerInfo.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.BrokerInfo.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: BrokerInfo.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.BrokerInfo.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 6932
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.BrokerInfo.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.CalculateSize
+  commentId: M:GatewayProtocol.BrokerInfo.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: BrokerInfo.CalculateSize()
+  fullName: GatewayProtocol.BrokerInfo.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 6952
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.BrokerInfo.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.MergeFrom(GatewayProtocol.BrokerInfo)
+  commentId: M:GatewayProtocol.BrokerInfo.MergeFrom(GatewayProtocol.BrokerInfo)
+  id: MergeFrom(GatewayProtocol.BrokerInfo)
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(BrokerInfo)
+  nameWithType: BrokerInfo.MergeFrom(BrokerInfo)
+  fullName: GatewayProtocol.BrokerInfo.MergeFrom(GatewayProtocol.BrokerInfo)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6971
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(BrokerInfo other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.BrokerInfo
+    content.vb: Public Sub MergeFrom(other As BrokerInfo)
+  overload: GatewayProtocol.BrokerInfo.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.BrokerInfo.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.BrokerInfo.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.BrokerInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: BrokerInfo.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.BrokerInfo.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 6989
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.BrokerInfo.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.BrokerInfo.Parser*
+  commentId: Overload:GatewayProtocol.BrokerInfo.Parser
+  name: Parser
+  nameWithType: BrokerInfo.Parser
+  fullName: GatewayProtocol.BrokerInfo.Parser
+- uid: pb.MessageParser{GatewayProtocol.BrokerInfo}
+  commentId: '!:pb.MessageParser{GatewayProtocol.BrokerInfo}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<BrokerInfo>
+  nameWithType: pb.MessageParser<BrokerInfo>
+  fullName: pb.MessageParser<GatewayProtocol.BrokerInfo>
+  nameWithType.vb: pb.MessageParser(Of BrokerInfo)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.BrokerInfo)
+  name.vb: pb.MessageParser(Of BrokerInfo)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.BrokerInfo
+    name: BrokerInfo
+    nameWithType: BrokerInfo
+    fullName: GatewayProtocol.BrokerInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.BrokerInfo
+    name: BrokerInfo
+    nameWithType: BrokerInfo
+    fullName: GatewayProtocol.BrokerInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.BrokerInfo.Descriptor*
+  commentId: Overload:GatewayProtocol.BrokerInfo.Descriptor
+  name: Descriptor
+  nameWithType: BrokerInfo.Descriptor
+  fullName: GatewayProtocol.BrokerInfo.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.BrokerInfo.#ctor*
+  commentId: Overload:GatewayProtocol.BrokerInfo.#ctor
+  name: BrokerInfo
+  nameWithType: BrokerInfo.BrokerInfo
+  fullName: GatewayProtocol.BrokerInfo.BrokerInfo
+- uid: GatewayProtocol.BrokerInfo
+  commentId: T:GatewayProtocol.BrokerInfo
+  parent: GatewayProtocol
+  name: BrokerInfo
+  nameWithType: BrokerInfo
+  fullName: GatewayProtocol.BrokerInfo
+- uid: GatewayProtocol.BrokerInfo.Clone*
+  commentId: Overload:GatewayProtocol.BrokerInfo.Clone
+  name: Clone
+  nameWithType: BrokerInfo.Clone
+  fullName: GatewayProtocol.BrokerInfo.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.BrokerInfo.NodeId*
+  commentId: Overload:GatewayProtocol.BrokerInfo.NodeId
+  name: NodeId
+  nameWithType: BrokerInfo.NodeId
+  fullName: GatewayProtocol.BrokerInfo.NodeId
+- uid: GatewayProtocol.BrokerInfo.Host*
+  commentId: Overload:GatewayProtocol.BrokerInfo.Host
+  name: Host
+  nameWithType: BrokerInfo.Host
+  fullName: GatewayProtocol.BrokerInfo.Host
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.BrokerInfo.Port*
+  commentId: Overload:GatewayProtocol.BrokerInfo.Port
+  name: Port
+  nameWithType: BrokerInfo.Port
+  fullName: GatewayProtocol.BrokerInfo.Port
+- uid: GatewayProtocol.BrokerInfo.Partitions*
+  commentId: Overload:GatewayProtocol.BrokerInfo.Partitions
+  name: Partitions
+  nameWithType: BrokerInfo.Partitions
+  fullName: GatewayProtocol.BrokerInfo.Partitions
+- uid: pbc.RepeatedField{GatewayProtocol.Partition}
+  commentId: '!:pbc.RepeatedField{GatewayProtocol.Partition}'
+  definition: pbc.RepeatedField`1
+  name: pbc.RepeatedField<Partition>
+  nameWithType: pbc.RepeatedField<Partition>
+  fullName: pbc.RepeatedField<GatewayProtocol.Partition>
+  nameWithType.vb: pbc.RepeatedField(Of Partition)
+  fullName.vb: pbc.RepeatedField(Of GatewayProtocol.Partition)
+  name.vb: pbc.RepeatedField(Of Partition)
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.Partition
+    name: Partition
+    nameWithType: Partition
+    fullName: GatewayProtocol.Partition
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.Partition
+    name: Partition
+    nameWithType: Partition
+    fullName: GatewayProtocol.Partition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pbc.RepeatedField`1
+  isExternal: true
+  name: pbc.RepeatedField<>
+  nameWithType: pbc.RepeatedField<>
+  fullName: pbc.RepeatedField<>
+  nameWithType.vb: pbc.RepeatedField(Of )
+  fullName.vb: pbc.RepeatedField(Of )
+  name.vb: pbc.RepeatedField(Of )
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.BrokerInfo.Equals*
+  commentId: Overload:GatewayProtocol.BrokerInfo.Equals
+  name: Equals
+  nameWithType: BrokerInfo.Equals
+  fullName: GatewayProtocol.BrokerInfo.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.BrokerInfo.GetHashCode*
+  commentId: Overload:GatewayProtocol.BrokerInfo.GetHashCode
+  name: GetHashCode
+  nameWithType: BrokerInfo.GetHashCode
+  fullName: GatewayProtocol.BrokerInfo.GetHashCode
+- uid: GatewayProtocol.BrokerInfo.ToString*
+  commentId: Overload:GatewayProtocol.BrokerInfo.ToString
+  name: ToString
+  nameWithType: BrokerInfo.ToString
+  fullName: GatewayProtocol.BrokerInfo.ToString
+- uid: GatewayProtocol.BrokerInfo.WriteTo*
+  commentId: Overload:GatewayProtocol.BrokerInfo.WriteTo
+  name: WriteTo
+  nameWithType: BrokerInfo.WriteTo
+  fullName: GatewayProtocol.BrokerInfo.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.BrokerInfo.CalculateSize*
+  commentId: Overload:GatewayProtocol.BrokerInfo.CalculateSize
+  name: CalculateSize
+  nameWithType: BrokerInfo.CalculateSize
+  fullName: GatewayProtocol.BrokerInfo.CalculateSize
+- uid: GatewayProtocol.BrokerInfo.MergeFrom*
+  commentId: Overload:GatewayProtocol.BrokerInfo.MergeFrom
+  name: MergeFrom
+  nameWithType: BrokerInfo.MergeFrom
+  fullName: GatewayProtocol.BrokerInfo.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

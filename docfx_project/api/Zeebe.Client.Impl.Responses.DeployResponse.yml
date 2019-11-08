@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Impl.Responses.DeployResponse
+  commentId: T:Zeebe.Client.Impl.Responses.DeployResponse
+  id: DeployResponse
+  parent: Zeebe.Client.Impl.Responses
+  children:
+  - Zeebe.Client.Impl.Responses.DeployResponse.#ctor(DeployWorkflowResponse)
+  - Zeebe.Client.Impl.Responses.DeployResponse.Key
+  - Zeebe.Client.Impl.Responses.DeployResponse.Workflows
+  langs:
+  - csharp
+  - vb
+  name: DeployResponse
+  nameWithType: DeployResponse
+  fullName: Zeebe.Client.Impl.Responses.DeployResponse
+  type: Class
+  source:
+    id: DeployResponse
+    path: ''
+    startLine: 9536
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: 'public class DeployResponse : IDeployResponse'
+    content.vb: >-
+      Public Class DeployResponse
+          Inherits IDeployResponse
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Zeebe.Client.Impl.Responses.DeployResponse.Key
+  commentId: P:Zeebe.Client.Impl.Responses.DeployResponse.Key
+  id: Key
+  parent: Zeebe.Client.Impl.Responses.DeployResponse
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: DeployResponse.Key
+  fullName: Zeebe.Client.Impl.Responses.DeployResponse.Key
+  type: Property
+  source:
+    id: Key
+    path: ''
+    startLine: 9538
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public long Key { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property Key As Long
+  overload: Zeebe.Client.Impl.Responses.DeployResponse.Key*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.DeployResponse.Workflows
+  commentId: P:Zeebe.Client.Impl.Responses.DeployResponse.Workflows
+  id: Workflows
+  parent: Zeebe.Client.Impl.Responses.DeployResponse
+  langs:
+  - csharp
+  - vb
+  name: Workflows
+  nameWithType: DeployResponse.Workflows
+  fullName: Zeebe.Client.Impl.Responses.DeployResponse.Workflows
+  type: Property
+  source:
+    id: Workflows
+    path: ''
+    startLine: 9539
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public IList<IWorkflowMetadata> Workflows { get; }
+    parameters: []
+    return:
+      type: IList{IWorkflowMetadata}
+    content.vb: Public ReadOnly Property Workflows As IList(Of IWorkflowMetadata)
+  overload: Zeebe.Client.Impl.Responses.DeployResponse.Workflows*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Zeebe.Client.Impl.Responses.DeployResponse.#ctor(DeployWorkflowResponse)
+  commentId: M:Zeebe.Client.Impl.Responses.DeployResponse.#ctor(DeployWorkflowResponse)
+  id: '#ctor(DeployWorkflowResponse)'
+  parent: Zeebe.Client.Impl.Responses.DeployResponse
+  langs:
+  - csharp
+  - vb
+  name: DeployResponse(DeployWorkflowResponse)
+  nameWithType: DeployResponse.DeployResponse(DeployWorkflowResponse)
+  fullName: Zeebe.Client.Impl.Responses.DeployResponse.DeployResponse(DeployWorkflowResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9541
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Impl.Responses
+  syntax:
+    content: public DeployResponse(DeployWorkflowResponse response)
+    parameters:
+    - id: response
+      type: DeployWorkflowResponse
+    content.vb: Public Sub New(response As DeployWorkflowResponse)
+  overload: Zeebe.Client.Impl.Responses.DeployResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Zeebe.Client.Impl.Responses
+  commentId: N:Zeebe.Client.Impl.Responses
+  name: Zeebe.Client.Impl.Responses
+  nameWithType: Zeebe.Client.Impl.Responses
+  fullName: Zeebe.Client.Impl.Responses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Impl.Responses.DeployResponse.Key*
+  commentId: Overload:Zeebe.Client.Impl.Responses.DeployResponse.Key
+  name: Key
+  nameWithType: DeployResponse.Key
+  fullName: Zeebe.Client.Impl.Responses.DeployResponse.Key
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Zeebe.Client.Impl.Responses.DeployResponse.Workflows*
+  commentId: Overload:Zeebe.Client.Impl.Responses.DeployResponse.Workflows
+  name: Workflows
+  nameWithType: DeployResponse.Workflows
+  fullName: Zeebe.Client.Impl.Responses.DeployResponse.Workflows
+- uid: IList{IWorkflowMetadata}
+  commentId: '!:IList{IWorkflowMetadata}'
+  definition: IList`1
+  name: IList<IWorkflowMetadata>
+  nameWithType: IList<IWorkflowMetadata>
+  fullName: IList<IWorkflowMetadata>
+  nameWithType.vb: IList(Of IWorkflowMetadata)
+  fullName.vb: IList(Of IWorkflowMetadata)
+  name.vb: IList(Of IWorkflowMetadata)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWorkflowMetadata
+    name: IWorkflowMetadata
+    nameWithType: IWorkflowMetadata
+    fullName: IWorkflowMetadata
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWorkflowMetadata
+    name: IWorkflowMetadata
+    nameWithType: IWorkflowMetadata
+    fullName: IWorkflowMetadata
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Zeebe.Client.Impl.Responses.DeployResponse.#ctor*
+  commentId: Overload:Zeebe.Client.Impl.Responses.DeployResponse.#ctor
+  name: DeployResponse
+  nameWithType: DeployResponse.DeployResponse
+  fullName: Zeebe.Client.Impl.Responses.DeployResponse.DeployResponse
+- uid: DeployWorkflowResponse
+  commentId: '!:DeployWorkflowResponse'
+  isExternal: true
+  name: DeployWorkflowResponse
+  nameWithType: DeployWorkflowResponse
+  fullName: DeployWorkflowResponse

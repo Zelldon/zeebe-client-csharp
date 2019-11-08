@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse
+  commentId: T:GatewayProtocol.CancelWorkflowInstanceResponse
+  id: CancelWorkflowInstanceResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.CancelWorkflowInstanceResponse.#ctor
+  - GatewayProtocol.CancelWorkflowInstanceResponse.#ctor(GatewayProtocol.CancelWorkflowInstanceResponse)
+  - GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize
+  - GatewayProtocol.CancelWorkflowInstanceResponse.Clone
+  - GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor
+  - GatewayProtocol.CancelWorkflowInstanceResponse.Equals(GatewayProtocol.CancelWorkflowInstanceResponse)
+  - GatewayProtocol.CancelWorkflowInstanceResponse.Equals(System.Object)
+  - GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode
+  - GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(GatewayProtocol.CancelWorkflowInstanceResponse)
+  - GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.CancelWorkflowInstanceResponse.Parser
+  - GatewayProtocol.CancelWorkflowInstanceResponse.ToString
+  - GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: CancelWorkflowInstanceResponse
+  nameWithType: CancelWorkflowInstanceResponse
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse
+  type: Class
+  source:
+    id: CancelWorkflowInstanceResponse
+    path: ''
+    startLine: 3598
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class CancelWorkflowInstanceResponse : pb.IMessage<CancelWorkflowInstanceResponse>'
+    content.vb: >-
+      Public NotInheritable Class CancelWorkflowInstanceResponse
+          Inherits pb.IMessage(Of CancelWorkflowInstanceResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Parser
+  commentId: P:GatewayProtocol.CancelWorkflowInstanceResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: CancelWorkflowInstanceResponse.Parser
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 3601
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<CancelWorkflowInstanceResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.CancelWorkflowInstanceResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of CancelWorkflowInstanceResponse)
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor
+  commentId: P:GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: CancelWorkflowInstanceResponse.Descriptor
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 3604
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.#ctor
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: CancelWorkflowInstanceResponse()
+  nameWithType: CancelWorkflowInstanceResponse.CancelWorkflowInstanceResponse()
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.CancelWorkflowInstanceResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3614
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CancelWorkflowInstanceResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.#ctor(GatewayProtocol.CancelWorkflowInstanceResponse)
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.#ctor(GatewayProtocol.CancelWorkflowInstanceResponse)
+  id: '#ctor(GatewayProtocol.CancelWorkflowInstanceResponse)'
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: CancelWorkflowInstanceResponse(CancelWorkflowInstanceResponse)
+  nameWithType: CancelWorkflowInstanceResponse.CancelWorkflowInstanceResponse(CancelWorkflowInstanceResponse)
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.CancelWorkflowInstanceResponse(GatewayProtocol.CancelWorkflowInstanceResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3621
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CancelWorkflowInstanceResponse(CancelWorkflowInstanceResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CancelWorkflowInstanceResponse
+    content.vb: Public Sub New(other As CancelWorkflowInstanceResponse)
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Clone
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: CancelWorkflowInstanceResponse.Clone()
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 3626
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public CancelWorkflowInstanceResponse Clone()
+    return:
+      type: GatewayProtocol.CancelWorkflowInstanceResponse
+    content.vb: Public Function Clone As CancelWorkflowInstanceResponse
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: CancelWorkflowInstanceResponse.Equals(Object)
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 3631
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Equals(GatewayProtocol.CancelWorkflowInstanceResponse)
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.Equals(GatewayProtocol.CancelWorkflowInstanceResponse)
+  id: Equals(GatewayProtocol.CancelWorkflowInstanceResponse)
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(CancelWorkflowInstanceResponse)
+  nameWithType: CancelWorkflowInstanceResponse.Equals(CancelWorkflowInstanceResponse)
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Equals(GatewayProtocol.CancelWorkflowInstanceResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 3636
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(CancelWorkflowInstanceResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CancelWorkflowInstanceResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As CancelWorkflowInstanceResponse) As Boolean
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CancelWorkflowInstanceResponse.GetHashCode()
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 3647
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.ToString
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CancelWorkflowInstanceResponse.ToString()
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 3656
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: CancelWorkflowInstanceResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 3661
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: CancelWorkflowInstanceResponse.CalculateSize()
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 3668
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(GatewayProtocol.CancelWorkflowInstanceResponse)
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(GatewayProtocol.CancelWorkflowInstanceResponse)
+  id: MergeFrom(GatewayProtocol.CancelWorkflowInstanceResponse)
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CancelWorkflowInstanceResponse)
+  nameWithType: CancelWorkflowInstanceResponse.MergeFrom(CancelWorkflowInstanceResponse)
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(GatewayProtocol.CancelWorkflowInstanceResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 3677
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(CancelWorkflowInstanceResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.CancelWorkflowInstanceResponse
+    content.vb: Public Sub MergeFrom(other As CancelWorkflowInstanceResponse)
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.CancelWorkflowInstanceResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: CancelWorkflowInstanceResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 3685
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Parser*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.Parser
+  name: Parser
+  nameWithType: CancelWorkflowInstanceResponse.Parser
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.CancelWorkflowInstanceResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.CancelWorkflowInstanceResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<CancelWorkflowInstanceResponse>
+  nameWithType: pb.MessageParser<CancelWorkflowInstanceResponse>
+  fullName: pb.MessageParser<GatewayProtocol.CancelWorkflowInstanceResponse>
+  nameWithType.vb: pb.MessageParser(Of CancelWorkflowInstanceResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.CancelWorkflowInstanceResponse)
+  name.vb: pb.MessageParser(Of CancelWorkflowInstanceResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.CancelWorkflowInstanceResponse
+    name: CancelWorkflowInstanceResponse
+    nameWithType: CancelWorkflowInstanceResponse
+    fullName: GatewayProtocol.CancelWorkflowInstanceResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.CancelWorkflowInstanceResponse
+    name: CancelWorkflowInstanceResponse
+    nameWithType: CancelWorkflowInstanceResponse
+    fullName: GatewayProtocol.CancelWorkflowInstanceResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor
+  name: Descriptor
+  nameWithType: CancelWorkflowInstanceResponse.Descriptor
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.#ctor*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.#ctor
+  name: CancelWorkflowInstanceResponse
+  nameWithType: CancelWorkflowInstanceResponse.CancelWorkflowInstanceResponse
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.CancelWorkflowInstanceResponse
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse
+  commentId: T:GatewayProtocol.CancelWorkflowInstanceResponse
+  parent: GatewayProtocol
+  name: CancelWorkflowInstanceResponse
+  nameWithType: CancelWorkflowInstanceResponse
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Clone*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.Clone
+  name: Clone
+  nameWithType: CancelWorkflowInstanceResponse.Clone
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Clone
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.Equals*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.Equals
+  name: Equals
+  nameWithType: CancelWorkflowInstanceResponse.Equals
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: CancelWorkflowInstanceResponse.GetHashCode
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.ToString*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.ToString
+  name: ToString
+  nameWithType: CancelWorkflowInstanceResponse.ToString
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo
+  name: WriteTo
+  nameWithType: CancelWorkflowInstanceResponse.WriteTo
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: CancelWorkflowInstanceResponse.CalculateSize
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.CalculateSize
+- uid: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: CancelWorkflowInstanceResponse.MergeFrom
+  fullName: GatewayProtocol.CancelWorkflowInstanceResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

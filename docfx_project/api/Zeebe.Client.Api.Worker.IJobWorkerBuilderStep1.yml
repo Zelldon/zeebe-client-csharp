@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+  id: IJobWorkerBuilderStep1
+  parent: Zeebe.Client.Api.Worker
+  children:
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IJobWorkerBuilderStep1
+  nameWithType: IJobWorkerBuilderStep1
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+  type: Interface
+  source:
+    id: IJobWorkerBuilderStep1
+    path: ''
+    startLine: 391
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: public interface IJobWorkerBuilderStep1
+    content.vb: Public Interface IJobWorkerBuilderStep1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType(System.String)
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType(System.String)
+  id: JobType(System.String)
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1
+  langs:
+  - csharp
+  - vb
+  name: JobType(String)
+  nameWithType: IJobWorkerBuilderStep1.JobType(String)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType(System.String)
+  type: Method
+  source:
+    id: JobType
+    path: ''
+    startLine: 398
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  summary: "\nSet the type of jobs to work on.\n"
+  example: []
+  syntax:
+    content: IJobWorkerBuilderStep2 JobType(string type)
+    parameters:
+    - id: type
+      type: System.String
+      description: the type of jobs (e.g. &quot;payment&quot;)
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+      description: the builder for this worker
+    content.vb: Function JobType(type As String) As IJobWorkerBuilderStep2
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType*
+references:
+- uid: Zeebe.Client.Api.Worker
+  commentId: N:Zeebe.Client.Api.Worker
+  name: Zeebe.Client.Api.Worker
+  nameWithType: Zeebe.Client.Api.Worker
+  fullName: Zeebe.Client.Api.Worker
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType
+  name: JobType
+  nameWithType: IJobWorkerBuilderStep1.JobType
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep1.JobType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+  parent: Zeebe.Client.Api.Worker
+  name: IJobWorkerBuilderStep2
+  nameWithType: IJobWorkerBuilderStep2
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

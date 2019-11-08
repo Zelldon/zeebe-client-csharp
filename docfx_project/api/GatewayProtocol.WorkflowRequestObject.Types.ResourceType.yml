@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  commentId: T:GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  id: WorkflowRequestObject.Types.ResourceType
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Bpmn
+  - GatewayProtocol.WorkflowRequestObject.Types.ResourceType.File
+  - GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Yaml
+  langs:
+  - csharp
+  - vb
+  name: WorkflowRequestObject.Types.ResourceType
+  nameWithType: WorkflowRequestObject.Types.ResourceType
+  fullName: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  type: Enum
+  source:
+    id: ResourceType
+    path: ''
+    startLine: 5192
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public enum ResourceType
+    content.vb: Public Enum ResourceType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: GatewayProtocol.WorkflowRequestObject.Types.ResourceType.File
+  commentId: F:GatewayProtocol.WorkflowRequestObject.Types.ResourceType.File
+  id: File
+  parent: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: WorkflowRequestObject.Types.ResourceType.File
+  fullName: GatewayProtocol.WorkflowRequestObject.Types.ResourceType.File
+  type: Field
+  source:
+    id: File
+    path: ''
+    startLine: 5197
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nFILE type means the gateway will try to detect the resource type\nusing the file extension of the name field\n"
+  example: []
+  syntax:
+    content: File = 0
+    return:
+      type: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Bpmn
+  commentId: F:GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Bpmn
+  id: Bpmn
+  parent: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  langs:
+  - csharp
+  - vb
+  name: Bpmn
+  nameWithType: WorkflowRequestObject.Types.ResourceType.Bpmn
+  fullName: GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Bpmn
+  type: Field
+  source:
+    id: Bpmn
+    path: ''
+    startLine: 5201
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nextension &apos;bpmn&apos;\n"
+  example: []
+  syntax:
+    content: Bpmn = 1
+    return:
+      type: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Yaml
+  commentId: F:GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Yaml
+  id: Yaml
+  parent: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  langs:
+  - csharp
+  - vb
+  name: Yaml
+  nameWithType: WorkflowRequestObject.Types.ResourceType.Yaml
+  fullName: GatewayProtocol.WorkflowRequestObject.Types.ResourceType.Yaml
+  type: Field
+  source:
+    id: Yaml
+    path: ''
+    startLine: 5205
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nextension &apos;yaml&apos;\n"
+  example: []
+  syntax:
+    content: Yaml = 2
+    return:
+      type: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  commentId: T:GatewayProtocol.WorkflowRequestObject.Types.ResourceType
+  parent: GatewayProtocol
+  name: WorkflowRequestObject.Types.ResourceType
+  nameWithType: WorkflowRequestObject.Types.ResourceType
+  fullName: GatewayProtocol.WorkflowRequestObject.Types.ResourceType

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client
+  commentId: N:Zeebe.Client
+  id: Zeebe.Client
+  children:
+  - Zeebe.Client.IZeebeClient
+  - Zeebe.Client.ServiceCollectionExtensions
+  - Zeebe.Client.ZeebeClient
+  langs:
+  - csharp
+  - vb
+  name: Zeebe.Client
+  nameWithType: Zeebe.Client
+  fullName: Zeebe.Client
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Zeebe.Client.ServiceCollectionExtensions
+  commentId: T:Zeebe.Client.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+  fullName: Zeebe.Client.ServiceCollectionExtensions
+- uid: Zeebe.Client.IZeebeClient
+  commentId: T:Zeebe.Client.IZeebeClient
+  parent: Zeebe.Client
+  name: IZeebeClient
+  nameWithType: IZeebeClient
+  fullName: Zeebe.Client.IZeebeClient
+- uid: Zeebe.Client.ZeebeClient
+  commentId: T:Zeebe.Client.ZeebeClient
+  name: ZeebeClient
+  nameWithType: ZeebeClient
+  fullName: Zeebe.Client.ZeebeClient
+- uid: Zeebe.Client
+  commentId: N:Zeebe.Client
+  name: Zeebe.Client
+  nameWithType: Zeebe.Client
+  fullName: Zeebe.Client

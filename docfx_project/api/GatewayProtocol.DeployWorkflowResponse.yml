@@ -1,0 +1,855 @@
+### YamlMime:ManagedReference
+items:
+- uid: GatewayProtocol.DeployWorkflowResponse
+  commentId: T:GatewayProtocol.DeployWorkflowResponse
+  id: DeployWorkflowResponse
+  parent: GatewayProtocol
+  children:
+  - GatewayProtocol.DeployWorkflowResponse.#ctor
+  - GatewayProtocol.DeployWorkflowResponse.#ctor(GatewayProtocol.DeployWorkflowResponse)
+  - GatewayProtocol.DeployWorkflowResponse.CalculateSize
+  - GatewayProtocol.DeployWorkflowResponse.Clone
+  - GatewayProtocol.DeployWorkflowResponse.Descriptor
+  - GatewayProtocol.DeployWorkflowResponse.Equals(GatewayProtocol.DeployWorkflowResponse)
+  - GatewayProtocol.DeployWorkflowResponse.Equals(System.Object)
+  - GatewayProtocol.DeployWorkflowResponse.GetHashCode
+  - GatewayProtocol.DeployWorkflowResponse.Key
+  - GatewayProtocol.DeployWorkflowResponse.KeyFieldNumber
+  - GatewayProtocol.DeployWorkflowResponse.MergeFrom(GatewayProtocol.DeployWorkflowResponse)
+  - GatewayProtocol.DeployWorkflowResponse.MergeFrom(pb.CodedInputStream)
+  - GatewayProtocol.DeployWorkflowResponse.Parser
+  - GatewayProtocol.DeployWorkflowResponse.ToString
+  - GatewayProtocol.DeployWorkflowResponse.Workflows
+  - GatewayProtocol.DeployWorkflowResponse.WorkflowsFieldNumber
+  - GatewayProtocol.DeployWorkflowResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: DeployWorkflowResponse
+  nameWithType: DeployWorkflowResponse
+  fullName: GatewayProtocol.DeployWorkflowResponse
+  type: Class
+  source:
+    id: DeployWorkflowResponse
+    path: ''
+    startLine: 5213
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: 'public sealed class DeployWorkflowResponse : pb.IMessage<DeployWorkflowResponse>'
+    content.vb: >-
+      Public NotInheritable Class DeployWorkflowResponse
+          Inherits pb.IMessage(Of DeployWorkflowResponse)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: GatewayProtocol.DeployWorkflowResponse.Parser
+  commentId: P:GatewayProtocol.DeployWorkflowResponse.Parser
+  id: Parser
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: DeployWorkflowResponse.Parser
+  fullName: GatewayProtocol.DeployWorkflowResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 5216
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pb.MessageParser<DeployWorkflowResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{GatewayProtocol.DeployWorkflowResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of DeployWorkflowResponse)
+  overload: GatewayProtocol.DeployWorkflowResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.DeployWorkflowResponse.Descriptor
+  commentId: P:GatewayProtocol.DeployWorkflowResponse.Descriptor
+  id: Descriptor
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: DeployWorkflowResponse.Descriptor
+  fullName: GatewayProtocol.DeployWorkflowResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 5219
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: GatewayProtocol.DeployWorkflowResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GatewayProtocol.DeployWorkflowResponse.#ctor
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.#ctor
+  id: '#ctor'
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: DeployWorkflowResponse()
+  nameWithType: DeployWorkflowResponse.DeployWorkflowResponse()
+  fullName: GatewayProtocol.DeployWorkflowResponse.DeployWorkflowResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5229
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public DeployWorkflowResponse()
+    content.vb: Public Sub New
+  overload: GatewayProtocol.DeployWorkflowResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.#ctor(GatewayProtocol.DeployWorkflowResponse)
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.#ctor(GatewayProtocol.DeployWorkflowResponse)
+  id: '#ctor(GatewayProtocol.DeployWorkflowResponse)'
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: DeployWorkflowResponse(DeployWorkflowResponse)
+  nameWithType: DeployWorkflowResponse.DeployWorkflowResponse(DeployWorkflowResponse)
+  fullName: GatewayProtocol.DeployWorkflowResponse.DeployWorkflowResponse(GatewayProtocol.DeployWorkflowResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5236
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public DeployWorkflowResponse(DeployWorkflowResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.DeployWorkflowResponse
+    content.vb: Public Sub New(other As DeployWorkflowResponse)
+  overload: GatewayProtocol.DeployWorkflowResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.Clone
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.Clone
+  id: Clone
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: DeployWorkflowResponse.Clone()
+  fullName: GatewayProtocol.DeployWorkflowResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 5243
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public DeployWorkflowResponse Clone()
+    return:
+      type: GatewayProtocol.DeployWorkflowResponse
+    content.vb: Public Function Clone As DeployWorkflowResponse
+  overload: GatewayProtocol.DeployWorkflowResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.KeyFieldNumber
+  commentId: F:GatewayProtocol.DeployWorkflowResponse.KeyFieldNumber
+  id: KeyFieldNumber
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: KeyFieldNumber
+  nameWithType: DeployWorkflowResponse.KeyFieldNumber
+  fullName: GatewayProtocol.DeployWorkflowResponse.KeyFieldNumber
+  type: Field
+  source:
+    id: KeyFieldNumber
+    path: ''
+    startLine: 5249
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;key&quot; field.
+  example: []
+  syntax:
+    content: public const int KeyFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const KeyFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.DeployWorkflowResponse.Key
+  commentId: P:GatewayProtocol.DeployWorkflowResponse.Key
+  id: Key
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: DeployWorkflowResponse.Key
+  fullName: GatewayProtocol.DeployWorkflowResponse.Key
+  type: Property
+  source:
+    id: Key
+    path: ''
+    startLine: 5254
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\nthe unique key identifying the deployment\n"
+  example: []
+  syntax:
+    content: public long Key { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Key As Long
+  overload: GatewayProtocol.DeployWorkflowResponse.Key*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.WorkflowsFieldNumber
+  commentId: F:GatewayProtocol.DeployWorkflowResponse.WorkflowsFieldNumber
+  id: WorkflowsFieldNumber
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: WorkflowsFieldNumber
+  nameWithType: DeployWorkflowResponse.WorkflowsFieldNumber
+  fullName: GatewayProtocol.DeployWorkflowResponse.WorkflowsFieldNumber
+  type: Field
+  source:
+    id: WorkflowsFieldNumber
+    path: ''
+    startLine: 5263
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: Field number for the &quot;workflows&quot; field.
+  example: []
+  syntax:
+    content: public const int WorkflowsFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const WorkflowsFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: GatewayProtocol.DeployWorkflowResponse.Workflows
+  commentId: P:GatewayProtocol.DeployWorkflowResponse.Workflows
+  id: Workflows
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: Workflows
+  nameWithType: DeployWorkflowResponse.Workflows
+  fullName: GatewayProtocol.DeployWorkflowResponse.Workflows
+  type: Property
+  source:
+    id: Workflows
+    path: ''
+    startLine: 5270
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  summary: "\na list of deployed workflows\n"
+  example: []
+  syntax:
+    content: public pbc.RepeatedField<WorkflowMetadata> Workflows { get; }
+    parameters: []
+    return:
+      type: pbc.RepeatedField{GatewayProtocol.WorkflowMetadata}
+    content.vb: Public ReadOnly Property Workflows As pbc.RepeatedField(Of WorkflowMetadata)
+  overload: GatewayProtocol.DeployWorkflowResponse.Workflows*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GatewayProtocol.DeployWorkflowResponse.Equals(System.Object)
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: DeployWorkflowResponse.Equals(Object)
+  fullName: GatewayProtocol.DeployWorkflowResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5275
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: GatewayProtocol.DeployWorkflowResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.DeployWorkflowResponse.Equals(GatewayProtocol.DeployWorkflowResponse)
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.Equals(GatewayProtocol.DeployWorkflowResponse)
+  id: Equals(GatewayProtocol.DeployWorkflowResponse)
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(DeployWorkflowResponse)
+  nameWithType: DeployWorkflowResponse.Equals(DeployWorkflowResponse)
+  fullName: GatewayProtocol.DeployWorkflowResponse.Equals(GatewayProtocol.DeployWorkflowResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5280
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public bool Equals(DeployWorkflowResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.DeployWorkflowResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As DeployWorkflowResponse) As Boolean
+  overload: GatewayProtocol.DeployWorkflowResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.GetHashCode
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.GetHashCode
+  id: GetHashCode
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DeployWorkflowResponse.GetHashCode()
+  fullName: GatewayProtocol.DeployWorkflowResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 5293
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: GatewayProtocol.DeployWorkflowResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.DeployWorkflowResponse.ToString
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.ToString
+  id: ToString
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DeployWorkflowResponse.ToString()
+  fullName: GatewayProtocol.DeployWorkflowResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 5304
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: GatewayProtocol.DeployWorkflowResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GatewayProtocol.DeployWorkflowResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: DeployWorkflowResponse.WriteTo(pb.CodedOutputStream)
+  fullName: GatewayProtocol.DeployWorkflowResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 5309
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: GatewayProtocol.DeployWorkflowResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.CalculateSize
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.CalculateSize
+  id: CalculateSize
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: DeployWorkflowResponse.CalculateSize()
+  fullName: GatewayProtocol.DeployWorkflowResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 5321
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: GatewayProtocol.DeployWorkflowResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.MergeFrom(GatewayProtocol.DeployWorkflowResponse)
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.MergeFrom(GatewayProtocol.DeployWorkflowResponse)
+  id: MergeFrom(GatewayProtocol.DeployWorkflowResponse)
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(DeployWorkflowResponse)
+  nameWithType: DeployWorkflowResponse.MergeFrom(DeployWorkflowResponse)
+  fullName: GatewayProtocol.DeployWorkflowResponse.MergeFrom(GatewayProtocol.DeployWorkflowResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5334
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(DeployWorkflowResponse other)
+    parameters:
+    - id: other
+      type: GatewayProtocol.DeployWorkflowResponse
+    content.vb: Public Sub MergeFrom(other As DeployWorkflowResponse)
+  overload: GatewayProtocol.DeployWorkflowResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GatewayProtocol.DeployWorkflowResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:GatewayProtocol.DeployWorkflowResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: GatewayProtocol.DeployWorkflowResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: DeployWorkflowResponse.MergeFrom(pb.CodedInputStream)
+  fullName: GatewayProtocol.DeployWorkflowResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5346
+  assemblies:
+  - cs.temp.dll
+  namespace: GatewayProtocol
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: GatewayProtocol.DeployWorkflowResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GatewayProtocol
+  commentId: N:GatewayProtocol
+  name: GatewayProtocol
+  nameWithType: GatewayProtocol
+  fullName: GatewayProtocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GatewayProtocol.DeployWorkflowResponse.Parser*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.Parser
+  name: Parser
+  nameWithType: DeployWorkflowResponse.Parser
+  fullName: GatewayProtocol.DeployWorkflowResponse.Parser
+- uid: pb.MessageParser{GatewayProtocol.DeployWorkflowResponse}
+  commentId: '!:pb.MessageParser{GatewayProtocol.DeployWorkflowResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<DeployWorkflowResponse>
+  nameWithType: pb.MessageParser<DeployWorkflowResponse>
+  fullName: pb.MessageParser<GatewayProtocol.DeployWorkflowResponse>
+  nameWithType.vb: pb.MessageParser(Of DeployWorkflowResponse)
+  fullName.vb: pb.MessageParser(Of GatewayProtocol.DeployWorkflowResponse)
+  name.vb: pb.MessageParser(Of DeployWorkflowResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.DeployWorkflowResponse
+    name: DeployWorkflowResponse
+    nameWithType: DeployWorkflowResponse
+    fullName: GatewayProtocol.DeployWorkflowResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.DeployWorkflowResponse
+    name: DeployWorkflowResponse
+    nameWithType: DeployWorkflowResponse
+    fullName: GatewayProtocol.DeployWorkflowResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.DeployWorkflowResponse.Descriptor*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.Descriptor
+  name: Descriptor
+  nameWithType: DeployWorkflowResponse.Descriptor
+  fullName: GatewayProtocol.DeployWorkflowResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: GatewayProtocol.DeployWorkflowResponse.#ctor*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.#ctor
+  name: DeployWorkflowResponse
+  nameWithType: DeployWorkflowResponse.DeployWorkflowResponse
+  fullName: GatewayProtocol.DeployWorkflowResponse.DeployWorkflowResponse
+- uid: GatewayProtocol.DeployWorkflowResponse
+  commentId: T:GatewayProtocol.DeployWorkflowResponse
+  parent: GatewayProtocol
+  name: DeployWorkflowResponse
+  nameWithType: DeployWorkflowResponse
+  fullName: GatewayProtocol.DeployWorkflowResponse
+- uid: GatewayProtocol.DeployWorkflowResponse.Clone*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.Clone
+  name: Clone
+  nameWithType: DeployWorkflowResponse.Clone
+  fullName: GatewayProtocol.DeployWorkflowResponse.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GatewayProtocol.DeployWorkflowResponse.Key*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.Key
+  name: Key
+  nameWithType: DeployWorkflowResponse.Key
+  fullName: GatewayProtocol.DeployWorkflowResponse.Key
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: GatewayProtocol.DeployWorkflowResponse.Workflows*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.Workflows
+  name: Workflows
+  nameWithType: DeployWorkflowResponse.Workflows
+  fullName: GatewayProtocol.DeployWorkflowResponse.Workflows
+- uid: pbc.RepeatedField{GatewayProtocol.WorkflowMetadata}
+  commentId: '!:pbc.RepeatedField{GatewayProtocol.WorkflowMetadata}'
+  definition: pbc.RepeatedField`1
+  name: pbc.RepeatedField<WorkflowMetadata>
+  nameWithType: pbc.RepeatedField<WorkflowMetadata>
+  fullName: pbc.RepeatedField<GatewayProtocol.WorkflowMetadata>
+  nameWithType.vb: pbc.RepeatedField(Of WorkflowMetadata)
+  fullName.vb: pbc.RepeatedField(Of GatewayProtocol.WorkflowMetadata)
+  name.vb: pbc.RepeatedField(Of WorkflowMetadata)
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GatewayProtocol.WorkflowMetadata
+    name: WorkflowMetadata
+    nameWithType: WorkflowMetadata
+    fullName: GatewayProtocol.WorkflowMetadata
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GatewayProtocol.WorkflowMetadata
+    name: WorkflowMetadata
+    nameWithType: WorkflowMetadata
+    fullName: GatewayProtocol.WorkflowMetadata
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pbc.RepeatedField`1
+  isExternal: true
+  name: pbc.RepeatedField<>
+  nameWithType: pbc.RepeatedField<>
+  fullName: pbc.RepeatedField<>
+  nameWithType.vb: pbc.RepeatedField(Of )
+  fullName.vb: pbc.RepeatedField(Of )
+  name.vb: pbc.RepeatedField(Of )
+  spec.csharp:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pbc.RepeatedField`1
+    name: pbc.RepeatedField
+    nameWithType: pbc.RepeatedField
+    fullName: pbc.RepeatedField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GatewayProtocol.DeployWorkflowResponse.Equals*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.Equals
+  name: Equals
+  nameWithType: DeployWorkflowResponse.Equals
+  fullName: GatewayProtocol.DeployWorkflowResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GatewayProtocol.DeployWorkflowResponse.GetHashCode*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: DeployWorkflowResponse.GetHashCode
+  fullName: GatewayProtocol.DeployWorkflowResponse.GetHashCode
+- uid: GatewayProtocol.DeployWorkflowResponse.ToString*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.ToString
+  name: ToString
+  nameWithType: DeployWorkflowResponse.ToString
+  fullName: GatewayProtocol.DeployWorkflowResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GatewayProtocol.DeployWorkflowResponse.WriteTo*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.WriteTo
+  name: WriteTo
+  nameWithType: DeployWorkflowResponse.WriteTo
+  fullName: GatewayProtocol.DeployWorkflowResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: GatewayProtocol.DeployWorkflowResponse.CalculateSize*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: DeployWorkflowResponse.CalculateSize
+  fullName: GatewayProtocol.DeployWorkflowResponse.CalculateSize
+- uid: GatewayProtocol.DeployWorkflowResponse.MergeFrom*
+  commentId: Overload:GatewayProtocol.DeployWorkflowResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: DeployWorkflowResponse.MergeFrom
+  fullName: GatewayProtocol.DeployWorkflowResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

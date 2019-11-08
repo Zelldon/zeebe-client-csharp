@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Commands.IFailJobCommandStep1
+  commentId: T:Zeebe.Client.Api.Commands.IFailJobCommandStep1
+  id: IFailJobCommandStep1
+  parent: Zeebe.Client.Api.Commands
+  children:
+  - Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IFailJobCommandStep1
+  nameWithType: IFailJobCommandStep1
+  fullName: Zeebe.Client.Api.Commands.IFailJobCommandStep1
+  type: Interface
+  source:
+    id: IFailJobCommandStep1
+    path: ''
+    startLine: 1075
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  syntax:
+    content: public interface IFailJobCommandStep1
+    content.vb: Public Interface IFailJobCommandStep1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries(System.Int32)
+  commentId: M:Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries(System.Int32)
+  id: Retries(System.Int32)
+  parent: Zeebe.Client.Api.Commands.IFailJobCommandStep1
+  langs:
+  - csharp
+  - vb
+  name: Retries(Int32)
+  nameWithType: IFailJobCommandStep1.Retries(Int32)
+  fullName: Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries(System.Int32)
+  type: Method
+  source:
+    id: Retries
+    path: ''
+    startLine: 1089
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Commands
+  summary: "\nSet the remaining retries of this job.\n\n<p>If the retries are greater than zero then this job will be picked up again by a job\nworker. Otherwise, an incident is created for this job.\n</p>\n"
+  example: []
+  syntax:
+    content: IFailJobCommandStep2 Retries(int remainingRetries)
+    parameters:
+    - id: remainingRetries
+      type: System.Int32
+      description: the remaining retries of this job (e.g. &quot;jobEvent.getRetries() - 1&quot;)
+    return:
+      type: Zeebe.Client.Api.Commands.IFailJobCommandStep2
+      description: >
+        the builder for this command. Call <see cref="!:IFinalCommandStep.Send"></see> to complete the command and send it
+            to the broker.
+    content.vb: Function Retries(remainingRetries As Integer) As IFailJobCommandStep2
+  overload: Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries*
+references:
+- uid: Zeebe.Client.Api.Commands
+  commentId: N:Zeebe.Client.Api.Commands
+  name: Zeebe.Client.Api.Commands
+  nameWithType: Zeebe.Client.Api.Commands
+  fullName: Zeebe.Client.Api.Commands
+- uid: Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries*
+  commentId: Overload:Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries
+  name: Retries
+  nameWithType: IFailJobCommandStep1.Retries
+  fullName: Zeebe.Client.Api.Commands.IFailJobCommandStep1.Retries
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Commands.IFailJobCommandStep2
+  commentId: T:Zeebe.Client.Api.Commands.IFailJobCommandStep2
+  parent: Zeebe.Client.Api.Commands
+  name: IFailJobCommandStep2
+  nameWithType: IFailJobCommandStep2
+  fullName: Zeebe.Client.Api.Commands.IFailJobCommandStep2
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

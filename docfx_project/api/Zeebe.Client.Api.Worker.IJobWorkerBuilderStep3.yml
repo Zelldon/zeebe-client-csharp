@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  id: IJobWorkerBuilderStep3
+  parent: Zeebe.Client.Api.Worker
+  children:
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(IList{System.String})
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(System.String[])
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive(System.Int32)
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name(System.String)
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout(TimeSpan)
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval(TimeSpan)
+  - Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout(TimeSpan)
+  langs:
+  - csharp
+  - vb
+  name: IJobWorkerBuilderStep3
+  nameWithType: IJobWorkerBuilderStep3
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  type: Interface
+  source:
+    id: IJobWorkerBuilderStep3
+    path: ''
+    startLine: 436
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: public interface IJobWorkerBuilderStep3
+    content.vb: Public Interface IJobWorkerBuilderStep3
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout(TimeSpan)
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout(TimeSpan)
+  id: Timeout(TimeSpan)
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: Timeout(TimeSpan)
+  nameWithType: IJobWorkerBuilderStep3.Timeout(TimeSpan)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout(TimeSpan)
+  type: Method
+  source:
+    id: Timeout
+    path: ''
+    startLine: 448
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 Timeout(TimeSpan timeout)
+    parameters:
+    - id: timeout
+      type: TimeSpan
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function Timeout(timeout As TimeSpan) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout*
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name(System.String)
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name(System.String)
+  id: Name(System.String)
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: Name(String)
+  nameWithType: IJobWorkerBuilderStep3.Name(String)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name(System.String)
+  type: Method
+  source:
+    id: Name
+    path: ''
+    startLine: 458
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 Name(string workerName)
+    parameters:
+    - id: workerName
+      type: System.String
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function Name(workerName As String) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name*
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive(System.Int32)
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive(System.Int32)
+  id: MaxJobsActive(System.Int32)
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: MaxJobsActive(Int32)
+  nameWithType: IJobWorkerBuilderStep3.MaxJobsActive(Int32)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive(System.Int32)
+  type: Method
+  source:
+    id: MaxJobsActive
+    path: ''
+    startLine: 481
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 MaxJobsActive(int maxJobsActive)
+    parameters:
+    - id: maxJobsActive
+      type: System.Int32
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function MaxJobsActive(maxJobsActive As Integer) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive*
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(IList{System.String})
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(IList{System.String})
+  id: FetchVariables(IList{System.String})
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: FetchVariables(IList<String>)
+  nameWithType: IJobWorkerBuilderStep3.FetchVariables(IList<String>)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(IList<System.String>)
+  type: Method
+  source:
+    id: FetchVariables
+    path: ''
+    startLine: 492
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 FetchVariables(IList<string> fetchVariables)
+    parameters:
+    - id: fetchVariables
+      type: IList{System.String}
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function FetchVariables(fetchVariables As IList(Of String)) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables*
+  nameWithType.vb: IJobWorkerBuilderStep3.FetchVariables(IList(Of String))
+  fullName.vb: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(IList(Of System.String))
+  name.vb: FetchVariables(IList(Of String))
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(System.String[])
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(System.String[])
+  id: FetchVariables(System.String[])
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: FetchVariables(String[])
+  nameWithType: IJobWorkerBuilderStep3.FetchVariables(String[])
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(System.String[])
+  type: Method
+  source:
+    id: FetchVariables
+    path: ''
+    startLine: 503
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 FetchVariables(params string[] fetchVariables)
+    parameters:
+    - id: fetchVariables
+      type: System.String[]
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function FetchVariables(ParamArray fetchVariables As String()) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables*
+  nameWithType.vb: IJobWorkerBuilderStep3.FetchVariables(String())
+  fullName.vb: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables(System.String())
+  name.vb: FetchVariables(String())
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval(TimeSpan)
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval(TimeSpan)
+  id: PollInterval(TimeSpan)
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: PollInterval(TimeSpan)
+  nameWithType: IJobWorkerBuilderStep3.PollInterval(TimeSpan)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval(TimeSpan)
+  type: Method
+  source:
+    id: PollInterval
+    path: ''
+    startLine: 514
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 PollInterval(TimeSpan pollInterval)
+    parameters:
+    - id: pollInterval
+      type: TimeSpan
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function PollInterval(pollInterval As TimeSpan) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval*
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout(TimeSpan)
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout(TimeSpan)
+  id: PollingTimeout(TimeSpan)
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: PollingTimeout(TimeSpan)
+  nameWithType: IJobWorkerBuilderStep3.PollingTimeout(TimeSpan)
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout(TimeSpan)
+  type: Method
+  source:
+    id: PollingTimeout
+    path: ''
+    startLine: 525
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 PollingTimeout(TimeSpan pollingTimeout)
+    parameters:
+    - id: pollingTimeout
+      type: TimeSpan
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function PollingTimeout(pollingTimeout As TimeSpan) As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout*
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion
+  id: AutoCompletion
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: AutoCompletion()
+  nameWithType: IJobWorkerBuilderStep3.AutoCompletion()
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion()
+  type: Method
+  source:
+    id: AutoCompletion
+    path: ''
+    startLine: 536
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  syntax:
+    content: IJobWorkerBuilderStep3 AutoCompletion()
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+    content.vb: Function AutoCompletion As IJobWorkerBuilderStep3
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion*
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open
+  commentId: M:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open
+  id: Open
+  parent: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: IJobWorkerBuilderStep3.Open()
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open()
+  type: Method
+  source:
+    id: Open
+    path: ''
+    startLine: 542
+  assemblies:
+  - cs.temp.dll
+  namespace: Zeebe.Client.Api.Worker
+  summary: "\nOpen the worker and start to work on available tasks.\n"
+  example: []
+  syntax:
+    content: IJobWorker Open()
+    return:
+      type: Zeebe.Client.Api.Worker.IJobWorker
+      description: the worker
+    content.vb: Function Open As IJobWorker
+  overload: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open*
+references:
+- uid: Zeebe.Client.Api.Worker
+  commentId: N:Zeebe.Client.Api.Worker
+  name: Zeebe.Client.Api.Worker
+  nameWithType: Zeebe.Client.Api.Worker
+  fullName: Zeebe.Client.Api.Worker
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout
+  name: Timeout
+  nameWithType: IJobWorkerBuilderStep3.Timeout
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Timeout
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+  parent: Zeebe.Client.Api.Worker
+  name: IJobWorkerBuilderStep3
+  nameWithType: IJobWorkerBuilderStep3
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name
+  name: Name
+  nameWithType: IJobWorkerBuilderStep3.Name
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive
+  name: MaxJobsActive
+  nameWithType: IJobWorkerBuilderStep3.MaxJobsActive
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.MaxJobsActive
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables
+  name: FetchVariables
+  nameWithType: IJobWorkerBuilderStep3.FetchVariables
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.FetchVariables
+- uid: IList{System.String}
+  commentId: '!:IList{System.String}'
+  definition: IList`1
+  name: IList<String>
+  nameWithType: IList<String>
+  fullName: IList<System.String>
+  nameWithType.vb: IList(Of String)
+  fullName.vb: IList(Of System.String)
+  name.vb: IList(Of String)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval
+  name: PollInterval
+  nameWithType: IJobWorkerBuilderStep3.PollInterval
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollInterval
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout
+  name: PollingTimeout
+  nameWithType: IJobWorkerBuilderStep3.PollingTimeout
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.PollingTimeout
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion
+  name: AutoCompletion
+  nameWithType: IJobWorkerBuilderStep3.AutoCompletion
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.AutoCompletion
+- uid: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open*
+  commentId: Overload:Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open
+  name: Open
+  nameWithType: IJobWorkerBuilderStep3.Open
+  fullName: Zeebe.Client.Api.Worker.IJobWorkerBuilderStep3.Open
+- uid: Zeebe.Client.Api.Worker.IJobWorker
+  commentId: T:Zeebe.Client.Api.Worker.IJobWorker
+  parent: Zeebe.Client.Api.Worker
+  name: IJobWorker
+  nameWithType: IJobWorker
+  fullName: Zeebe.Client.Api.Worker.IJobWorker
